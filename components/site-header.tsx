@@ -6,6 +6,7 @@ import {
   locales,
   localeNames,
   homePath,
+  sitePath,
   type Locale,
 } from '../lib/catalogue';
 export function SiteHeader({
@@ -43,7 +44,7 @@ export function SiteHeader({
           </a>
           <a
             className="nav-search"
-            href={homePath(locale) + 'search/'}
+            href={sitePath(locale, 'search')}
             aria-label={searchCopy[locale].title}
           >
             <Search size={20} />
@@ -53,7 +54,7 @@ export function SiteHeader({
           {locales.map((l) => (
             <a
               key={l}
-              href={homePath(l) + path}
+              href={sitePath(l, path)}
               hrefLang={l}
               aria-current={l === locale ? 'page' : undefined}
             >

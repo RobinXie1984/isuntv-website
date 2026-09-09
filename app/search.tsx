@@ -1,7 +1,7 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { SiteHeader } from '../components/site-header';
 import { VideoGrid } from '../components/video-grid';
-import { homePath, type Locale } from '../lib/catalogue';
+import { sitePath, type Locale } from '../lib/catalogue';
 import { detailCopy } from '../lib/editorial';
 import { cleanQuery, searchVideos } from '../lib/search';
 import { searchCopy } from '../lib/search-copy';
@@ -30,7 +30,7 @@ export function SearchPage({
         <h1>{t.title}</h1>
         <form
           className="search-form"
-          action={homePath(locale) + 'search/'}
+          action={sitePath(locale, 'search')}
           method="get"
         >
           <label htmlFor="query">{t.label}</label>
@@ -64,7 +64,7 @@ export function SearchPage({
             />
             <nav className="pagination" aria-label={d.page}>
               {page > 1 ? (
-                <a href={homePath(locale) + path + `&page=${page - 1}`}>
+                <a href={sitePath(locale, path + `&page=${page - 1}`)}>
                   <ArrowLeft size={16} />
                   {d.previous}
                 </a>
@@ -75,7 +75,7 @@ export function SearchPage({
                 {d.page} {page} / {total}
               </span>
               {page < total ? (
-                <a href={homePath(locale) + path + `&page=${page + 1}`}>
+                <a href={sitePath(locale, path + `&page=${page + 1}`)}>
                   {d.next}
                   <ArrowRight size={16} />
                 </a>

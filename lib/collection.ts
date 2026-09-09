@@ -1,5 +1,5 @@
 import data from './videos.json';
-import { programmes, homePath, type Locale } from './catalogue';
+import { programmes, sitePath, type Locale } from './catalogue';
 export const playlists = data;
 export const getProgramme = (slug: string) =>
   programmes.find((p) => p.slug === slug);
@@ -22,8 +22,8 @@ export const findVideo = (id: string) => {
   return undefined;
 };
 export const programmePath = (l: Locale, slug: string) =>
-  homePath(l) + 'programmes/' + slug + '/';
+  sitePath(l, 'programmes/' + slug);
 export const videoPath = (l: Locale, id: string) =>
-  homePath(l) + 'videos/' + id + '/';
+  sitePath(l, 'videos/' + id);
 
 export type ListedVideo = NonNullable<ReturnType<typeof findVideo>>;

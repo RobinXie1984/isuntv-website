@@ -267,4 +267,11 @@ export const localeNames: Record<Locale, string> = {
   en: 'English',
   ja: '日本語',
 };
-export const homePath = (l: Locale) => (l === 'zh-Hant' ? '/' : `/${l}/`);
+export function sitePath(locale: Locale, path = '') {
+  const joined = `${locale === 'zh-Hant' ? '' : `/${locale}`}/${path}`;
+  const boundary = joined.search(/[?#]/);
+  const pathname = boundary < 0 ? joined : joined.slice(0, boundary);
+  const suffix = boundary < 0 ? '' : joined.slice(boundary);
+  return (pathname.replace(/\/+$/, '') || '/') + suffix;
+}
+export const homePath = (locale: Locale) => sitePath(locale);

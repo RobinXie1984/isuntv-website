@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { homePath, locales, type Locale } from './catalogue';
+import { sitePath, locales, type Locale } from './catalogue';
 import { findVideo, getProgramme } from './collection';
 import { drafts } from './editorial';
 import { videoTitle } from './titles';
@@ -12,7 +12,7 @@ export function checkedLocale(value: string | undefined): Locale {
 }
 export function languageAlternates(path: string) {
   return {
-    languages: Object.fromEntries(locales.map((l) => [l, new URL(homePath(l) + path, publicOrigin).href])),
+    languages: Object.fromEntries(locales.map((l) => [l, new URL(sitePath(l, path), publicOrigin).href])),
   };
 }
 export function programmeMetadata(locale: Locale, slug: string): Metadata {
