@@ -1010,5 +1010,82 @@
     "url": "https://www.goldenhorse.org.tw/awards/nw/?ins=25&sc=8&search_regist_year=1996&serach_type=award",
     "sourceLanguage": "zh-Hant",
     "publisher": "台北金馬影展"
+  },
+  "liu-fengmei": {
+    "name": {
+      "zh-Hant": "劉鳳梅",
+      "zh-Hans": "刘凤梅",
+      "en": "Liu Fengmei",
+      "ja": "劉鳳梅"
+    },
+    "url": "https://zgzyz.cyol.com/content/2013-05/06/content_8354469.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中国青年志愿者网"
+  },
+  "wang-zhanjun": {
+    "name": {
+      "zh-Hant": "王占郡",
+      "zh-Hans": "王占郡",
+      "en": "Wang Zhanjun",
+      "ja": "王占郡"
+    },
+    "url": "https://finance.sina.cn/hy/2020-12-23/detail-iiznctke8082839.d.html?vt=4",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "新浪财经"
+  },
+  "chen-yiqing": {
+    "name": {
+      "zh-Hant": "陳逸青",
+      "zh-Hans": "陈逸青",
+      "en": "Chen Yiqing",
+      "ja": "陳逸青"
+    },
+    "url": "https://www.sohu.com/a/408425099_684450",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "盛鑫煜当代艺术 / 搜狐号"
+  },
+  "zhao-xinmeng": {
+    "name": {
+      "zh-Hant": "趙新盟",
+      "zh-Hans": "赵新盟",
+      "en": "Zhao Xinmeng",
+      "ja": "趙新盟"
+    },
+    "url": "https://www.ahua.edu.cn/wdxy/2023/0515/c1234a24766/page.psp",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "安徽艺术学院舞蹈学院"
+  },
+  "lou-lou": {
+    "name": {
+      "zh-Hant": "婁樓",
+      "zh-Hans": "娄楼",
+      "en": "Lou Lou",
+      "ja": "婁楼"
+    },
+    "url": "https://www.ahua.edu.cn/wdxy/2023/0515/c1234a24766/page.psp",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "安徽艺术学院舞蹈学院"
+  },
+  "ge-cunzhuang": {
+    "name": {
+      "zh-Hant": "葛存壯",
+      "zh-Hans": "葛存壮",
+      "en": "Ge Cunzhuang",
+      "ja": "葛存壮"
+    },
+    "url": "https://ent.ifeng.com/c/7e29At9zF1Z",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "凤凰网 / 鲁豫有约"
+  },
+  "shi-wenxin": {
+    "name": {
+      "zh-Hant": "施文心",
+      "zh-Hans": "施文心",
+      "en": "Shi Wenxin",
+      "ja": "施文心"
+    },
+    "url": "https://ent.ifeng.com/c/7e29At9zF1Z",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "凤凰网 / 鲁豫有约"
   }
 }
