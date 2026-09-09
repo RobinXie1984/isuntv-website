@@ -878,5 +878,104 @@
     "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-106479",
     "sourceLanguage": "en",
     "publisher": "Royal Museums Greenwich"
+  },
+  "cai-zhenhua": {
+    "name": {
+      "zh-Hant": "蔡振華",
+      "zh-Hans": "蔡振华",
+      "en": "Cai Zhenhua",
+      "ja": "蔡振華"
+    },
+    "url": "https://www.sport.gov.cn/n322/n3407/n3413/c564658/content.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "國家體育總局"
+  },
+  "han-zihua": {
+    "name": {
+      "zh-Hant": "韓子華",
+      "zh-Hans": "韩子华",
+      "en": "Han Zihua",
+      "ja": "韓子華"
+    },
+    "url": "https://www.people.com.cn/24hour/n/2013/0615/c25408-21850067.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "羊城晚報／人民網"
+  },
+  "han-fuju": {
+    "name": {
+      "zh-Hant": "韓復榘",
+      "zh-Hans": "韩复榘",
+      "en": "Han Fuju",
+      "ja": "韓復榘"
+    },
+    "url": "https://www.people.com.cn/24hour/n/2013/0615/c25408-21850067.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "羊城晚報／人民網"
+  },
+  "li-qiankuan": {
+    "name": {
+      "zh-Hant": "李前寬",
+      "zh-Hans": "李前宽",
+      "en": "Li Qiankuan",
+      "ja": "李前寛"
+    },
+    "url": "https://www.cflac.org.cn/pl/djt/201201/t20120116_99097.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國文藝網／中國藝術報"
+  },
+  "xiao-guiyun": {
+    "name": {
+      "zh-Hant": "肖桂雲",
+      "zh-Hans": "肖桂云",
+      "en": "Xiao Guiyun",
+      "ja": "肖桂雲"
+    },
+    "url": "https://www.cflac.org.cn/new_zt/ku/2023/whsx/llcs/zjwz/202511/t20251124_1358581.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國文藝網／人民日報"
+  },
+  "ye-mao": {
+    "name": {
+      "zh-Hant": "葉毛",
+      "zh-Hans": "叶毛",
+      "en": "Ye Mao",
+      "ja": "葉毛"
+    },
+    "url": "https://tv.cctv.com/2012/03/06/VIDEa1C9VSBicCvF4Kmy0DeZ120306.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "央視網"
+  },
+  "liao-sha": {
+    "name": {
+      "zh-Hant": "廖莎",
+      "zh-Hans": "廖莎",
+      "en": "Liao Sha",
+      "ja": "廖莎"
+    },
+    "url": "https://tv.cctv.com/2012/03/06/VIDEa1C9VSBicCvF4Kmy0DeZ120306.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "央視網"
+  },
+  "du-xiuxian": {
+    "name": {
+      "zh-Hant": "杜修賢",
+      "zh-Hans": "杜修贤",
+      "en": "Du Xiuxian",
+      "ja": "杜修賢"
+    },
+    "url": "https://cpc.people.com.cn/n/2014/0617/c69113-25160294.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "北京日報／人民網"
+  },
+  "gu-baozi": {
+    "name": {
+      "zh-Hant": "顧保孜",
+      "zh-Hans": "顾保孜",
+      "en": "Gu Baozi",
+      "ja": "顧保孜"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404934-28489164.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網"
   }
 }
