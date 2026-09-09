@@ -1369,7 +1369,10 @@
     "source": "https://www.youtube.com/watch?v=19QlAz5vplU",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2021-10-31"
+    "upload_date": "2021-10-31",
+    "people": [
+      "li-yiman"
+    ]
   },
   "cI05OMKXlHs": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1456,7 +1459,11 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=3pZtC7YlVJU",
-    "upload_date": "2020-06-30"
+    "upload_date": "2020-06-30",
+    "people": [
+      "xu-fang",
+      "hu-feng"
+    ]
   },
   "-03fKyslOJU": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1889,7 +1896,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=FS8JFl_7NnU",
-    "upload_date": "2020-07-04"
+    "upload_date": "2020-07-04",
+    "people": [
+      "hu-feng"
+    ]
   },
   "wVxNPBfIHdU": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2813,7 +2823,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=DGuyNd0YNN4",
-    "upload_date": "2021-06-06"
+    "upload_date": "2021-06-06",
+    "people": [
+      "zhang-yichao"
+    ]
   },
   "uSrecY2etHI": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -6739,7 +6752,9 @@
         "how": "避難、病気、支え合いの経験からたどる"
       }
     },
-    "people": [],
+    "people": [
+      "zong-fuxian"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",

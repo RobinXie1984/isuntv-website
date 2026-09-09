@@ -735,5 +735,60 @@
     "url": "https://www.ihchina.cn/character_detail/8754.html",
     "sourceLanguage": "zh-Hans",
     "publisher": "中國非物質文化遺產網（來源：中國民族報）"
+  },
+  "li-yiman": {
+    "name": {
+      "zh-Hant": "李一慢",
+      "zh-Hans": "李一慢",
+      "en": "Li Yiman",
+      "ja": "李一慢"
+    },
+    "url": "https://fengzikaibookaward.org/zh/9th-lee-yiman/",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "豐子愷兒童圖畫書獎"
+  },
+  "zhang-yichao": {
+    "name": {
+      "zh-Hant": "張軼超",
+      "zh-Hans": "张轶超",
+      "en": "Zhang Yichao",
+      "ja": "張軼超"
+    },
+    "url": "https://zqb.cyol.com/html/2012-07/09/nw.D110000zgqnb_20120709_1-08.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國青年報"
+  },
+  "xu-fang": {
+    "name": {
+      "zh-Hant": "徐放",
+      "zh-Hans": "徐放",
+      "en": "Xu Fang",
+      "ja": "徐放"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404951-28494854.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網會員辭典"
+  },
+  "hu-feng": {
+    "name": {
+      "zh-Hant": "胡風",
+      "zh-Hans": "胡风",
+      "en": "Hu Feng",
+      "ja": "胡風"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404935-28488655.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網會員辭典"
+  },
+  "zong-fuxian": {
+    "name": {
+      "zh-Hant": "宗福先",
+      "zh-Hans": "宗福先",
+      "en": "Zong Fuxian",
+      "ja": "宗福先"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2018/1207/c405057-30448324.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網（來源：解放日報）"
   }
 }
