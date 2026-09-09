@@ -4955,7 +4955,9 @@
         "how": "研究と保全の歩みを講演で紹介"
       }
     },
-    "people": [],
+    "people": [
+      "li-xinhai"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -5127,7 +5129,10 @@
         "how": "陳鋼が何占豪との共同制作を口述"
       }
     },
-    "people": [],
+    "people": [
+      "chen-gang-composer",
+      "he-zhanhao"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -5385,7 +5390,9 @@
         "how": "講演で遺伝子研究と育種の考え方を紹介"
       }
     },
-    "people": [],
+    "people": [
+      "chu-chengcai"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -5471,7 +5478,9 @@
         "how": "息子が父の作品と労働改造の経験を口述"
       }
     },
-    "people": [],
+    "people": [
+      "chen-gang-composer"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -5772,7 +5781,9 @@
         "how": "土壌、水、エネルギーの配置構想を講演で紹介"
       }
     },
-    "people": [],
+    "people": [
+      "wang-fei-soil"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",

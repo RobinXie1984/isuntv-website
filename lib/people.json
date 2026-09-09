@@ -218,5 +218,60 @@
     "url": "https://cohd.cau.edu.cn/art/2009/2/7/art_48058_998975.html",
     "sourceLanguage": "zh-Hans",
     "publisher": "中國農業大學"
+  },
+  "chu-chengcai": {
+    "name": {
+      "zh-Hant": "儲成才",
+      "zh-Hans": "储成才",
+      "en": "Chu Chengcai",
+      "ja": "儲成才"
+    },
+    "url": "https://nxy.scau.edu.cn/2024/0819/c18018a382341/page.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "華南農業大學"
+  },
+  "wang-fei-soil": {
+    "name": {
+      "zh-Hant": "王飛",
+      "zh-Hans": "王飞",
+      "en": "Wang Fei",
+      "ja": "王飛"
+    },
+    "url": "https://iswc.cas.cn/rcgz/yjy_1/200910/t20091020_2584561.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國科學院水土保持研究所"
+  },
+  "li-xinhai": {
+    "name": {
+      "zh-Hant": "李欣海",
+      "zh-Hans": "李欣海",
+      "en": "Li Xinhai",
+      "ja": "李欣海"
+    },
+    "url": "https://ioz.cas.cn/sourcedb/zw/zjrc/200907/t20090716_2088350.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國科學院動物研究所"
+  },
+  "chen-gang-composer": {
+    "name": {
+      "zh-Hant": "陳鋼",
+      "zh-Hans": "陈钢",
+      "en": "Chen Gang",
+      "ja": "陳鋼"
+    },
+    "url": "https://www.shcmusic.edu.cn/2026/0309/c1404a60569/page.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "上海音樂學院"
+  },
+  "he-zhanhao": {
+    "name": {
+      "zh-Hant": "何占豪",
+      "zh-Hans": "何占豪",
+      "en": "He Zhanhao",
+      "ja": "何占豪"
+    },
+    "url": "https://www.shcmusic.edu.cn/2024/0403/c1533a50655/page.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "上海音樂學院"
   }
 }
