@@ -74,7 +74,9 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
               )}
             </dl>
             <p className="source-note">
-              {t.note} <a href={draft.source}>{t.watch} ↗</a>
+              {t.note}{' '}
+              {draft.editorial_scope === 'SHARED_DESCRIPTION_DRAFT' ? t.shared : null}{' '}
+              <a href={draft.source}>{t.watch} ↗</a>
             </p>
           </section>
         ) : (

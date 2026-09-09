@@ -21,7 +21,8 @@ export const detailCopy = {
     where: '地點',
     why: '緣由',
     how: '敘事方式',
-    note: '根據官方影片標題與說明整理。拍攝日期與地點未載明。',
+    note: '根據官方影片標題與說明整理。來源未提供的細節標示為資料未載明。',
+    shared: '上下集共用官方簡介；分集細節尚待補充。',
     person: '人物資料',
     pending: '本片摘要整理中。可先前往 YouTube 觀看原片。',
     videoBack: '返回影片目錄',
@@ -47,7 +48,8 @@ export const detailCopy = {
     where: '地点',
     why: '缘由',
     how: '叙事方式',
-    note: '根据官方影片标题与说明整理。拍摄日期与地点未载明。',
+    note: '根据官方影片标题与说明整理。来源未提供的细节标示为资料未载明。',
+    shared: '上下集共用官方简介；分集细节尚待补充。',
     person: '人物资料',
     pending: '本片摘要整理中。可先前往 YouTube 观看原片。',
     videoBack: '返回影片目录',
@@ -73,7 +75,8 @@ export const detailCopy = {
     where: 'Where',
     why: 'Why',
     how: 'How',
-    note: 'Drafted from the official video title and description. Recording date and location are not specified.',
+    note: 'Drafted from the official video title and description. Unspecified details are marked as unknown.',
+    shared: 'Both parts share an official description; episode-specific details are still being prepared.',
     person: 'About this person',
     pending:
       'The summary is being prepared. You can watch the original video on YouTube.',
@@ -101,7 +104,8 @@ export const detailCopy = {
     where: '場所',
     why: '背景',
     how: '語り方',
-    note: '公式動画のタイトルと説明に基づく草稿です。撮影日時・場所は記載されていません。',
+    note: '公式動画のタイトルと説明に基づく草稿です。出典にない詳細は記載なしとしています。',
+    shared: '前後編は同じ公式説明を共有しています。各編の詳細は準備中です。',
     person: '人物について',
     pending:
       'この動画の紹介文を準備しています。YouTube で本編をご覧いただけます。',
@@ -112,6 +116,7 @@ export const detailCopy = {
 export type SixField = 'who' | 'what' | 'when' | 'where' | 'why' | 'how';
 export type Draft = {
   status: string;
+  editorial_scope?: string;
   fields: Record<Locale, Record<SixField, string | null>>;
   source: string;
   reference: string | null;

@@ -963,7 +963,8 @@
     "reference": null,
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-06-28"
+    "upload_date": "2020-06-28",
+    "editorial_scope": "SHARED_DESCRIPTION_DRAFT"
   },
   "za-gVWK0jjA": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1089,7 +1090,8 @@
     "reference": null,
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2026-07-31"
+    "upload_date": "2026-07-31",
+    "editorial_scope": "SHARED_DESCRIPTION_DRAFT"
   },
   "0SJEcxbmhJk": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1342,5 +1344,3445 @@
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2021-10-31"
+  },
+  "cI05OMKXlHs": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "鄧淮生講述父親鄧子恢",
+        "what": "父親珍藏的最後一次與毛澤東合影",
+        "when": "合影於1966年8月18日",
+        "where": "北京天安門城樓休息室",
+        "why": "從照片回望父親的政治遭遇",
+        "how": "兒子以口述回憶父親與合影背景"
+      },
+      "zh-Hans": {
+        "who": "邓淮生讲述父亲邓子恢",
+        "what": "父亲珍藏的最后一次与毛泽东合影",
+        "when": "合影于1966年8月18日",
+        "where": "北京天安门城楼休息室",
+        "why": "从照片回望父亲的政治遭遇",
+        "how": "儿子以口述回忆父亲与合影背景"
+      },
+      "en": {
+        "who": "Deng Huaisheng on his father, Deng Zihui",
+        "what": "His father’s treasured final photograph with Mao Zedong",
+        "when": "The photograph was taken on 18 August 1966",
+        "where": "A lounge in Tiananmen Gate, Beijing",
+        "why": "Revisiting his father’s political experiences through a photograph",
+        "how": "A son’s recollections of the photograph and its context"
+      },
+      "ja": {
+        "who": "鄧淮生が父・鄧子恢を語る",
+        "what": "父が大切にした毛沢東との最後の集合写真",
+        "when": "写真は1966年8月18日",
+        "where": "北京・天安門楼上の休憩室",
+        "why": "写真から父の政治的経験を振り返る",
+        "how": "息子が写真の背景を回想"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=cI05OMKXlHs",
+    "upload_date": "2020-07-17"
+  },
+  "3pZtC7YlVJU": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "詩人徐放",
+        "what": "胡風案牽連下的監禁與勞改經歷",
+        "when": "1950年代起",
+        "where": "遼陽、秦城監獄",
+        "why": "回望政治案件對個人命運的影響",
+        "how": "本人述說被牽連及獄中生活"
+      },
+      "zh-Hans": {
+        "who": "诗人徐放",
+        "what": "胡风案牵连下的监禁与劳改经历",
+        "when": "1950年代起",
+        "where": "辽阳、秦城监狱",
+        "why": "回望政治案件对个人命运的影响",
+        "how": "本人述说被牵连及狱中生活"
+      },
+      "en": {
+        "who": "Poet Xu Fang",
+        "what": "Imprisonment and forced labour after his involvement in the Hu Feng case",
+        "when": "From the 1950s",
+        "where": "Liaoyang and Qincheng Prison",
+        "why": "Revisiting the personal consequences of political prosecution",
+        "how": "His account of being implicated and of prison life"
+      },
+      "ja": {
+        "who": "詩人・徐放",
+        "what": "胡風事件に巻き込まれた投獄と労働改造",
+        "when": "1950年代以降",
+        "where": "遼陽、秦城監獄",
+        "why": "政治事件が個人の運命に与えた影響を振り返る",
+        "how": "本人が事件と獄中生活を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=3pZtC7YlVJU",
+    "upload_date": "2020-06-30"
+  },
+  "-03fKyslOJU": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "魁北克的城牆與四百年歷史",
+        "when": null,
+        "where": "加拿大魁北克",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "魁北克的城墙与四百年历史",
+        "when": null,
+        "where": "加拿大魁北克",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": null,
+        "what": "Québec’s city walls and four centuries of history",
+        "when": null,
+        "where": "Québec, Canada",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": null,
+        "what": "ケベックの城壁と四百年の歴史",
+        "when": null,
+        "where": "カナダ・ケベック",
+        "why": null,
+        "how": null
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=-03fKyslOJU",
+    "upload_date": "2022-12-22"
+  },
+  "AQg-MLarnpM": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "蔣中正、汪精衛與地方軍事勢力",
+        "what": "國內權力競爭與對日政策的矛盾",
+        "when": "1928年底至1931年",
+        "where": "南京、廣州、江西",
+        "why": "討論安內與攘外之間的政策選擇",
+        "how": "從東北易幟談至寧粵對峙"
+      },
+      "zh-Hans": {
+        "who": "蒋中正、汪精卫与地方军事势力",
+        "what": "国内权力竞争与对日政策的矛盾",
+        "when": "1928年底至1931年",
+        "where": "南京、广州、江西",
+        "why": "讨论安内与攘外之间的政策选择",
+        "how": "从东北易帜谈至宁粤对峙"
+      },
+      "en": {
+        "who": "Chiang Kai-shek, Wang Jingwei and regional military forces",
+        "what": "Domestic power struggles and conflicting priorities toward Japan",
+        "when": "Late 1928 to 1931",
+        "where": "Nanjing, Guangzhou and Jiangxi",
+        "why": "Examining choices between domestic consolidation and external resistance",
+        "how": "From the Northeast’s change of allegiance to the Nanjing–Guangzhou confrontation"
+      },
+      "ja": {
+        "who": "蒋介石、汪兆銘、地方の軍事勢力",
+        "what": "国内の権力争いと対日政策の矛盾",
+        "when": "1928年末～1931年",
+        "where": "南京、広州、江西",
+        "why": "国内統一と対外抵抗の政策選択を問う",
+        "how": "東北易幟から寧粤対立までをたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=AQg-MLarnpM",
+    "upload_date": "2020-09-29"
+  },
+  "sQ-XRR7mSN8": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "攝影記者黃文",
+        "what": "戰地攝影與個人成長",
+        "when": "1999年",
+        "where": "南聯盟、科索沃",
+        "why": "以影像記錄戰爭對人的傷害",
+        "how": "本人回述進入戰區採訪的經歷"
+      },
+      "zh-Hans": {
+        "who": "摄影记者黄文",
+        "what": "战地摄影与个人成长",
+        "when": "1999年",
+        "where": "南联盟、科索沃",
+        "why": "以影像记录战争对人的伤害",
+        "how": "本人回述进入战区采访的经历"
+      },
+      "en": {
+        "who": "Photojournalist Huang Wen",
+        "what": "War photography and her personal development",
+        "when": "1999",
+        "where": "The Federal Republic of Yugoslavia and Kosovo",
+        "why": "Documenting war’s human consequences through images",
+        "how": "She recounts reporting from the conflict zone"
+      },
+      "ja": {
+        "who": "写真記者・黄文",
+        "what": "戦地撮影と自身の成長",
+        "when": "1999年",
+        "where": "ユーゴスラビア連邦共和国、コソボ",
+        "why": "戦争による人々の被害を写真で記録する",
+        "how": "本人が戦地取材の経験を振り返る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=sQ-XRR7mSN8",
+    "upload_date": "2020-07-05"
+  },
+  "VxKkWcwKuv8": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "葛存壯、施文心；馮曉泉、曾格格",
+        "what": "電影與音樂界兩對夫妻的愛情",
+        "when": null,
+        "where": null,
+        "why": "呈現共同生活與藝術志趣的連結",
+        "how": "結合本人及家人的回憶講述婚戀"
+      },
+      "zh-Hans": {
+        "who": "葛存壮、施文心；冯晓泉、曾格格",
+        "what": "电影与音乐界两对夫妻的爱情",
+        "when": null,
+        "where": null,
+        "why": "呈现共同生活与艺术志趣的联系",
+        "how": "结合本人及家人的回忆讲述婚恋"
+      },
+      "en": {
+        "who": "Ge Cunzhuang and Shi Wenxin; Feng Xiaoquan and Zeng Gege",
+        "what": "Two marriages in film and music",
+        "when": null,
+        "where": null,
+        "why": "Exploring the connection between shared life and artistic interests",
+        "how": "Accounts of courtship and marriage from the couples and family"
+      },
+      "ja": {
+        "who": "葛存壮と施文心、馮暁泉と曾格格",
+        "what": "映画界と音楽界の二組の夫婦の愛情",
+        "when": null,
+        "where": null,
+        "why": "生活と芸術への関心の結びつきを描く",
+        "how": "本人や家族の回想で恋愛と結婚をたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=VxKkWcwKuv8",
+    "upload_date": "2020-07-25"
+  },
+  "GUVMVVdsjXc": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "藏書者",
+        "what": "藏書印與藏書背後的故事",
+        "when": null,
+        "where": "中國",
+        "why": "以印記表達對書籍的珍惜",
+        "how": "在藏書上鈐印並回顧相關故事"
+      },
+      "zh-Hans": {
+        "who": "藏书者",
+        "what": "藏书印与藏书背后的故事",
+        "when": null,
+        "where": "中国",
+        "why": "以印记表达对书籍的珍惜",
+        "how": "在藏书上钤印并回顾相关故事"
+      },
+      "en": {
+        "who": "Book collectors",
+        "what": "Collectors’ seals and the stories behind books",
+        "when": null,
+        "where": "China",
+        "why": "Expressing attachment to books through ownership marks",
+        "how": "Impressing seals on books and tracing their associated stories"
+      },
+      "ja": {
+        "who": "蔵書家",
+        "what": "蔵書印と書物にまつわる物語",
+        "when": null,
+        "where": "中国",
+        "why": "印を通して本への愛着を示す",
+        "how": "書物に押す印とその背景をたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=GUVMVVdsjXc",
+    "upload_date": "2020-06-29"
+  },
+  "lzfnFHcX2v4": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "嚴修與張伯苓",
+        "what": "南開中學的創辦與新式教育",
+        "when": null,
+        "where": "天津",
+        "why": "推動近代教育體制改革",
+        "how": "由兩位教育者在天津倡辦新式學校"
+      },
+      "zh-Hans": {
+        "who": "严修与张伯苓",
+        "what": "南开中学的创办与新式教育",
+        "when": null,
+        "where": "天津",
+        "why": "推动近代教育体制改革",
+        "how": "由两位教育者在天津倡办新式学校"
+      },
+      "en": {
+        "who": "Yan Xiu and Zhang Boling",
+        "what": "The founding of Nankai Middle School and modern education",
+        "when": null,
+        "where": "Tianjin",
+        "why": "Advancing educational reform",
+        "how": "Two educators advocate and establish a new-style school"
+      },
+      "ja": {
+        "who": "厳修と張伯苓",
+        "what": "南開中学の創立と新しい教育",
+        "when": null,
+        "where": "天津",
+        "why": "近代の教育制度改革を進める",
+        "how": "二人の教育者が新式学校の設立を提唱する"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=lzfnFHcX2v4",
+    "upload_date": "2020-07-22"
+  },
+  "71LNHeL-II4": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "循環經濟研究者杜歡政",
+        "what": "垃圾分類與再生資源利用",
+        "when": null,
+        "where": null,
+        "why": "把廢棄物視為可回收的城市資源",
+        "how": "以金屬、塑膠、廢紙為例作演講"
+      },
+      "zh-Hans": {
+        "who": "循环经济研究者杜欢政",
+        "what": "垃圾分类与再生资源利用",
+        "when": null,
+        "where": null,
+        "why": "把废弃物视为可回收的城市资源",
+        "how": "以金属、塑料、废纸为例作演讲"
+      },
+      "en": {
+        "who": "Circular-economy researcher Du Huanzheng",
+        "what": "Waste sorting and resource recovery",
+        "when": null,
+        "where": null,
+        "why": "Viewing waste as a recoverable urban resource",
+        "how": "A talk using discarded metals, plastics and paper as examples"
+      },
+      "ja": {
+        "who": "循環経済研究者・杜歓政",
+        "what": "ごみの分別と資源の再利用",
+        "when": null,
+        "where": null,
+        "why": "廃棄物を回収可能な都市資源として考える",
+        "how": "金属、プラスチック、紙を例に講演する"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=71LNHeL-II4",
+    "upload_date": "2021-10-24"
+  },
+  "2HptP5rFwH8": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "陳恭懷講述父親陳企霞",
+        "what": "父親受審查與被劃右派的經歷",
+        "when": "1955年、1957年",
+        "where": null,
+        "why": "回顧政治運動對父親與家庭的影響",
+        "how": "兒子以個人記憶述說父親的遭遇"
+      },
+      "zh-Hans": {
+        "who": "陈恭怀讲述父亲陈企霞",
+        "what": "父亲受审查与被划右派的经历",
+        "when": "1955年、1957年",
+        "where": null,
+        "why": "回顾政治运动对父亲与家庭的影响",
+        "how": "儿子以个人记忆述说父亲的遭遇"
+      },
+      "en": {
+        "who": "Chen Gonghuai on his father, Chen Qixia",
+        "what": "Investigations and his father’s designation as a rightist",
+        "when": "1955 and 1957",
+        "where": null,
+        "why": "Revisiting the impact of political campaigns on a family",
+        "how": "A son recounts his father’s experiences from memory"
+      },
+      "ja": {
+        "who": "陳恭懐が父・陳企霞を語る",
+        "what": "父への調査と右派認定の経験",
+        "when": "1955年、1957年",
+        "where": null,
+        "why": "政治運動が父と家族に与えた影響を振り返る",
+        "how": "息子が自身の記憶から父の経験を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=2HptP5rFwH8",
+    "upload_date": "2020-07-27"
+  },
+  "SEI9IMcvE5o": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "畫家曹勇",
+        "what": "旅美經歷與油畫自由的創作",
+        "when": "1994年赴美、九一一事件後",
+        "where": "紐約；亦談珠穆朗瑪峰",
+        "why": "以作品紀念九一一遇難者",
+        "how": "本人回憶旅居生活與創作動機"
+      },
+      "zh-Hans": {
+        "who": "画家曹勇",
+        "what": "旅美经历与油画自由的创作",
+        "when": "1994年赴美、九一一事件后",
+        "where": "纽约；亦谈珠穆朗玛峰",
+        "why": "以作品纪念九一一遇难者",
+        "how": "本人回忆旅居生活与创作动机"
+      },
+      "en": {
+        "who": "Painter Cao Yong",
+        "what": "Life in the United States and creating the painting Freedom",
+        "when": "Moved to the US in 1994; painting followed September 11",
+        "where": "New York, with recollections of Mount Everest",
+        "why": "Commemorating those killed on September 11",
+        "how": "His account of living abroad and the work’s inspiration"
+      },
+      "ja": {
+        "who": "画家・曹勇",
+        "what": "米国生活と絵画『自由』の制作",
+        "when": "1994年渡米、九一一事件後",
+        "where": "ニューヨーク、回想の中のエベレスト",
+        "why": "九一一事件の犠牲者を作品で追悼する",
+        "how": "本人が海外生活と創作の動機を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=SEI9IMcvE5o",
+    "upload_date": "2020-07-05"
+  },
+  "FS8JFl_7NnU": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "李嘉陵、蘆甸與胡風",
+        "what": "協助抄寫三十萬言書及其後果",
+        "when": "1953至1954年及其後",
+        "where": "北京",
+        "why": "回顧文藝爭論與政治牽連的影響",
+        "how": "李嘉陵以口述講述兩家人的交往"
+      },
+      "zh-Hans": {
+        "who": "李嘉陵、芦甸与胡风",
+        "what": "协助抄写三十万言书及其后果",
+        "when": "1953至1954年及其后",
+        "where": "北京",
+        "why": "回顾文艺争论与政治牵连的影响",
+        "how": "李嘉陵以口述讲述两家人的交往"
+      },
+      "en": {
+        "who": "Li Jialing, Lu Dian and Hu Feng",
+        "what": "Helping copy Hu Feng’s lengthy report and the consequences",
+        "when": "1953–1954 and the following years",
+        "where": "Beijing",
+        "why": "Revisiting the consequences of literary disputes and political implication",
+        "how": "Li Jialing recounts the relationship between the two families"
+      },
+      "ja": {
+        "who": "李嘉陵、蘆甸、胡風",
+        "what": "三十万言書の筆写協力とその後",
+        "when": "1953～1954年とその後",
+        "where": "北京",
+        "why": "文芸論争と政治的連座の影響を振り返る",
+        "how": "李嘉陵が二家族の交流を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=FS8JFl_7NnU",
+    "upload_date": "2020-07-04"
+  },
+  "wVxNPBfIHdU": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "魁北克皇家廣場與石造聖母教堂",
+        "when": null,
+        "where": "加拿大魁北克",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "魁北克皇家广场与石造圣母教堂",
+        "when": null,
+        "where": "加拿大魁北克",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": null,
+        "what": "Place Royale and its historic stone church",
+        "when": null,
+        "where": "Québec, Canada",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": null,
+        "what": "ロワイヤル広場と歴史的な石造教会",
+        "when": null,
+        "where": "カナダ・ケベック",
+        "why": null,
+        "how": null
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=wVxNPBfIHdU",
+    "upload_date": "2022-12-23"
+  },
+  "2r7Vu-FmY28": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "畫家張大千",
+        "what": "從臨摹古畫到潑墨潑彩的創作道路",
+        "when": "早年、中年與晚年",
+        "where": "敦煌等地",
+        "why": null,
+        "how": "臨習古畫、摹寫壁畫，探索潑墨潑彩"
+      },
+      "zh-Hans": {
+        "who": "画家张大千",
+        "what": "从临摹古画到泼墨泼彩的创作道路",
+        "when": "早年、中年与晚年",
+        "where": "敦煌等地",
+        "why": null,
+        "how": "临习古画、摹写壁画，探索泼墨泼彩"
+      },
+      "en": {
+        "who": "Painter Zhang Daqian",
+        "what": "From copying old masters to splashed ink and colour",
+        "when": "Early, middle and later career",
+        "where": "Dunhuang and other locations",
+        "why": null,
+        "how": "Studying old paintings, copying murals and experimenting with ink and colour"
+      },
+      "ja": {
+        "who": "画家・張大千",
+        "what": "古画の模写から潑墨潑彩への歩み",
+        "when": "初期、中年期、晩年",
+        "where": "敦煌など",
+        "why": null,
+        "how": "古画と壁画を学び、墨と色彩の表現を探る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=2r7Vu-FmY28",
+    "upload_date": "2026-07-17"
+  },
+  "sHyxjLI2rIo": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "紅軍與中國共產黨領導層",
+        "what": "長征初期與領導權變化",
+        "when": "1934至1935年",
+        "where": "瑞金、遵義",
+        "why": "回顧軍事轉移中的黨內權力變化",
+        "how": "沿長征路線談至遵義會議"
+      },
+      "zh-Hans": {
+        "who": "红军与中国共产党领导层",
+        "what": "长征初期与领导权变化",
+        "when": "1934至1935年",
+        "where": "瑞金、遵义",
+        "why": "回顾军事转移中的党内权力变化",
+        "how": "沿长征路线谈至遵义会议"
+      },
+      "en": {
+        "who": "The Red Army and Chinese Communist Party leaders",
+        "what": "The early Long March and changes in leadership",
+        "when": "1934–1935",
+        "where": "Ruijin and Zunyi",
+        "why": "Examining leadership changes during the military retreat",
+        "how": "Tracing events toward the Zunyi Conference"
+      },
+      "ja": {
+        "who": "紅軍と中国共産党指導部",
+        "what": "長征初期と指導権の変化",
+        "when": "1934～1935年",
+        "where": "瑞金、遵義",
+        "why": "軍事的移動の中での党内権力の変化をたどる",
+        "how": "長征の経路から遵義会議を考察する"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=sHyxjLI2rIo",
+    "upload_date": "2020-10-06"
+  },
+  "QmW0wMUKVtI": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "歌唱家王昆",
+        "what": "白毛女演出與民族聲樂生涯",
+        "when": "1945年主演、1962年任藝委會主任",
+        "where": "延安、華北、東方歌舞團",
+        "why": null,
+        "how": "本人回述抗戰文藝與歌劇演出經歷"
+      },
+      "zh-Hans": {
+        "who": "歌唱家王昆",
+        "what": "白毛女演出与民族声乐生涯",
+        "when": "1945年主演、1962年任艺委会主任",
+        "where": "延安、华北、东方歌舞团",
+        "why": null,
+        "how": "本人回述抗战文艺与歌剧演出经历"
+      },
+      "en": {
+        "who": "Singer Wang Kun",
+        "what": "The White-Haired Girl and a career in vocal performance",
+        "when": "Leading role in 1945; arts committee appointment in 1962",
+        "where": "Yan’an, northern China and the Oriental Song and Dance Ensemble",
+        "why": null,
+        "how": "She recounts wartime cultural work and opera performances"
+      },
+      "ja": {
+        "who": "歌手・王昆",
+        "what": "白毛女の上演と声楽家の歩み",
+        "when": "1945年主演、1962年芸術委員会主任に",
+        "where": "延安、華北、東方歌舞団",
+        "why": null,
+        "how": "本人が抗戦期の芸術活動と歌劇上演を回想"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=QmW0wMUKVtI",
+    "upload_date": "2020-07-07"
+  },
+  "DW7yed229nY": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "張勝利、王亞萍；陳景潤、由昆",
+        "what": "鄉村教育與長期照護中的兩段婚姻",
+        "when": null,
+        "where": "太行山桃木疙瘩村等地",
+        "why": "共同志向與伴侶間的支持",
+        "how": "前者共同辦學，後者在病中相伴照護"
+      },
+      "zh-Hans": {
+        "who": "张胜利、王亚萍；陈景润、由昆",
+        "what": "乡村教育与长期照护中的两段婚姻",
+        "when": null,
+        "where": "太行山桃木疙瘩村等地",
+        "why": "共同志向与伴侣间的支持",
+        "how": "前者共同办学，后者在病中相伴照护"
+      },
+      "en": {
+        "who": "Zhang Shengli and Wang Yaping; Chen Jingrun and You Kun",
+        "what": "Two marriages shaped by rural education and long-term care",
+        "when": null,
+        "where": "Taomugeda village in the Taihang Mountains and other settings",
+        "why": "Shared commitments and support between partners",
+        "how": "One couple teach together; the other share years of illness and care"
+      },
+      "ja": {
+        "who": "張勝利と王亜萍、陳景潤と由昆",
+        "what": "農村教育と長期介護の中での二組の結婚",
+        "when": null,
+        "where": "太行山の桃木疙瘩村など",
+        "why": "共通の志と伴侶同士の支え合い",
+        "how": "前者は共に教育に携わり、後者は病中を支える"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=DW7yed229nY",
+    "upload_date": "2020-08-01"
+  },
+  "VlM5R5GA64Y": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "明成祖朱棣與編纂者",
+        "what": "永樂大典的編纂、散失與流傳",
+        "when": "明代永樂年間及其後",
+        "where": "中國及海外收藏機構",
+        "why": "保存典籍知識並追尋散佚文獻",
+        "how": "集眾人編纂，後世追索分散傳本"
+      },
+      "zh-Hans": {
+        "who": "明成祖朱棣与编纂者",
+        "what": "永乐大典的编纂、散失与流传",
+        "when": "明代永乐年间及其后",
+        "where": "中国及海外收藏机构",
+        "why": "保存典籍知识并追寻散佚文献",
+        "how": "集众人编纂，后世追索分散传本"
+      },
+      "en": {
+        "who": "The Yongle Emperor and the compilers",
+        "what": "The compilation, dispersal and survival of the Yongle Encyclopedia",
+        "when": "The Ming Yongle reign and later centuries",
+        "where": "Collections in China and overseas",
+        "why": "Preserving knowledge and tracing scattered texts",
+        "how": "A collective compilation followed by the search for surviving copies"
+      },
+      "ja": {
+        "who": "永楽帝と編纂に携わった人々",
+        "what": "永楽大典の編纂、散逸と伝来",
+        "when": "明の永楽年間とその後",
+        "where": "中国と海外の所蔵機関",
+        "why": "典籍の知識を残し散逸した文献を追う",
+        "how": "多人数で編纂し、後世に伝本を探る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=VlM5R5GA64Y",
+    "upload_date": "2020-07-06"
+  },
+  "Q6lYG4lWCNI": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "歌手蔡國慶",
+        "what": "成長記憶與童年生活",
+        "when": "1960年代末",
+        "where": "北京中央歌劇院宿舍",
+        "why": null,
+        "how": "本人以口述回顧成長"
+      },
+      "zh-Hans": {
+        "who": "歌手蔡国庆",
+        "what": "成长记忆与童年生活",
+        "when": "1960年代末",
+        "where": "北京中央歌剧院宿舍",
+        "why": null,
+        "how": "本人以口述回顾成长"
+      },
+      "en": {
+        "who": "Singer Cai Guoqing",
+        "what": "Memories of childhood and growing up",
+        "when": "The late 1960s",
+        "where": "Central Opera House residences in Beijing",
+        "why": null,
+        "how": "His own oral recollections"
+      },
+      "ja": {
+        "who": "歌手・蔡国慶",
+        "what": "成長の記憶と幼少期の生活",
+        "when": "1960年代末",
+        "where": "北京の中央歌劇院宿舎",
+        "why": null,
+        "how": "本人が成長を振り返る"
+      }
+    },
+    "source": "https://www.youtube.com/watch?v=Q6lYG4lWCNI",
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "upload_date": "2020-07-01",
+    "editorial_scope": "SHARED_DESCRIPTION_DRAFT"
+  },
+  "N9a6-SCJZzI": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "釀酒技術工作者季克良",
+        "what": "在茅台的釀造、管理與傳承",
+        "when": "1964年入廠、2022年任技術導師",
+        "where": "貴州茅台酒廠",
+        "why": null,
+        "how": "由基層釀造實作走向技術與經營管理"
+      },
+      "zh-Hans": {
+        "who": "酿酒技术工作者季克良",
+        "what": "在茅台的酿造、管理与传承",
+        "when": "1964年入厂、2022年任技术导师",
+        "where": "贵州茅台酒厂",
+        "why": null,
+        "how": "由基层酿造实作走向技术与经营管理"
+      },
+      "en": {
+        "who": "Distilling specialist Ji Keliang",
+        "what": "Production, management and passing on expertise at Moutai",
+        "when": "Joined in 1964; appointed a technical mentor in 2022",
+        "where": "Moutai distillery, Guizhou",
+        "why": null,
+        "how": "Progressing from hands-on production to technical and business leadership"
+      },
+      "ja": {
+        "who": "酒造技術者・季克良",
+        "what": "茅台での酒造、経営と技術継承",
+        "when": "1964年入社、2022年技術指導者に",
+        "where": "貴州の茅台酒廠",
+        "why": null,
+        "how": "現場作業から技術と経営の管理へ"
+      }
+    },
+    "source": "https://www.youtube.com/watch?v=N9a6-SCJZzI",
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "upload_date": "2026-07-24",
+    "editorial_scope": "SHARED_DESCRIPTION_DRAFT"
+  },
+  "YbGntomdrUk": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "張伯苓與南開學生",
+        "what": "義工教育與學生的公共參與",
+        "when": "1919年及其後",
+        "where": "天津南開中學",
+        "why": "培養關懷社會的公字校訓精神",
+        "how": "以義工課與學生參與歷史事件為例"
+      },
+      "zh-Hans": {
+        "who": "张伯苓与南开学生",
+        "what": "义工教育与学生的公共参与",
+        "when": "1919年及其后",
+        "where": "天津南开中学",
+        "why": "培养关怀社会的公字校训精神",
+        "how": "以义工课与学生参与历史事件为例"
+      },
+      "en": {
+        "who": "Zhang Boling and Nankai students",
+        "what": "Volunteer education and students’ public engagement",
+        "when": "1919 and later years",
+        "where": "Nankai Middle School, Tianjin",
+        "why": "Developing a public-minded commitment to society",
+        "how": "Examples from volunteer classes and students’ participation in historical events"
+      },
+      "ja": {
+        "who": "張伯苓と南開の生徒",
+        "what": "奉仕教育と生徒の社会参加",
+        "when": "1919年とその後",
+        "where": "天津・南開中学",
+        "why": "社会を思う校訓の精神を育てる",
+        "how": "奉仕授業と歴史的事件への参加を例に描く"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=YbGntomdrUk",
+    "upload_date": "2020-07-29"
+  },
+  "rjhYV-ypBXA": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "醫師路桂軍",
+        "what": "死亡教育與珍惜生命的觀點",
+        "when": null,
+        "where": null,
+        "why": "主張理解死亡有助珍惜身邊的人",
+        "how": "以告別體驗及安寧療護工作作演講"
+      },
+      "zh-Hans": {
+        "who": "医师路桂军",
+        "what": "死亡教育与珍惜生命的观点",
+        "when": null,
+        "where": null,
+        "why": "主张理解死亡有助珍惜身边的人",
+        "how": "以告别体验及安宁疗护工作作演讲"
+      },
+      "en": {
+        "who": "Physician Lu Guijun",
+        "what": "His perspective on death education and valuing life",
+        "when": null,
+        "where": null,
+        "why": "Arguing that discussing death can deepen care for those around us",
+        "how": "A talk drawing on farewell experiences and hospice work"
+      },
+      "ja": {
+        "who": "医師・路桂軍",
+        "what": "死の教育と生を大切にする考え方",
+        "when": null,
+        "where": null,
+        "why": "死を語ることが身近な人への思いにつながると主張",
+        "how": "別れの体験と緩和ケアの仕事を基に講演"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=rjhYV-ypBXA",
+    "upload_date": "2021-07-25"
+  },
+  "9jsxmf3cA2A": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "高瑛講述丈夫艾青",
+        "what": "夫妻在政治逆境中的相伴",
+        "when": "1955年相識、1958年赴黑龍江",
+        "where": "北京、黑龍江北大荒",
+        "why": "回顧患難與共的婚姻",
+        "how": "高瑛以口述回憶相識及同行經歷"
+      },
+      "zh-Hans": {
+        "who": "高瑛讲述丈夫艾青",
+        "what": "夫妻在政治逆境中的相伴",
+        "when": "1955年相识、1958年赴黑龙江",
+        "where": "北京、黑龙江北大荒",
+        "why": "回顾患难与共的婚姻",
+        "how": "高瑛以口述回忆相识及同行经历"
+      },
+      "en": {
+        "who": "Gao Ying on her husband, Ai Qing",
+        "what": "Marriage through political adversity",
+        "when": "Met in 1955; travelled to Heilongjiang in 1958",
+        "where": "Beijing and Beidahuang, Heilongjiang",
+        "why": "Revisiting a marriage sustained through hardship",
+        "how": "Gao Ying recalls their meeting and shared journey"
+      },
+      "ja": {
+        "who": "高瑛が夫・艾青を語る",
+        "what": "政治的逆境の中での夫婦の歩み",
+        "when": "1955年に出会い、1958年に黒竜江へ",
+        "where": "北京、黒竜江の北大荒",
+        "why": "困難を共にした結婚生活を振り返る",
+        "how": "高瑛が出会いと同行の経験を回想"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=9jsxmf3cA2A",
+    "upload_date": "2020-07-30"
+  },
+  "nF-uRtohqNw": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "畫家曹勇",
+        "what": "求學與赴藏教學的經歷",
+        "when": "1979年入學、1983年赴藏",
+        "where": "河南、西藏",
+        "why": "把西藏視為藝術的源泉",
+        "how": "本人回述學畫與申請援藏的選擇"
+      },
+      "zh-Hans": {
+        "who": "画家曹勇",
+        "what": "求学与赴藏教学的经历",
+        "when": "1979年入学、1983年赴藏",
+        "where": "河南、西藏",
+        "why": "把西藏视为艺术的源泉",
+        "how": "本人回述学画与申请援藏的选择"
+      },
+      "en": {
+        "who": "Painter Cao Yong",
+        "what": "Art education and the decision to teach in Tibet",
+        "when": "Entered university in 1979; went to Tibet in 1983",
+        "where": "Henan and Tibet",
+        "why": "Seeing Tibet as a source of artistic inspiration",
+        "how": "He recalls studying painting and applying to teach in Tibet"
+      },
+      "ja": {
+        "who": "画家・曹勇",
+        "what": "美術の学習とチベットでの教育",
+        "when": "1979年進学、1983年チベットへ",
+        "where": "河南、チベット",
+        "why": "チベットを芸術の源と考える",
+        "how": "本人が絵の学習と赴任の選択を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=nF-uRtohqNw",
+    "upload_date": "2020-07-08"
+  },
+  "jYh7wjMDwuo": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "詩人牛漢",
+        "what": "胡風案中的被捕與政治牽連",
+        "when": "1955年、1957年、1965年",
+        "where": null,
+        "why": "回顧個人在政治案件中的遭遇",
+        "how": "本人講述審查、批判會與替胡風辯護"
+      },
+      "zh-Hans": {
+        "who": "诗人牛汉",
+        "what": "胡风案中的被捕与政治牵连",
+        "when": "1955年、1957年、1965年",
+        "where": null,
+        "why": "回顾个人在政治案件中的遭遇",
+        "how": "本人讲述审查、批判会与替胡风辩护"
+      },
+      "en": {
+        "who": "Poet Niu Han",
+        "what": "Arrest and political implication in the Hu Feng case",
+        "when": "1955, 1957 and 1965",
+        "where": null,
+        "why": "Revisiting an individual’s experiences in a political case",
+        "how": "He recounts investigation, denunciation meetings and speaking in Hu Feng’s defence"
+      },
+      "ja": {
+        "who": "詩人・牛漢",
+        "what": "胡風事件での逮捕と政治的連座",
+        "when": "1955年、1957年、1965年",
+        "where": null,
+        "why": "政治事件の中での個人の経験を振り返る",
+        "how": "本人が調査や批判集会、胡風の擁護を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=jYh7wjMDwuo",
+    "upload_date": "2020-07-07"
+  },
+  "Tl6trPmbzOo": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "奧斯陸市政大廳與維吉蘭公園",
+        "when": null,
+        "where": "挪威奧斯陸",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "奥斯陆市政大厅与维吉兰公园",
+        "when": null,
+        "where": "挪威奥斯陆",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": null,
+        "what": "Oslo City Hall and Vigeland Park",
+        "when": null,
+        "where": "Oslo, Norway",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": null,
+        "what": "オスロ市庁舎とヴィーゲラン公園",
+        "when": null,
+        "where": "ノルウェー・オスロ",
+        "why": null,
+        "how": null
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=Tl6trPmbzOo",
+    "upload_date": "2022-12-28"
+  },
+  "UUrAwwV4Ho8": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "陳嘉庚與東南亞華僑",
+        "what": "籌款支援抗戰與興辦教育",
+        "when": "近代革命、抗戰時期",
+        "where": "東南亞、滇緬公路、福建",
+        "why": "支援戰時物資運輸與教育建設",
+        "how": "組織募款、選送司機並創辦廈門大學"
+      },
+      "zh-Hans": {
+        "who": "陈嘉庚与东南亚华侨",
+        "what": "筹款支援抗战与兴办教育",
+        "when": "近代革命、抗战时期",
+        "where": "东南亚、滇缅公路、福建",
+        "why": "支援战时物资运输与教育建设",
+        "how": "组织募款、选送司机并创办厦门大学"
+      },
+      "en": {
+        "who": "Tan Kah Kee and overseas Chinese in Southeast Asia",
+        "what": "Fundraising for wartime resistance and education",
+        "when": "The revolutionary and wartime periods",
+        "where": "Southeast Asia, the Burma Road and Fujian",
+        "why": "Supporting supply transport and educational development",
+        "how": "Organizing donations, sending drivers and founding Xiamen University"
+      },
+      "ja": {
+        "who": "陳嘉庚と東南アジアの華僑",
+        "what": "抗戦を支える募金と教育事業",
+        "when": "近代革命と抗戦の時期",
+        "where": "東南アジア、滇緬公路、福建",
+        "why": "戦時輸送と教育の発展を支援する",
+        "how": "募金や運転手の派遣を行い、厦門大学を創立"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "SHARED_DESCRIPTION_DRAFT",
+    "source": "https://www.youtube.com/watch?v=UUrAwwV4Ho8",
+    "upload_date": "2026-07-10"
+  },
+  "bKejBzlzyOs": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "張學良與蔣中正",
+        "what": "東北易幟至西安事變的關係變化",
+        "when": "1928年起至西安事變",
+        "where": "東北、西安",
+        "why": "追溯影響近代政局的重要選擇",
+        "how": "以張學良的選擇串連兩人的關係"
+      },
+      "zh-Hans": {
+        "who": "张学良与蒋中正",
+        "what": "东北易帜至西安事变的关系变化",
+        "when": "1928年起至西安事变",
+        "where": "东北、西安",
+        "why": "追溯影响近代政局的重要选择",
+        "how": "以张学良的选择串联两人的关系"
+      },
+      "en": {
+        "who": "Zhang Xueliang and Chiang Kai-shek",
+        "what": "Their changing relationship from the Northeast’s change of allegiance to the Xi’an Incident",
+        "when": "From 1928 to the Xi’an Incident",
+        "where": "Northeast China and Xi’an",
+        "why": "Tracing decisions that shaped modern politics",
+        "how": "Following Zhang Xueliang’s choices and his relationship with Chiang"
+      },
+      "ja": {
+        "who": "張学良と蒋介石",
+        "what": "東北易幟から西安事件までの関係の変化",
+        "when": "1928年から西安事件まで",
+        "where": "中国東北部、西安",
+        "why": "近代の政局を変えた選択をたどる",
+        "how": "張学良の決断を軸に二人の関係を描く"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=bKejBzlzyOs",
+    "upload_date": "2020-10-14"
+  },
+  "m6tlKT-nug0": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "臨終關懷醫師李偉",
+        "what": "創辦松堂醫院與安寧照護",
+        "when": "1987年創辦醫院",
+        "where": "北京",
+        "why": "一次臨終者的遭遇促使他關注尊嚴",
+        "how": "本人回述創院與照護工作的初心"
+      },
+      "zh-Hans": {
+        "who": "临终关怀医师李伟",
+        "what": "创办松堂医院与安宁照护",
+        "when": "1987年创办医院",
+        "where": "北京",
+        "why": "一次临终者的遭遇促使他关注尊严",
+        "how": "本人回述创院与照护工作的初心"
+      },
+      "en": {
+        "who": "Hospice physician Li Wei",
+        "what": "Founding Songtang Hospital and providing end-of-life care",
+        "when": "Hospital founded in 1987",
+        "where": "Beijing",
+        "why": "An encounter with a dying man shaped his concern for dignity",
+        "how": "He recounts the experiences behind founding the hospital"
+      },
+      "ja": {
+        "who": "終末期ケアの医師・李偉",
+        "what": "松堂医院の創設と安らかな看取り",
+        "when": "1987年に病院を創設",
+        "where": "北京",
+        "why": "死を迎える人との出会いから尊厳を重視する",
+        "how": "本人が病院創設とケアへの思いを語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=m6tlKT-nug0",
+    "upload_date": "2020-07-14"
+  },
+  "L04v9gjH3EY": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "畫家、美術教育者劉海粟",
+        "what": "藝術生涯與婚戀經歷",
+        "when": "二十世紀",
+        "where": "上海等地",
+        "why": "回顧藝術事業與私人生活的交織",
+        "how": null
+      },
+      "zh-Hans": {
+        "who": "画家、美术教育者刘海粟",
+        "what": "艺术生涯与婚恋经历",
+        "when": "二十世纪",
+        "where": "上海等地",
+        "why": "回顾艺术事业与私人生活的交织",
+        "how": null
+      },
+      "en": {
+        "who": "Painter and art educator Liu Haisu",
+        "what": "His artistic career and relationships",
+        "when": "The twentieth century",
+        "where": "Shanghai and other locations",
+        "why": "Considering the interweaving of artistic work and private life",
+        "how": null
+      },
+      "ja": {
+        "who": "画家・美術教育者の劉海粟",
+        "what": "芸術家としての歩みと結婚生活",
+        "when": "二十世紀",
+        "where": "上海など",
+        "why": "芸術の仕事と私生活の交わりを振り返る",
+        "how": null
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=L04v9gjH3EY",
+    "upload_date": "2020-08-07"
+  },
+  "GzZyayL787Y": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "皇家建築設計的雷氏家族",
+        "what": "樣式雷的建築遺產與家族墓地",
+        "when": "清代及其後",
+        "where": "北京西郊巨山村等地",
+        "why": "回望重要建築背後的設計世家",
+        "how": "從皇家工程與祖墳現狀切入"
+      },
+      "zh-Hans": {
+        "who": "皇家建筑设计的雷氏家族",
+        "what": "样式雷的建筑遗产与家族墓地",
+        "when": "清代及其后",
+        "where": "北京西郊巨山村等地",
+        "why": "回望重要建筑背后的设计世家",
+        "how": "从皇家工程与祖坟现状切入"
+      },
+      "en": {
+        "who": "The Lei family of imperial architectural designers",
+        "what": "Yangshi Lei’s architectural legacy and family burial ground",
+        "when": "The Qing dynasty and later years",
+        "where": "Jushan village in western Beijing and other sites",
+        "why": "Revisiting the family behind major imperial buildings",
+        "how": "Considering imperial projects alongside the condition of the family graves"
+      },
+      "ja": {
+        "who": "皇室建築を設計した雷氏一族",
+        "what": "様式雷の建築遺産と一族の墓地",
+        "when": "清代とその後",
+        "where": "北京西郊の巨山村など",
+        "why": "重要な建築を支えた設計者一族を振り返る",
+        "how": "皇室の建築事業と祖先の墓地から考える"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=GzZyayL787Y",
+    "upload_date": "2020-07-13"
+  },
+  "xFqlry08H-A": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "武術人物霍元甲",
+        "what": "天津成長經歷與愛國形象",
+        "when": "晚清",
+        "where": "天津小南河村、天津市區",
+        "why": "探討武術人物與民族認同",
+        "how": "從童年習武及謀生經歷切入"
+      },
+      "zh-Hans": {
+        "who": "武术人物霍元甲",
+        "what": "天津成长经历与爱国形象",
+        "when": "晚清",
+        "where": "天津小南河村、天津市区",
+        "why": "探讨武术人物与民族认同",
+        "how": "从童年习武及谋生经历切入"
+      },
+      "en": {
+        "who": "Martial artist Huo Yuanjia",
+        "what": "His Tianjin upbringing and patriotic image",
+        "when": "The late Qing period",
+        "where": "Xiaonanhe village and Tianjin",
+        "why": "Exploring a martial artist’s connection with national identity",
+        "how": "Beginning with childhood training and earning a living"
+      },
+      "ja": {
+        "who": "武術家・霍元甲",
+        "what": "天津での成長と愛国的な人物像",
+        "when": "清末",
+        "where": "天津の小南河村と市街地",
+        "why": "武術家と民族意識の関係を考える",
+        "how": "幼少期の修練と生計の経験からたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=xFqlry08H-A",
+    "upload_date": "2020-08-05"
+  },
+  "DGuyNd0YNN4": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "公益教育工作者張軼超",
+        "what": "久牽的免費課外教育",
+        "when": null,
+        "where": "上海",
+        "why": "讓務工人員子女獲得公平教育機會",
+        "how": "從校園採訪相識到創辦志願者服務社"
+      },
+      "zh-Hans": {
+        "who": "公益教育工作者张轶超",
+        "what": "久牵的免费课外教育",
+        "when": null,
+        "where": "上海",
+        "why": "让务工人员子女获得公平教育机会",
+        "how": "从校园采访相识到创办志愿者服务社"
+      },
+      "en": {
+        "who": "Education advocate Zhang Yichao",
+        "what": "Jiuqian’s free extracurricular education",
+        "when": null,
+        "where": "Shanghai",
+        "why": "Expanding fair educational opportunities for migrant workers’ children",
+        "how": "From meeting children during a campus interview to founding a volunteer organization"
+      },
+      "ja": {
+        "who": "公益教育に携わる張軼超",
+        "what": "久牽による無料の課外教育",
+        "when": null,
+        "where": "上海",
+        "why": "出稼ぎ労働者の子どもに公平な教育機会を届ける",
+        "how": "学内取材での出会いから団体設立へ"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=DGuyNd0YNN4",
+    "upload_date": "2021-06-06"
+  },
+  "uSrecY2etHI": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "范蘇蘇講述父親范長江",
+        "what": "父親的戰地採訪與西北紀行",
+        "when": "1930年代",
+        "where": "中國西北、西安、延安",
+        "why": "追尋重大事件的新聞真相",
+        "how": "兒子回述父親遠行採訪與報導經歷"
+      },
+      "zh-Hans": {
+        "who": "范苏苏讲述父亲范长江",
+        "what": "父亲的战地采访与西北纪行",
+        "when": "1930年代",
+        "where": "中国西北、西安、延安",
+        "why": "追寻重大事件的新闻真相",
+        "how": "儿子回述父亲远行采访与报道经历"
+      },
+      "en": {
+        "who": "Fan Susu on his father, Fan Changjiang",
+        "what": "War reporting and travels in northwestern China",
+        "when": "The 1930s",
+        "where": "Northwestern China, Xi’an and Yan’an",
+        "why": "Investigating major events as a journalist",
+        "how": "A son recounts his father’s reporting journeys"
+      },
+      "ja": {
+        "who": "范蘇蘇が父・范長江を語る",
+        "what": "戦地取材と中国西北部の紀行",
+        "when": "1930年代",
+        "where": "中国西北部、西安、延安",
+        "why": "記者として重大事件の実情を探る",
+        "how": "息子が父の取材旅行と報道を回想"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=uSrecY2etHI",
+    "upload_date": "2020-08-07"
+  },
+  "lF4e2l5JRcI": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "畫家曹勇",
+        "what": "從日本謀生到紐約追尋藝術",
+        "when": "1989年赴日、1994年赴美",
+        "where": "日本、紐約",
+        "why": "在維持生計之餘追求繪畫創作",
+        "how": "本人回顧打工、壁畫創作與跨國遷移"
+      },
+      "zh-Hans": {
+        "who": "画家曹勇",
+        "what": "从日本谋生到纽约追寻艺术",
+        "when": "1989年赴日、1994年赴美",
+        "where": "日本、纽约",
+        "why": "在维持生计之余追求绘画创作",
+        "how": "本人回顾打工、壁画创作与跨国迁移"
+      },
+      "en": {
+        "who": "Painter Cao Yong",
+        "what": "From earning a living in Japan to pursuing art in New York",
+        "when": "Moved to Japan in 1989 and the US in 1994",
+        "where": "Japan and New York",
+        "why": "Continuing to paint while supporting himself",
+        "how": "He recalls jobs, commercial murals and moving between countries"
+      },
+      "ja": {
+        "who": "画家・曹勇",
+        "what": "日本での生計からニューヨークでの芸術探求へ",
+        "when": "1989年渡日、1994年渡米",
+        "where": "日本、ニューヨーク",
+        "why": "生活を支えながら絵画制作を続ける",
+        "how": "本人が仕事、壁画制作、移住を回想"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=lF4e2l5JRcI",
+    "upload_date": "2020-07-12"
+  },
+  "qinuUKNLNCQ": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "作家白樺與導演彭寧",
+        "what": "從曙光到苦戀及太陽和人的創作風波",
+        "when": "1976年後",
+        "where": null,
+        "why": "作品表達與政治審查之間的衝突",
+        "how": "白樺回述劇本改編與拍攝受阻的經過"
+      },
+      "zh-Hans": {
+        "who": "作家白桦与导演彭宁",
+        "what": "从曙光到苦恋及太阳和人的创作风波",
+        "when": "1976年后",
+        "where": null,
+        "why": "作品表达与政治审查之间的冲突",
+        "how": "白桦回述剧本改编与拍摄受阻的经过"
+      },
+      "en": {
+        "who": "Writer Bai Hua and director Peng Ning",
+        "what": "The creative controversy from Dawn to Bitter Love and The Sun and the People",
+        "when": "After 1976",
+        "where": null,
+        "why": "Conflict between artistic expression and political censorship",
+        "how": "Bai Hua recounts adaptation of the script and obstruction of filming"
+      },
+      "ja": {
+        "who": "作家・白樺と監督・彭寧",
+        "what": "曙光から苦恋、太陽と人へ続く創作上の騒動",
+        "when": "1976年以降",
+        "where": null,
+        "why": "作品表現と政治的検閲の衝突",
+        "how": "白樺が脚本の改編と撮影中断の経緯を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=qinuUKNLNCQ",
+    "upload_date": "2020-07-11"
+  },
+  "XX685x6Ygy4": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "松恩峽灣的山水景觀",
+        "when": null,
+        "where": "挪威松恩峽灣",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "松恩峡湾的山水景观",
+        "when": null,
+        "where": "挪威松恩峡湾",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": null,
+        "what": "The landscapes of Sognefjord",
+        "when": null,
+        "where": "Sognefjord, Norway",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": null,
+        "what": "ソグネフィヨルドの山と水の景観",
+        "when": null,
+        "where": "ノルウェーのソグネフィヨルド",
+        "why": null,
+        "how": null
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=XX685x6Ygy4",
+    "upload_date": "2022-12-29"
+  },
+  "94kIPr0fOjo": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "蔣中正與中日雙方",
+        "what": "戰前對日政策與局勢轉折",
+        "when": "1935至1937年",
+        "where": "中國、盧溝橋",
+        "why": "探討和平與抵抗之間的政策抉擇",
+        "how": "從最後關頭演說談至盧溝橋事件"
+      },
+      "zh-Hans": {
+        "who": "蒋中正与中日双方",
+        "what": "战前对日政策与局势转折",
+        "when": "1935至1937年",
+        "where": "中国、卢沟桥",
+        "why": "探讨和平与抵抗之间的政策抉择",
+        "how": "从最后关头演说谈至卢沟桥事件"
+      },
+      "en": {
+        "who": "Chiang Kai-shek and the Chinese and Japanese sides",
+        "what": "Policy toward Japan and the turn toward war",
+        "when": "1935–1937",
+        "where": "China and the Marco Polo Bridge",
+        "why": "Examining choices between peace and resistance",
+        "how": "From Chiang’s Last Moment speech to the Marco Polo Bridge Incident"
+      },
+      "ja": {
+        "who": "蒋介石と日中双方",
+        "what": "対日政策と開戦へ向かう情勢の転換",
+        "when": "1935～1937年",
+        "where": "中国、盧溝橋",
+        "why": "平和と抵抗の間の政策選択を考える",
+        "how": "最後関頭の演説から盧溝橋事件をたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=94kIPr0fOjo",
+    "upload_date": "2020-10-20"
+  },
+  "wV9msj43Uqo": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "蒙古族長調歌者哈扎布",
+        "what": "草原長調的歌唱與傳承",
+        "when": null,
+        "where": "內蒙古草原及海外演出地",
+        "why": "呈現草原傳統聲樂的魅力",
+        "how": "以歌者的藝術生涯介紹長調"
+      },
+      "zh-Hans": {
+        "who": "蒙古族长调歌者哈扎布",
+        "what": "草原长调的歌唱与传承",
+        "when": null,
+        "where": "内蒙古草原及海外演出地",
+        "why": "呈现草原传统声乐的魅力",
+        "how": "以歌者的艺术生涯介绍长调"
+      },
+      "en": {
+        "who": "Mongolian long-song singer Hazhabu",
+        "what": "The singing and transmission of grassland long songs",
+        "when": null,
+        "where": "Inner Mongolia and overseas performance locations",
+        "why": "Presenting a traditional grassland vocal art",
+        "how": "Introducing long song through the singer’s artistic career"
+      },
+      "ja": {
+        "who": "モンゴル族の長調歌手・ハザブ",
+        "what": "草原の長調の歌唱と継承",
+        "when": null,
+        "where": "内モンゴルの草原と海外の公演地",
+        "why": "草原の伝統的な声楽の魅力を伝える",
+        "how": "歌手の芸術人生を通して長調を紹介する"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=wV9msj43Uqo",
+    "upload_date": "2020-07-19"
+  },
+  "53qRHFrvCC8": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "陳嘉庚與東南亞華僑",
+        "what": "籌款支援抗戰與興辦教育",
+        "when": "近代革命、抗戰時期",
+        "where": "東南亞、滇緬公路、福建",
+        "why": "支援戰時物資運輸與教育建設",
+        "how": "組織募款、選送司機並創辦廈門大學"
+      },
+      "zh-Hans": {
+        "who": "陈嘉庚与东南亚华侨",
+        "what": "筹款支援抗战与兴办教育",
+        "when": "近代革命、抗战时期",
+        "where": "东南亚、滇缅公路、福建",
+        "why": "支援战时物资运输与教育建设",
+        "how": "组织募款、选送司机并创办厦门大学"
+      },
+      "en": {
+        "who": "Tan Kah Kee and overseas Chinese in Southeast Asia",
+        "what": "Fundraising for wartime resistance and education",
+        "when": "The revolutionary and wartime periods",
+        "where": "Southeast Asia, the Burma Road and Fujian",
+        "why": "Supporting supply transport and educational development",
+        "how": "Organizing donations, sending drivers and founding Xiamen University"
+      },
+      "ja": {
+        "who": "陳嘉庚と東南アジアの華僑",
+        "what": "抗戦を支える募金と教育事業",
+        "when": "近代革命と抗戦の時期",
+        "where": "東南アジア、滇緬公路、福建",
+        "why": "戦時輸送と教育の発展を支援する",
+        "how": "募金や運転手の派遣を行い、厦門大学を創立"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "SHARED_DESCRIPTION_DRAFT",
+    "source": "https://www.youtube.com/watch?v=53qRHFrvCC8",
+    "upload_date": "2026-07-03"
+  },
+  "sGZrwIEwaFw": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "歌唱家德德瑪與丈夫拉西",
+        "what": "病後重返舞臺與夫妻相伴",
+        "when": "1998年發病及其後",
+        "where": "日本演出期間發病",
+        "why": "呈現伴侶支持與藝術生涯的延續",
+        "how": "丈夫提供照護與鼓勵，陪伴復出"
+      },
+      "zh-Hans": {
+        "who": "歌唱家德德玛与丈夫拉西",
+        "what": "病后重返舞台与夫妻相伴",
+        "when": "1998年发病及其后",
+        "where": "日本演出期间发病",
+        "why": "呈现伴侣支持与艺术生涯的延续",
+        "how": "丈夫提供照护与鼓励，陪伴复出"
+      },
+      "en": {
+        "who": "Singer Dedema and her husband, Laxi",
+        "what": "Returning to the stage after illness and their shared life",
+        "when": "Illness in 1998 and the period afterward",
+        "where": "She became ill while performing in Japan",
+        "why": "Exploring a partner’s support and continuation of an artistic career",
+        "how": "Care and encouragement from her husband during her return"
+      },
+      "ja": {
+        "who": "歌手・デデマと夫・ラシ",
+        "what": "病後の舞台復帰と夫婦の歩み",
+        "when": "1998年の発病とその後",
+        "where": "日本での公演中に発病",
+        "why": "伴侶の支えと芸術活動の継続を描く",
+        "how": "夫が介護と励ましで復帰を支える"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=sGZrwIEwaFw",
+    "upload_date": "2020-08-15"
+  },
+  "WWiRFIqFzZs": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "皇家建築設計的雷氏家族",
+        "what": "樣式雷與宮廷建築、陵寢制度",
+        "when": "清代",
+        "where": "北京及附近的皇家建築",
+        "why": "了解重要工程背後的設計世家",
+        "how": "從皇家建築與帝陵設計切入"
+      },
+      "zh-Hans": {
+        "who": "皇家建筑设计的雷氏家族",
+        "what": "样式雷与宫廷建筑、陵寝制度",
+        "when": "清代",
+        "where": "北京及附近的皇家建筑",
+        "why": "了解重要工程背后的设计世家",
+        "how": "从皇家建筑与帝陵设计切入"
+      },
+      "en": {
+        "who": "The Lei family of imperial designers",
+        "what": "Yangshi Lei, court architecture and imperial tombs",
+        "when": "The Qing dynasty",
+        "where": "Imperial sites in and around Beijing",
+        "why": "Understanding the design family behind major projects",
+        "how": "Considering imperial buildings and tomb design"
+      },
+      "ja": {
+        "who": "皇室建築を設計した雷氏一族",
+        "what": "様式雷と宮廷建築、陵墓制度",
+        "when": "清代",
+        "where": "北京とその周辺の皇室建築",
+        "why": "大きな建築事業を支えた設計者一族を知る",
+        "how": "皇室の建物と帝陵の設計から考える"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=WWiRFIqFzZs",
+    "upload_date": "2020-07-20"
+  },
+  "PbE8SrZMthY": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "武術人物霍元甲",
+        "what": "故居與挑戰外國力士的故事",
+        "when": "晚清，說明提及1901年",
+        "where": "天津小南河村、上海",
+        "why": "呈現霍元甲的民族形象",
+        "how": "轉述挑戰力士的故事，具體情節待核"
+      },
+      "zh-Hans": {
+        "who": "武术人物霍元甲",
+        "what": "故居与挑战外国力士的故事",
+        "when": "晚清，说明提及1901年",
+        "where": "天津小南河村、上海",
+        "why": "呈现霍元甲的民族形象",
+        "how": "转述挑战力士的故事，具体情节待核"
+      },
+      "en": {
+        "who": "Martial artist Huo Yuanjia",
+        "what": "His former home and stories of challenging foreign strongmen",
+        "when": "The late Qing; the description mentions 1901",
+        "where": "Xiaonanhe village, Tianjin, and Shanghai",
+        "why": "Presenting Huo’s image as a national figure",
+        "how": "Retelling challenge stories whose specific details remain unverified here"
+      },
+      "ja": {
+        "who": "武術家・霍元甲",
+        "what": "旧居と外国の力士に挑んだ物語",
+        "when": "清末。説明では1901年に言及",
+        "where": "天津の小南河村、上海",
+        "why": "民族的な人物像を描く",
+        "how": "挑戦の物語を紹介。細部は未検証"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=PbE8SrZMthY",
+    "upload_date": "2020-08-12"
+  },
+  "cSKXA3J84Ss": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "書畫家、藝術教育者徐忠平",
+        "what": "天賦、想像與藝術修習",
+        "when": null,
+        "where": null,
+        "why": "探討創造力如何持續成長",
+        "how": "以原生藝術及文化積澱作演講"
+      },
+      "zh-Hans": {
+        "who": "书画家、艺术教育者徐忠平",
+        "what": "天赋、想象与艺术修习",
+        "when": null,
+        "where": null,
+        "why": "探讨创造力如何持续成长",
+        "how": "以原生艺术及文化积淀作演讲"
+      },
+      "en": {
+        "who": "Artist and arts educator Xu Zhongping",
+        "what": "Innate creativity, imagination and artistic development",
+        "when": null,
+        "where": null,
+        "why": "Exploring how creativity can continue to grow",
+        "how": "A talk about spontaneous art and accumulated cultural experience"
+      },
+      "ja": {
+        "who": "書画家・芸術教育者の徐忠平",
+        "what": "才能、想像力と芸術の修練",
+        "when": null,
+        "where": null,
+        "why": "創造力が育ち続ける道を考える",
+        "how": "原生芸術と文化の蓄積について講演する"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=cSKXA3J84Ss",
+    "upload_date": "2021-05-29"
+  },
+  "bGpS8oqOiwo": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "范蘇蘇講述父親范長江",
+        "what": "新聞工作與後來的政治遭遇",
+        "when": "1937年起至文革時期",
+        "where": "西安、延安、上海、北京",
+        "why": "回顧新聞記者的政治命運",
+        "how": "兒子以口述追溯父親的工作與遭遇"
+      },
+      "zh-Hans": {
+        "who": "范苏苏讲述父亲范长江",
+        "what": "新闻工作与后来的政治遭遇",
+        "when": "1937年起至文革时期",
+        "where": "西安、延安、上海、北京",
+        "why": "回顾新闻记者的政治命运",
+        "how": "儿子以口述追溯父亲的工作与遭遇"
+      },
+      "en": {
+        "who": "Fan Susu on his father, Fan Changjiang",
+        "what": "Journalism and later political experiences",
+        "when": "From 1937 through the Cultural Revolution",
+        "where": "Xi’an, Yan’an, Shanghai and Beijing",
+        "why": "Revisiting the political fate of a journalist",
+        "how": "A son’s account of his father’s work and experiences"
+      },
+      "ja": {
+        "who": "范蘇蘇が父・范長江を語る",
+        "what": "新聞の仕事と後年の政治的経験",
+        "when": "1937年から文化大革命期まで",
+        "where": "西安、延安、上海、北京",
+        "why": "新聞記者の政治的運命を振り返る",
+        "how": "息子が父の仕事と経験を口述でたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=bGpS8oqOiwo",
+    "upload_date": "2020-08-15"
+  },
+  "H-H7SV5B8SU": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "作家白樺",
+        "what": "太陽和人的審查與政治批判",
+        "when": "1980年冬攝製完成及其後",
+        "where": null,
+        "why": "回顧作品表達與政治審查的衝突",
+        "how": "本人講述電影未獲公映卻被批判放映的經歷"
+      },
+      "zh-Hans": {
+        "who": "作家白桦",
+        "what": "太阳和人的审查与政治批判",
+        "when": "1980年冬摄制完成及其后",
+        "where": null,
+        "why": "回顾作品表达与政治审查的冲突",
+        "how": "本人讲述电影未获公映却被批判放映的经历"
+      },
+      "en": {
+        "who": "Writer Bai Hua",
+        "what": "Censorship and political criticism of The Sun and the People",
+        "when": "Completed in winter 1980 and the period afterward",
+        "where": null,
+        "why": "Revisiting the conflict between expression and censorship",
+        "how": "His account of a film barred from public release yet screened for criticism"
+      },
+      "ja": {
+        "who": "作家・白樺",
+        "what": "太陽と人の検閲と政治的批判",
+        "when": "1980年冬の完成とその後",
+        "where": null,
+        "why": "表現と政治的検閲の衝突を振り返る",
+        "how": "一般公開を認められず批判用に上映された経験を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=H-H7SV5B8SU",
+    "upload_date": "2020-07-14"
+  },
+  "9eU69Fywpho": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "音樂家格里格",
+        "what": "特羅爾豪根的格里格故居",
+        "when": null,
+        "where": "挪威特羅爾豪根",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": "音乐家格里格",
+        "what": "特罗尔豪根的格里格故居",
+        "when": null,
+        "where": "挪威特罗尔豪根",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": "Composer Edvard Grieg",
+        "what": "Grieg’s former home at Troldhaugen",
+        "when": null,
+        "where": "Troldhaugen, Norway",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": "作曲家・エドヴァルド・グリーグ",
+        "what": "トロルハウゲンのグリーグ旧居",
+        "when": null,
+        "where": "ノルウェー・トロルハウゲン",
+        "why": null,
+        "how": null
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=9eU69Fywpho",
+    "upload_date": "2022-12-30"
+  },
+  "gdTvXsK_DOQ": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "中日雙方參戰部隊",
+        "what": "淞滬會戰的爆發",
+        "when": "1937年8月",
+        "where": "上海閘北、八字橋",
+        "why": "回顧戰爭擴大至上海的過程",
+        "how": "從日軍動員與雙方交戰追述戰役開端"
+      },
+      "zh-Hans": {
+        "who": "中日双方参战部队",
+        "what": "淞沪会战的爆发",
+        "when": "1937年8月",
+        "where": "上海闸北、八字桥",
+        "why": "回顾战争扩大至上海的过程",
+        "how": "从日军动员与双方交战追述战役开端"
+      },
+      "en": {
+        "who": "Chinese and Japanese forces",
+        "what": "The outbreak of the Battle of Shanghai",
+        "when": "August 1937",
+        "where": "Zhabei and Bazi Bridge, Shanghai",
+        "why": "Revisiting the expansion of the war to Shanghai",
+        "how": "Tracing mobilization and clashes at the beginning of the battle"
+      },
+      "ja": {
+        "who": "中国軍と日本軍",
+        "what": "第二次上海事変の開戦",
+        "when": "1937年8月",
+        "where": "上海の閘北、八字橋",
+        "why": "戦争が上海へ拡大する過程を振り返る",
+        "how": "動員と両軍の衝突から戦いの始まりをたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=gdTvXsK_DOQ",
+    "upload_date": "2020-10-27"
+  },
+  "oEmR88jRAK4": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "雕塑家劉煥章",
+        "what": "返鄉追尋童年與藝術家性格",
+        "when": "離鄉七十多年後",
+        "where": "內蒙古巴里罕",
+        "why": "回訪故鄉與童年記憶",
+        "how": "隨本人返鄉，結合親友及弟子的講述"
+      },
+      "zh-Hans": {
+        "who": "雕塑家刘焕章",
+        "what": "返乡追寻童年与艺术家性格",
+        "when": "离乡七十多年后",
+        "where": "内蒙古巴里罕",
+        "why": "回访故乡与童年记忆",
+        "how": "随本人返乡，结合亲友及弟子的讲述"
+      },
+      "en": {
+        "who": "Sculptor Liu Huanzhang",
+        "what": "A return home, childhood memories and an artist’s character",
+        "when": "More than seventy years after leaving home",
+        "where": "Balihan, Inner Mongolia",
+        "why": "Revisiting his birthplace and childhood",
+        "how": "Following his return and hearing from relatives, friends and students"
+      },
+      "ja": {
+        "who": "彫刻家・劉煥章",
+        "what": "帰郷でたどる幼少期と芸術家の人柄",
+        "when": "故郷を離れて七十年以上後",
+        "where": "内モンゴル・巴里罕",
+        "why": "生まれ故郷と子ども時代を再訪する",
+        "how": "本人の帰郷に同行し親友や弟子の話を聞く"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=oEmR88jRAK4",
+    "upload_date": "2020-07-21"
+  },
+  "i5qFropTMhg": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "聞一多、高孝貞；王小波、李銀河",
+        "what": "兩位文學家的婚戀與伴侶回憶",
+        "when": "1922年、1946年、1997年等",
+        "where": "中國，部分地點未詳",
+        "why": "回顧相愛與失去伴侶的生命經驗",
+        "how": "透過家人與伴侶敘述兩段婚姻"
+      },
+      "zh-Hans": {
+        "who": "闻一多、高孝贞；王小波、李银河",
+        "what": "两位文学家的婚恋与伴侣回忆",
+        "when": "1922年、1946年、1997年等",
+        "where": "中国，部分地点未详",
+        "why": "回顾相爱与失去伴侣的生命经验",
+        "how": "通过家人与伴侣叙述两段婚姻"
+      },
+      "en": {
+        "who": "Wen Yiduo and Gao Xiaozhen; Wang Xiaobo and Li Yinhe",
+        "what": "Two writers’ marriages and their partners’ memories",
+        "when": "Events include 1922, 1946 and 1997",
+        "where": "China; some locations are unspecified",
+        "why": "Revisiting love and the loss of a partner",
+        "how": "Family and partners recount the two marriages"
+      },
+      "ja": {
+        "who": "聞一多と高孝貞、王小波と李銀河",
+        "what": "二人の文学者の結婚と伴侶の記憶",
+        "when": "1922年、1946年、1997年など",
+        "where": "中国。詳しい場所は一部不明",
+        "why": "愛と伴侶を失う経験を振り返る",
+        "how": "家族と伴侶が二つの結婚を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=i5qFropTMhg",
+    "upload_date": "2020-08-22"
+  },
+  "_rt-lqZlZcs": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "清宮升平署及其檔案整理者",
+        "what": "宮廷戲曲演出檔案的保存",
+        "when": "清代；1970至1980年代修復",
+        "where": null,
+        "why": "了解宮廷演出的制度與戲曲資料",
+        "how": "藉諭旨、角色安排、賞賜及劇本檔案追溯"
+      },
+      "zh-Hans": {
+        "who": "清宫升平署及其档案整理者",
+        "what": "宫廷戏曲演出档案的保存",
+        "when": "清代；1970至1980年代修复",
+        "where": null,
+        "why": "了解宫廷演出的制度与戏曲资料",
+        "how": "借谕旨、角色安排、赏赐及剧本档案追溯"
+      },
+      "en": {
+        "who": "The Qing court’s Shengping Office and archive conservators",
+        "what": "Preserving records of court theatrical performances",
+        "when": "The Qing period; restoration in the 1970s–1980s",
+        "where": null,
+        "why": "Understanding court performance administration and theatrical materials",
+        "how": "Examining orders, casting, rewards and scripts in the archive"
+      },
+      "ja": {
+        "who": "清宮の昇平署と資料整理者",
+        "what": "宮廷演劇の公演記録の保存",
+        "when": "清代。1970～1980年代に修復",
+        "where": null,
+        "why": "宮廷公演の制度と演劇資料を知る",
+        "how": "命令、配役、褒賞、脚本の記録をたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=_rt-lqZlZcs",
+    "upload_date": "2020-07-27"
+  },
+  "gxCw8T_uBO4": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "武術人物霍元甲",
+        "what": "死因傳說與武德形象",
+        "when": null,
+        "where": null,
+        "why": "探討死因的不同說法",
+        "how": "說明列出中毒與疾病說，真確性仍待核"
+      },
+      "zh-Hans": {
+        "who": "武术人物霍元甲",
+        "what": "死因传说与武德形象",
+        "when": null,
+        "where": null,
+        "why": "探讨死因的不同说法",
+        "how": "说明列出中毒与疾病说，准确性仍待核"
+      },
+      "en": {
+        "who": "Martial artist Huo Yuanjia",
+        "what": "Accounts of his death and the image of martial virtue",
+        "when": null,
+        "where": null,
+        "why": "Exploring different explanations for his death",
+        "how": "The description presents poisoning and illness accounts; their accuracy remains unverified here"
+      },
+      "ja": {
+        "who": "武術家・霍元甲",
+        "what": "死因の伝承と武徳の人物像",
+        "when": null,
+        "where": null,
+        "why": "死因についての異なる説を考える",
+        "how": "説明には中毒説と病死説があるが、真偽は未検証"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=gxCw8T_uBO4",
+    "upload_date": "2020-08-19"
+  },
+  "RXZCrtgTB5w": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "神經外科醫師凌鋒",
+        "what": "兼顧個體差異與人文的醫學觀點",
+        "when": null,
+        "where": null,
+        "why": "反思將治療簡化為單次介入的限制",
+        "how": "在演講中討論系統醫學與過度干預"
+      },
+      "zh-Hans": {
+        "who": "神经外科医师凌锋",
+        "what": "兼顾个体差异与人文的医学观点",
+        "when": null,
+        "where": null,
+        "why": "反思将治疗简化为单次干预的限制",
+        "how": "在演讲中讨论系统医学与过度干预"
+      },
+      "en": {
+        "who": "Neurosurgeon Ling Feng",
+        "what": "Her view of medicine attentive to individuals and human concerns",
+        "when": null,
+        "where": null,
+        "why": "Questioning the limits of reducing treatment to a single intervention",
+        "how": "A talk about systems medicine and excessive intervention"
+      },
+      "ja": {
+        "who": "脳神経外科医・凌鋒",
+        "what": "個人差と人間性を重視する医学の考え方",
+        "when": null,
+        "where": null,
+        "why": "治療を一度の介入に単純化する限界を問う",
+        "how": "システム医学と過度な介入について講演する"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=RXZCrtgTB5w",
+    "upload_date": "2021-05-08"
+  },
+  "gnE4urBYYGE": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "方知今講述父親方靖",
+        "what": "父親的軍旅與戰俘生活",
+        "when": "1945年後",
+        "where": "四川宜賓、功德林",
+        "why": "回顧軍人與家族在戰爭中的命運",
+        "how": "兒子以親身記憶及父親經歷作口述"
+      },
+      "zh-Hans": {
+        "who": "方知今讲述父亲方靖",
+        "what": "父亲的军旅与战俘生活",
+        "when": "1945年后",
+        "where": "四川宜宾、功德林",
+        "why": "回顾军人与家族在战争中的命运",
+        "how": "儿子以亲身记忆及父亲经历作口述"
+      },
+      "en": {
+        "who": "Fang Zhijin on his father, Fang Jing",
+        "what": "His father’s military career and years as a prisoner of war",
+        "when": "After 1945",
+        "where": "Yibin, Sichuan, and Gongdelin",
+        "why": "Revisiting a soldier’s and family’s fate through war",
+        "how": "A son’s personal memories and account of his father’s experiences"
+      },
+      "ja": {
+        "who": "方知今が父・方靖を語る",
+        "what": "父の軍歴と戦争捕虜としての生活",
+        "when": "1945年以降",
+        "where": "四川の宜賓、功徳林",
+        "why": "戦争の中での軍人と家族の運命を振り返る",
+        "how": "息子の記憶と父の経験による口述"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=gnE4urBYYGE",
+    "upload_date": "2020-08-21"
+  },
+  "OOm7upvgtmk": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "出版人趙潔平與作家王小波",
+        "what": "黃金時代及其他作品的出版波折",
+        "when": "1994年起",
+        "where": null,
+        "why": "趙潔平受到作品思想與文字感染",
+        "how": "本人回述為作品出版四處奔走的經過"
+      },
+      "zh-Hans": {
+        "who": "出版人赵洁平与作家王小波",
+        "what": "黄金时代及其他作品的出版波折",
+        "when": "1994年起",
+        "where": null,
+        "why": "赵洁平受到作品思想与文字感染",
+        "how": "本人回述为作品出版四处奔走的经过"
+      },
+      "en": {
+        "who": "Publisher Zhao Jieping and writer Wang Xiaobo",
+        "what": "Difficulties publishing The Golden Age and other works",
+        "when": "From 1994",
+        "where": null,
+        "why": "Zhao was moved by the ideas and writing",
+        "how": "She recalls working to bring the books into print"
+      },
+      "ja": {
+        "who": "出版人・趙潔平と作家・王小波",
+        "what": "黄金時代などの作品を出版するまでの困難",
+        "when": "1994年以降",
+        "where": null,
+        "why": "趙潔平が作品の思想と文章に心を動かされる",
+        "how": "本人が出版に向けて奔走した経緯を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=OOm7upvgtmk",
+    "upload_date": "2020-07-19"
+  },
+  "xZcpzq7QP7c": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "攝影師杜修賢與作家顧保孜",
+        "what": "中南海照片背後的歷史與個人遭遇",
+        "when": "1966至1969年等",
+        "where": "東南亞、北京、新疆",
+        "why": "透過照片回顧重大歷史時刻",
+        "how": "結合照片與敘述追溯攝影師的經歷"
+      },
+      "zh-Hans": {
+        "who": "摄影师杜修贤与作家顾保孜",
+        "what": "中南海照片背后的历史与个人遭遇",
+        "when": "1966至1969年等",
+        "where": "东南亚、北京、新疆",
+        "why": "通过照片回顾重大历史时刻",
+        "how": "结合照片与叙述追溯摄影师的经历"
+      },
+      "en": {
+        "who": "Photographer Du Xiuxian and writer Gu Baozi",
+        "what": "History and personal experiences behind photographs of Zhongnanhai",
+        "when": "Events include 1966–1969",
+        "where": "Southeast Asia, Beijing and Xinjiang",
+        "why": "Revisiting historical moments through photographs",
+        "how": "Combining images and recollections of the photographer’s experiences"
+      },
+      "ja": {
+        "who": "写真家・杜修賢と作家・顧保孜",
+        "what": "中南海の写真の背後にある歴史と個人の経験",
+        "when": "1966～1969年など",
+        "where": "東南アジア、北京、新疆",
+        "why": "写真から歴史の瞬間を振り返る",
+        "how": "写真と語りで写真家の歩みをたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=xZcpzq7QP7c",
+    "upload_date": "2020-07-16"
+  },
+  "sGbY-hHtEpM": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "維克海灣與維京歷史",
+        "when": null,
+        "where": "挪威維克",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "维克海湾与维京历史",
+        "when": null,
+        "where": "挪威维克",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": null,
+        "what": "Vik’s bay and Viking history",
+        "when": null,
+        "where": "Vik, Norway",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": null,
+        "what": "ヴィークの湾とヴァイキングの歴史",
+        "when": null,
+        "where": "ノルウェー・ヴィーク",
+        "why": null,
+        "how": null
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=sGbY-hHtEpM",
+    "upload_date": "2022-12-31"
+  },
+  "6VBB48c3Rio": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "中日雙方參戰部隊",
+        "what": "淞滬會戰的規模與戰爭代價",
+        "when": "1937年，歷時約三個月",
+        "where": "上海",
+        "why": "回顧大規模會戰帶來的傷亡",
+        "how": "從兵力投入與戰役經過描述衝突"
+      },
+      "zh-Hans": {
+        "who": "中日双方参战部队",
+        "what": "淞沪会战的规模与战争代价",
+        "when": "1937年，历时约三个月",
+        "where": "上海",
+        "why": "回顾大规模会战带来的伤亡",
+        "how": "从兵力投入与战役经过描述冲突"
+      },
+      "en": {
+        "who": "Chinese and Japanese forces",
+        "what": "The scale and human cost of the Battle of Shanghai",
+        "when": "1937, over roughly three months",
+        "where": "Shanghai",
+        "why": "Revisiting the losses caused by a major battle",
+        "how": "Describing the conflict through troop commitments and the course of fighting"
+      },
+      "ja": {
+        "who": "中国軍と日本軍",
+        "what": "第二次上海事変の規模と戦争の代償",
+        "when": "1937年、約三か月間",
+        "where": "上海",
+        "why": "大規模な戦闘による犠牲を振り返る",
+        "how": "投入兵力と戦闘の経過から描く"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=6VBB48c3Rio",
+    "upload_date": "2020-11-04"
+  },
+  "alWvlEeFJj8": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "乒乓球運動員、教練蔡振華",
+        "what": "從球員到國家隊教練的轉變",
+        "when": "約2000年，官方說明所述拍攝期",
+        "where": "中國乒乓球隊",
+        "why": "帶領隊伍重振成績",
+        "how": "本人回述運動員生涯與執教經歷"
+      },
+      "zh-Hans": {
+        "who": "乒乓球运动员、教练蔡振华",
+        "what": "从球员到国家队教练的转变",
+        "when": "约2000年，官方说明所述拍摄期",
+        "where": "中国乒乓球队",
+        "why": "带领队伍重振成绩",
+        "how": "本人回述运动员生涯与执教经历"
+      },
+      "en": {
+        "who": "Table-tennis player and coach Cai Zhenhua",
+        "what": "The transition from player to national-team coach",
+        "when": "Around 2000, the filming period stated in the official description",
+        "where": "China’s table-tennis team",
+        "why": "Helping the team recover its competitive standing",
+        "how": "His account of playing and coaching"
+      },
+      "ja": {
+        "who": "卓球選手・指導者の蔡振華",
+        "what": "選手から代表チームの指導者への転身",
+        "when": "公式説明の撮影時期は2000年前後",
+        "where": "中国卓球代表チーム",
+        "why": "チームの成績を立て直す",
+        "how": "本人が選手生活と指導の経験を回想"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=alWvlEeFJj8",
+    "upload_date": "2020-07-28"
+  },
+  "BY5L2sspW3g": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "佘幼芝、焦立江；周鐵男、呂玉萍",
+        "what": "守墓與收藏周恩來資料的家庭故事",
+        "when": null,
+        "where": "北京東花市為守墓故事地點",
+        "why": "理解與支持伴侶的長期堅持",
+        "how": "前者維護祠墓，後者相伴收藏"
+      },
+      "zh-Hans": {
+        "who": "佘幼芝、焦立江；周铁男、吕玉萍",
+        "what": "守墓与收藏周恩来资料的家庭故事",
+        "when": null,
+        "where": "北京东花市为守墓故事地点",
+        "why": "理解与支持伴侣的长期坚持",
+        "how": "前者维护祠墓，后者相伴收藏"
+      },
+      "en": {
+        "who": "She Youzhi and Jiao Lijiang; Zhou Tienan and Lü Yuping",
+        "what": "Family stories of tending a tomb and collecting Zhou Enlai materials",
+        "when": null,
+        "where": "The tomb-keeping story takes place in Donghuashi, Beijing",
+        "why": "Understanding and supporting a partner’s lasting commitment",
+        "how": "One couple preserve a shrine and tomb; the other share a collecting life"
+      },
+      "ja": {
+        "who": "佘幼芝と焦立江、周鉄男と呂玉萍",
+        "what": "墓守と周恩来資料の収集をめぐる家庭の物語",
+        "when": null,
+        "where": "墓守の舞台は北京の東花市",
+        "why": "伴侶の長年の思いを理解し支える",
+        "how": "前者は廟と墓を守り、後者は収集を共にする"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=BY5L2sspW3g",
+    "upload_date": "2020-08-29"
+  },
+  "hEmpJ7flwKw": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "老北京城門與牌樓的消失和記憶",
+        "when": null,
+        "where": "北京",
+        "why": "追尋城市變遷中留下的故事",
+        "how": "透過國家圖書館收藏的地圖與歷史照片"
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "老北京城门与牌楼的消失和记忆",
+        "when": null,
+        "where": "北京",
+        "why": "追寻城市变迁中留下的故事",
+        "how": "通过国家图书馆收藏的地图与历史照片"
+      },
+      "en": {
+        "who": null,
+        "what": "Lost gates and ceremonial arches of old Beijing",
+        "when": null,
+        "where": "Beijing",
+        "why": "Tracing stories left by urban change",
+        "how": "Using maps and historical photographs held by the National Library"
+      },
+      "ja": {
+        "who": null,
+        "what": "古い北京の城門と牌楼、その消失と記憶",
+        "when": null,
+        "where": "北京",
+        "why": "都市の変化に残された物語をたどる",
+        "how": "国家図書館所蔵の地図と歴史写真を通して"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=hEmpJ7flwKw",
+    "upload_date": "2020-08-03"
+  },
+  "ji_Rn790hTk": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "浦江鄭氏家族",
+        "what": "江南第一家的家族生活與家規",
+        "when": "宋、元、明時期",
+        "where": "浙江浦江",
+        "why": "了解大家族共同生活的制度",
+        "how": "透過族譜記載與鄭氏規範介紹家族故事"
+      },
+      "zh-Hans": {
+        "who": "浦江郑氏家族",
+        "what": "江南第一家的家族生活与家规",
+        "when": "宋、元、明时期",
+        "where": "浙江浦江",
+        "why": "了解大家族共同生活的制度",
+        "how": "通过族谱记载与郑氏规范介绍家族故事"
+      },
+      "en": {
+        "who": "The Zheng family of Pujiang",
+        "what": "Family life and household rules of the celebrated clan",
+        "when": "The Song, Yuan and Ming periods",
+        "where": "Pujiang, Zhejiang",
+        "why": "Understanding arrangements for communal family life",
+        "how": "Introducing the family through genealogy accounts and the Zheng household rules"
+      },
+      "ja": {
+        "who": "浦江の鄭氏一族",
+        "what": "江南第一家と呼ばれた一族の暮らしと家訓",
+        "when": "宋、元、明の時代",
+        "where": "浙江省浦江",
+        "why": "大家族の共同生活の仕組みを知る",
+        "how": "族譜の記述と鄭氏規範から一族を紹介"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=ji_Rn790hTk",
+    "upload_date": "2020-08-26"
+  },
+  "CoUCVUgOmh0": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "食品科學與營養學者李再貴",
+        "what": "講者對膳食纖維與雜糧的看法",
+        "when": null,
+        "where": null,
+        "why": "介紹膳食與食品加工的研究議題",
+        "how": "以公開演講分享研究與主張"
+      },
+      "zh-Hans": {
+        "who": "食品科学与营养学者李再贵",
+        "what": "讲者对膳食纤维与杂粮的看法",
+        "when": null,
+        "where": null,
+        "why": "介绍膳食与食品加工的研究议题",
+        "how": "以公开演讲分享研究与主张"
+      },
+      "en": {
+        "who": "Food science and nutrition scholar Li Zaigui",
+        "what": "The speaker’s views on dietary fibre and coarse grains",
+        "when": null,
+        "where": null,
+        "why": "Introducing questions in diet and food-processing research",
+        "how": "Sharing research and proposals in a public talk"
+      },
+      "ja": {
+        "who": "食品科学・栄養学者の李再貴",
+        "what": "食物繊維と雑穀についての講者の見解",
+        "when": null,
+        "where": null,
+        "why": "食事と食品加工の研究課題を紹介する",
+        "how": "公開講演で研究と考えを語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=CoUCVUgOmh0",
+    "upload_date": "2021-05-01"
+  },
+  "jO2lof6YI2w": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "費宗惠講述父親費孝通",
+        "what": "社會學研究與政治遭遇",
+        "when": "1936年、1957年及文革時期",
+        "where": "江蘇開弦弓村等",
+        "why": "回顧學者的研究與家庭記憶",
+        "how": "女兒口述父親的人生經歷"
+      },
+      "zh-Hans": {
+        "who": "费宗惠讲述父亲费孝通",
+        "what": "社会学研究与政治遭遇",
+        "when": "1936年、1957年及文革时期",
+        "where": "江苏开弦弓村等",
+        "why": "回顾学者的研究与家庭记忆",
+        "how": "女儿口述父亲的人生经历"
+      },
+      "en": {
+        "who": "Fei Zonghui on her father, Fei Xiaotong",
+        "what": "Sociological research and political experiences",
+        "when": "1936, 1957 and the Cultural Revolution",
+        "where": "Kaixiangong village, Jiangsu, and other locations",
+        "why": "Revisiting a scholar’s research and family memories",
+        "how": "A daughter’s account of her father’s life"
+      },
+      "ja": {
+        "who": "費宗惠が父・費孝通を語る",
+        "what": "社会学の研究と政治的経験",
+        "when": "1936年、1957年、文化大革命期",
+        "where": "江蘇省開弦弓村など",
+        "why": "学者の研究と家族の記憶を振り返る",
+        "how": "娘が父の人生を口述する"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=jO2lof6YI2w",
+    "upload_date": "2020-08-28"
+  },
+  "lc0oWtkpocc": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "史樹青",
+        "what": "琉璃廠老店與童年文化記憶",
+        "when": "1935年起的回憶",
+        "where": "北京琉璃廠",
+        "why": "保存老北京書畫古玩市場的記憶",
+        "how": "本人講述書局、筆莊與榮寶齋等老店"
+      },
+      "zh-Hans": {
+        "who": "史树青",
+        "what": "琉璃厂老店与童年文化记忆",
+        "when": "1935年起的回忆",
+        "where": "北京琉璃厂",
+        "why": "保存老北京书画古玩市场的记忆",
+        "how": "本人讲述书局、笔庄与荣宝斋等老店"
+      },
+      "en": {
+        "who": "Shi Shuqing",
+        "what": "Old shops of Liulichang and childhood cultural memories",
+        "when": "Recollections beginning in 1935",
+        "where": "Liulichang, Beijing",
+        "why": "Preserving memories of the book and antiques district",
+        "how": "His account of publishers, brush shops and Rongbaozhai"
+      },
+      "ja": {
+        "who": "史樹青",
+        "what": "琉璃廠の老舗と幼少期の文化的記憶",
+        "when": "1935年からの回想",
+        "where": "北京の琉璃廠",
+        "why": "書画や骨董の街の記憶を残す",
+        "how": "書店、筆店、栄宝斎などの老舗を本人が語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=lc0oWtkpocc",
+    "upload_date": "2020-07-22"
+  },
+  "gMEJ7Aesszc": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "攝影師杜修賢",
+        "what": "中南海攝影與周恩來的影像記憶",
+        "when": "1970年代",
+        "where": "北京中南海",
+        "why": "回顧重要照片背後的個人經歷",
+        "how": "講述拍攝、選編與保存照片的故事"
+      },
+      "zh-Hans": {
+        "who": "摄影师杜修贤",
+        "what": "中南海摄影与周恩来的影像记忆",
+        "when": "1970年代",
+        "where": "北京中南海",
+        "why": "回顾重要照片背后的个人经历",
+        "how": "讲述拍摄、选编与保存照片的故事"
+      },
+      "en": {
+        "who": "Photographer Du Xiuxian",
+        "what": "Photography in Zhongnanhai and images of Zhou Enlai",
+        "when": "The 1970s",
+        "where": "Zhongnanhai, Beijing",
+        "why": "Revisiting personal experiences behind historical photographs",
+        "how": "Recounting the making, selection and preservation of photographs"
+      },
+      "ja": {
+        "who": "写真家・杜修賢",
+        "what": "中南海での撮影と周恩来の写真の記憶",
+        "when": "1970年代",
+        "where": "北京の中南海",
+        "why": "歴史写真の背後の個人の経験を振り返る",
+        "how": "撮影、写真の選定と保存の物語を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=gMEJ7Aesszc",
+    "upload_date": "2020-07-21"
+  },
+  "5z_XAdaKhBE": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "卑爾根布呂根碼頭與魚市",
+        "when": null,
+        "where": "挪威卑爾根",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "卑尔根布吕根码头与鱼市",
+        "when": null,
+        "where": "挪威卑尔根",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": null,
+        "what": "Bryggen wharf and the fish market in Bergen",
+        "when": null,
+        "where": "Bergen, Norway",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": null,
+        "what": "ベルゲンのブリッゲン埠頭と魚市場",
+        "when": null,
+        "where": "ノルウェー・ベルゲン",
+        "why": null,
+        "how": null
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=5z_XAdaKhBE",
+    "upload_date": "2023-01-01"
+  },
+  "tJgUQhFDrHU": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "中日雙方參戰部隊",
+        "what": "南京保衛戰",
+        "when": "淞滬會戰之後",
+        "where": "上海至南京",
+        "why": "回顧戰事從上海延伸至南京的過程",
+        "how": "從日軍推進與南京防禦追述戰役"
+      },
+      "zh-Hans": {
+        "who": "中日双方参战部队",
+        "what": "南京保卫战",
+        "when": "淞沪会战之后",
+        "where": "上海至南京",
+        "why": "回顾战事从上海延伸至南京的过程",
+        "how": "从日军推进与南京防御追述战役"
+      },
+      "en": {
+        "who": "Chinese and Japanese forces",
+        "what": "The defence of Nanjing",
+        "when": "Following the Battle of Shanghai",
+        "where": "From Shanghai to Nanjing",
+        "why": "Revisiting the extension of the fighting toward Nanjing",
+        "how": "Tracing the Japanese advance and the city’s defence"
+      },
+      "ja": {
+        "who": "中国軍と日本軍",
+        "what": "南京防衛戦",
+        "when": "上海での戦闘の後",
+        "where": "上海から南京へ",
+        "why": "戦闘が南京へ広がる過程を振り返る",
+        "how": "日本軍の進軍と南京の防衛から戦いをたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=tJgUQhFDrHU",
+    "upload_date": "2020-11-11"
+  },
+  "OfZnuC2Nzcg": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "奇石收藏家李廣嶺",
+        "what": "收藏奇石與捐贈恐龍蛋化石",
+        "when": "1991年開始收藏奇石",
+        "where": "河南西峽、北京等",
+        "why": "介紹收藏興趣與化石保存",
+        "how": "回述從謀生、經商到收藏和捐贈的經歷"
+      },
+      "zh-Hans": {
+        "who": "奇石收藏家李广岭",
+        "what": "收藏奇石与捐赠恐龙蛋化石",
+        "when": "1991年开始收藏奇石",
+        "where": "河南西峡、北京等",
+        "why": "介绍收藏兴趣与化石保存",
+        "how": "回述从谋生、经商到收藏和捐赠的经历"
+      },
+      "en": {
+        "who": "Stone collector Li Guangling",
+        "what": "Collecting ornamental stones and donating dinosaur-egg fossils",
+        "when": "Stone collecting began in 1991",
+        "where": "Xixia, Henan, Beijing and other locations",
+        "why": "Exploring collecting interests and fossil preservation",
+        "how": "Recounting a path from earning a living and trading to collecting and donation"
+      },
+      "ja": {
+        "who": "奇石収集家の李広嶺",
+        "what": "奇石の収集と恐竜の卵の化石の寄贈",
+        "when": "1991年に奇石収集を開始",
+        "where": "河南省西峡、北京など",
+        "why": "収集への関心と化石保存を紹介",
+        "how": "生計、商売から収集と寄贈へ至る経験を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=OfZnuC2Nzcg",
+    "upload_date": "2020-08-02"
+  },
+  "xapqwV-HIDg": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "廖靜文講述丈夫徐悲鴻",
+        "what": "相識、婚姻與家庭壓力",
+        "when": "兩人相識後至1953年",
+        "where": null,
+        "why": "回顧伴侶關係中的選擇與困難",
+        "how": "廖靜文口述共同生活的經歷"
+      },
+      "zh-Hans": {
+        "who": "廖静文讲述丈夫徐悲鸿",
+        "what": "相识、婚姻与家庭压力",
+        "when": "两人相识后至1953年",
+        "where": null,
+        "why": "回顾伴侣关系中的选择与困难",
+        "how": "廖静文口述共同生活的经历"
+      },
+      "en": {
+        "who": "Liao Jingwen on her husband, Xu Beihong",
+        "what": "Meeting, marriage and family pressures",
+        "when": "From their meeting through 1953",
+        "where": null,
+        "why": "Revisiting choices and difficulties in their relationship",
+        "how": "Liao’s recollections of their shared life"
+      },
+      "ja": {
+        "who": "廖静文が夫・徐悲鴻を語る",
+        "what": "出会い、結婚と家庭の重圧",
+        "when": "出会いから1953年まで",
+        "where": null,
+        "why": "夫婦関係での選択と困難を振り返る",
+        "how": "廖静文が共に暮らした経験を口述"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=xapqwV-HIDg",
+    "upload_date": "2020-09-05"
+  },
+  "vF6aY83sL_0": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "歷代刻經僧侶",
+        "what": "房山石經的刻製與保存",
+        "when": "隋唐以來",
+        "where": "房山石經山",
+        "why": "了解佛教經典以石刻流傳的歷史",
+        "how": "追尋山中洞穴所藏經板的故事"
+      },
+      "zh-Hans": {
+        "who": "历代刻经僧侣",
+        "what": "房山石经的刻制与保存",
+        "when": "隋唐以来",
+        "where": "房山石经山",
+        "why": "了解佛教经典以石刻流传的历史",
+        "how": "追寻山中洞穴所藏经板的故事"
+      },
+      "en": {
+        "who": "Generations of monks who carved scriptures",
+        "what": "The carving and preservation of the Fangshan stone scriptures",
+        "when": "From the Sui and Tang periods onward",
+        "where": "Shijingshan, Fangshan",
+        "why": "Understanding the transmission of Buddhist texts through stone inscriptions",
+        "how": "Tracing the story of scripture slabs stored in mountain caves"
+      },
+      "ja": {
+        "who": "歴代の刻経に携わった僧侶",
+        "what": "房山石経の制作と保存",
+        "when": "隋唐時代以降",
+        "where": "房山の石経山",
+        "why": "石刻による仏典の継承を知る",
+        "how": "山の洞窟に収められた経板の物語をたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=vF6aY83sL_0",
+    "upload_date": "2020-08-10"
+  },
+  "j8Jcz8C-gFQ": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "楊柳青年畫霍氏家族",
+        "what": "年畫技藝與家族命運",
+        "when": "清光緒年間起",
+        "where": "天津楊柳青鎮",
+        "why": "了解民間藝術與家族生活的連結",
+        "how": "從霍福森遷居習畫追述世代傳承"
+      },
+      "zh-Hans": {
+        "who": "杨柳青年画霍氏家族",
+        "what": "年画技艺与家族命运",
+        "when": "清光绪年间起",
+        "where": "天津杨柳青镇",
+        "why": "了解民间艺术与家族生活的联系",
+        "how": "从霍福森迁居习画追述世代传承"
+      },
+      "en": {
+        "who": "The Huo family of Yangliuqing New Year print makers",
+        "what": "Print-making skills and the family’s fortunes",
+        "when": "From the Qing Guangxu reign onward",
+        "where": "Yangliuqing, Tianjin",
+        "why": "Understanding connections between folk art and family life",
+        "how": "Tracing generations of practice from Huo Fusen’s move to the town"
+      },
+      "ja": {
+        "who": "楊柳青年画を作る霍氏一族",
+        "what": "年画の技と家族の運命",
+        "when": "清の光緒年間以降",
+        "where": "天津の楊柳青鎮",
+        "why": "民間芸術と家族の暮らしのつながりを知る",
+        "how": "霍福森の移住から世代を超えた継承をたどる"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=j8Jcz8C-gFQ",
+    "upload_date": "2020-09-02"
+  },
+  "hbEUldSq_V4": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "善醫行公益項目創始人劉鳳梅",
+        "what": "鄉村醫生的培訓與職業環境",
+        "when": null,
+        "where": "鄉村，具體地點未載明",
+        "why": "呼籲改善基層醫療工作者的成長條件",
+        "how": "在演講中分享公益項目的經驗與主張"
+      },
+      "zh-Hans": {
+        "who": "善医行公益项目创始人刘凤梅",
+        "what": "乡村医生的培训与职业环境",
+        "when": null,
+        "where": "乡村，具体地点未载明",
+        "why": "呼吁改善基层医疗工作者的成长条件",
+        "how": "在演讲中分享公益项目的经验与主张"
+      },
+      "en": {
+        "who": "Liu Fengmei, founder of the Shanyixing charitable project",
+        "what": "Training and working conditions for village doctors",
+        "when": null,
+        "where": "Rural communities; exact locations are unspecified",
+        "why": "Calling for better conditions for primary-care workers’ development",
+        "how": "Sharing the project’s experience and proposals in a talk"
+      },
+      "ja": {
+        "who": "善医行公益事業の創設者・劉鳳梅",
+        "what": "村の医師の研修と職場環境",
+        "when": null,
+        "where": "農村。詳しい場所は不明",
+        "why": "地域医療の担い手の成長条件の改善を訴える",
+        "how": "講演で公益事業の経験と考えを語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=hbEUldSq_V4",
+    "upload_date": "2021-04-24"
+  },
+  "iJbGA7MgS-g": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "韓子華講述父親韓復榘",
+        "what": "山東軍政生涯與家族回憶",
+        "when": "1930至1938年",
+        "where": "山東濟南等",
+        "why": "從家人視角回顧戰爭中的人物命運",
+        "how": "兒子口述父親任職及後來遭遇"
+      },
+      "zh-Hans": {
+        "who": "韩子华讲述父亲韩复榘",
+        "what": "山东军政生涯与家族回忆",
+        "when": "1930至1938年",
+        "where": "山东济南等",
+        "why": "从家人视角回顾战争中的人物命运",
+        "how": "儿子口述父亲任职及后来遭遇"
+      },
+      "en": {
+        "who": "Han Zihua on his father, Han Fuju",
+        "what": "A military and political career in Shandong and family memories",
+        "when": "1930–1938",
+        "where": "Jinan, Shandong, and other locations",
+        "why": "Revisiting a wartime life from a family perspective",
+        "how": "A son recounts his father’s service and later experiences"
+      },
+      "ja": {
+        "who": "韓子華が父・韓復榘を語る",
+        "what": "山東での軍政の経歴と家族の記憶",
+        "when": "1930～1938年",
+        "where": "山東省済南など",
+        "why": "家族の視点で戦時の人物の運命を振り返る",
+        "how": "息子が父の任務とその後の経験を口述"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=iJbGA7MgS-g",
+    "upload_date": "2020-09-04"
+  },
+  "zgtJ-O4FI18": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "編輯張世林講述季羨林",
+        "what": "病榻雜記的編輯與忘年之交",
+        "when": "2001年起寫作，2007年出版",
+        "where": null,
+        "why": "回顧病中寫作與作者的自我定位",
+        "how": "責任編輯分享交往及編輯經驗"
+      },
+      "zh-Hans": {
+        "who": "编辑张世林讲述季羡林",
+        "what": "病榻杂记的编辑与忘年之交",
+        "when": "2001年起写作，2007年出版",
+        "where": null,
+        "why": "回顾病中写作与作者的自我定位",
+        "how": "责任编辑分享交往及编辑经验"
+      },
+      "en": {
+        "who": "Editor Zhang Shilin on Ji Xianlin",
+        "what": "Editing Notes from a Sickbed and a friendship across generations",
+        "when": "Writing from 2001; publication in 2007",
+        "where": null,
+        "why": "Revisiting writing during illness and the author’s view of himself",
+        "how": "The editor shares memories of their friendship and work"
+      },
+      "ja": {
+        "who": "編集者・張世林が季羨林を語る",
+        "what": "病榻雑記の編集と世代を超えた友情",
+        "when": "2001年以降の執筆、2007年刊行",
+        "where": null,
+        "why": "病中の執筆と著者の自己認識を振り返る",
+        "how": "担当編集者が交流と編集の経験を語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=zgtJ-O4FI18",
+    "upload_date": "2020-07-26"
+  },
+  "-sVu9fYBU0Q": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "外交家柴澤民",
+        "what": "貧困少年時期與早年政治活動",
+        "when": "1930年代",
+        "where": "山西聞喜",
+        "why": "回顧青年時期離鄉的經歷",
+        "how": "本人講述加入政治團體與逃亡的記憶"
+      },
+      "zh-Hans": {
+        "who": "外交家柴泽民",
+        "what": "贫困少年时期与早年政治活动",
+        "when": "1930年代",
+        "where": "山西闻喜",
+        "why": "回顾青年时期离乡的经历",
+        "how": "本人讲述加入政治团体与逃亡的记忆"
+      },
+      "en": {
+        "who": "Diplomat Chai Zemin",
+        "what": "An impoverished youth and early political activity",
+        "when": "The 1930s",
+        "where": "Wenxi, Shanxi",
+        "why": "Revisiting his departure from home as a young man",
+        "how": "His memories of joining political groups and going into hiding"
+      },
+      "ja": {
+        "who": "外交官・柴沢民",
+        "what": "貧しい少年時代と初期の政治活動",
+        "when": "1930年代",
+        "where": "山西省聞喜",
+        "why": "青年期に故郷を離れた経験を振り返る",
+        "how": "政治団体への参加と逃亡の記憶を本人が語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=-sVu9fYBU0Q",
+    "upload_date": "2020-07-25"
+  },
+  "Ura7mujvBTw": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "馬賽人",
+        "what": "探訪東非草原的馬賽人部落",
+        "when": null,
+        "where": "坦桑尼亞恩戈羅恩戈羅",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": "马赛人",
+        "what": "探访东非草原的马赛人部落",
+        "when": null,
+        "where": "坦桑尼亚恩戈罗恩戈罗",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": "Maasai people",
+        "what": "Visiting a Maasai community on the East African plains",
+        "when": null,
+        "where": "Ngorongoro, Tanzania",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": "マサイの人々",
+        "what": "東アフリカの草原でマサイの集落を訪ねる",
+        "when": null,
+        "where": "タンザニア・ンゴロンゴロ",
+        "why": null,
+        "how": null
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=Ura7mujvBTw",
+    "upload_date": "2023-01-03"
+  },
+  "jBLYJ7T1fGs": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "紫砂陶藝家許四海",
+        "what": "製壺、收藏與創業的人生",
+        "when": null,
+        "where": null,
+        "why": "回顧手藝與個人選擇的關係",
+        "how": "本人講述從謀生到陶藝、經商及建館的經歷"
+      },
+      "zh-Hans": {
+        "who": "紫砂陶艺家许四海",
+        "what": "制壶、收藏与创业的人生",
+        "when": null,
+        "where": null,
+        "why": "回顾手艺与个人选择的关系",
+        "how": "本人讲述从谋生到陶艺、经商及建馆的经历"
+      },
+      "en": {
+        "who": "Zisha ceramic artist Xu Sihai",
+        "what": "A life of teapot making, collecting and enterprise",
+        "when": null,
+        "where": null,
+        "why": "Revisiting the relationship between craft and personal choices",
+        "how": "His account of earning a living, ceramics, business and creating a museum"
+      },
+      "ja": {
+        "who": "紫砂陶芸家・許四海",
+        "what": "急須作り、収集と事業の人生",
+        "when": null,
+        "where": null,
+        "why": "手仕事と個人の選択の関係を振り返る",
+        "how": "生計から陶芸、商売、博物館作りまでを本人が語る"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=jBLYJ7T1fGs",
+    "upload_date": "2020-08-04"
+  },
+  "X2mf3VEt_xA": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "民歌歌手王向榮與妻子張巧",
+        "what": "包辦婚姻與成名後的家庭隔閡",
+        "when": "少年訂婚、成年結婚及其後",
+        "where": null,
+        "why": "回顧傳統責任與個人情感的衝突",
+        "how": "透過夫妻的婚姻故事呈現家庭困境"
+      },
+      "zh-Hans": {
+        "who": "民歌歌手王向荣与妻子张巧",
+        "what": "包办婚姻与成名后的家庭隔阂",
+        "when": "少年订婚、成年结婚及其后",
+        "where": null,
+        "why": "回顾传统责任与个人情感的冲突",
+        "how": "通过夫妻的婚姻故事呈现家庭困境"
+      },
+      "en": {
+        "who": "Folk singer Wang Xiangrong and his wife, Zhang Qiao",
+        "what": "An arranged marriage and family distance after fame",
+        "when": "A youthful betrothal, adult marriage and the years afterward",
+        "where": null,
+        "why": "Revisiting tensions between traditional duties and personal feelings",
+        "how": "Exploring family difficulties through the couple’s marriage story"
+      },
+      "ja": {
+        "who": "民謡歌手・王向栄と妻・張巧",
+        "what": "親が決めた結婚と名声を得た後の家族の隔たり",
+        "when": "少年期の婚約、成人後の結婚とその後",
+        "where": null,
+        "why": "伝統的な責任と個人の感情の衝突を振り返る",
+        "how": "夫婦の物語を通して家庭の困難を描く"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=X2mf3VEt_xA",
+    "upload_date": "2020-09-11"
+  },
+  "V7Mur6WBFMc": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "雷峰塔經卷與白蛇傳說",
+        "when": "1924年雷峰塔倒塌後發現經卷",
+        "where": "杭州西湖雷峰塔",
+        "why": "追尋塔中佛教經卷的來歷",
+        "how": "由白蛇傳說轉向塔內出土經卷的故事"
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "雷峰塔经卷与白蛇传说",
+        "when": "1924年雷峰塔倒塌后发现经卷",
+        "where": "杭州西湖雷峰塔",
+        "why": "追寻塔中佛教经卷的来历",
+        "how": "由白蛇传说转向塔内出土经卷的故事"
+      },
+      "en": {
+        "who": null,
+        "what": "Leifeng Pagoda scriptures and the White Snake legend",
+        "when": "Scriptures were found after the pagoda collapsed in 1924",
+        "where": "Leifeng Pagoda, West Lake, Hangzhou",
+        "why": "Tracing the origins of Buddhist scrolls in the pagoda",
+        "how": "Moving from the legend to the story of the discovered scriptures"
+      },
+      "ja": {
+        "who": null,
+        "what": "雷峰塔の経巻と白蛇伝説",
+        "when": "1924年の塔の倒壊後に経巻を発見",
+        "where": "杭州西湖の雷峰塔",
+        "why": "塔にあった仏教経巻の由来をたどる",
+        "how": "白蛇伝説から発見された経巻の物語へ"
+      }
+    },
+    "reference": null,
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=V7Mur6WBFMc",
+    "upload_date": "2020-08-17"
   }
 }
