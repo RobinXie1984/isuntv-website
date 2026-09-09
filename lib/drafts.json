@@ -1180,7 +1180,10 @@
     "source": "https://www.youtube.com/watch?v=SITX3nh6WkA",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-06-30"
+    "upload_date": "2020-06-30",
+    "people": [
+      "lin-zhaohua"
+    ]
   },
   "V0WPawFfKVo": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2075,7 +2078,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=DW7yed229nY",
-    "upload_date": "2020-08-01"
+    "upload_date": "2020-08-01",
+    "people": [
+      "chen-jingrun"
+    ]
   },
   "VlM5R5GA64Y": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2807,7 +2813,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=uSrecY2etHI",
-    "upload_date": "2020-08-07"
+    "upload_date": "2020-08-07",
+    "people": [
+      "fan-changjiang"
+    ]
   },
   "lF4e2l5JRcI": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -3275,7 +3284,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=bGpS8oqOiwo",
-    "upload_date": "2020-08-15"
+    "upload_date": "2020-08-15",
+    "people": [
+      "fan-changjiang"
+    ]
   },
   "H-H7SV5B8SU": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -3491,7 +3503,11 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=i5qFropTMhg",
-    "upload_date": "2020-08-22"
+    "upload_date": "2020-08-22",
+    "people": [
+      "wen-yiduo",
+      "wang-xiaobo"
+    ]
   },
   "_rt-lqZlZcs": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -3704,7 +3720,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=OOm7upvgtmk",
-    "upload_date": "2020-07-19"
+    "upload_date": "2020-07-19",
+    "people": [
+      "wang-xiaobo"
+    ]
   },
   "xZcpzq7QP7c": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -4340,7 +4359,11 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=xapqwV-HIDg",
-    "upload_date": "2020-09-05"
+    "upload_date": "2020-09-05",
+    "people": [
+      "liao-jingwen",
+      "xu-beihong"
+    ]
   },
   "vF6aY83sL_0": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -4595,7 +4618,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=-sVu9fYBU0Q",
-    "upload_date": "2020-07-25"
+    "upload_date": "2020-07-25",
+    "people": [
+      "chai-zemin"
+    ]
   },
   "Ura7mujvBTw": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -4801,7 +4827,9 @@
         "how": "看護、従軍、遊撃隊組織の記憶を本人が語る"
       }
     },
-    "people": [],
+    "people": [
+      "chai-zemin"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -5322,7 +5350,9 @@
         "how": "幼少期から書き始めるまでの経験をたどる"
       }
     },
-    "people": [],
+    "people": [
+      "deng-xian"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -5365,7 +5395,9 @@
         "how": "渡米交渉と国交樹立前後の経験を本人が語る"
       }
     },
-    "people": [],
+    "people": [
+      "chai-zemin"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",

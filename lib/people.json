@@ -372,5 +372,104 @@
     "url": "https://www.chinawriter.com.cn/xdzj/700.shtml",
     "sourceLanguage": "zh-Hans",
     "publisher": "中國作家網"
+  },
+  "chai-zemin": {
+    "name": {
+      "zh-Hant": "柴澤民",
+      "zh-Hans": "柴泽民",
+      "en": "Chai Zemin",
+      "ja": "柴沢民"
+    },
+    "url": "https://us.china-embassy.gov.cn/chn/zmgx_1/lrzmds/201006/t20100602_5060575.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國駐美國大使館"
+  },
+  "chen-jingrun": {
+    "name": {
+      "zh-Hant": "陳景潤",
+      "zh-Hans": "陈景润",
+      "en": "Chen Jingrun",
+      "ja": "陳景潤"
+    },
+    "url": "https://www.cas.cn/xzfc/202507/t20250725_5077687.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國科學院"
+  },
+  "wen-yiduo": {
+    "name": {
+      "zh-Hant": "聞一多",
+      "zh-Hans": "闻一多",
+      "en": "Wen Yiduo",
+      "ja": "聞一多"
+    },
+    "url": "https://www.tsinghua.edu.cn/info/2785/96826.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "清華大學"
+  },
+  "deng-xian": {
+    "name": {
+      "zh-Hant": "鄧賢",
+      "zh-Hans": "邓贤",
+      "en": "Deng Xian",
+      "ja": "鄧賢"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404931-28487289.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網"
+  },
+  "fan-changjiang": {
+    "name": {
+      "zh-Hant": "范長江",
+      "zh-Hans": "范长江",
+      "en": "Fan Changjiang",
+      "ja": "范長江"
+    },
+    "url": "https://www.xinhuanet.com/zgjx/2019-03/19/c_137904775.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國記協網"
+  },
+  "liao-jingwen": {
+    "name": {
+      "zh-Hant": "廖靜文",
+      "zh-Hans": "廖静文",
+      "en": "Liao Jingwen",
+      "ja": "廖静文"
+    },
+    "url": "https://wwj.beijing.gov.cn/bjww/362679/362680/482911/599987/index.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "北京市文物局"
+  },
+  "xu-beihong": {
+    "name": {
+      "zh-Hant": "徐悲鴻",
+      "zh-Hans": "徐悲鸿",
+      "en": "Xu Beihong",
+      "ja": "徐悲鴻"
+    },
+    "url": "https://www.beijing.gov.cn/tsbj/rwjg/tushuomingrenguju/202406/t20240619_3720574.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "徐悲鴻紀念館・首都之窗"
+  },
+  "lin-zhaohua": {
+    "name": {
+      "zh-Hant": "林兆華",
+      "zh-Hans": "林兆华",
+      "en": "Lin Zhaohua",
+      "ja": "林兆華"
+    },
+    "url": "https://www.thepaper.cn/asktopic_detail_10010258",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "澎湃新聞・問吧"
+  },
+  "wang-xiaobo": {
+    "name": {
+      "zh-Hant": "王小波",
+      "zh-Hans": "王小波",
+      "en": "Wang Xiaobo",
+      "ja": "王小波"
+    },
+    "url": "https://www.cuhk.edu.hk/ics/21c/media/articles/c042-199706023.pdf",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "香港中文大學《二十一世紀》（PDF）"
   }
 }
