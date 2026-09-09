@@ -38,6 +38,7 @@ export function Catalogue({ locale }: { locale: Locale }) {
                 src="https://i.ytimg.com/vi/anL-lcfB2y0/hqdefault.jpg?sqp=-oaymwEiCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCbMy7FbPjYvbTDB0VzZV5m1MV0rA"
                 width="336"
                 height="188"
+                fetchPriority="high"
                 alt={t.featureDesc}
               />
               <span className="play">

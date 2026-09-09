@@ -4,6 +4,7 @@ import { homePath, locales, type Locale } from './catalogue';
 import { findVideo, getProgramme } from './collection';
 import { drafts } from './editorial';
 import { videoTitle } from './titles';
+import { publicOrigin } from './site-config.json';
 
 export function checkedLocale(value: string | undefined): Locale {
   if (!locales.includes(value as Locale) || value === 'zh-Hant') notFound();
@@ -11,7 +12,7 @@ export function checkedLocale(value: string | undefined): Locale {
 }
 export function languageAlternates(path: string) {
   return {
-    languages: Object.fromEntries(locales.map((l) => [l, homePath(l) + path])),
+    languages: Object.fromEntries(locales.map((l) => [l, new URL(homePath(l) + path, publicOrigin).href])),
   };
 }
 export function programmeMetadata(locale: Locale, slug: string): Metadata {

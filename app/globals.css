@@ -600,6 +600,8 @@ footer {
 }
 .source-note a {
   color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .pending-note {
   margin-top: 30px;

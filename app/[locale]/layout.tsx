@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { languageAlternates } from '../../lib/metadata';
 import { notFound } from 'next/navigation';
 import { copy, locales, type Locale } from '../../lib/catalogue';
 import '../globals.css';
@@ -18,14 +19,7 @@ export async function generateMetadata({
     description: t.intro,
     robots: { index: false, follow: false },
     icons: { icon: '/isuntv-logo.png' },
-    alternates: {
-      languages: {
-        'zh-Hant': '/',
-        'zh-Hans': '/zh-Hans/',
-        en: '/en/',
-        ja: '/ja/',
-      },
-    },
+    alternates: languageAlternates(''),
   };
 }
 export default async function Layout({
@@ -39,6 +33,9 @@ export default async function Layout({
   if (!locales.includes(locale as Locale) || locale === 'zh-Hant') notFound();
   return (
     <html lang={locale}>
+      <head>
+        <link rel="preconnect" href="https://i.ytimg.com" />
+      </head>
       <body>{children}</body>
     </html>
   );
