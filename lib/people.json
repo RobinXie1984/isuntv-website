@@ -1,0 +1,222 @@
+{
+  "li-delun": {
+    "name": {
+      "zh-Hant": "李德倫",
+      "zh-Hans": "李德伦",
+      "en": "Li Delun",
+      "ja": "李徳倫"
+    },
+    "url": "https://www.cnso.com.cn/zgjxyt/ldldc100h/ztindex.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國交響樂團"
+  },
+  "gao-jingyan": {
+    "name": {
+      "zh-Hant": "高景炎",
+      "zh-Hans": "高景炎",
+      "en": "Gao Jingyan",
+      "ja": "高景炎"
+    },
+    "url": "https://xyh.jiangnan.edu.cn/info/1003/4690.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "江南大學校友會"
+  },
+  "du-gao": {
+    "name": {
+      "zh-Hant": "杜高",
+      "zh-Hans": "杜高",
+      "en": "Du Gao",
+      "ja": "杜高"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404931-28487194.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網"
+  },
+  "feng-xiaogang": {
+    "name": {
+      "zh-Hant": "馮小剛",
+      "zh-Hans": "冯小刚",
+      "en": "Feng Xiaogang",
+      "ja": "馮小剛"
+    },
+    "url": "https://ent.cctv.com/special/fxg2009/20090302/107178.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "央視網"
+  },
+  "kong-bohua": {
+    "name": {
+      "zh-Hant": "孔伯華",
+      "zh-Hans": "孔伯华",
+      "en": "Kong Bohua",
+      "ja": "孔伯華"
+    },
+    "url": "https://bowuguan.bucm.edu.cn/kpzl/ysmt/10982.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "北京中醫藥大學博物館"
+  },
+  "shu-wu": {
+    "name": {
+      "zh-Hant": "舒蕪",
+      "zh-Hans": "舒芜",
+      "en": "Shu Wu",
+      "ja": "舒蕪"
+    },
+    "url": "https://www.chinawriter.com.cn/xdzj/381.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網"
+  },
+  "ji-xianlin": {
+    "name": {
+      "zh-Hant": "季羨林",
+      "zh-Hans": "季羡林",
+      "en": "Ji Xianlin",
+      "ja": "季羨林"
+    },
+    "url": "https://www.xsg.pku.edu.cn/heros/professor/detail/976.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "北京大學校史館"
+  },
+  "fei-xiaotong": {
+    "name": {
+      "zh-Hant": "費孝通",
+      "zh-Hans": "费孝通",
+      "en": "Fei Xiaotong",
+      "ja": "費孝通"
+    },
+    "url": "https://news.pku.edu.cn/xwzh/129-111172.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "北京大學"
+  },
+  "bi-shumin": {
+    "name": {
+      "zh-Hant": "畢淑敏",
+      "zh-Hans": "毕淑敏",
+      "en": "Bi Shumin",
+      "ja": "畢淑敏"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404929-28488116.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網"
+  },
+  "zhang-boling": {
+    "name": {
+      "zh-Hant": "張伯苓",
+      "zh-Hans": "张伯苓",
+      "en": "Zhang Boling",
+      "ja": "張伯苓"
+    },
+    "url": "https://www.nankai.edu.cn/192/",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "南開大學"
+  },
+  "shiing-shen-chern": {
+    "name": {
+      "zh-Hant": "陳省身",
+      "zh-Hans": "陈省身",
+      "en": "Shiing-Shen Chern",
+      "ja": "陳省身"
+    },
+    "url": "https://syl.nankai.edu.cn/2022/1110/c18469a494118/pagem.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "南開大學"
+  },
+  "yan-xiu": {
+    "name": {
+      "zh-Hant": "嚴修",
+      "zh-Hans": "严修",
+      "en": "Yan Xiu",
+      "ja": "厳修"
+    },
+    "url": "https://nkup.nankai.edu.cn/info/1054/1214.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "南開大學出版社"
+  },
+  "li-zaigui": {
+    "name": {
+      "zh-Hant": "李再貴",
+      "zh-Hans": "李再贵",
+      "en": "Li Zaigui",
+      "ja": "李再貴"
+    },
+    "url": "https://spxy.cau.edu.cn/art/2012/5/16/art_5196_129147.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國農業大學"
+  },
+  "edvard-grieg": {
+    "name": {
+      "zh-Hant": "愛德華・格里格",
+      "zh-Hans": "爱德华・格里格",
+      "en": "Edvard Grieg",
+      "ja": "エドヴァルド・グリーグ"
+    },
+    "url": "https://www.kodebergen.no/en/collections/edvard-grieg",
+    "sourceLanguage": "en",
+    "publisher": "Kode"
+  },
+  "tan-kah-kee": {
+    "name": {
+      "zh-Hant": "陳嘉庚",
+      "zh-Hans": "陈嘉庚",
+      "en": "Tan Kah Kee",
+      "ja": "陳嘉庚"
+    },
+    "url": "https://mytkkf.com.my/cn/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC/%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E9%99%88%E5%98%89%E5%BA%9A%E7%BA%AA%E5%BF%B5%E9%A6%86/",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "馬來西亞陳嘉庚基金"
+  },
+  "bai-hua": {
+    "name": {
+      "zh-Hant": "白樺",
+      "zh-Hans": "白桦",
+      "en": "Bai Hua",
+      "ja": "白樺"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404929-28488181.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網"
+  },
+  "niu-han": {
+    "name": {
+      "zh-Hant": "牛漢",
+      "zh-Hans": "牛汉",
+      "en": "Niu Han",
+      "ja": "牛漢"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404941-28492030.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網"
+  },
+  "ai-qing": {
+    "name": {
+      "zh-Hant": "艾青",
+      "zh-Hans": "艾青",
+      "en": "Ai Qing",
+      "ja": "艾青"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404928-28488301.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網"
+  },
+  "chen-qixia": {
+    "name": {
+      "zh-Hant": "陳企霞",
+      "zh-Hans": "陈企霞",
+      "en": "Chen Qixia",
+      "ja": "陳企霞"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404930-28487716.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網"
+  },
+  "li-xiaoyun": {
+    "name": {
+      "zh-Hant": "李小雲",
+      "zh-Hans": "李小云",
+      "en": "Li Xiaoyun",
+      "ja": "李小雲"
+    },
+    "url": "https://cohd.cau.edu.cn/art/2009/2/7/art_48058_998975.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國農業大學"
+  }
+}

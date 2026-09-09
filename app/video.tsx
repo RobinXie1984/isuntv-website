@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { ArrowUpRight, ArrowLeft, UserRound, Play } from 'lucide-react';
 import { SiteHeader } from '../components/site-header';
 import { detailCopy, drafts } from '../lib/editorial';
+import { people } from '../lib/people';
 import { programmes, type Locale } from '../lib/catalogue';
 import {
   findVideo,
@@ -59,14 +60,25 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
                     </dt>
                     <dd>
                       {draft.fields[locale][key] ?? t.unknown}
-                      {key === 'who' && draft.reference ? (
-                        <a
-                          href={draft.reference}
-                          className="person-reference"
-                          aria-label={t.person}
-                        >
-                          <ArrowUpRight size={17} />
-                        </a>
+                      {key === 'who' && draft.people?.length ? (
+                        <ul className="person-references" aria-label={t.person}>
+                          {draft.people.map((personId) => {
+                            const person = people[personId];
+                            return person ? (
+                              <li key={personId}>
+                                <a
+                                  href={person.url}
+                                  hrefLang={person.sourceLanguage}
+                                  className="person-reference"
+                                  aria-label={`${t.person}: ${person.name[locale]}`}
+                                >
+                                  {person.name[locale]}
+                                  <ArrowUpRight size={17} aria-hidden="true" />
+                                </a>
+                              </li>
+                            ) : null;
+                          })}
+                        </ul>
                       ) : null}
                     </dd>
                   </div>

@@ -36,13 +36,14 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=anL-lcfB2y0",
-    "reference": "https://www.cnso.com.cn/zgjxyt/ldldc100h/ztindex.shtml",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-06-21"
+    "upload_date": "2020-06-21",
+    "people": [
+      "li-delun"
+    ]
   },
   "WAbCxwgXaO0": {
-    "reference": "https://www.ihchina.cn/ccr_detail/3157.html",
     "upload_date": "2026-08-21",
     "fields": {
       "zh-Hant": {
@@ -81,10 +82,12 @@
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
     "source": "https://www.youtube.com/watch?v=WAbCxwgXaO0",
     "recorded_at": null,
-    "recording_location": null
+    "recording_location": null,
+    "people": [
+      "gao-jingyan"
+    ]
   },
   "IiSPgLj5oWM": {
-    "reference": "https://www.chinawriter.com.cn/n1/2016/0627/c404931-28487194.html",
     "upload_date": "2020-06-20",
     "fields": {
       "zh-Hant": {
@@ -123,10 +126,12 @@
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
     "source": "https://www.youtube.com/watch?v=IiSPgLj5oWM",
     "recorded_at": null,
-    "recording_location": null
+    "recording_location": null,
+    "people": [
+      "du-gao"
+    ]
   },
   "s14Xy9UTxBU": {
-    "reference": null,
     "upload_date": "2022-12-20",
     "fields": {
       "zh-Hant": {
@@ -204,7 +209,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=C-dd-P_iLlw",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-09-14"
@@ -246,10 +250,12 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=Hn6mCHmTuBc",
-    "reference": "https://ent.cctv.com/special/fxg2009/20090302/107178.shtml",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-06-23"
+    "upload_date": "2020-06-23",
+    "people": [
+      "feng-xiaogang"
+    ]
   },
   "DkoQSUmSJn4": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -288,7 +294,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=DkoQSUmSJn4",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-06-27"
@@ -330,7 +335,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=cgD7PO7UqaQ",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-06-16"
@@ -372,7 +376,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=4RtUk1iHZPA",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-07-01"
@@ -414,7 +417,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=cVRN-DkoKZE",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2021-11-14"
@@ -456,7 +458,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=24iNdBUgtOQ",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-07-04"
@@ -498,10 +499,12 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=6sfThnjERWo",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-06-24"
+    "upload_date": "2020-06-24",
+    "people": [
+      "bi-shumin"
+    ]
   },
   "t_1khjmlqiM": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -540,10 +543,12 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=t_1khjmlqiM",
-    "reference": "https://www.chinawriter.com.cn/n1/2016/0627/c404931-28487194.html",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-06-23"
+    "upload_date": "2020-06-23",
+    "people": [
+      "du-gao"
+    ]
   },
   "vHHavs6_2LQ": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -582,7 +587,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=vHHavs6_2LQ",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2022-12-21"
@@ -624,10 +628,12 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=62oP5BMWNfY",
-    "reference": "https://bowuguan.bucm.edu.cn/kpzl/ysmt/10982.htm",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2026-08-07"
+    "upload_date": "2026-08-07",
+    "people": [
+      "kong-bohua"
+    ]
   },
   "wTcoXc_WRxQ": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -666,7 +672,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=wTcoXc_WRxQ",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-09-15"
@@ -708,7 +713,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=m5e32TznMfI",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-06-28"
@@ -750,7 +754,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=kOmc-4_ugqQ",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-07-04"
@@ -792,7 +795,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=VeQI4ig4S3M",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-06-18"
@@ -834,10 +836,12 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=3wFS6z4XrJ8",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-07-08"
+    "upload_date": "2020-07-08",
+    "people": [
+      "zhang-boling"
+    ]
   },
   "U5HWkHTa57s": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -876,10 +880,12 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=U5HWkHTa57s",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2021-11-07"
+    "upload_date": "2021-11-07",
+    "people": [
+      "li-xiaoyun"
+    ]
   },
   "caFZNwjkAVE": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -918,7 +924,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=caFZNwjkAVE",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-07-10"
@@ -960,7 +965,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=_3LZ1SQb94s",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-06-28",
@@ -1003,10 +1007,12 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=za-gVWK0jjA",
-    "reference": "https://www.chinawriter.com.cn/xdzj/381.shtml",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-06-27"
+    "upload_date": "2020-06-27",
+    "people": [
+      "shu-wu"
+    ]
   },
   "MfZL7VMUicU": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1045,7 +1051,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=MfZL7VMUicU",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2022-12-24"
@@ -1087,7 +1092,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=BcLf_GwWBWg",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2026-07-31",
@@ -1130,7 +1134,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=0SJEcxbmhJk",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-09-22"
@@ -1172,7 +1175,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=SITX3nh6WkA",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-06-30"
@@ -1214,7 +1216,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=V0WPawFfKVo",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-07-18"
@@ -1256,7 +1257,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=LQlFU8wn9O8",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-06-22"
@@ -1298,10 +1298,13 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=kH4yi0t6Hlg",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-07-15"
+    "upload_date": "2020-07-15",
+    "people": [
+      "zhang-boling",
+      "shiing-shen-chern"
+    ]
   },
   "19QlAz5vplU": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1340,7 +1343,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=19QlAz5vplU",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2021-10-31"
@@ -1381,7 +1383,6 @@
         "how": "息子が写真の背景を回想"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1424,7 +1425,6 @@
         "how": "本人が事件と獄中生活を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1467,7 +1467,6 @@
         "how": null
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1510,7 +1509,6 @@
         "how": "東北易幟から寧粤対立までをたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1553,7 +1551,6 @@
         "how": "本人が戦地取材の経験を振り返る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1596,7 +1593,6 @@
         "how": "本人や家族の回想で恋愛と結婚をたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1639,7 +1635,6 @@
         "how": "書物に押す印とその背景をたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1682,12 +1677,15 @@
         "how": "二人の教育者が新式学校の設立を提唱する"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=lzfnFHcX2v4",
-    "upload_date": "2020-07-22"
+    "upload_date": "2020-07-22",
+    "people": [
+      "zhang-boling",
+      "yan-xiu"
+    ]
   },
   "71LNHeL-II4": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1725,7 +1723,6 @@
         "how": "金属、プラスチック、紙を例に講演する"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1768,12 +1765,14 @@
         "how": "息子が自身の記憶から父の経験を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=2HptP5rFwH8",
-    "upload_date": "2020-07-27"
+    "upload_date": "2020-07-27",
+    "people": [
+      "chen-qixia"
+    ]
   },
   "SEI9IMcvE5o": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1811,7 +1810,6 @@
         "how": "本人が海外生活と創作の動機を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1854,7 +1852,6 @@
         "how": "李嘉陵が二家族の交流を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1897,7 +1894,6 @@
         "how": null
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1940,7 +1936,6 @@
         "how": "古画と壁画を学び、墨と色彩の表現を探る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -1983,7 +1978,6 @@
         "how": "長征の経路から遵義会議を考察する"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2026,7 +2020,6 @@
         "how": "本人が抗戦期の芸術活動と歌劇上演を回想"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2069,7 +2062,6 @@
         "how": "前者は共に教育に携わり、後者は病中を支える"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2112,7 +2104,6 @@
         "how": "多人数で編纂し、後世に伝本を探る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2156,7 +2147,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=Q6lYG4lWCNI",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2020-07-01",
@@ -2199,7 +2189,6 @@
       }
     },
     "source": "https://www.youtube.com/watch?v=N9a6-SCJZzI",
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "upload_date": "2026-07-24",
@@ -2241,12 +2230,14 @@
         "how": "奉仕授業と歴史的事件への参加を例に描く"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=YbGntomdrUk",
-    "upload_date": "2020-07-29"
+    "upload_date": "2020-07-29",
+    "people": [
+      "zhang-boling"
+    ]
   },
   "rjhYV-ypBXA": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2284,7 +2275,6 @@
         "how": "別れの体験と緩和ケアの仕事を基に講演"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2327,12 +2317,14 @@
         "how": "高瑛が出会いと同行の経験を回想"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=9jsxmf3cA2A",
-    "upload_date": "2020-07-30"
+    "upload_date": "2020-07-30",
+    "people": [
+      "ai-qing"
+    ]
   },
   "nF-uRtohqNw": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2370,7 +2362,6 @@
         "how": "本人が絵の学習と赴任の選択を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2413,12 +2404,14 @@
         "how": "本人が調査や批判集会、胡風の擁護を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=jYh7wjMDwuo",
-    "upload_date": "2020-07-07"
+    "upload_date": "2020-07-07",
+    "people": [
+      "niu-han"
+    ]
   },
   "Tl6trPmbzOo": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2456,7 +2449,6 @@
         "how": null
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2499,12 +2491,14 @@
         "how": "募金や運転手の派遣を行い、厦門大学を創立"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "SHARED_DESCRIPTION_DRAFT",
     "source": "https://www.youtube.com/watch?v=UUrAwwV4Ho8",
-    "upload_date": "2026-07-10"
+    "upload_date": "2026-07-10",
+    "people": [
+      "tan-kah-kee"
+    ]
   },
   "bKejBzlzyOs": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2542,7 +2536,6 @@
         "how": "張学良の決断を軸に二人の関係を描く"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2585,7 +2578,6 @@
         "how": "本人が病院創設とケアへの思いを語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2628,7 +2620,6 @@
         "how": null
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2671,7 +2662,6 @@
         "how": "皇室の建築事業と祖先の墓地から考える"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2714,7 +2704,6 @@
         "how": "幼少期の修練と生計の経験からたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2757,7 +2746,6 @@
         "how": "学内取材での出会いから団体設立へ"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2800,7 +2788,6 @@
         "how": "息子が父の取材旅行と報道を回想"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2843,7 +2830,6 @@
         "how": "本人が仕事、壁画制作、移住を回想"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2886,12 +2872,14 @@
         "how": "白樺が脚本の改編と撮影中断の経緯を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=qinuUKNLNCQ",
-    "upload_date": "2020-07-11"
+    "upload_date": "2020-07-11",
+    "people": [
+      "bai-hua"
+    ]
   },
   "XX685x6Ygy4": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2929,7 +2917,6 @@
         "how": null
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -2972,7 +2959,6 @@
         "how": "最後関頭の演説から盧溝橋事件をたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3015,7 +3001,6 @@
         "how": "歌手の芸術人生を通して長調を紹介する"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3058,12 +3043,14 @@
         "how": "募金や運転手の派遣を行い、厦門大学を創立"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "SHARED_DESCRIPTION_DRAFT",
     "source": "https://www.youtube.com/watch?v=53qRHFrvCC8",
-    "upload_date": "2026-07-03"
+    "upload_date": "2026-07-03",
+    "people": [
+      "tan-kah-kee"
+    ]
   },
   "sGZrwIEwaFw": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -3101,7 +3088,6 @@
         "how": "夫が介護と励ましで復帰を支える"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3144,7 +3130,6 @@
         "how": "皇室の建物と帝陵の設計から考える"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3187,7 +3172,6 @@
         "how": "挑戦の物語を紹介。細部は未検証"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3230,7 +3214,6 @@
         "how": "原生芸術と文化の蓄積について講演する"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3273,7 +3256,6 @@
         "how": "息子が父の仕事と経験を口述でたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3316,12 +3298,14 @@
         "how": "一般公開を認められず批判用に上映された経験を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=H-H7SV5B8SU",
-    "upload_date": "2020-07-14"
+    "upload_date": "2020-07-14",
+    "people": [
+      "bai-hua"
+    ]
   },
   "9eU69Fywpho": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -3359,12 +3343,14 @@
         "how": null
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=9eU69Fywpho",
-    "upload_date": "2022-12-30"
+    "upload_date": "2022-12-30",
+    "people": [
+      "edvard-grieg"
+    ]
   },
   "gdTvXsK_DOQ": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -3402,7 +3388,6 @@
         "how": "動員と両軍の衝突から戦いの始まりをたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3445,7 +3430,6 @@
         "how": "本人の帰郷に同行し親友や弟子の話を聞く"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3488,7 +3472,6 @@
         "how": "家族と伴侶が二つの結婚を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3531,7 +3514,6 @@
         "how": "命令、配役、褒賞、脚本の記録をたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3574,7 +3556,6 @@
         "how": "説明には中毒説と病死説があるが、真偽は未検証"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3617,7 +3598,6 @@
         "how": "システム医学と過度な介入について講演する"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3660,7 +3640,6 @@
         "how": "息子の記憶と父の経験による口述"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3703,7 +3682,6 @@
         "how": "本人が出版に向けて奔走した経緯を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3746,7 +3724,6 @@
         "how": "写真と語りで写真家の歩みをたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3789,7 +3766,6 @@
         "how": null
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3832,7 +3808,6 @@
         "how": "投入兵力と戦闘の経過から描く"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3875,7 +3850,6 @@
         "how": "本人が選手生活と指導の経験を回想"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3918,7 +3892,6 @@
         "how": "前者は廟と墓を守り、後者は収集を共にする"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -3961,7 +3934,6 @@
         "how": "国家図書館所蔵の地図と歴史写真を通して"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4004,7 +3976,6 @@
         "how": "族譜の記述と鄭氏規範から一族を紹介"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4047,12 +4018,14 @@
         "how": "公開講演で研究と考えを語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=CoUCVUgOmh0",
-    "upload_date": "2021-05-01"
+    "upload_date": "2021-05-01",
+    "people": [
+      "li-zaigui"
+    ]
   },
   "jO2lof6YI2w": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -4090,12 +4063,14 @@
         "how": "娘が父の人生を口述する"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=jO2lof6YI2w",
-    "upload_date": "2020-08-28"
+    "upload_date": "2020-08-28",
+    "people": [
+      "fei-xiaotong"
+    ]
   },
   "lc0oWtkpocc": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -4133,7 +4108,6 @@
         "how": "書店、筆店、栄宝斎などの老舗を本人が語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4176,7 +4150,6 @@
         "how": "撮影、写真の選定と保存の物語を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4219,7 +4192,6 @@
         "how": null
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4262,7 +4234,6 @@
         "how": "日本軍の進軍と南京の防衛から戦いをたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4305,7 +4276,6 @@
         "how": "生計、商売から収集と寄贈へ至る経験を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4348,7 +4318,6 @@
         "how": "廖静文が共に暮らした経験を口述"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4391,7 +4360,6 @@
         "how": "山の洞窟に収められた経板の物語をたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4434,7 +4402,6 @@
         "how": "霍福森の移住から世代を超えた継承をたどる"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4477,7 +4444,6 @@
         "how": "講演で公益事業の経験と考えを語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4520,7 +4486,6 @@
         "how": "息子が父の任務とその後の経験を口述"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4563,12 +4528,14 @@
         "how": "担当編集者が交流と編集の経験を語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=zgtJ-O4FI18",
-    "upload_date": "2020-07-26"
+    "upload_date": "2020-07-26",
+    "people": [
+      "ji-xianlin"
+    ]
   },
   "-sVu9fYBU0Q": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -4606,7 +4573,6 @@
         "how": "政治団体への参加と逃亡の記憶を本人が語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4649,7 +4615,6 @@
         "how": null
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4692,7 +4657,6 @@
         "how": "生計から陶芸、商売、博物館作りまでを本人が語る"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4735,7 +4699,6 @@
         "how": "夫婦の物語を通して家庭の困難を描く"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -4778,7 +4741,6 @@
         "how": "白蛇伝説から発見された経巻の物語へ"
       }
     },
-    "reference": null,
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",

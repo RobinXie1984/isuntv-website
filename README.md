@@ -15,3 +15,5 @@ The single operational status file, ingestion scripts, raw evidence and cutover 
 Production iSunTV.com cutover requires Robin's explicit approval after a reviewed candidate and rollback plan. No domain cutover has occurred.
 
 Shared descriptions are explicitly labelled in the video view. Drafts summarize titles and descriptions only; unknown details remain null, and upload dates are not substituted for recording dates.
+
+Person references use a shared identity registry in lib/people.json and explicit per-video IDs. Links display localized names, so multi-person episodes identify the linked subject. Sources remain in their original language.

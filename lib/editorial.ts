@@ -119,7 +119,7 @@ export type Draft = {
   editorial_scope?: string;
   fields: Record<Locale, Record<SixField, string | null>>;
   source: string;
-  reference: string | null;
+  people?: string[];
   recorded_at: string | null;
   recording_location: string | null;
   upload_date: string | null;

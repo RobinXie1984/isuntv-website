@@ -572,12 +572,26 @@ footer {
   margin: 0;
   line-height: 1.8;
 }
+.person-references {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+}
 .person-reference {
   display: inline-flex;
-  vertical-align: middle;
-  margin-left: 12px;
-  padding: 10px;
+  align-items: center;
+  gap: 5px;
+  min-height: 44px;
+  max-width: 100%;
+  color: var(--gold, #d6b86a);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
 }
+.person-reference svg { flex-shrink: 0; }
 .source-note {
   font-size: 14px;
   color: #aaa;
