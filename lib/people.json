@@ -284,5 +284,93 @@
     "url": "https://tisch.nyu.edu/about/directory/film-tvs/3045998",
     "sourceLanguage": "en",
     "publisher": "NYU Tisch School of the Arts"
+  },
+  "zhao-xumao": {
+    "name": {
+      "zh-Hant": "趙序茅",
+      "zh-Hans": "赵序茅",
+      "en": "Zhao Xumao",
+      "ja": "趙序茅"
+    },
+    "url": "https://tzb.lzu.edu.cn/chengyuanfengcai/renwufengcai/2025/1204/322724.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "蘭州大學"
+  },
+  "wei-yong": {
+    "name": {
+      "zh-Hant": "魏勇",
+      "zh-Hans": "魏勇",
+      "en": "Wei Yong",
+      "ja": "魏勇"
+    },
+    "url": "https://igg.cas.cn/xwzx/zhxw/202009/t20200925_5705666.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國科學院地質與地球物理研究所"
+  },
+  "du-huanzheng": {
+    "name": {
+      "zh-Hant": "杜歡政",
+      "zh-Hans": "杜欢政",
+      "en": "Du Huanzheng",
+      "ja": "杜歓政"
+    },
+    "url": "https://my.tongji.edu.cn/info/1064/1897.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "同濟大學"
+  },
+  "lu-guijun": {
+    "name": {
+      "zh-Hant": "路桂軍",
+      "zh-Hans": "路桂军",
+      "en": "Lu Guijun",
+      "ja": "路桂軍"
+    },
+    "url": "https://www.btch.edu.cn/xxdt/mtbd/77397.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "北京清華長庚醫院"
+  },
+  "ling-feng": {
+    "name": {
+      "zh-Hant": "凌鋒",
+      "zh-Hans": "凌锋",
+      "en": "Ling Feng",
+      "ja": "凌鋒"
+    },
+    "url": "https://news.ccmu.edu.cn/xwzt_360/dsxxjya/xxdtds/110510.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "首都醫科大學"
+  },
+  "zhang-daqian": {
+    "name": {
+      "zh-Hant": "張大千",
+      "zh-Hans": "张大千",
+      "en": "Zhang Daqian",
+      "ja": "張大千"
+    },
+    "url": "https://artistsday.nmh.gov.tw/art6.html",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "國立歷史博物館"
+  },
+  "liu-haisu": {
+    "name": {
+      "zh-Hant": "劉海粟",
+      "zh-Hans": "刘海粟",
+      "en": "Liu Haisu",
+      "ja": "劉海粟"
+    },
+    "url": "https://lhs-arts.org/aboutlhs/lhs.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "劉海粟美術館"
+  },
+  "mao-dun": {
+    "name": {
+      "zh-Hant": "茅盾",
+      "zh-Hans": "茅盾",
+      "en": "Mao Dun",
+      "ja": "茅盾"
+    },
+    "url": "https://www.chinawriter.com.cn/xdzj/700.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國作家網"
   }
 }

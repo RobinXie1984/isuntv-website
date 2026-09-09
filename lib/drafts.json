@@ -296,7 +296,10 @@
     "source": "https://www.youtube.com/watch?v=DkoQSUmSJn4",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-06-27"
+    "upload_date": "2020-06-27",
+    "people": [
+      "mao-dun"
+    ]
   },
   "cgD7PO7UqaQ": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1727,7 +1730,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=71LNHeL-II4",
-    "upload_date": "2021-10-24"
+    "upload_date": "2021-10-24",
+    "people": [
+      "du-huanzheng"
+    ]
   },
   "2HptP5rFwH8": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1940,7 +1946,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=2r7Vu-FmY28",
-    "upload_date": "2026-07-17"
+    "upload_date": "2026-07-17",
+    "people": [
+      "zhang-daqian"
+    ]
   },
   "sHyxjLI2rIo": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2279,7 +2288,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=rjhYV-ypBXA",
-    "upload_date": "2021-07-25"
+    "upload_date": "2021-07-25",
+    "people": [
+      "lu-guijun"
+    ]
   },
   "9jsxmf3cA2A": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2624,7 +2636,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=L04v9gjH3EY",
-    "upload_date": "2020-08-07"
+    "upload_date": "2020-08-07",
+    "people": [
+      "liu-haisu"
+    ]
   },
   "GzZyayL787Y": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -3602,7 +3617,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=RXZCrtgTB5w",
-    "upload_date": "2021-05-08"
+    "upload_date": "2021-05-08",
+    "people": [
+      "ling-feng"
+    ]
   },
   "gnE4urBYYGE": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -5826,7 +5844,9 @@
         "how": "保全の視点から考え方を述べる講演"
       }
     },
-    "people": [],
+    "people": [
+      "zhao-xumao"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -6387,7 +6407,9 @@
         "how": "天問一号と惑星科学を題材にした講演"
       }
     },
-    "people": [],
+    "people": [
+      "wei-yong"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
