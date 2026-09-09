@@ -5789,5 +5789,955 @@
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=ynSf9QhcIzI",
     "upload_date": "2021-04-03"
+  },
+  "-gsrrnz83KY": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "生態學研究者趙序茅",
+        "what": "人類、野生動物與生態系統的關係",
+        "when": null,
+        "where": null,
+        "why": "反思人類如何與其他物種共存",
+        "how": "從保育角度提出觀點的演講"
+      },
+      "zh-Hans": {
+        "who": "生态学研究者赵序茅",
+        "what": "人类、野生动物与生态系统的关系",
+        "when": null,
+        "where": null,
+        "why": "反思人类如何与其他物种共存",
+        "how": "从保育角度提出观点的演讲"
+      },
+      "en": {
+        "who": "Ecology researcher Zhao Xumao",
+        "what": "Relationships among people, wildlife and ecosystems",
+        "when": null,
+        "where": null,
+        "why": "Reflecting on coexistence with other species",
+        "how": "A talk presenting a conservation perspective"
+      },
+      "ja": {
+        "who": "生態学研究者・趙序茅",
+        "what": "人間、野生動物、生態系の関係",
+        "when": null,
+        "where": null,
+        "why": "他の生物との共存を考える",
+        "how": "保全の視点から考え方を述べる講演"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=-gsrrnz83KY",
+    "upload_date": "2021-12-29"
+  },
+  "0FryhL-4wZI": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "趙新盟與婁樓；馬藍魚與邵煒",
+        "what": "兩對藝術工作者的愛情與相伴",
+        "when": null,
+        "where": "淮河流域等地",
+        "why": "呈現伴侶關係與創作的交織",
+        "how": "從花鼓燈舞蹈及秦腔戲曲的經歷切入"
+      },
+      "zh-Hans": {
+        "who": "赵新盟与娄楼；马蓝鱼与邵炜",
+        "what": "两对艺术工作者的爱情与相伴",
+        "when": null,
+        "where": "淮河流域等地",
+        "why": "呈现伴侣关系与创作的交织",
+        "how": "从花鼓灯舞蹈及秦腔戏曲的经历切入"
+      },
+      "en": {
+        "who": "Zhao Xinmeng and Lou Lou; Ma Lanyu and Shao Wei",
+        "what": "Love and companionship in two artistic couples",
+        "when": null,
+        "where": "The Huai River region and other locations",
+        "why": "Exploring how relationships and artistic work intertwine",
+        "how": "Stories involving Huagudeng dance and Qinqiang opera"
+      },
+      "ja": {
+        "who": "趙新盟と婁楼、馬藍魚と邵煒",
+        "what": "芸術に携わる二組の愛と支え合い",
+        "when": null,
+        "where": "淮河流域など",
+        "why": "伴侶関係と創作の結び付きを見る",
+        "how": "花鼓灯の踊りと秦腔の経験からたどる"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=0FryhL-4wZI",
+    "upload_date": "2020-09-30"
+  },
+  "0_bBSr5APSE": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "馮理達講述父親馮玉祥",
+        "what": "晚年赴美、返國途中遇難的家族記憶",
+        "when": "1946至1948年",
+        "where": "重慶、南京、美國及黑海",
+        "why": "從家人視角回顧父親晚年",
+        "how": "女兒口述政治分歧、旅程與船上火災"
+      },
+      "zh-Hans": {
+        "who": "冯理达讲述父亲冯玉祥",
+        "what": "晚年赴美、返国途中遇难的家族记忆",
+        "when": "1946至1948年",
+        "where": "重庆、南京、美国及黑海",
+        "why": "从家人视角回顾父亲晚年",
+        "how": "女儿口述政治分歧、旅程与船上火灾"
+      },
+      "en": {
+        "who": "Feng Lida on her father, Feng Yuxiang",
+        "what": "Family memories of his US visit and fatal return voyage",
+        "when": "1946–1948",
+        "where": "Chongqing, Nanjing, the US and the Black Sea",
+        "why": "Revisiting his later years through family recollections",
+        "how": "A daughter’s account of political disagreements, travel and a shipboard fire"
+      },
+      "ja": {
+        "who": "馮理達が父・馮玉祥を語る",
+        "what": "晩年の渡米と帰国途上の遭難の記憶",
+        "when": "1946～1948年",
+        "where": "重慶、南京、米国、黒海",
+        "why": "家族の視点で父の晩年を振り返る",
+        "how": "娘が政治的対立、旅、船上火災を口述"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=0_bBSr5APSE",
+    "upload_date": "2020-10-04"
+  },
+  "4tCGHJNjQ3g": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "秘書聞立樹講述吳晗",
+        "what": "學者與北京市副市長的工作及遭遇",
+        "when": "1950至1960年代",
+        "where": "北京",
+        "why": "從共事者視角回顧吳晗",
+        "how": "秘書口述教育、考古工作及政治風波"
+      },
+      "zh-Hans": {
+        "who": "秘书闻立树讲述吴晗",
+        "what": "学者与北京市副市长的工作及遭遇",
+        "when": "1950至1960年代",
+        "where": "北京",
+        "why": "从共事者视角回顾吴晗",
+        "how": "秘书口述教育、考古工作及政治风波"
+      },
+      "en": {
+        "who": "Secretary Wen Lishu on Wu Han",
+        "what": "The work and experiences of a scholar and Beijing deputy mayor",
+        "when": "The 1950s and 1960s",
+        "where": "Beijing",
+        "why": "Revisiting Wu Han from a colleague’s perspective",
+        "how": "His secretary recalls work in education and archaeology, and political upheaval"
+      },
+      "ja": {
+        "who": "秘書・聞立樹が呉晗を語る",
+        "what": "学者で北京市副市長の仕事と経験",
+        "when": "1950～1960年代",
+        "where": "北京",
+        "why": "共に働いた人の視点で呉晗を振り返る",
+        "how": "秘書が教育・考古学の仕事と政治的動乱を口述"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=4tCGHJNjQ3g",
+    "upload_date": "2020-08-13"
+  },
+  "5CrcTKP3NmU": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "梅爾卡托露天市場",
+        "when": null,
+        "where": "埃塞俄比亞亞迪斯亞貝巴",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "梅尔卡托露天市场",
+        "when": null,
+        "where": "埃塞俄比亚亚的斯亚贝巴",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": null,
+        "what": "The open-air Merkato market",
+        "when": null,
+        "where": "Addis Ababa, Ethiopia",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": null,
+        "what": "メルカートの屋外市場",
+        "when": null,
+        "where": "エチオピア・アディスアベバ",
+        "why": null,
+        "how": null
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=5CrcTKP3NmU",
+    "upload_date": "2023-01-09"
+  },
+  "8fHlngbYzPQ": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "徐州會戰中的中日軍隊",
+        "what": "台兒莊戰後的包圍與撤離",
+        "when": "1938年",
+        "where": "徐州及周邊",
+        "why": "回顧戰局轉變與部隊突圍",
+        "how": "紀錄片追述部署、包圍和撤退"
+      },
+      "zh-Hans": {
+        "who": "徐州会战中的中日军队",
+        "what": "台儿庄战后的包围与撤离",
+        "when": "1938年",
+        "where": "徐州及周边",
+        "why": "回顾战局转变与部队突围",
+        "how": "纪录片追述部署、包围和撤退"
+      },
+      "en": {
+        "who": "Chinese and Japanese forces in the Xuzhou campaign",
+        "what": "Encirclement and withdrawal after the Battle of Taierzhuang",
+        "when": "1938",
+        "where": "Xuzhou and surrounding areas",
+        "why": "Revisiting changes in the campaign and the breakout",
+        "how": "A documentary account of deployments, encirclement and retreat"
+      },
+      "ja": {
+        "who": "徐州会戦の中国軍と日本軍",
+        "what": "台児荘の戦い後の包囲と撤退",
+        "when": "1938年",
+        "where": "徐州と周辺",
+        "why": "戦局の変化と包囲突破を振り返る",
+        "how": "配備、包囲、撤退を記録映画でたどる"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=8fHlngbYzPQ",
+    "upload_date": "2020-12-16"
+  },
+  "9oBE4zRo57Y": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "畫家夏俊娜",
+        "what": "繪畫創作與藝術市場",
+        "when": null,
+        "where": "北京、上海畫壇",
+        "why": "探討藝術選擇與市場期待之間的關係",
+        "how": "從畫家經歷與創作觀點切入"
+      },
+      "zh-Hans": {
+        "who": "画家夏俊娜",
+        "what": "绘画创作与艺术市场",
+        "when": null,
+        "where": "北京、上海画坛",
+        "why": "探讨艺术选择与市场期待之间的关系",
+        "how": "从画家经历与创作观点切入"
+      },
+      "en": {
+        "who": "Painter Xia Junna",
+        "what": "Painting and the art market",
+        "when": null,
+        "where": "The Beijing and Shanghai art scenes",
+        "why": "Exploring artistic choices and market expectations",
+        "how": "Considering the painter’s experiences and views on creating art"
+      },
+      "ja": {
+        "who": "画家・夏俊娜",
+        "what": "絵画制作と美術市場",
+        "when": null,
+        "where": "北京と上海の美術界",
+        "why": "芸術上の選択と市場の期待の関係を考える",
+        "how": "画家の経験と創作観から見る"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=9oBE4zRo57Y",
+    "upload_date": "2020-08-18"
+  },
+  "Ahib6awQUBw": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "亞迪斯亞貝巴城市風貌",
+        "when": null,
+        "where": "埃塞俄比亞",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "亚的斯亚贝巴城市风貌",
+        "when": null,
+        "where": "埃塞俄比亚",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": null,
+        "what": "A look at Addis Ababa",
+        "when": null,
+        "where": "Ethiopia",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": null,
+        "what": "アディスアベバの街",
+        "when": null,
+        "where": "エチオピア",
+        "why": null,
+        "how": null
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=Ahib6awQUBw",
+    "upload_date": "2023-01-06"
+  },
+  "H5zrxz_UDtk": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "納西族",
+        "what": "創世經中的生命、死亡與自然觀",
+        "when": null,
+        "where": "雲南；中國國家圖書館藏品",
+        "why": "了解神話中的文化觀念",
+        "how": "從典籍與東巴圖像敘事切入"
+      },
+      "zh-Hans": {
+        "who": "纳西族",
+        "what": "创世经中的生命、死亡与自然观",
+        "when": null,
+        "where": "云南；中国国家图书馆藏品",
+        "why": "了解神话中的文化观念",
+        "how": "从典籍与东巴图像叙事切入"
+      },
+      "en": {
+        "who": "The Naxi people",
+        "what": "Views of life, death and nature in a creation scripture",
+        "when": null,
+        "where": "Yunnan; a National Library of China collection",
+        "why": "Understanding cultural ideas expressed through mythology",
+        "how": "Looking at a scripture and Dongba pictorial storytelling"
+      },
+      "ja": {
+        "who": "ナシ族",
+        "what": "創世経にみる生死と自然観",
+        "when": null,
+        "where": "雲南、中国国家図書館の所蔵品",
+        "why": "神話に表れる文化的な考え方を知る",
+        "how": "典籍とトンパの絵による物語から見る"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=H5zrxz_UDtk",
+    "upload_date": "2020-09-28"
+  },
+  "IjOlEiCEocs": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "陳祖濤",
+        "what": "蘇聯第一國際兒童院的戰時童年",
+        "when": "1941年起",
+        "where": "蘇聯",
+        "why": "從童年記憶回看戰爭",
+        "how": "本人講述與其他孩子的生活及參軍願望"
+      },
+      "zh-Hans": {
+        "who": "陈祖涛",
+        "what": "苏联第一国际儿童院的战时童年",
+        "when": "1941年起",
+        "where": "苏联",
+        "why": "从童年记忆回看战争",
+        "how": "本人讲述与其他孩子的生活及参军愿望"
+      },
+      "en": {
+        "who": "Chen Zutao",
+        "what": "Wartime childhood at the First International Children’s Home in the USSR",
+        "when": "From 1941",
+        "where": "The Soviet Union",
+        "why": "Revisiting war through childhood memories",
+        "how": "His recollections of life with other children and their wishes to enlist"
+      },
+      "ja": {
+        "who": "陳祖濤",
+        "what": "ソ連第一国際児童院での戦時の少年時代",
+        "when": "1941年以降",
+        "where": "ソ連",
+        "why": "子どもの記憶から戦争を振り返る",
+        "how": "仲間との暮らしや入隊への願いを本人が語る"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=IjOlEiCEocs",
+    "upload_date": "2020-08-04"
+  },
+  "Jz0GJeZp1io": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "麥哲倫",
+        "what": "麥哲倫與菲律賓的歷史故事",
+        "when": null,
+        "where": "菲律賓",
+        "why": null,
+        "how": null
+      },
+      "zh-Hans": {
+        "who": "麦哲伦",
+        "what": "麦哲伦与菲律宾的历史故事",
+        "when": null,
+        "where": "菲律宾",
+        "why": null,
+        "how": null
+      },
+      "en": {
+        "who": "Ferdinand Magellan",
+        "what": "Historical stories connecting Magellan and the Philippines",
+        "when": null,
+        "where": "The Philippines",
+        "why": null,
+        "how": null
+      },
+      "ja": {
+        "who": "フェルディナンド・マゼラン",
+        "what": "マゼランとフィリピンの歴史物語",
+        "when": null,
+        "where": "フィリピン",
+        "why": null,
+        "how": null
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=Jz0GJeZp1io",
+    "upload_date": "2023-01-10"
+  },
+  "QBBR1LRqCIc": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "歌手成方圓",
+        "what": "音樂啟蒙與八十年代的歌唱生涯",
+        "when": "童年及1980年代",
+        "where": "中國",
+        "why": "回顧個人選擇與流行音樂時代",
+        "how": "本人從二胡啟蒙談到成名後的經歷"
+      },
+      "zh-Hans": {
+        "who": "歌手成方圆",
+        "what": "音乐启蒙与八十年代的歌唱生涯",
+        "when": "童年及1980年代",
+        "where": "中国",
+        "why": "回顾个人选择与流行音乐时代",
+        "how": "本人从二胡启蒙谈到成名后的经历"
+      },
+      "en": {
+        "who": "Singer Cheng Fangyuan",
+        "what": "Early musical influences and a singing career in the 1980s",
+        "when": "Childhood and the 1980s",
+        "where": "China",
+        "why": "Revisiting personal choices within an era of popular music",
+        "how": "Her account moves from learning the erhu to experiences after becoming known"
+      },
+      "ja": {
+        "who": "歌手・成方円",
+        "what": "音楽との出会いと1980年代の歌手活動",
+        "when": "幼少期と1980年代",
+        "where": "中国",
+        "why": "流行音楽の時代と個人の選択を振り返る",
+        "how": "二胡との出会いから有名になった後まで本人が語る"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=QBBR1LRqCIc",
+    "upload_date": "2020-08-11"
+  },
+  "cQ_P_d105vs": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "學者季羨林",
+        "what": "學術人生與文革中的個人經歷",
+        "when": "官方說明註明2002年拍攝",
+        "where": "北京大學等地",
+        "why": "聆聽學者對人生抉擇的回顧",
+        "how": "本人講述學術、反對聶元梓及受迫害的記憶"
+      },
+      "zh-Hans": {
+        "who": "学者季羡林",
+        "what": "学术人生与文革中的个人经历",
+        "when": "官方说明注明2002年拍摄",
+        "where": "北京大学等地",
+        "why": "聆听学者对人生抉择的回顾",
+        "how": "本人讲述学术、反对聂元梓及受迫害的记忆"
+      },
+      "en": {
+        "who": "Scholar Ji Xianlin",
+        "what": "An academic life and personal experiences during the Cultural Revolution",
+        "when": "Filmed in 2002, according to the official description",
+        "where": "Peking University and other locations",
+        "why": "Hearing a scholar reflect on choices in his life",
+        "how": "His recollections of scholarship, opposition to Nie Yuanzi and persecution"
+      },
+      "ja": {
+        "who": "学者・季羨林",
+        "what": "学問人生と文化大革命期の個人的経験",
+        "when": "公式説明では2002年撮影",
+        "where": "北京大学など",
+        "why": "学者が人生の選択を振り返る声を聞く",
+        "how": "学問、聶元梓への反対と迫害の記憶を本人が語る"
+      }
+    },
+    "people": [
+      "ji-xianlin"
+    ],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=cQ_P_d105vs",
+    "upload_date": "2020-08-23"
+  },
+  "dlSSRNUETjY": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "行星科學研究者魏勇",
+        "what": "火星探測與認識地球",
+        "when": null,
+        "where": "地球與火星；演講地點未註明",
+        "why": "思考探測其他行星的意義",
+        "how": "以天問一號及行星科學為題演講"
+      },
+      "zh-Hans": {
+        "who": "行星科学研究者魏勇",
+        "what": "火星探测与认识地球",
+        "when": null,
+        "where": "地球与火星；演讲地点未注明",
+        "why": "思考探测其他行星的意义",
+        "how": "以天问一号及行星科学为题演讲"
+      },
+      "en": {
+        "who": "Planetary scientist Wei Yong",
+        "what": "Mars exploration and understanding Earth",
+        "when": null,
+        "where": "Earth and Mars; the talk’s venue is unspecified",
+        "why": "Considering why other planets matter to our understanding of Earth",
+        "how": "A talk drawing on Tianwen-1 and planetary science"
+      },
+      "ja": {
+        "who": "惑星科学研究者・魏勇",
+        "what": "火星探査と地球の理解",
+        "when": null,
+        "where": "地球と火星。講演会場は記載なし",
+        "why": "他の惑星を探る意義を考える",
+        "how": "天問一号と惑星科学を題材にした講演"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=dlSSRNUETjY",
+    "upload_date": "2021-03-20"
+  },
+  "fVvBAvnmYz0": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "紀錄片導演崔明慧",
+        "what": "跨國成長經驗與紀錄片創作",
+        "when": null,
+        "where": "上海、韓國、美國",
+        "why": "關注種族、性別與邊緣群體",
+        "how": "從個人經歷談拍攝紀錄片的選擇"
+      },
+      "zh-Hans": {
+        "who": "纪录片导演崔明慧",
+        "what": "跨国成长经历与纪录片创作",
+        "when": null,
+        "where": "上海、韩国、美国",
+        "why": "关注种族、性别与边缘群体",
+        "how": "从个人经历谈拍摄纪录片的选择"
+      },
+      "en": {
+        "who": "Documentary filmmaker Christine Choy",
+        "what": "Growing up across countries and making documentaries",
+        "when": null,
+        "where": "Shanghai, Korea and the United States",
+        "why": "Focusing on race, gender and marginalized communities",
+        "how": "Connecting personal experiences with the choice to make documentary films"
+      },
+      "ja": {
+        "who": "記録映画監督・崔明慧（クリスティン・チョイ）",
+        "what": "国をまたぐ成長と記録映画制作",
+        "when": null,
+        "where": "上海、韓国、米国",
+        "why": "人種、性別、周縁化された人々に目を向ける",
+        "how": "個人の経験から記録映画を選んだ道を語る"
+      }
+    },
+    "people": [
+      "christine-choy"
+    ],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=fVvBAvnmYz0",
+    "upload_date": null
+  },
+  "g3mumxaooKc": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "戰爭中的中國民眾",
+        "what": "戰火下的流離與大遷徙",
+        "when": "1931至1945年",
+        "where": "中國",
+        "why": "呈現戰爭對平民生活的影響",
+        "how": "紀錄片從流離經歷追述戰爭年代"
+      },
+      "zh-Hans": {
+        "who": "战争中的中国民众",
+        "what": "战火下的流离与大迁徙",
+        "when": "1931至1945年",
+        "where": "中国",
+        "why": "呈现战争对平民生活的影响",
+        "how": "纪录片从流离经历追述战争年代"
+      },
+      "en": {
+        "who": "Chinese civilians during wartime",
+        "what": "Displacement and large-scale migration amid war",
+        "when": "1931–1945",
+        "where": "China",
+        "why": "Showing the effects of war on civilian life",
+        "how": "A documentary tracing the war years through experiences of displacement"
+      },
+      "ja": {
+        "who": "戦時下の中国の市民",
+        "what": "戦火による避難と大規模な移動",
+        "when": "1931～1945年",
+        "where": "中国",
+        "why": "戦争が市民の生活に及ぼした影響を見る",
+        "how": "避難の経験から戦争の時代を記録映画でたどる"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=g3mumxaooKc",
+    "upload_date": null
+  },
+  "hO8VFCevNdI": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "顧昂然、馬句等人講述彭真",
+        "what": "參與立法工作的經歷與政治起伏",
+        "when": "建國初期至1980年代初",
+        "where": "中國、北京",
+        "why": "從共事者記憶回看法制建設",
+        "how": "同事與下屬口述憲法制定及工作經歷"
+      },
+      "zh-Hans": {
+        "who": "顾昂然、马句等人讲述彭真",
+        "what": "参与立法工作的经历与政治起伏",
+        "when": "建国初期至1980年代初",
+        "where": "中国、北京",
+        "why": "从共事者记忆回看法制建设",
+        "how": "同事与下属口述宪法制定及工作经历"
+      },
+      "en": {
+        "who": "Gu Angran, Ma Ju and others on Peng Zhen",
+        "what": "Legislative work and political changes",
+        "when": "The early PRC years to the early 1980s",
+        "where": "China, including Beijing",
+        "why": "Revisiting legal institution-building through colleagues’ memories",
+        "how": "Colleagues and staff recall constitutional drafting and working experiences"
+      },
+      "ja": {
+        "who": "顧昂然、馬句らが彭真を語る",
+        "what": "立法への関与と政治的な浮き沈み",
+        "when": "建国初期から1980年代初頭",
+        "where": "中国、北京",
+        "why": "同僚の記憶から法制度づくりを振り返る",
+        "how": "同僚や部下が憲法制定と仕事を口述"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=hO8VFCevNdI",
+    "upload_date": "2020-08-12"
+  },
+  "i_si7uYOLas": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "金華歷代文人與學者",
+        "what": "古子城、八詠樓與地方文化傳承",
+        "when": null,
+        "where": "浙江金華",
+        "why": "了解城市古蹟與學術傳統的關係",
+        "how": "從詩文、書院及地方學派切入"
+      },
+      "zh-Hans": {
+        "who": "金华历代文人与学者",
+        "what": "古子城、八咏楼与地方文化传承",
+        "when": null,
+        "where": "浙江金华",
+        "why": "了解城市古迹与学术传统的关系",
+        "how": "从诗文、书院及地方学派切入"
+      },
+      "en": {
+        "who": "Writers and scholars associated with Jinhua",
+        "what": "Guzicheng, Bayong Tower and local cultural traditions",
+        "when": null,
+        "where": "Jinhua, Zhejiang",
+        "why": "Exploring links between historic places and scholarly traditions",
+        "how": "Looking at poetry, academies and local schools of thought"
+      },
+      "ja": {
+        "who": "金華ゆかりの文人と学者",
+        "what": "古子城、八詠楼と地域の文化伝承",
+        "when": null,
+        "where": "浙江省金華",
+        "why": "史跡と学問の伝統の関係を知る",
+        "how": "詩文、書院、地域の学派から見る"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=i_si7uYOLas",
+    "upload_date": "2020-09-30"
+  },
+  "lt5Q0-AQBSo": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "宗子琥與趙麗德；宗福先與谷麗雅",
+        "what": "宗家父子兩代人的婚戀故事",
+        "when": "戰亂時期及下一代成年後",
+        "where": null,
+        "why": "呈現不同時代的伴侶選擇",
+        "how": "從逃難、疾病與互相扶持的經歷切入"
+      },
+      "zh-Hans": {
+        "who": "宗子琥与赵丽德；宗福先与谷丽雅",
+        "what": "宗家父子两代人的婚恋故事",
+        "when": "战乱时期及下一代成年后",
+        "where": null,
+        "why": "呈现不同时代的伴侣选择",
+        "how": "从逃难、疾病与互相扶持的经历切入"
+      },
+      "en": {
+        "who": "Zong Zihu and Zhao Lide; Zong Fuxian and Gu Liya",
+        "what": "Love and marriage across two generations of the Zong family",
+        "when": "Wartime and the next generation’s adulthood",
+        "where": null,
+        "why": "Considering choices in relationships across different eras",
+        "how": "Stories of fleeing war, illness and mutual support"
+      },
+      "ja": {
+        "who": "宗子琥と趙麗徳、宗福先と谷麗雅",
+        "what": "宗家の父子二世代の愛と結婚",
+        "when": "戦乱期と次世代の成人後",
+        "where": null,
+        "why": "異なる時代の伴侶の選択を見る",
+        "how": "避難、病気、支え合いの経験からたどる"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=lt5Q0-AQBSo",
+    "upload_date": "2020-10-09"
+  },
+  "oIvQqh9z-oA": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "徐州會戰中的中日軍隊",
+        "what": "南京陷落後向徐州擴展的戰局",
+        "when": "南京陷落後",
+        "where": "南京、徐州",
+        "why": "回顧徐州會戰的背景",
+        "how": "紀錄片追述軍事部署與進攻方向"
+      },
+      "zh-Hans": {
+        "who": "徐州会战中的中日军队",
+        "what": "南京陷落后向徐州扩展的战局",
+        "when": "南京陷落后",
+        "where": "南京、徐州",
+        "why": "回顾徐州会战的背景",
+        "how": "纪录片追述军事部署与进攻方向"
+      },
+      "en": {
+        "who": "Chinese and Japanese forces in the Xuzhou campaign",
+        "what": "The war’s expansion toward Xuzhou after Nanjing fell",
+        "when": "After the fall of Nanjing",
+        "where": "Nanjing and Xuzhou",
+        "why": "Revisiting the background to the Xuzhou campaign",
+        "how": "A documentary account of deployments and directions of attack"
+      },
+      "ja": {
+        "who": "徐州会戦の中国軍と日本軍",
+        "what": "南京陥落後、徐州へ広がる戦局",
+        "when": "南京陥落後",
+        "where": "南京、徐州",
+        "why": "徐州会戦の背景を振り返る",
+        "how": "軍事配備と進攻方向を記録映画でたどる"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=oIvQqh9z-oA",
+    "upload_date": "2020-12-09"
+  },
+  "qbwP0sA4hvU": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "唐代陸羽",
+        "what": "茶經的編寫與茶文化",
+        "when": "約公元780年前後",
+        "where": "中國",
+        "why": "了解典籍與飲茶文化的關係",
+        "how": "從栽培、製茶、器具及煮飲知識切入"
+      },
+      "zh-Hans": {
+        "who": "唐代陆羽",
+        "what": "茶经的编写与茶文化",
+        "when": "约公元780年前后",
+        "where": "中国",
+        "why": "了解典籍与饮茶文化的关系",
+        "how": "从栽培、制茶、器具及煮饮知识切入"
+      },
+      "en": {
+        "who": "Lu Yu of the Tang dynasty",
+        "what": "Writing The Classic of Tea and its place in tea culture",
+        "when": "Around 780 CE",
+        "where": "China",
+        "why": "Understanding links between a text and tea-drinking culture",
+        "how": "Considering cultivation, processing, utensils and preparation"
+      },
+      "ja": {
+        "who": "唐代の陸羽",
+        "what": "茶経の執筆と茶文化",
+        "when": "西暦780年頃",
+        "where": "中国",
+        "why": "典籍と喫茶文化の関係を知る",
+        "how": "栽培、製茶、道具、茶の準備の知識から見る"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=qbwP0sA4hvU",
+    "upload_date": "2020-09-21"
+  },
+  "tco1O3r-cG0": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "fields": {
+      "zh-Hant": {
+        "who": "金華的居民與文人",
+        "what": "古子城的文化記憶與城市變遷",
+        "when": null,
+        "where": "浙江金華",
+        "why": "關注老城建築與地方記憶的保存",
+        "how": "從歷史文化與古建築的變化切入"
+      },
+      "zh-Hans": {
+        "who": "金华的居民与文人",
+        "what": "古子城的文化记忆与城市变迁",
+        "when": null,
+        "where": "浙江金华",
+        "why": "关注老城建筑与地方记忆的保存",
+        "how": "从历史文化与古建筑的变化切入"
+      },
+      "en": {
+        "who": "Jinhua’s residents and writers",
+        "what": "Cultural memory and urban change in Guzicheng",
+        "when": null,
+        "where": "Jinhua, Zhejiang",
+        "why": "Considering the preservation of old buildings and local memories",
+        "how": "Looking at cultural history and changes to historic buildings"
+      },
+      "ja": {
+        "who": "金華の住民と文人",
+        "what": "古子城の文化的記憶と都市の変化",
+        "when": null,
+        "where": "浙江省金華",
+        "why": "古い建物と地域の記憶の保存を考える",
+        "how": "歴史文化と古建築の変化から見る"
+      }
+    },
+    "people": [],
+    "recorded_at": null,
+    "recording_location": null,
+    "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
+    "source": "https://www.youtube.com/watch?v=tco1O3r-cG0",
+    "upload_date": null
   }
 }

@@ -273,5 +273,16 @@
     "url": "https://www.shcmusic.edu.cn/2024/0403/c1533a50655/page.htm",
     "sourceLanguage": "zh-Hans",
     "publisher": "上海音樂學院"
+  },
+  "christine-choy": {
+    "name": {
+      "zh-Hant": "崔明慧",
+      "zh-Hans": "崔明慧",
+      "en": "Christine Choy",
+      "ja": "崔明慧（クリスティン・チョイ）"
+    },
+    "url": "https://tisch.nyu.edu/about/directory/film-tvs/3045998",
+    "sourceLanguage": "en",
+    "publisher": "NYU Tisch School of the Arts"
   }
 }
