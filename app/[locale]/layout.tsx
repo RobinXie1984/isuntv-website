@@ -17,9 +17,9 @@ export async function generateMetadata({
   return {
     title: `${t.title} | ${t.series}`,
     description: t.intro,
-    robots: { index: false, follow: false },
+    robots: { index: true, follow: true },
     icons: { icon: '/isuntv-logo.png' },
-    alternates: languageAlternates(''),
+    alternates: languageAlternates('', locale as Locale),
   };
 }
 export default async function Layout({

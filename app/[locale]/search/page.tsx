@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: Props) {
   const locale = p.locale ? checkedLocale(p.locale) : 'zh-Hant';
   return {
     title: `${searchCopy[locale].title} | iSunTV`,
-    alternates: languageAlternates('search/'),
+    robots: { index: false, follow: true },
+    alternates: languageAlternates('search/', locale),
   };
 }

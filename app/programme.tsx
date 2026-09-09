@@ -32,7 +32,7 @@ export function Programme({
   const visible = videos.slice((page - 1) * 24, page * 24);
   return (
     <>
-      <SiteHeader locale={locale} path={`programmes/${slug}/`} />
+      <SiteHeader locale={locale} path={`programmes/${slug}${page > 1 ? `?page=${page}` : ''}`} />
       <main id="main" className="detail">
         <a className="back-link" href={`${homePath(locale)}#programmes`}>
           <ArrowLeft size={16} />

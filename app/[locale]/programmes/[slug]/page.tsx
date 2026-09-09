@@ -23,9 +23,11 @@ export default async function Page({
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string; locale?: string }>;
+  searchParams: Promise<{ page?: string }>;
 }) {
   const p = await params;
-  return programmeMetadata(checkedLocale(p.locale), p.slug);
+  return programmeMetadata(checkedLocale(p.locale), p.slug, (await searchParams).page);
 }
