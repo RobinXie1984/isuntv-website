@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { homePath, locales, type Locale } from './catalogue';
 import { findVideo, getProgramme } from './collection';
-import { detailCopy, drafts } from './editorial';
+import { drafts } from './editorial';
+import { videoTitle } from './titles';
 
 export function checkedLocale(value: string | undefined): Locale {
   if (!locales.includes(value as Locale) || value === 'zh-Hant') notFound();
@@ -25,7 +26,7 @@ export function programmeMetadata(locale: Locale, slug: string): Metadata {
 export function videoMetadata(locale: Locale, id: string): Metadata {
   const video = findVideo(id);
   if (!video) notFound();
-  const title = video.title ?? detailCopy[locale].missingTitle;
+  const title = videoTitle(video, locale);
   const fields = drafts[id]?.fields[locale];
   const description = fields
     ? Object.values(fields).filter(Boolean).join(' · ')

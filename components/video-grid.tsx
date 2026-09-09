@@ -2,6 +2,7 @@
 import { ArrowUpRight } from 'lucide-react';
 import { type Locale } from '../lib/catalogue';
 import { detailCopy } from '../lib/editorial';
+import { videoTitle } from '../lib/titles';
 import { videoPath, type ListedVideo } from '../lib/collection';
 export function VideoGrid({
   locale,
@@ -18,7 +19,7 @@ export function VideoGrid({
           <a
             href={videoPath(locale, v.id)}
             className="video-image"
-            aria-label={v.title ?? t.missingTitle}
+            aria-label={videoTitle(v, locale)}
           >
             <img
               src={v.thumbnail ?? undefined}
@@ -35,7 +36,7 @@ export function VideoGrid({
             {String(v.playlist_index).padStart(2, '0')}
           </p>
           <h2>
-            <a href={videoPath(locale, v.id)}>{v.title ?? t.missingTitle}</a>
+            <a href={videoPath(locale, v.id)}>{videoTitle(v, locale)}</a>
           </h2>
           <a
             className="video-watch"

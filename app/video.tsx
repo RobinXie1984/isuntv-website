@@ -4,6 +4,7 @@ import { ArrowUpRight, ArrowLeft, UserRound, Play } from 'lucide-react';
 import { SiteHeader } from '../components/site-header';
 import { detailCopy, drafts } from '../lib/editorial';
 import { people } from '../lib/people';
+import { displayTitles, videoTitle } from '../lib/titles';
 import { programmes, type Locale } from '../lib/catalogue';
 import {
   findVideo,
@@ -28,8 +29,14 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
             {t.videoBack}
           </a>
         ) : null}
-        <p className="eyebrow">{t.original}</p>
-        <h1>{v.title ?? t.missingTitle}</h1>
+        <p className="eyebrow">{programme?.titles[locale]}</p>
+        <h1>{videoTitle(v, locale)}</h1>
+        {displayTitles[id] ? (
+          <details className="original-title">
+            <summary>{t.original}</summary>
+            <p>{v.title ?? t.missingTitle}</p>
+          </details>
+        ) : null}
         <a
           className="video-cover"
           href={`https://www.youtube.com/watch?v=${v.id}&list=${v.playlistId}`}
@@ -39,7 +46,7 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
             src={v.thumbnail ?? undefined}
             width="640"
             height="360"
-            alt={v.title ?? t.missingTitle}
+            alt={videoTitle(v, locale)}
           />
           <span className="cover-play">
             <Play size={22} />

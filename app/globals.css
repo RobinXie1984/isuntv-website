@@ -700,3 +700,12 @@ footer {
     gap: 8px;
   }
 }
+
+.original-title {
+  margin: 12px 0 20px;
+  color: #b9b9b9;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.original-title summary { cursor: pointer; min-height: 44px; padding: 10px 0; }
+.original-title p { margin: 6px 0 0; overflow-wrap: anywhere; }

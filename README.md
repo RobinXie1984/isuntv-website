@@ -17,3 +17,5 @@ Production iSunTV.com cutover requires Robin's explicit approval after a reviewe
 Shared descriptions are explicitly labelled in the video view. Drafts summarize titles and descriptions only; unknown details remain null, and upload dates are not substituted for recording dates.
 
 Person references use a shared identity registry in lib/people.json and explicit per-video IDs. Links display localized names, so multi-person episodes identify the linked subject. Sources remain in their original language.
+
+Reviewed localized display titles currently cover 112 episodes. Original source titles and playlist membership remain unchanged in lib/videos.json. The original title is available through a native details disclosure on video pages; search indexes both original and localized titles. Untranslated episodes retain their source title and are not misrepresented as translated.
