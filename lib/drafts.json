@@ -3858,7 +3858,11 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=xZcpzq7QP7c",
-    "upload_date": "2020-07-16"
+    "upload_date": "2020-07-16",
+    "people": [
+      "du-xiuxian",
+      "gu-baozi"
+    ]
   },
   "sGbY-hHtEpM": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -3984,7 +3988,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=alWvlEeFJj8",
-    "upload_date": "2020-07-28"
+    "upload_date": "2020-07-28",
+    "people": [
+      "cai-zhenhua"
+    ]
   },
   "BY5L2sspW3g": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -4287,7 +4294,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=gMEJ7Aesszc",
-    "upload_date": "2020-07-21"
+    "upload_date": "2020-07-21",
+    "people": [
+      "du-xiuxian"
+    ]
   },
   "5z_XAdaKhBE": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -4627,7 +4637,11 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=iJbGA7MgS-g",
-    "upload_date": "2020-09-04"
+    "upload_date": "2020-09-04",
+    "people": [
+      "han-zihua",
+      "han-fuju"
+    ]
   },
   "zgtJ-O4FI18": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -5675,7 +5689,12 @@
         "how": "学生時代、映画制作、二重唱の物語から"
       }
     },
-    "people": [],
+    "people": [
+      "li-qiankuan",
+      "xiao-guiyun",
+      "ye-mao",
+      "liao-sha"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
