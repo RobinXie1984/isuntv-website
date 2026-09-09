@@ -6,7 +6,7 @@ Install pinned dependencies with `npm ci`; verify with `npm run lint`, `npx tsc 
 
 The site renders public playlist data at the edge using Vinext. It has no accounts, payments, database, or video downloads. Search uses normal HTML GET forms and the same public catalogue; no client search service or tracking is required. Programme pages preserve playlist order and link to YouTube. The original supplied playlist mapping remains in lib/catalogue.ts; the Journeys page also shows its submitted geography link alongside the observed official Journeys series.
 
-Content is incomplete: 112 source-backed six-question drafts (including partially specified fields); remaining descriptions are being researched. Missing source titles have localized fallbacks. A playlist item is not proof of current video playability. All preview pages request no indexing.
+Content is incomplete: 136 source-backed six-question drafts (including partially specified fields); remaining descriptions are being researched. Missing source titles have localized fallbacks. A playlist item is not proof of current video playability. All preview pages request no indexing.
 
 The unused shadcn scaffold is preserved unchanged. Authored application code is linted; unused components/ui and use-mobile scaffold are excluded from lint only. TypeScript checks the full project. Dimensioned source thumbnails use direct image elements, with the specific Next image-optimizer lint rule waived and documented in affected files.
 
@@ -18,4 +18,4 @@ Shared descriptions are explicitly labelled in the video view. Drafts summarize 
 
 Person references use a shared identity registry in lib/people.json and explicit per-video IDs. Links display localized names, so multi-person episodes identify the linked subject. Sources remain in their original language.
 
-Reviewed localized display titles currently cover 112 episodes. Original source titles and playlist membership remain unchanged in lib/videos.json. The original title is available through a native details disclosure on video pages; search indexes both original and localized titles. Untranslated episodes retain their source title and are not misrepresented as translated.
+Reviewed localized display titles currently cover 136 episodes. Original source titles and playlist membership remain unchanged in lib/videos.json. The original title is available through a native details disclosure on video pages; search indexes both original and localized titles. Untranslated episodes retain their source title and are not misrepresented as translated.
