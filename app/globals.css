@@ -3,8 +3,6 @@
 @source '../lib';
 @source '../components/site-header.tsx';
 @source '../components/video-grid.tsx';
-@import 'tw-animate-css';
-@import 'shadcn/tailwind.css';
 :root {
   --background: #141414;
   --foreground: #fafafa;
