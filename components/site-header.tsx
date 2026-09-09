@@ -1,3 +1,5 @@
+import { Search } from 'lucide-react';
+import { searchCopy } from '../lib/search-copy';
 /* oxlint-disable nextjs/no-img-element -- Fixed-size source thumbnails and the small official logo use direct images; no image proxy or optimizer is needed. */
 import {
   copy,
@@ -14,6 +16,12 @@ export function SiteHeader({
   path?: string;
 }) {
   const t = copy[locale];
+  const aboutShort = {
+    'zh-Hant': '關於',
+    'zh-Hans': '关于',
+    en: 'About',
+    ja: '紹介',
+  }[locale];
   return (
     <>
       <a className="skip" href="#main">
@@ -30,7 +38,16 @@ export function SiteHeader({
         </a>
         <nav className="main-nav" aria-label={t.nav}>
           <a href={`${homePath(locale)}#programmes`}>{t.nav}</a>
-          <a href={`${homePath(locale)}#about`}>{t.about}</a>
+          <a href={`${homePath(locale)}#about`} aria-label={t.about}>
+            {aboutShort}
+          </a>
+          <a
+            className="nav-search"
+            href={homePath(locale) + 'search/'}
+            aria-label={searchCopy[locale].title}
+          >
+            <Search size={20} />
+          </a>
         </nav>
         <nav className="languages" aria-label={t.lang}>
           {locales.map((l) => (

@@ -1,5 +1,8 @@
+import data from './drafts.json';
+import type { Locale } from './catalogue';
 export const detailCopy = {
   'zh-Hant': {
+    unknown: '資料未載明',
     browse: '瀏覽影片',
     submitted: '提供的原清單（人文地理）',
     missingTitle: '影片標題未提供',
@@ -10,7 +13,7 @@ export const detailCopy = {
     previous: '上一頁',
     next: '下一頁',
     page: '頁',
-    original: '影片原標題',
+    original: 'YouTube 影片標題',
     summary: '一分鐘了解',
     who: '人物',
     what: '內容',
@@ -25,6 +28,7 @@ export const detailCopy = {
     unavailable: 'YouTube 另有隱藏影片，暫無法列出。',
   },
   'zh-Hans': {
+    unknown: '资料未载明',
     browse: '浏览影片',
     submitted: '提供的原列表（人文地理）',
     missingTitle: '影片标题未提供',
@@ -35,7 +39,7 @@ export const detailCopy = {
     previous: '上一页',
     next: '下一页',
     page: '页',
-    original: '影片原标题',
+    original: 'YouTube 影片标题',
     summary: '一分钟了解',
     who: '人物',
     what: '内容',
@@ -50,6 +54,7 @@ export const detailCopy = {
     unavailable: 'YouTube 另有隐藏影片，暂无法列出。',
   },
   en: {
+    unknown: 'Not specified by the source',
     browse: 'Browse episodes',
     submitted: 'Submitted playlist (People & Places)',
     missingTitle: 'Video title unavailable',
@@ -60,7 +65,7 @@ export const detailCopy = {
     previous: 'Previous',
     next: 'Next',
     page: 'Page',
-    original: 'Original video title',
+    original: 'Title supplied by YouTube',
     summary: 'At a glance',
     who: 'Who',
     what: 'What',
@@ -77,6 +82,7 @@ export const detailCopy = {
       'YouTube also hides unavailable videos, which cannot be listed here.',
   },
   ja: {
+    unknown: '資料に記載なし',
     browse: 'エピソード一覧',
     submitted: '提供された元のリスト（人文地理）',
     missingTitle: '動画タイトル未取得',
@@ -87,7 +93,7 @@ export const detailCopy = {
     previous: '前へ',
     next: '次へ',
     page: 'ページ',
-    original: '動画の原題',
+    original: 'YouTube のタイトル',
     summary: 'ひと目でわかる',
     who: '人物',
     what: '内容',
@@ -103,48 +109,14 @@ export const detailCopy = {
     unavailable: 'YouTube 上で非公開の動画は、ここには表示できません。',
   },
 };
-export const drafts = {
-  'anL-lcfB2y0': {
-    status: 'DRAFT_FROM_OFFICIAL_DESCRIPTION',
-    fields: {
-      'zh-Hant': {
-        who: '指揮家李德倫',
-        what: '回顧個人的音樂生涯',
-        when: '1938年入學、1957年歸國',
-        where: '輔仁大學、蘇聯與中央樂團',
-        why: '接觸交響樂後立志投身音樂',
-        how: '本人以口述回顧求學與指揮經歷',
-      },
-      'zh-Hans': {
-        who: '指挥家李德伦',
-        what: '回顾个人的音乐生涯',
-        when: '1938年入学、1957年归国',
-        where: '辅仁大学、苏联与中央乐团',
-        why: '接触交响乐后立志投身音乐',
-        how: '本人以口述回顾求学与指挥经历',
-      },
-      en: {
-        who: 'Conductor Li Delun',
-        what: 'A personal account of his life in music',
-        when: 'University in 1938; return to China in 1957',
-        where:
-          'Fu Jen University, the Soviet Union and the Central Philharmonic',
-        why: 'Discovering symphonic music inspired his commitment to music',
-        how: 'Li recounts his education and conducting career in his own words',
-      },
-      ja: {
-        who: '指揮者・李徳倫',
-        what: '自身の音楽人生を振り返る',
-        when: '1938年の大学入学、1957年の帰国',
-        where: '輔仁大学、ソ連、中央楽団',
-        why: '交響楽との出会いを機に音楽の道を志す',
-        how: '本人の語りで学業と指揮者としての歩みをたどる',
-      },
-    },
-    source: 'https://www.youtube.com/watch?v=anL-lcfB2y0',
-    reference: 'https://www.cnso.com.cn/zgjxyt/ldldc100h/ztindex.shtml',
-    recorded_at: null,
-    recording_location: null,
-    upload_date: '2020-06-21',
-  },
+export type SixField = 'who' | 'what' | 'when' | 'where' | 'why' | 'how';
+export type Draft = {
+  status: string;
+  fields: Record<Locale, Record<SixField, string | null>>;
+  source: string;
+  reference: string | null;
+  recorded_at: string | null;
+  recording_location: string | null;
+  upload_date: string | null;
 };
+export const drafts: Partial<Record<string, Draft>> = data;

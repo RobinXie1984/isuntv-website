@@ -25,3 +25,5 @@ export const programmePath = (l: Locale, slug: string) =>
   homePath(l) + 'programmes/' + slug + '/';
 export const videoPath = (l: Locale, id: string) =>
   homePath(l) + 'videos/' + id + '/';
+
+export type ListedVideo = NonNullable<ReturnType<typeof findVideo>>;

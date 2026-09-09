@@ -1,3 +1,4 @@
+import { programmeMetadata } from '../../../../lib/metadata';
 import { Programme } from '../../../programme';
 import { type Locale, locales } from '../../../../lib/catalogue';
 import { notFound } from 'next/navigation';
@@ -18,4 +19,13 @@ export default async function Page({
       pageRaw={(await searchParams).page}
     />
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string; locale?: string }>;
+}) {
+  const p = await params;
+  return programmeMetadata('zh-Hant', p.slug);
 }

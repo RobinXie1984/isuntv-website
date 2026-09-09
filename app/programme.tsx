@@ -1,3 +1,4 @@
+import { VideoGrid } from '../components/video-grid';
 /* oxlint-disable nextjs/no-img-element -- Fixed-size source thumbnails and the small official logo use direct images; no image proxy or optimizer is needed. */
 import { notFound } from 'next/navigation';
 import { ArrowUpRight, ArrowLeft, ArrowRight } from 'lucide-react';
@@ -10,7 +11,6 @@ import {
   selectedPlaylistIds,
   playlists,
   programmePath,
-  videoPath,
 } from '../lib/collection';
 export function Programme({
   locale,
@@ -71,43 +71,7 @@ export function Programme({
             <p className="source-note">{t.unavailable}</p>
           ) : null}
         </div>
-        <div className="video-grid">
-          {visible.map((v) => (
-            <article className="video-card" key={`${v.playlistId}-${v.id}`}>
-              <a
-                href={videoPath(locale, v.id)}
-                className="video-image"
-                aria-label={v.title ?? t.missingTitle}
-              >
-                <img
-                  src={v.thumbnail ?? undefined}
-                  width="480"
-                  height="270"
-                  loading="lazy"
-                  alt=""
-                />
-                {v.durationLabel ? (
-                  <span className="duration">{v.durationLabel}</span>
-                ) : null}
-              </a>
-              <p className="episode-index">
-                {String(v.playlist_index).padStart(2, '0')}
-              </p>
-              <h2>
-                <a href={videoPath(locale, v.id)}>
-                  {v.title ?? t.missingTitle}
-                </a>
-              </h2>
-              <a
-                className="video-watch"
-                href={`https://www.youtube.com/watch?v=${v.id}&list=${v.playlistId}`}
-              >
-                {t.watch}
-                <ArrowUpRight size={15} />
-              </a>
-            </article>
-          ))}
-        </div>
+        <VideoGrid locale={locale} videos={visible} />
         <nav className="pagination" aria-label={t.page}>
           {page > 1 ? (
             <a href={programmePath(locale, slug) + `?page=${page - 1}`}>

@@ -16,7 +16,7 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
   const programme = programmes.find((p) =>
     selectedPlaylistIds(p.slug).includes(v.playlistId),
   );
-  const draft = id === 'anL-lcfB2y0' ? drafts['anL-lcfB2y0'] : undefined;
+  const draft = drafts[id];
   return (
     <>
       <SiteHeader locale={locale} path={`videos/${id}/`} />
@@ -58,8 +58,8 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
                       {t[key]}
                     </dt>
                     <dd>
-                      {draft.fields[locale][key]}
-                      {key === 'who' ? (
+                      {draft.fields[locale][key] ?? t.unknown}
+                      {key === 'who' && draft.reference ? (
                         <a
                           href={draft.reference}
                           className="person-reference"

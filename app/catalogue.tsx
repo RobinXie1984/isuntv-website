@@ -1,3 +1,4 @@
+import { SiteHeader } from '../components/site-header';
 /* oxlint-disable nextjs/no-img-element -- Fixed-size source thumbnails and the small official logo use direct images; no image proxy or optimizer is needed. */
 import {
   programmePath,
@@ -6,47 +7,12 @@ import {
 } from '../lib/collection';
 import { detailCopy } from '../lib/editorial';
 import { ArrowUpRight, Play, ArrowDown } from 'lucide-react';
-import {
-  copy,
-  programmes,
-  locales,
-  localeNames,
-  homePath,
-  type Locale,
-} from '../lib/catalogue';
+import { copy, programmes, type Locale } from '../lib/catalogue';
 export function Catalogue({ locale }: { locale: Locale }) {
   const t = copy[locale];
   return (
     <div lang={locale}>
-      <a className="skip" href="#main">
-        {t.skip}
-      </a>
-      <header className="masthead">
-        <a href={homePath(locale)} className="brand" aria-label={t.title}>
-          <img
-            src="/isuntv-logo.png"
-            width="200"
-            height="100"
-            alt="iSunTV 陽光衛視"
-          />
-        </a>
-        <nav className="main-nav" aria-label={t.nav}>
-          <a href="#programmes">{t.nav}</a>
-          <a href="#about">{t.about}</a>
-        </nav>
-        <nav className="languages" aria-label={t.lang}>
-          {locales.map((l) => (
-            <a
-              key={l}
-              href={homePath(l)}
-              hrefLang={l}
-              aria-current={l === locale ? 'page' : undefined}
-            >
-              {localeNames[l]}
-            </a>
-          ))}
-        </nav>
-      </header>
+      <SiteHeader locale={locale} />
       <main id="main">
         <section className="intro">
           <div className="intro-text">

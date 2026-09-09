@@ -1,0 +1,38 @@
+export const searchCopy = {
+  'zh-Hant': {
+    title: '搜尋影片',
+    label: '原片標題、人物或節目名稱',
+    submit: '搜尋',
+    empty: '請輸入關鍵字，搜尋陽光衛視節目典藏。',
+    none: '未找到符合的影片，請嘗試其他關鍵字或原片標題。',
+    results: '部符合的影片',
+    hint: '影片標題保留原文；可使用片名、人物或節目名稱搜尋。',
+  },
+  'zh-Hans': {
+    title: '搜索影片',
+    label: '原片标题、人物或节目名称',
+    submit: '搜索',
+    empty: '请输入关键词，搜索阳光卫视节目典藏。',
+    none: '未找到符合的影片，请尝试其他关键词或原片标题。',
+    results: '部符合的影片',
+    hint: '影片标题保留原文；可使用片名、人物或节目名称搜索。',
+  },
+  en: {
+    title: 'Search videos',
+    label: 'Original title, person or programme',
+    submit: 'Search',
+    empty: 'Enter a keyword to explore the iSunTV collection.',
+    none: 'No matching videos. Try another keyword or the original video title.',
+    results: 'matching videos',
+    hint: 'Video titles retain their original language. Search by title, person or programme.',
+  },
+  ja: {
+    title: '動画を検索',
+    label: '原題・人物・番組名',
+    submit: '検索',
+    empty: 'キーワードを入力して、陽光衛視の作品を探す。',
+    none: '一致する動画がありません。別のキーワードや原題で検索してください。',
+    results: '件の動画',
+    hint: '動画タイトルは原文表記です。原題・人物・番組名で検索できます。',
+  },
+};
