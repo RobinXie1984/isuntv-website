@@ -790,5 +790,38 @@
     "url": "https://www.chinawriter.com.cn/n1/2018/1207/c405057-30448324.html",
     "sourceLanguage": "zh-Hans",
     "publisher": "中國作家網（來源：解放日報）"
+  },
+  "huang-wen": {
+    "name": {
+      "zh-Hant": "黃文",
+      "zh-Hans": "黄文",
+      "en": "Huang Wen",
+      "ja": "黄文"
+    },
+    "url": "https://paper.people.com.cn/hqrw/html/2016-04/06/content_1672973.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "環球人物"
+  },
+  "cao-yong": {
+    "name": {
+      "zh-Hant": "曹勇",
+      "zh-Hans": "曹勇",
+      "en": "Cao Yong",
+      "ja": "曹勇"
+    },
+    "url": "https://big5.cctv.com/gate/big5/discovery.cctv.com/20070614/102210.shtml",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "CCTV《人物》"
+  },
+  "chen-zutao": {
+    "name": {
+      "zh-Hant": "陳祖濤",
+      "zh-Hans": "陈祖涛",
+      "en": "Chen Zutao",
+      "ja": "陳祖濤"
+    },
+    "url": "https://www.thepaper.cn/newsDetail_forward_19598961",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "汽車商業評論（澎湃號）"
   }
 }

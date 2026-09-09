@@ -1592,7 +1592,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=sQ-XRR7mSN8",
-    "upload_date": "2020-07-05"
+    "upload_date": "2020-07-05",
+    "people": [
+      "huang-wen"
+    ]
   },
   "VxKkWcwKuv8": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1854,7 +1857,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=SEI9IMcvE5o",
-    "upload_date": "2020-07-05"
+    "upload_date": "2020-07-05",
+    "people": [
+      "cao-yong"
+    ]
   },
   "FS8JFl_7NnU": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2430,7 +2436,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=nF-uRtohqNw",
-    "upload_date": "2020-07-08"
+    "upload_date": "2020-07-08",
+    "people": [
+      "cao-yong"
+    ]
   },
   "jYh7wjMDwuo": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2913,7 +2922,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=lF4e2l5JRcI",
-    "upload_date": "2020-07-12"
+    "upload_date": "2020-07-12",
+    "people": [
+      "cao-yong"
+    ]
   },
   "qinuUKNLNCQ": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -6355,7 +6367,9 @@
         "how": "仲間との暮らしや入隊への願いを本人が語る"
       }
     },
-    "people": [],
+    "people": [
+      "chen-zutao"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
