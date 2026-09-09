@@ -977,5 +977,38 @@
     "url": "https://www.chinawriter.com.cn/n1/2016/0627/c404934-28489164.html",
     "sourceLanguage": "zh-Hans",
     "publisher": "中國作家網"
+  },
+  "huo-fusen": {
+    "name": {
+      "zh-Hant": "霍福森",
+      "zh-Hans": "霍福森",
+      "en": "Huo Fusen",
+      "ja": "霍福森"
+    },
+    "url": "https://www.tjyun.com/system/2023/04/03/053791886.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "津云"
+  },
+  "tang-xiyang": {
+    "name": {
+      "zh-Hant": "唐錫陽",
+      "zh-Hans": "唐锡阳",
+      "en": "Tang Xiyang",
+      "ja": "唐錫陽"
+    },
+    "url": "https://rmaward.asia/rmawardees/tang-xiyang/",
+    "sourceLanguage": "en",
+    "publisher": "Ramon Magsaysay Award Foundation"
+  },
+  "liu-linian": {
+    "name": {
+      "zh-Hant": "劉利年",
+      "zh-Hans": "刘利年",
+      "en": "Liu Linian",
+      "ja": "劉利年"
+    },
+    "url": "https://www.goldenhorse.org.tw/awards/nw/?ins=25&sc=8&search_regist_year=1996&serach_type=award",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "台北金馬影展"
   }
 }

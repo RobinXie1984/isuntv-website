@@ -1250,7 +1250,10 @@
     "source": "https://www.youtube.com/watch?v=V0WPawFfKVo",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-07-18"
+    "upload_date": "2020-07-18",
+    "people": [
+      "tang-xiyang"
+    ]
   },
   "LQlFU8wn9O8": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -4553,7 +4556,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=j8Jcz8C-gFQ",
-    "upload_date": "2020-09-02"
+    "upload_date": "2020-09-02",
+    "people": [
+      "huo-fusen"
+    ]
   },
   "hbEUldSq_V4": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -5866,7 +5872,9 @@
         "how": "映画、帰国、鉄工芸の経験から人生を紹介"
       }
     },
-    "people": [],
+    "people": [
+      "liu-linian"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
