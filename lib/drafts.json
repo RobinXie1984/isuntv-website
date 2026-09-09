@@ -426,7 +426,10 @@
     "source": "https://www.youtube.com/watch?v=cVRN-DkoKZE",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2021-11-14"
+    "upload_date": "2021-11-14",
+    "people": [
+      "wang-zhanjun"
+    ]
   },
   "24iNdBUgtOQ": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1648,7 +1651,11 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=VxKkWcwKuv8",
-    "upload_date": "2020-07-25"
+    "upload_date": "2020-07-25",
+    "people": [
+      "ge-cunzhuang",
+      "shi-wenxin"
+    ]
   },
   "GUVMVVdsjXc": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -4601,7 +4608,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=hbEUldSq_V4",
-    "upload_date": "2021-04-24"
+    "upload_date": "2021-04-24",
+    "people": [
+      "liu-fengmei"
+    ]
   },
   "iJbGA7MgS-g": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -5251,7 +5261,9 @@
         "how": "画家村に借り住まいした記憶を本人が語る"
       }
     },
-    "people": [],
+    "people": [
+      "chen-yiqing"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -6052,7 +6064,10 @@
         "how": "花鼓灯の踊りと秦腔の経験からたどる"
       }
     },
-    "people": [],
+    "people": [
+      "zhao-xinmeng",
+      "lou-lou"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
