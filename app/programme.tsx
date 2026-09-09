@@ -71,7 +71,7 @@ export function Programme({
             <p className="source-note">{t.unavailable}</p>
           ) : null}
         </div>
-        <VideoGrid locale={locale} videos={visible} />
+        <VideoGrid locale={locale} videos={visible} priorityFirstImage />
         <nav className="pagination" aria-label={t.page}>
           {page > 1 ? (
             <a href={programmePath(locale, slug) + `?page=${page - 1}`}>

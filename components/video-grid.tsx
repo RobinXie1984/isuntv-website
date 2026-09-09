@@ -7,14 +7,16 @@ import { videoPath, type ListedVideo } from '../lib/collection';
 export function VideoGrid({
   locale,
   videos,
+  priorityFirstImage = false,
 }: {
   locale: Locale;
   videos: ListedVideo[];
+  priorityFirstImage?: boolean;
 }) {
   const t = detailCopy[locale];
   return (
     <div className="video-grid">
-      {videos.map((v) => (
+      {videos.map((v, index) => (
         <article className="video-card" key={`${v.playlistId}-${v.id}`}>
           <a
             href={videoPath(locale, v.id)}
@@ -25,7 +27,8 @@ export function VideoGrid({
               src={v.thumbnail ?? undefined}
               width="480"
               height="270"
-              loading="lazy"
+              loading={priorityFirstImage && index === 0 ? 'eager' : 'lazy'}
+              fetchPriority={priorityFirstImage && index === 0 ? 'high' : undefined}
               alt=""
             />
             {v.durationLabel ? (
