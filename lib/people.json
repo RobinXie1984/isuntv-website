@@ -823,5 +823,60 @@
     "url": "https://www.thepaper.cn/newsDetail_forward_19598961",
     "sourceLanguage": "zh-Hans",
     "publisher": "汽車商業評論（澎湃號）"
+  },
+  "henry-pottinger": {
+    "name": {
+      "zh-Hant": "砵甸乍",
+      "zh-Hans": "璞鼎查",
+      "en": "Henry Pottinger",
+      "ja": "ヘンリー・ポッティンジャー"
+    },
+    "url": "https://digitalrepository.lib.hku.hk/catalog/x920n372w",
+    "sourceLanguage": "en",
+    "publisher": "香港大學圖書館"
+  },
+  "qiying": {
+    "name": {
+      "zh-Hant": "耆英",
+      "zh-Hans": "耆英",
+      "en": "Qiying",
+      "ja": "耆英"
+    },
+    "url": "https://www.dpm.org.cn/lemmas/244500.html?hl=%E8%A2%AB",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "故宮博物院"
+  },
+  "emperor-meiji": {
+    "name": {
+      "zh-Hant": "明治天皇",
+      "zh-Hans": "明治天皇",
+      "en": "Emperor Meiji",
+      "ja": "明治天皇"
+    },
+    "url": "https://www.kunaicho.go.jp/kunaicho/kunaicho/kunaicho-nenpyo.html",
+    "sourceLanguage": "ja",
+    "publisher": "宮内庁"
+  },
+  "li-hongzhang": {
+    "name": {
+      "zh-Hant": "李鴻章",
+      "zh-Hans": "李鸿章",
+      "en": "Li Hongzhang",
+      "ja": "李鴻章"
+    },
+    "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_36597.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國國家博物館"
+  },
+  "ferdinand-magellan": {
+    "name": {
+      "zh-Hant": "麥哲倫",
+      "zh-Hans": "麦哲伦",
+      "en": "Ferdinand Magellan",
+      "ja": "フェルディナンド・マゼラン"
+    },
+    "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-106479",
+    "sourceLanguage": "en",
+    "publisher": "Royal Museums Greenwich"
   }
 }

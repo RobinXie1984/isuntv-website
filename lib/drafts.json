@@ -211,7 +211,11 @@
     "source": "https://www.youtube.com/watch?v=C-dd-P_iLlw",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-09-14"
+    "upload_date": "2020-09-14",
+    "people": [
+      "henry-pottinger",
+      "qiying"
+    ]
   },
   "Hn6mCHmTuBc": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -680,7 +684,11 @@
     "source": "https://www.youtube.com/watch?v=wTcoXc_WRxQ",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-09-15"
+    "upload_date": "2020-09-15",
+    "people": [
+      "emperor-meiji",
+      "li-hongzhang"
+    ]
   },
   "m5e32TznMfI": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -6412,7 +6420,9 @@
         "how": null
       }
     },
-    "people": [],
+    "people": [
+      "ferdinand-magellan"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
