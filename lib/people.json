@@ -471,5 +471,137 @@
     "url": "https://www.cuhk.edu.hk/ics/21c/media/articles/c042-199706023.pdf",
     "sourceLanguage": "zh-Hant",
     "publisher": "香港中文大學《二十一世紀》（PDF）"
+  },
+  "sun-yat-sen": {
+    "name": {
+      "zh-Hant": "孫中山",
+      "zh-Hans": "孙中山",
+      "en": "Sun Yat-sen",
+      "ja": "孫文"
+    },
+    "url": "https://sunology.yatsen.gov.tw/revolution-history/7cf39208e957964f1e86ff7114e35d95/?full=1",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "國立國父紀念館・中山學術資料庫"
+  },
+  "chiang-kai-shek": {
+    "name": {
+      "zh-Hant": "蔣中正",
+      "zh-Hans": "蒋中正",
+      "en": "Chiang Kai-shek",
+      "ja": "蔣介石"
+    },
+    "url": "https://www.cksmh.gov.tw/cp.aspx?Create=1&n=6094",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "國立中正紀念堂"
+  },
+  "wu-han": {
+    "name": {
+      "zh-Hant": "吳晗",
+      "zh-Hans": "吴晗",
+      "en": "Wu Han",
+      "ja": "呉晗"
+    },
+    "url": "https://dag.tsinghua.edu.cn/info/1066/2783.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "清華大學檔案館"
+  },
+  "hu-juewen": {
+    "name": {
+      "zh-Hant": "胡厥文",
+      "zh-Hans": "胡厥文",
+      "en": "Hu Juewen",
+      "ja": "胡厥文"
+    },
+    "url": "https://www.cndca-hn.org.cn/h-nd-103.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "民建海南省委"
+  },
+  "feng-yuxiang": {
+    "name": {
+      "zh-Hant": "馮玉祥",
+      "zh-Hans": "冯玉祥",
+      "en": "Feng Yuxiang",
+      "ja": "馮玉祥"
+    },
+    "url": "https://www.cqspb.gov.cn/bm/qwhlyw_64124/zwgk_64128/zfxxgkml0827/whly/wlml/202208/t20220809_10988145.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "重慶市沙坪壩區文化旅遊委"
+  },
+  "lu-yu": {
+    "name": {
+      "zh-Hant": "陸羽",
+      "zh-Hans": "陆羽",
+      "en": "Lu Yu",
+      "ja": "陸羽"
+    },
+    "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33184.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國國家博物館"
+  },
+  "zhu-di": {
+    "name": {
+      "zh-Hant": "朱棣",
+      "zh-Hans": "朱棣",
+      "en": "Zhu Di (Yongle Emperor)",
+      "ja": "朱棣（永楽帝）"
+    },
+    "url": "https://rbook.ncl.edu.tw/NCLSearch/Selection/Details/24",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "國家圖書館"
+  },
+  "qianlong": {
+    "name": {
+      "zh-Hant": "乾隆帝",
+      "zh-Hans": "乾隆帝",
+      "en": "Qianlong Emperor",
+      "ja": "乾隆帝"
+    },
+    "url": "https://theme.npm.edu.tw/selection/Article.aspx?sNo=04001076",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "國立故宮博物院"
+  },
+  "ji-yun": {
+    "name": {
+      "zh-Hant": "紀昀",
+      "zh-Hans": "纪昀",
+      "en": "Ji Yun",
+      "ja": "紀昀"
+    },
+    "url": "https://theme.npm.edu.tw/selection/Article.aspx?sNo=04001076",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "國立故宮博物院"
+  },
+  "deng-zihui": {
+    "name": {
+      "zh-Hant": "鄧子恢",
+      "zh-Hans": "邓子恢",
+      "en": "Deng Zihui",
+      "ja": "鄧子恢"
+    },
+    "url": "https://www.mof.gov.cn/zhuantihuigu/czwx8/zdyd/201407/t20140711_1112165.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "財政部《財政文學》"
+  },
+  "peng-zhen": {
+    "name": {
+      "zh-Hant": "彭真",
+      "zh-Hans": "彭真",
+      "en": "Peng Zhen",
+      "ja": "彭真"
+    },
+    "url": "https://news.cntv.cn/2014/08/27/ARTI1409106772627118.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "央視網（轉載中國網）"
+  },
+  "li-jishen": {
+    "name": {
+      "zh-Hant": "李濟深",
+      "zh-Hans": "李济深",
+      "en": "Li Jishen",
+      "ja": "李済深"
+    },
+    "url": "https://news.cctv.com/history/20090820/103494.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "央視網"
   }
 }

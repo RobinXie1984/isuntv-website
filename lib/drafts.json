@@ -463,7 +463,10 @@
     "source": "https://www.youtube.com/watch?v=24iNdBUgtOQ",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-07-04"
+    "upload_date": "2020-07-04",
+    "people": [
+      "hu-juewen"
+    ]
   },
   "6sfThnjERWo": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -929,7 +932,10 @@
     "source": "https://www.youtube.com/watch?v=caFZNwjkAVE",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-07-10"
+    "upload_date": "2020-07-10",
+    "people": [
+      "li-jishen"
+    ]
   },
   "_3LZ1SQb94s": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1139,7 +1145,10 @@
     "source": "https://www.youtube.com/watch?v=0SJEcxbmhJk",
     "recorded_at": null,
     "recording_location": null,
-    "upload_date": "2020-09-22"
+    "upload_date": "2020-09-22",
+    "people": [
+      "sun-yat-sen"
+    ]
   },
   "SITX3nh6WkA": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1393,7 +1402,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=cI05OMKXlHs",
-    "upload_date": "2020-07-17"
+    "upload_date": "2020-07-17",
+    "people": [
+      "deng-zihui"
+    ]
   },
   "3pZtC7YlVJU": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -1519,7 +1531,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=AQg-MLarnpM",
-    "upload_date": "2020-09-29"
+    "upload_date": "2020-09-29",
+    "people": [
+      "chiang-kai-shek"
+    ]
   },
   "sQ-XRR7mSN8": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2123,7 +2138,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=VlM5R5GA64Y",
-    "upload_date": "2020-07-06"
+    "upload_date": "2020-07-06",
+    "people": [
+      "zhu-di"
+    ]
   },
   "Q6lYG4lWCNI": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2558,7 +2576,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=bKejBzlzyOs",
-    "upload_date": "2020-10-14"
+    "upload_date": "2020-10-14",
+    "people": [
+      "chiang-kai-shek"
+    ]
   },
   "m6tlKT-nug0": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -2987,7 +3008,10 @@
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=94kIPr0fOjo",
-    "upload_date": "2020-10-20"
+    "upload_date": "2020-10-20",
+    "people": [
+      "chiang-kai-shek"
+    ]
   },
   "wV9msj43Uqo": {
     "status": "DRAFT_FROM_OFFICIAL_METADATA",
@@ -5485,7 +5509,10 @@
         "how": "収録、編纂、書写と戦乱下の伝承から考える"
       }
     },
-    "people": [],
+    "people": [
+      "qianlong",
+      "ji-yun"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -5788,7 +5815,9 @@
         "how": "家族の移動と政治的関係の変化を口述"
       }
     },
-    "people": [],
+    "people": [
+      "feng-yuxiang"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -5964,7 +5993,9 @@
         "how": "娘が政治的対立、旅、船上火災を口述"
       }
     },
-    "people": [],
+    "people": [
+      "feng-yuxiang"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -6007,7 +6038,9 @@
         "how": "秘書が教育・考古学の仕事と政治的動乱を口述"
       }
     },
-    "people": [],
+    "people": [
+      "wu-han"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -6572,7 +6605,9 @@
         "how": "同僚や部下が憲法制定と仕事を口述"
       }
     },
-    "people": [],
+    "people": [
+      "peng-zhen"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
@@ -6744,7 +6779,9 @@
         "how": "栽培、製茶、道具、茶の準備の知識から見る"
       }
     },
-    "people": [],
+    "people": [
+      "lu-yu"
+    ],
     "recorded_at": null,
     "recording_location": null,
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
