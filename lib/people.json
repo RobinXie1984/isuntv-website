@@ -603,5 +603,137 @@
     "url": "https://news.cctv.com/history/20090820/103494.shtml",
     "sourceLanguage": "zh-Hans",
     "publisher": "央視網"
+  },
+  "cai-guoqing": {
+    "name": {
+      "zh-Hant": "蔡國慶",
+      "zh-Hans": "蔡国庆",
+      "en": "Cai Guoqing",
+      "ja": "蔡国慶"
+    },
+    "url": "https://www.cflac.org.cn/wywzt/2013/15qinggesai/diantang/201304/t20130418_183638.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國文藝網（來源：CNTV）"
+  },
+  "wang-kun": {
+    "name": {
+      "zh-Hant": "王昆",
+      "zh-Hans": "王昆",
+      "en": "Wang Kun",
+      "ja": "王昆"
+    },
+    "url": "https://www.mct.gov.cn/whzx/djgz/jcdj_djgz/201904/t20190404_841434.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "文化和旅遊部（中國東方演藝集團供稿）"
+  },
+  "ji-keliang": {
+    "name": {
+      "zh-Hant": "季克良",
+      "zh-Hans": "季克良",
+      "en": "Ji Keliang",
+      "ja": "季克良"
+    },
+    "url": "https://www.moutaichina.com/mtgf/2025-04/14/article_2025041418485745012.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "貴州茅台"
+  },
+  "shi-shuqing": {
+    "name": {
+      "zh-Hant": "史樹青",
+      "zh-Hans": "史树青",
+      "en": "Shi Shuqing",
+      "ja": "史樹青"
+    },
+    "url": "https://www.chnmuseum.cn/yj/yjjg/yjy/201903/t20190324_85225.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國國家博物館"
+  },
+  "xia-junna": {
+    "name": {
+      "zh-Hant": "夏俊娜",
+      "zh-Hans": "夏俊娜",
+      "en": "Xia Junna",
+      "ja": "夏俊娜"
+    },
+    "url": "https://www.opcn.org.cn/zh_creation/serving-artist/78.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國油畫院"
+  },
+  "dedema": {
+    "name": {
+      "zh-Hant": "德德瑪",
+      "zh-Hans": "德德玛",
+      "en": "Dedema",
+      "ja": "徳徳瑪"
+    },
+    "url": "https://www.cflac.org.cn/ys/ysyy/rdtj/202312/t20231211_1294925.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國文藝網"
+  },
+  "liu-huanzhang": {
+    "name": {
+      "zh-Hant": "劉煥章",
+      "zh-Hans": "刘焕章",
+      "en": "Liu Huanzhang",
+      "ja": "劉煥章"
+    },
+    "url": "https://www.namoc.cn/namoc/diaos/201304/ff5498bbe8744a61a868dd2a96f34335.shtml",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國美術館"
+  },
+  "huo-yuanjia": {
+    "name": {
+      "zh-Hant": "霍元甲",
+      "zh-Hans": "霍元甲",
+      "en": "Huo Yuanjia",
+      "ja": "霍元甲"
+    },
+    "url": "https://chinwoohk.org/",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "香港精武體育會"
+  },
+  "cheng-fangyuan": {
+    "name": {
+      "zh-Hant": "成方圓",
+      "zh-Hans": "成方圆",
+      "en": "Cheng Fangyuan",
+      "ja": "成方円"
+    },
+    "url": "https://www.hefengart.org.cn/character_53/1495.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "北京荷風藝術基金會"
+  },
+  "gu-changwei": {
+    "name": {
+      "zh-Hant": "顧長衛",
+      "zh-Hans": "顾长卫",
+      "en": "Gu Changwei",
+      "ja": "顧長衛"
+    },
+    "url": "https://big5.cctv.com/gate/big5/www.cctv.cn/lm/544/76/37884.html",
+    "sourceLanguage": "zh-Hant",
+    "publisher": "央視網《東方時空》"
+  },
+  "xu-sihai": {
+    "name": {
+      "zh-Hant": "許四海",
+      "zh-Hans": "许四海",
+      "en": "Xu Sihai",
+      "ja": "許四海"
+    },
+    "url": "https://xmwb.xinmin.cn/html/2018-05/19/content_16_1.htm",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "新民晚報（摘自《上海紀實》）"
+  },
+  "hazhabu": {
+    "name": {
+      "zh-Hant": "哈扎布",
+      "zh-Hans": "哈扎布",
+      "en": "Hazhabu",
+      "ja": "哈扎布"
+    },
+    "url": "https://www.ihchina.cn/character_detail/8754.html",
+    "sourceLanguage": "zh-Hans",
+    "publisher": "中國非物質文化遺產網（來源：中國民族報）"
   }
 }
