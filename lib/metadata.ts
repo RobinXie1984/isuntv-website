@@ -12,16 +12,25 @@ export function checkedLocale(value: string | undefined): Locale {
 }
 export function languageAlternates(path: string, locale?: Locale) {
   return {
-    ...(locale ? { canonical: new URL(sitePath(locale, path), publicOrigin).href } : {}),
-    languages: Object.fromEntries(locales.map((l) => [l, new URL(sitePath(l, path), publicOrigin).href])),
+    ...(locale
+      ? { canonical: new URL(sitePath(locale, path), publicOrigin).href }
+      : {}),
+    languages: Object.fromEntries(
+      locales.map((l) => [l, new URL(sitePath(l, path), publicOrigin).href]),
+    ),
   };
 }
-export function programmeMetadata(locale: Locale, slug: string, pageRaw?: string): Metadata {
+export function programmeMetadata(
+  locale: Locale,
+  slug: string,
+  pageRaw?: string,
+): Metadata {
   const programme = getProgramme(slug);
   if (!programme) notFound();
   const pages = Math.max(1, Math.ceil(programmeVideos(slug).length / 24));
   const parsed = Number(pageRaw ?? 1);
-  const page = Number.isInteger(parsed) && parsed > 0 && parsed <= pages ? parsed : 1;
+  const page =
+    Number.isInteger(parsed) && parsed > 0 && parsed <= pages ? parsed : 1;
   const path = `programmes/${slug}${page > 1 ? `?page=${page}` : ''}`;
   return {
     title: `${programme.titles[locale]} | iSunTV`,
@@ -40,7 +49,7 @@ export function videoMetadata(locale: Locale, id: string): Metadata {
   return {
     title: `${title} | iSunTV`,
     description,
-    robots: { index: Boolean(fields), follow: true },
+    robots: { index: false, follow: true },
     alternates: languageAlternates(`videos/${id}/`, locale),
   };
 }

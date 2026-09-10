@@ -38,8 +38,8 @@ export function SiteHeader({
           />
         </a>
         <nav className="main-nav" aria-label={t.nav}>
-          <a href={`${homePath(locale)}#programmes`}>{t.nav}</a>
-          <a href={`${homePath(locale)}#about`} aria-label={t.about}>
+          <a href={sitePath(locale, 'programmes')}>{t.nav}</a>
+          <a href={'/about'} aria-label={t.about}>
             {aboutShort}
           </a>
           <a

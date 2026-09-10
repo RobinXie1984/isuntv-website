@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { publicOrigin } from '../lib/site-config.json';
+// Preview remains crawlable so crawlers can read noindex. Change only at approved cutover.
 export default function robots(): MetadataRoute.Robots {
-  return { rules: { userAgent: '*', allow: '/' }, sitemap: `${publicOrigin}/sitemap.xml` };
+  return { rules: { userAgent: '*', allow: '/' } };
 }

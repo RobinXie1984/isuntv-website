@@ -19,3 +19,7 @@ Shared descriptions are explicitly labelled in the video view. Drafts summarize 
 Person references use a shared identity registry in lib/people.json and explicit per-video IDs. Links display localized names, so multi-person episodes identify the linked subject. Sources remain in their original language.
 
 Reviewed localized display titles currently cover 158 episodes. Original source titles and playlist membership remain unchanged in lib/videos.json. The original title is available through a native details disclosure on video pages; search indexes both original and localized titles. Untranslated episodes retain their source title and are not misrepresented as translated.
+
+## Brand authority and institutional pages
+
+The 2026 institutional extension, shared Robin identity, licensing verification and contact-delivery activation steps are documented in [docs/brand-authority.md](docs/brand-authority.md). It preserves the four-language catalogue. The canonical Robin Person ID is `https://iamrobin.ai/#person`; reuse `lib/brand-identity.ts`, never create a separate person for a name variant.

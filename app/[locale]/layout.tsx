@@ -1,3 +1,5 @@
+import '../brand.css';
+import { IdentityGraph } from '../../components/identity-graph';
 import type { Metadata } from 'next';
 import { languageAlternates } from '../../lib/metadata';
 import { notFound } from 'next/navigation';
@@ -17,7 +19,7 @@ export async function generateMetadata({
   return {
     title: `${t.title} | ${t.series}`,
     description: t.intro,
-    robots: { index: true, follow: true },
+    robots: { index: false, follow: true },
     icons: { icon: '/isuntv-logo.png' },
     alternates: languageAlternates('', locale as Locale),
   };
@@ -36,7 +38,10 @@ export default async function Layout({
       <head>
         <link rel="preconnect" href="https://i.ytimg.com" />
       </head>
-      <body>{children}</body>
+      <body>
+        <IdentityGraph />
+        {children}
+      </body>
     </html>
   );
 }
