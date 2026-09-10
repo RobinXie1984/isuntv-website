@@ -1,6 +1,6 @@
 # iSunTV brand authority — September 2026
 
-Robin's approved identity is stored in `lib/brand-identity.ts`. Robin, Robin Xie, Bin Xie, Bin "Robin" Xie, 谢玢 and 謝玢 are one Person, with the stable ID `https://iamrobin.ai/#person`. iSunTV and TideiSun remain separate Organizations. Use this exact Person ID when the other three profile sites are next edited; this change does not alter those external websites.
+Robin's approved identity is stored in `lib/brand-identity.ts`. Robin, Robin Xie, Bin Xie, Bin "Robin" Xie, 谢玢 and 謝玢 are one Person, with the stable ID `https://www.tideisun.com/robin#robin-xie`. iSunTV and TideiSun remain separate Organizations. Use this exact Person ID when the other three profile sites are next edited; this change does not alter those external websites.
 
 Roles supplied by Robin and confirmed on the group profile: Executive Director of iSunTV; Managing Partner of TideiSun Group. Robin also identifies as an angel investor and AI system builder. Do not infer ownership, unlimited personal liability or new qualifications from these roles.
 
@@ -47,3 +47,7 @@ No domain, DNS, mailbox, Cloudflare access or repository permissions were change
 - https://developers.google.com/search/docs/appearance/ai-features
 - https://schema.org/Person
 - https://resend.com/docs/api-reference/emails/send-email
+
+## Existing identity discrepancy found during verification
+
+On 2026-09-10, the live Traditional Chinese TideiSun profile used `https://www.tideisun.com/robin#robin-xie`, while the English profile used `https://www.tideisun.com/partner#robin-xie`. This implementation reuses the existing Chinese official profile ID. Maimai should change the English profile's Person `@id` to the same value and reuse that value on iamrobin.ai. Preserve the person URL/sameAs profile links. The personal site's visible content was readable through web search, but its raw HTML was denied to the command-line client; its current JSON-LD ID was not verified. Those external sites have not been modified here.

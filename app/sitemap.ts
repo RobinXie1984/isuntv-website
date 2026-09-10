@@ -6,7 +6,7 @@ import { drafts } from '../lib/editorial';
 import { languageAlternates } from '../lib/metadata';
 import { publicOrigin } from '../lib/site-config.json';
 export default function sitemap(): MetadataRoute.Sitemap {
-  const paths = ['', 'programmes'];
+  const paths = ['programmes'];
   for (const programme of programmes) {
     const pages = Math.max(
       1,
@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (findVideo(id)) paths.push(`videos/${id}`);
   }
   return [
-    ...brandPaths.flatMap((path) => [
+    ...['', ...brandPaths].flatMap((path) => [
       {
         url: `${publicOrigin}/${path}`,
         alternates: {

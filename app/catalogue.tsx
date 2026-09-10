@@ -12,7 +12,7 @@ export function Catalogue({ locale }: { locale: Locale }) {
   const t = copy[locale];
   return (
     <div lang={locale}>
-      <SiteHeader locale={locale} />
+      <SiteHeader locale={locale} path="programmes" />
       <main id="main">
         <section className="intro">
           <div className="intro-text">

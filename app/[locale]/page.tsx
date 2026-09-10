@@ -1,3 +1,4 @@
+import { languageAlternates, checkedLocale } from '../../lib/metadata';
 import { BrandHome } from '../brand-home';
 import { brandMetadata } from '../../lib/brand-pages';
 import { Catalogue } from '../catalogue';
@@ -22,5 +23,12 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }) {
-  return (await params).locale === 'en' ? brandMetadata('', 'en') : {};
+  return (await params).locale === 'en'
+    ? brandMetadata('', 'en')
+    : {
+        alternates: languageAlternates(
+          'programmes',
+          checkedLocale((await params).locale),
+        ),
+      };
 }

@@ -712,4 +712,28 @@
   }
 }
 
-.brand-form .hp-field{display:none}.harbour .hero-kicker{display:inline-block;margin-right:25px}.harbour .english-label{display:inline-block;vertical-align:middle}.harbour h1 span{display:inline-block}.harbour h1{font-size:clamp(40px,3.95vw,62px)}@media(max-width:760px){.harbour .hero-kicker{display:block}.harbour h1{font-size:47px}}
+.brand-form .hp-field {
+  display: none;
+}
+.harbour .hero-kicker {
+  display: inline-block;
+  margin-right: 25px;
+}
+.harbour .english-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+.harbour h1 span {
+  display: inline-block;
+}
+.harbour h1 {
+  font-size: clamp(40px, 3.95vw, 62px);
+}
+@media (max-width: 760px) {
+  .harbour .hero-kicker {
+    display: block;
+  }
+  .harbour h1 {
+    font-size: 47px;
+  }
+}

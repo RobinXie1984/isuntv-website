@@ -22,4 +22,4 @@ Reviewed localized display titles currently cover 158 episodes. Original source 
 
 ## Brand authority and institutional pages
 
-The 2026 institutional extension, shared Robin identity, licensing verification and contact-delivery activation steps are documented in [docs/brand-authority.md](docs/brand-authority.md). It preserves the four-language catalogue. The canonical Robin Person ID is `https://iamrobin.ai/#person`; reuse `lib/brand-identity.ts`, never create a separate person for a name variant.
+The 2026 institutional extension, shared Robin identity, licensing verification and contact-delivery activation steps are documented in [docs/brand-authority.md](docs/brand-authority.md). It preserves the four-language catalogue. The canonical Robin Person ID is `https://www.tideisun.com/robin#robin-xie`; reuse `lib/brand-identity.ts`, never create a separate person for a name variant.

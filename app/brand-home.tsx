@@ -39,7 +39,8 @@ export function BrandHome({ locale = 'zh-Hant' }: { locale?: BrandLocale }) {
                 </>
               ) : (
                 <>
-                  <span>陽光衛視</span><span>助力華商出海</span>
+                  <span>陽光衛視</span>
+                  <span>助力華商出海</span>
                 </>
               )}
             </h1>

@@ -1,6 +1,6 @@
 // Robin-approved identity facts. Reuse these IDs across languages and partner sites.
 export const entityIds = {
-  robin: 'https://iamrobin.ai/#person',
+  robin: 'https://www.tideisun.com/robin#robin-xie',
   isuntv: 'https://isuntv.com/#organization',
   tideisun: 'https://www.tideisun.com/#organization',
   chairman: 'https://isuntv.com/chairman#person',
