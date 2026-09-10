@@ -23,3 +23,15 @@ Reviewed localized display titles currently cover 158 episodes. Original source 
 ## Brand authority and institutional pages
 
 The 2026 institutional extension, shared Robin identity, licensing verification and contact-delivery activation steps are documented in [docs/brand-authority.md](docs/brand-authority.md). It preserves the four-language catalogue. The canonical Robin Person ID is `https://www.tideisun.com/robin#robin-xie`; reuse `lib/brand-identity.ts`, never create a separate person for a name variant.
+
+## Collaboration
+
+Public source repository: https://github.com/RobinXie1984/isuntv-website.
+
+- `main`: current review website; 166 drafted episodes across four languages.
+- `cutover/public-candidate-20260909`: proposed iSunTV.com indexing and sitemap configuration; not deployed to that domain.
+- Review website: https://isuntv-rebuild-preview.robin10.chatgpt.site. Public preview access does not mean the iSunTV.com cutover is complete.
+
+Edit `lib/drafts.json` for six-question summaries, `lib/display-titles.json` for translated titles, and `lib/people.json` for sourced identity links. Preserve the original catalogue IDs, playlist order and titles in `lib/videos.json`. Keep unknown fields null and every episode linked to its source. Run the validation commands above before requesting review. GitHub edits do not automatically deploy; publication is performed separately.
+
+No additional reuse license is granted for third-party video, thumbnail or identity-source content. YouTube media remain on YouTube.
