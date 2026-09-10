@@ -1,5 +1,8 @@
 'use client';
-import { useState } from 'react';
+import { useState, useSyncExternalStore } from 'react';
+const subscribeToHydration = () => () => {};
+const hydrated = () => true;
+const serverRendered = () => false;
 export function ContactForm({
   en = false,
   enabled = false,
@@ -11,12 +14,15 @@ export function ContactForm({
     'idle',
   );
   const [message, setMessage] = useState('');
+  const ready = useSyncExternalStore(subscribeToHydration, hydrated, serverRendered);
   return (
     <form
       className="brand-form"
+      method="post"
+      action="/api/contact"
       onSubmit={async (e) => {
         e.preventDefault();
-        if (!enabled || state === 'sending') return;
+        if (!enabled || !ready || state === 'sending') return;
         setState('sending');
         const form = e.currentTarget;
         const fields = Object.fromEntries(new FormData(form));
@@ -44,6 +50,7 @@ export function ContactForm({
         }
       }}
     >
+      {enabled && !ready && <p className="status-message">{en ? 'Loading the form. You can also email partner@isuntv.com.' : '正在載入表單，亦可直接寄信至 partner@isuntv.com。'}</p>}
       {!enabled && (
         <p className="status-message">
           {en
@@ -52,7 +59,7 @@ export function ContactForm({
         </p>
       )}
       <fieldset
-        disabled={!enabled}
+        disabled={!enabled || !ready}
         style={{ border: 0, padding: 0, margin: 0, display: 'contents' }}
       >
         <div className="form-pair">
@@ -113,7 +120,7 @@ export function ContactForm({
         <button
           type="submit"
           className="brand-button dark"
-          disabled={!enabled || state === 'sending'}
+          disabled={!enabled || !ready || state === 'sending'}
         >
           {state === 'sending'
             ? en
