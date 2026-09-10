@@ -83,7 +83,7 @@ export function brandMetadata(
   return {
     title,
     description,
-    robots: { index: false, follow: true },
+    robots: { index: true, follow: true },
     alternates: {
       canonical: `https://isuntv.com${brandPath(path, locale)}`,
       languages: {

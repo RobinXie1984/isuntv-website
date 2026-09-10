@@ -49,7 +49,7 @@ export function videoMetadata(locale: Locale, id: string): Metadata {
   return {
     title: `${title} | iSunTV`,
     description,
-    robots: { index: false, follow: true },
-    alternates: languageAlternates(`videos/${id}/`, locale),
+    robots: { index: Boolean(fields), follow: true },
+    alternates: languageAlternates(`videos/${id}`, locale),
   };
 }

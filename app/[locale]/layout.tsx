@@ -19,7 +19,7 @@ export async function generateMetadata({
   return {
     title: `${t.title} | ${t.series}`,
     description: t.intro,
-    robots: { index: false, follow: true },
+    robots: { index: true, follow: true },
     icons: { icon: '/isuntv-logo.png' },
     alternates: languageAlternates('', locale as Locale),
   };
