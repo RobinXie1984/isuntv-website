@@ -1,4 +1,4 @@
-import { brandPaths } from '../lib/brand-pages';
+import { brandPaths, brandPath } from '../lib/brand-pages';
 import type { MetadataRoute } from 'next';
 import { locales, programmes, sitePath } from '../lib/catalogue';
 import { programmeVideos, findVideo } from '../lib/collection';
@@ -24,20 +24,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...['', ...brandPaths].flatMap((path) => [
       {
-        url: `${publicOrigin}/${path}`,
+        url: `${publicOrigin}${brandPath(path, 'zh-Hant')}`,
         alternates: {
           languages: {
-            'zh-Hant': `${publicOrigin}/${path}`,
-            en: `${publicOrigin}/en/${path}`,
+            'zh-Hant': `${publicOrigin}${brandPath(path, 'zh-Hant')}`,
+            en: `${publicOrigin}${brandPath(path, 'en')}`,
+            'x-default': `${publicOrigin}${brandPath(path, 'zh-Hant')}`,
           },
         },
       },
       {
-        url: `${publicOrigin}/en/${path}`,
+        url: `${publicOrigin}${brandPath(path, 'en')}`,
         alternates: {
           languages: {
-            'zh-Hant': `${publicOrigin}/${path}`,
-            en: `${publicOrigin}/en/${path}`,
+            'zh-Hant': `${publicOrigin}${brandPath(path, 'zh-Hant')}`,
+            en: `${publicOrigin}${brandPath(path, 'en')}`,
+            'x-default': `${publicOrigin}${brandPath(path, 'zh-Hant')}`,
           },
         },
       },

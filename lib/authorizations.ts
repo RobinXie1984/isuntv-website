@@ -10,6 +10,8 @@ export type Authorization = {
   validUntil: string;
   approvedBy: string;
   approvalReference: string;
+  boardApprovalReference: string;
+  managementApprovalReference: string;
   updatedAt: string;
   status: 'issued' | 'revoked';
   revokedAt: string | null;
@@ -25,6 +27,8 @@ export function authorizationPayload(r: Authorization) {
     validUntil: r.validUntil,
     approvedBy: r.approvedBy,
     approvalReference: r.approvalReference,
+    boardApprovalReference: r.boardApprovalReference,
+    managementApprovalReference: r.managementApprovalReference,
     updatedAt: r.updatedAt,
     status: r.status,
     revokedAt: r.revokedAt,
@@ -42,7 +46,9 @@ export function authorizationStatus(
       !r.scope ||
       !r.territory ||
       !r.approvalReference ||
-      r.approvedBy !== entityIds.robin
+      !r.boardApprovalReference ||
+      !r.managementApprovalReference ||
+      r.approvedBy !== entityIds.isuntv
     )
       return 'unavailable';
     if (

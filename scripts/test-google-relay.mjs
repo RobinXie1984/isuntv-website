@@ -1,0 +1,17 @@
+import vm from 'node:vm';
+import {readFileSync} from 'node:fs';
+import {createHmac,randomUUID} from 'node:crypto';
+import assert from 'node:assert/strict';
+const props=new Map([['RELAY_SECRET','fixture-only']]); const cache=new Map(); const sent=[];
+const ctx={ContentService:{MimeType:{JSON:'json'},createTextOutput:s=>({setMimeType:()=>JSON.parse(s)})},PropertiesService:{getScriptProperties:()=>({getProperty:k=>props.get(k),setProperties:o=>Object.entries(o).forEach(([k,v])=>props.set(k,v))})},CacheService:{getScriptCache:()=>({get:k=>cache.get(k),put:(k,v)=>cache.set(k,v)})},LockService:{getScriptLock:()=>({tryLock:()=>true,releaseLock:()=>{}})},Utilities:{computeHmacSha256Signature:(p,s)=>[...createHmac('sha256',s).update(p).digest()],formatDate:()=>new Date().toISOString().slice(0,10)},MailApp:{getRemainingDailyQuota:()=>1000,sendEmail:m=>sent.push(m)},Date,Number,JSON};
+vm.createContext(ctx);vm.runInContext(readFileSync(new URL('./google-workspace-mail.gs',import.meta.url),'utf8'),ctx);
+const payload=extra=>JSON.stringify({timestamp:Date.now(),nonce:randomUUID(),visitor:'a'.repeat(64),name:'Fixture',organization:'Fixture',email:'qa@example.com',message:'Test fixture only.',interest:'global',...extra});
+const event=(p,s=createHmac('sha256','fixture-only').update(p).digest('hex'))=>({postData:{contents:JSON.stringify({payload:p,signature:s})}});
+assert.equal(ctx.doPost(event(payload({}),'bad')).accepted,false);
+assert.equal(ctx.doPost(event(payload({timestamp:0}))).accepted,false);
+assert.equal(ctx.doPost(event(payload({email:'invalid'}))).accepted,false);
+const first=event(payload({}));assert.equal(ctx.doPost(first).accepted,true);assert.equal(ctx.doPost(first).reason,'duplicate');
+assert.equal(sent[0].to,'partner@isuntv.com');assert.equal(sent[0].replyTo,'qa@example.com');
+assert.equal(ctx.doPost(event(payload({}))).accepted,true);assert.equal(ctx.doPost(event(payload({}))).accepted,true);assert.equal(ctx.doPost(event(payload({}))).reason,'rate-limit');
+props.set('COUNT','100');assert.equal(ctx.doPost(event(payload({visitor:'b'.repeat(64)}))).reason,'rate-limit');
+assert.equal(sent.length,3);console.log('Relay HMAC, replay, stale request, validation, fixed recipient, visitor and daily limits pass. Mocked MailApp only.');

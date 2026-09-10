@@ -1,8 +1,11 @@
 import { env } from 'cloudflare:workers';
+import { createHmac, randomUUID } from 'node:crypto';
 type MailConfig = {
   RESEND_API_KEY?: string;
   CONTACT_FROM_EMAIL?: string;
   CONTACT_FORM_ENABLED?: string;
+  GOOGLE_WORKSPACE_RELAY_URL?: string;
+  GOOGLE_WORKSPACE_RELAY_SECRET?: string;
 };
 const allowedOrigins = new Set([
   'https://isuntv.com',
@@ -71,14 +74,33 @@ export async function POST(request: Request) {
   // Enable only after provider setup, edge rate limiting and delivery verification.
   if (
     config.CONTACT_FORM_ENABLED !== 'true' ||
-    !config.RESEND_API_KEY ||
-    !config.CONTACT_FROM_EMAIL
+    !(config.GOOGLE_WORKSPACE_RELAY_URL && config.GOOGLE_WORKSPACE_RELAY_SECRET) &&
+    !(config.RESEND_API_KEY && config.CONTACT_FROM_EMAIL)
   )
     return reply(
       'Email delivery is not configured. Contact partner@isuntv.com.',
       503,
     );
   try {
+    if (config.GOOGLE_WORKSPACE_RELAY_URL && config.GOOGLE_WORKSPACE_RELAY_SECRET) {
+      if (!/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(config.GOOGLE_WORKSPACE_RELAY_URL))
+        return reply('Invalid mail configuration', 503);
+      const hmac = (value: string) => createHmac('sha256', config.GOOGLE_WORKSPACE_RELAY_SECRET!).update(value).digest('hex');
+      const payload = JSON.stringify({ name, organization, email, interest, message,
+        timestamp: Date.now(), nonce: randomUUID(),
+        visitor: hmac(request.headers.get('cf-connecting-ip') ?? 'unknown-visitor'),
+      });
+      const response = await fetch(config.GOOGLE_WORKSPACE_RELAY_URL, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({payload, signature: hmac(payload)}),
+        signal: AbortSignal.timeout(15000),
+      });
+      if (!response.ok) return reply('Delivery failed', 502);
+      const result = await response.json() as { accepted?: boolean; id?: string; reason?: string };
+      if (result.reason === 'rate-limit') return reply('Please try later or email partner@isuntv.com.', 429);
+      if (result.accepted !== true || !result.id) return reply('Delivery was not confirmed', 502);
+      return reply('Accepted for delivery', 202);
+    }
     const response = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {

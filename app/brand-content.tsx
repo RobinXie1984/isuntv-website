@@ -23,8 +23,8 @@ export function BrandContent({
   const mailConfig = env as unknown as Record<string, string | undefined>;
   const mailEnabled =
     mailConfig.CONTACT_FORM_ENABLED === 'true' &&
-    !!mailConfig.RESEND_API_KEY &&
-    !!mailConfig.CONTACT_FROM_EMAIL;
+    ((!!mailConfig.GOOGLE_WORKSPACE_RELAY_URL && !!mailConfig.GOOGLE_WORKSPACE_RELAY_SECRET) ||
+      (!!mailConfig.RESEND_API_KEY && !!mailConfig.CONTACT_FROM_EMAIL));
   const en = locale === 'en';
   const t = (z: string, e: string) => (en ? e : z);
   const url = (p: string) => brandPath(p, locale);
@@ -69,13 +69,13 @@ export function BrandContent({
   const profile = path === 'robin';
   const pageGraph = {
     '@context': 'https://schema.org',
-    '@type': profile ? 'ProfilePage' : 'WebPage',
+    '@type': profile || path === 'chairman' ? 'ProfilePage' : 'WebPage',
     '@id': `https://isuntv.com${url(path)}#webpage`,
     url: `https://isuntv.com${url(path)}`,
     name: pageTitles[path][en ? 1 : 0],
     inLanguage: locale,
     publisher: { '@id': entityIds.isuntv },
-    ...(profile ? { mainEntity: { '@id': entityIds.robin } } : {}),
+    ...(profile || path === 'chairman' ? { mainEntity: { '@id': profile ? entityIds.robin : entityIds.chairman } } : {}),
   };
   return (
     <BrandShell path={path} locale={locale}>
@@ -168,8 +168,8 @@ export function BrandContent({
             </p>
             <p>
               {t(
-                '在陽光衛視，Robin 統籌品牌合作及授權的最終審批。',
-                'At iSunTV, Robin oversees brand partnerships and final authorization approval.',
+                '在陽光衛視，Robin 負責品牌合作與授權事務，按董事會及管理團隊的批准與授權推進合作。',
+                'At iSunTV, Robin leads brand partnerships and licensing, following approval and authorization by the board and management team.',
               )}
             </p>
             <a className="brand-button dark" href={url('licensing')}>
@@ -202,18 +202,9 @@ export function BrandContent({
             <p className="role-line">
               {t('陽光衛視董事局主席', 'Chairman of iSunTV')}
             </p>
-            <p>
-              {t(
-                '陳平於 1992 年在香港創辦泰德時代集團。2005 年，泰德陽光集團取得陽光衛視全部股權，推動頻道專注歷史人文紀錄片與深度談話節目。',
-                'Chen Ping founded Tidetime in Hong Kong in 1992. In 2005, TideiSun Group acquired iSunTV, developing its focus on historical and cultural documentaries and in-depth conversations.',
-              )}
-            </p>
-            <p>
-              {t(
-                '從企業經營到媒體實踐，他持續關注時代的變遷與人物的真實經驗。',
-                'His work spans entrepreneurship and media, with an interest in the stories of people and changing societies.',
-              )}
-            </p>
+            <p>{t("陳平是學者、企業家及泰德陽光集團創辦人，現任陽光衛視董事局主席。八十年代，他參與中國改革開放的政策研究，關注沿海開放、科技發展與國際交流。1984 年，他參加莫干山會議，與同代研究者探討經濟改革的方向。", "Chen Ping is a scholar, entrepreneur, founder of TideiSun Group and Chairman of iSunTV. In the 1980s, his policy research focused on economic reform, coastal opening, technology and international exchange. He participated in the 1984 Moganshan Conference, contributing to discussions on China’s economic direction.")}</p>
+            <p>{t("其後，他轉向企業經營，業務經歷涵蓋貿易、製造、地產與金融服務。泰德時代在香港發展，並曾與 Sony 展開長期製造及全球銷售合作。2005 年取得陽光衛視後，他推動頻道專注歷史、人文紀錄片及深度談話節目。", "He later moved into business, working across trade, manufacturing, property and financial services. Tidetime developed in Hong Kong and established a long-running manufacturing and global sales relationship with Sony. After acquiring Sun TV in 2005, he directed the channel towards history, cultural documentaries and in-depth discussion.")}</p>
+            <p>{t("他以媒體保存人物經驗與時代記憶，亦參與《陽光時務》的創辦及公共議題討論。在科技領域，他持續探索分散式雲端、區塊鏈與金融科技的應用。從政策研究、企業實踐到媒體與科技，他的工作始終圍繞社會變遷、人的自主與新的合作可能。", "His media work includes preserving personal testimony and public debate, as well as the launch of iSun Affairs. His technology interests extend to distributed cloud systems, blockchain and financial technology. Across research, business and media, his work explores social change, individual agency and new forms of collaboration.")}</p>
             <div className="profile-links">
               <a href="https://www.tideisun.com/founder">
                 {t('集團官方簡介', 'Official group biography')}
@@ -268,8 +259,8 @@ export function BrandContent({
                   [
                     t('審核與批准', 'Review and approval'),
                     t(
-                      '經執行董事謝玢 Robin Xie 最終批准，完成正式授權文件。',
-                      'Obtain final approval from Executive Director Robin Xie and complete the formal authorization documents.',
+                      '經過董事會及管理團隊批准和授權',
+                      'Obtain approval and authorization from the board and management team.',
                     ),
                   ],
                   [
@@ -297,20 +288,17 @@ export function BrandContent({
               </a>
             </div>
             <aside>
-              <img
-                src="/brand/robin.jpg"
-                width="1600"
-                height="1200"
-                alt="Robin Xie 謝玢"
-                loading="lazy"
-              />
+              <figure className="licensing-visual">
+                <img src="/brand/robin-verification.webp" width="1024" height="1024" alt={t('謝玢 Robin Xie 肖像與文件驗證概念合成圖', 'Robin Xie portrait with a conceptual document-verification illustration')} loading="lazy" />
+                <figcaption>{t('人物肖像與驗證概念合成圖', 'Portrait with a conceptual verification illustration')}</figcaption>
+              </figure>
               <h3 style={{ marginTop: 22 }}>
                 {t('謝玢 Robin Xie', 'Robin Xie')}
               </h3>
               <p className="role-line">
                 {t(
-                  '陽光衛視執行董事 · 品牌授權最終審批',
-                  'Executive Director · Final authorization approval',
+                  '陽光衛視執行董事 · 品牌授權負責人',
+                  'Executive Director · Brand licensing lead',
                 )}
               </p>
               <a href={url('robin')}>{t('官方人物簡介', 'Official profile')}</a>
@@ -369,44 +357,28 @@ export function BrandContent({
         </section>
       ) : null}
       {path === 'global' ? (
-        <section className="page-content">
-          <div className="business-grid">
-            {[
-              [
-                t('品牌與敘事', 'Brand and story'),
-                t(
-                  '以訪談與影像，讓市場理解企業的經驗與價值。',
-                  'Help new audiences understand your company through conversations and film.',
-                ),
-              ],
-              [
-                t('國際連接', 'International connections'),
-                t(
-                  '圍繞目標市場，洽談在地資源與合作可能。',
-                  'Explore relevant local relationships around your target markets.',
-                ),
-              ],
-              [
-                t('長期合作', 'Long-term partnerships'),
-                t(
-                  '從具體項目開始，建立可以持續的合作關係。',
-                  'Begin with a focused project and build a lasting relationship.',
-                ),
-              ],
-            ].map(([a, b]) => (
-              <article key={a}>
-                <h3>{a}</h3>
-                <p>{b}</p>
-              </article>
-            ))}
-          </div>
-          <div className="compact-cta">
-            <a className="brand-button dark" href={url('contact')}>
-              {t('洽談出海合作', 'Discuss your plans')}
-              <ArrowRight size={18} />
-            </a>
-          </div>
-        </section>
+        <>
+          <section className="mission-section global-mission">
+            <div>
+              <p className="english-label">HONG KONG · YOUR GLOBAL ADVANTAGE</p>
+              <h2>{t('讓世界看見，\n讓合作發生。', 'Be seen.\nBuild connections.')}</h2>
+              <p>{t('以香港為起點，將企業的經驗、品牌與故事，帶到更廣闊的國際舞台。', 'From Hong Kong, bring your experience, brand and story to a wider international audience.')}</p>
+              <a className="brand-button dark" href={url('contact')}>{t('洽談出海合作', 'Discuss your plans')}<ArrowRight size={18}/></a>
+            </div>
+            <img src="/brand/harbour.webp" width="1122" height="1402" alt={t('香港維多利亞港形象圖', 'Editorial view of Victoria Harbour')} />
+          </section>
+          <section className="page-content">
+            <div className="business-grid global-services">
+              {[
+                ['01', t('品牌與敘事', 'Brand and story'), t('以深度訪談與影像內容，清楚呈現企業的經驗、價值與方向。', 'Communicate your experience, value and direction through in-depth conversations and film.'), 'interviews', t('探索採訪精選', 'Explore selected interviews')],
+                ['02', t('國際連接', 'International connections'), t('圍繞目標市場與具體項目，探討在地資源及合作可能。', 'Explore local relationships and opportunities around a defined market and project.'), 'contact', t('聯絡我們', 'Start a conversation')],
+                ['03', t('長期合作', 'Lasting partnerships'), t('從清晰的合作範圍開始，讓品牌使用、責任與推進方式有所依據。', 'Define the scope, responsibilities and brand use that support a lasting partnership.'), 'licensing', t('了解品牌合作', 'Explore brand partnerships')],
+              ].map(([n, title, description, destination, label]) => (
+                <article key={n}><p className="english-label">{n}</p><h3>{title}</h3><p>{description}</p><a href={url(destination)}>{label}<ArrowUpRight size={16}/></a></article>
+              ))}
+            </div>
+          </section>
+        </>
       ) : null}
       {path === 'interviews' ? (
         <section className="page-content">
@@ -425,7 +397,7 @@ export function BrandContent({
               </a>
             </div>
             <div>
-              {programmes.slice(0, 4).map((p) => (
+              {['masters', 'life-online', 'personal-accounts', 'oral-history'].map((slug) => programmes.find((p) => p.slug === slug)!).map((p) => (
                 <a
                   className="catalogue-link"
                   key={p.slug}
@@ -508,8 +480,8 @@ export function BrandContent({
           </p>
           <p>
             {t(
-              '表格啟用後，資料會經郵件服務供應商傳送至陽光衛視的合作信箱。若傳送未成功，頁面會明確提示，請改用直接電郵。',
-              'When enabled, the form sends your details through our email service provider to the iSunTV partnerships mailbox. If sending fails, the page will ask you to email us directly.',
+              '表格啟用後，資料會透過郵件服務傳送至陽光衛視合作團隊管理的 Google Workspace 信箱，用於處理及回覆查詢。網站不另行建立查詢資料庫；郵件由合作團隊管理。如頁面未確認提交成功，請改用直接電郵。',
+              'When enabled, the form sends your details to the Google Workspace mailbox managed by the iSunTV partnerships team to handle and answer your enquiry. The website does not maintain a separate enquiry database; the team manages the resulting email. If submission is not confirmed, please email us directly.',
             )}
           </p>
           <p>

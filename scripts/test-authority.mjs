@@ -47,8 +47,10 @@ const record = {
   territory: 'Fixture',
   validFrom: '2026-01-01T00:00:00Z',
   validUntil: '2027-01-01T00:00:00Z',
-  approvedBy: entityIds.robin,
+  approvedBy: entityIds.isuntv,
   approvalReference: 'TEST-ONLY',
+  boardApprovalReference: 'TEST-BOARD-ONLY',
+  managementApprovalReference: 'TEST-MANAGEMENT-ONLY',
   updatedAt: '2026-09-01T00:00:00Z',
   status: 'issued',
   revokedAt: null,
@@ -107,6 +109,9 @@ assert.equal(
   ),
   'unavailable',
 );
+assert.equal(authorizationStatus(signed({ ...record, boardApprovalReference: '' }), publicPem, now), 'unavailable');
+assert.equal(authorizationStatus(signed({ ...record, managementApprovalReference: '' }), publicPem, now), 'unavailable');
+assert.equal(authorizationStatus(signed({ ...record, approvedBy: entityIds.robin }), publicPem, now), 'unavailable');
 console.log(
   'Identity alias, script escaping, unpublished registry, tamper, approval, expiry, future-date and revocation checks passed.',
 );

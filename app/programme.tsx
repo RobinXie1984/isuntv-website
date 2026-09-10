@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { ArrowUpRight, ArrowLeft, ArrowRight } from 'lucide-react';
 import { SiteHeader } from '../components/site-header';
 import { detailCopy } from '../lib/editorial';
-import { homePath, type Locale } from '../lib/catalogue';
+import { sitePath, type Locale } from '../lib/catalogue';
 import {
   getProgramme,
   programmeVideos,
@@ -34,7 +34,7 @@ export function Programme({
     <>
       <SiteHeader locale={locale} path={`programmes/${slug}${page > 1 ? `?page=${page}` : ''}`} />
       <main id="main" className="detail">
-        <a className="back-link" href={`${homePath(locale)}#programmes`}>
+        <a className="back-link" href={`${sitePath(locale, 'programmes')}#programmes`}>
           <ArrowLeft size={16} />
           {t.back}
         </a>

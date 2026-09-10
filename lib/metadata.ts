@@ -16,7 +16,7 @@ export function languageAlternates(path: string, locale?: Locale) {
       ? { canonical: new URL(sitePath(locale, path), publicOrigin).href }
       : {}),
     languages: Object.fromEntries(
-      locales.map((l) => [l, new URL(sitePath(l, path), publicOrigin).href]),
+      [...locales.map((l) => [l, new URL(sitePath(l, path), publicOrigin).href]), ['x-default', new URL(sitePath('zh-Hant', path), publicOrigin).href]],
     ),
   };
 }
@@ -33,7 +33,7 @@ export function programmeMetadata(
     Number.isInteger(parsed) && parsed > 0 && parsed <= pages ? parsed : 1;
   const path = `programmes/${slug}${page > 1 ? `?page=${page}` : ''}`;
   return {
-    title: `${programme.titles[locale]} | iSunTV`,
+    title: `${programme.titles[locale]}${page > 1 ? ` · ${page}` : ''} | iSunTV`,
     description: `${programme.titles[locale]} · ${programme.topics[locale]}`,
     alternates: languageAlternates(path, locale),
   };

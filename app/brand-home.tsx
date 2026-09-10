@@ -139,11 +139,7 @@ export function BrandHome({ locale = 'zh-Hant' }: { locale?: BrandLocale }) {
           <h2>
             {en ? 'A name with accountability.' : '品牌有主張，授權有依據。'}
           </h2>
-          <p>
-            {en
-              ? 'Executive Director Robin Xie leads brand partnerships. Check the scope and current status of an authorization before using the iSunTV name.'
-              : '由執行董事謝玢 Robin Xie 統籌品牌合作。使用陽光衛視品牌前，請核對授權範圍與目前狀態。'}
-          </p>
+
         </div>
         <a className="brand-button dark" href={url('licensing')}>
           {en ? 'Brand licensing' : '品牌授權'}

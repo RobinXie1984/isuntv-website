@@ -4,8 +4,10 @@ import { ArrowUpRight, ArrowLeft, UserRound, Play } from 'lucide-react';
 import { SiteHeader } from '../components/site-header';
 import { detailCopy, drafts } from '../lib/editorial';
 import { people } from '../lib/people';
+import { jsonLd } from '../lib/brand-identity';
+import { publicOrigin } from '../lib/site-config.json';
 import { displayTitles, videoTitle } from '../lib/titles';
-import { programmes, type Locale } from '../lib/catalogue';
+import { programmes, sitePath, type Locale } from '../lib/catalogue';
 import {
   findVideo,
   programmePath,
@@ -22,6 +24,17 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
   return (
     <>
       <SiteHeader locale={locale} path={`videos/${id}/`} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd({
+        '@context': 'https://schema.org', '@type': 'VideoObject',
+        '@id': `${publicOrigin}${sitePath(locale, `videos/${id}`)}#video`,
+        name: videoTitle(v, locale),
+        description: draft ? Object.values(draft.fields[locale]).filter(Boolean).join(' · ') : videoTitle(v, locale),
+        ...(v.thumbnail ? { thumbnailUrl: [v.thumbnail] } : {}),
+        url: `https://www.youtube.com/watch?v=${v.id}&list=${v.playlistId}`,
+        mainEntityOfPage: `${publicOrigin}${sitePath(locale, `videos/${id}`)}`,
+        inLanguage: locale,
+        ...(programme ? { isPartOf: { '@type': 'CreativeWorkSeries', name: programme.titles[locale], url: `${publicOrigin}${programmePath(locale, programme.slug)}` } } : {}),
+      }) }} />
       <main id="main" className="detail video-detail">
         {programme ? (
           <a className="back-link" href={programmePath(locale, programme.slug)}>

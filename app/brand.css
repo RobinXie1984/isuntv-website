@@ -737,3 +737,12 @@
     font-size: 47px;
   }
 }
+
+/* Extend the approved institutional option 3 to Going Global. */
+.global-mission h2 { white-space: pre-line; }
+.global-mission img { max-height: 540px; }
+.global-services article { display: flex; flex-direction: column; }
+.global-services article > a { margin-top: auto; display: inline-flex; gap: 8px; align-items: center; }
+.licensing-visual { margin: 0; }
+.licensing-visual img { width: 100%; height: auto; }
+.licensing-visual figcaption { font-size: 12px; color: #61736d; margin-top: 8px; }
