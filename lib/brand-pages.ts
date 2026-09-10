@@ -30,7 +30,7 @@ export const pageTitles: Record<string, [string, string]> = {
   privacy: ['私隱說明', 'Privacy notice'],
 };
 export function brandPath(path: string, locale: BrandLocale) {
-  return `${locale === 'en' ? '/en' : ''}/${path}`;
+  return `${locale === 'en' ? '/en' : ''}/${path}`.replace(/\/$/, '') || '/';
 }
 export function brandMetadata(
   path: string,
@@ -48,9 +48,9 @@ export function brandMetadata(
     alternates: {
       canonical: `https://isuntv.com${brandPath(path, locale)}`,
       languages: {
-        'zh-Hant': `https://isuntv.com/${path}`,
-        en: `https://isuntv.com/en/${path}`,
-        'x-default': `https://isuntv.com/${path}`,
+        'zh-Hant': `https://isuntv.com${brandPath(path, 'zh-Hant')}`,
+        en: `https://isuntv.com${brandPath(path, 'en')}`,
+        'x-default': `https://isuntv.com${brandPath(path, 'zh-Hant')}`,
       },
     },
     openGraph: {

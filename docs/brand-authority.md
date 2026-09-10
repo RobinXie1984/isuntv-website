@@ -51,3 +51,12 @@ No domain, DNS, mailbox, Cloudflare access or repository permissions were change
 ## Existing identity discrepancy found during verification
 
 On 2026-09-10, the live Traditional Chinese TideiSun profile used `https://www.tideisun.com/robin#robin-xie`, while the English profile used `https://www.tideisun.com/partner#robin-xie`. This implementation reuses the existing Chinese official profile ID. Maimai should change the English profile's Person `@id` to the same value and reuse that value on iamrobin.ai. Preserve the person URL/sameAs profile links. The personal site's visible content was readable through web search, but its raw HTML was denied to the command-line client; its current JSON-LD ID was not verified. Those external sites have not been modified here.
+
+
+## Acceptance continuation — 2026-09-10
+
+This section supersedes the implementation-time access and delivery statements above. v26 was imported unchanged and merged with the public GitHub history in an isolated Studio worktree. A real, unique test message sent to partner@isuntv.com was received in the existing admin mailbox at 18:43 HKT and the To header was verified. This proves mailbox routing, not web-form delivery. Automatic contact delivery remains disabled because no authorized server sending credential is configured; enable only after anti-abuse controls and an end-to-end website-to-inbox test.
+
+The iamrobin.ai shared Person ID correction passed the full release checks and was published; the exact source and deployment receipt are in the canonical acceptance evidence. TideiSun's remaining English-profile correction is handled in its existing Wix site. No iSunTV production DNS cutover is authorized by this continuation.
+
+Mobile footer contact access and canonical internal English links were repaired while retaining the approved layout. The regression contract now explicitly covers v26's two institutional home languages, four catalogue languages, and page-preserving programme alternates. All 1,659 catalogue checks passed after integration.

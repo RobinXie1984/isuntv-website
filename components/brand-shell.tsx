@@ -79,6 +79,7 @@ export function BrandFooter({ locale = 'zh-Hant' }: { locale?: BrandLocale }) {
           ['robin', '執行董事', 'Executive Director'],
           ['verify', '授權查驗', 'Verify authorization'],
           ['privacy', '私隱說明', 'Privacy'],
+          ['contact', '聯絡我們', 'Contact'],
         ].map(([p, z, e]) => (
           <a key={p} href={brandPath(p, locale)}>
             {en ? e : z}

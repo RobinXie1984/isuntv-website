@@ -111,7 +111,7 @@ console.log(
   'Identity alias, script escaping, unpublished registry, tamper, approval, expiry, future-date and revocation checks passed.',
 );
 
-let contactSource = readFileSync(
+const contactSource = readFileSync(
   `${root}/app/api/contact/route.ts`,
   'utf8',
 ).replace(
