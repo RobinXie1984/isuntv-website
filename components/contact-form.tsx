@@ -38,8 +38,8 @@ export function ContactForm({
           setState('error');
           setMessage(
             en
-              ? 'We could not send this enquiry. Please email partner@iSunTV.com directly.'
-              : '此查詢尚未送出。請直接寄信至 partner@iSunTV.com。',
+              ? 'Delivery could not be confirmed. Please email partner@iSunTV.com directly.'
+              : '目前無法確認寄送結果。請直接寄信至 partner@iSunTV.com。',
           );
         }
       }}

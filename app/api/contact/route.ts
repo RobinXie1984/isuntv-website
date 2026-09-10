@@ -91,14 +91,14 @@ export async function POST(request: Request) {
         visitor: hmac(request.headers.get('cf-connecting-ip') ?? 'unknown-visitor'),
       });
       const response = await fetch(config.GOOGLE_WORKSPACE_RELAY_URL, {
-        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        method: 'POST', redirect: 'follow', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({payload, signature: hmac(payload)}),
         signal: AbortSignal.timeout(15000),
       });
-      if (!response.ok) return reply('Delivery failed', 502);
+      if (!response.ok) { console.warn('Enquiry relay HTTP status', response.status); return reply('Delivery failed', 502); }
       const result = await response.json() as { accepted?: boolean; id?: string; reason?: string };
       if (result.reason === 'rate-limit') return reply('Please try later or email partner@isuntv.com.', 429);
-      if (result.accepted !== true || !result.id) return reply('Delivery was not confirmed', 502);
+      if (result.accepted !== true || !result.id) { console.warn('Enquiry relay rejected', result.reason ?? 'validation-or-configuration'); return reply('Delivery was not confirmed', 502); }
       return reply('Accepted for delivery', 202);
     }
     const response = await fetch('https://api.resend.com/emails', {
@@ -121,7 +121,8 @@ export async function POST(request: Request) {
     const result = (await response.json()) as { id?: string };
     if (!result.id) return reply('Delivery was not confirmed', 502);
     return reply('Accepted for delivery', 202);
-  } catch {
+  } catch (error) {
+    console.warn('Enquiry delivery exception', error instanceof Error ? error.name : 'UnknownError');
     return reply('Delivery failed. Please email partner@isuntv.com.', 502);
   }
 }

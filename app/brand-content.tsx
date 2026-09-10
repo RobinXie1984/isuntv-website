@@ -281,9 +281,9 @@ export function BrandContent({
               </ol>
               <a
                 className="brand-button dark"
-                href="mailto:licensing@isuntv.com"
+                href="mailto:partner@isuntv.com"
               >
-                licensing@iSunTV.com
+                partner@iSunTV.com
                 <ArrowUpRight size={18} />
               </a>
             </div>
@@ -341,8 +341,8 @@ export function BrandContent({
             {!registry.published && (
               <p>
                 {t(
-                  '公開登記正在準備中。現階段，請向 licensing@iSunTV.com 核實授權。未查到紀錄不等於判定為冒用；請先聯絡我們。',
-                  'The public register is being prepared. For now, confirm authorizations with licensing@iSunTV.com. An absent record is not, by itself, a finding of misuse.',
+                  '公開登記正在準備中。現階段，請向 partner@iSunTV.com 核實授權。未查到紀錄不等於判定為冒用；請先聯絡我們。',
+                  'The public register is being prepared. For now, confirm authorizations with partner@iSunTV.com. An absent record is not, by itself, a finding of misuse.',
                 )}
               </p>
             )}
@@ -353,7 +353,7 @@ export function BrandContent({
               )}
             </p>
           </div>
-          <a href="mailto:licensing@isuntv.com">licensing@iSunTV.com</a>
+          <a href="mailto:partner@isuntv.com">partner@iSunTV.com</a>
         </section>
       ) : null}
       {path === 'global' ? (
