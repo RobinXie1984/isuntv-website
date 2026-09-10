@@ -6957,5 +6957,336 @@
     "editorial_scope": "DESCRIPTION_LEVEL_DRAFT",
     "source": "https://www.youtube.com/watch?v=tco1O3r-cG0",
     "upload_date": null
+  },
+  "PkFIeLgyKL4": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "source": "https://www.youtube.com/watch?v=PkFIeLgyKL4",
+    "recorded_at": null,
+    "recording_location": null,
+    "upload_date": null,
+    "fields": {
+      "zh-Hant": {
+        "who": "溥傑與嵯峨浩",
+        "what": "婚姻、離散與重逢",
+        "when": "1937年結婚；1961年團聚",
+        "where": "東京、北京",
+        "why": "戰爭使夫妻分離",
+        "how": "親歷者回憶兩人的婚戀"
+      },
+      "zh-Hans": {
+        "who": "溥杰与嵯峨浩",
+        "what": "婚姻、离散与重逢",
+        "when": "1937年结婚；1961年团聚",
+        "where": "东京、北京",
+        "why": "战争使夫妻分离",
+        "how": "亲历者回忆两人的婚恋"
+      },
+      "en": {
+        "who": "Pujie and Hiro Saga",
+        "what": "Marriage, separation and reunion",
+        "when": "Married in 1937; reunited in 1961",
+        "where": "Tokyo and Beijing",
+        "why": "War separated the couple",
+        "how": "People who knew them recount their marriage"
+      },
+      "ja": {
+        "who": "溥傑と嵯峨浩",
+        "what": "結婚、離別、再会",
+        "when": "1937年に結婚、1961年に再会",
+        "where": "東京、北京",
+        "why": "戦争による離別",
+        "how": "二人を知る人々の回想"
+      }
+    }
+  },
+  "qI752WHcKJw": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "source": "https://www.youtube.com/watch?v=qI752WHcKJw",
+    "recorded_at": null,
+    "recording_location": null,
+    "upload_date": null,
+    "fields": {
+      "zh-Hant": {
+        "who": null,
+        "what": "殷墟甲骨文的發現與故事",
+        "when": "1899年",
+        "where": "殷墟、國家圖書館",
+        "why": "探尋中國文字的歷史",
+        "how": null
+      },
+      "zh-Hans": {
+        "who": null,
+        "what": "殷墟甲骨文的发现与故事",
+        "when": "1899年",
+        "where": "殷墟、国家图书馆",
+        "why": "探寻中国文字的历史",
+        "how": null
+      },
+      "en": {
+        "who": null,
+        "what": "The discovery and stories of Yinxu oracle-bone inscriptions",
+        "when": "1899",
+        "where": "Yinxu and the National Library of China",
+        "why": "Exploring the history of Chinese writing",
+        "how": null
+      },
+      "ja": {
+        "who": null,
+        "what": "殷墟甲骨文字の発見と物語",
+        "when": "1899年",
+        "where": "殷墟、中国国家図書館",
+        "why": "中国の文字の歴史を探る",
+        "how": null
+      }
+    }
+  },
+  "hjGwlxGY9vc": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "source": "https://www.youtube.com/watch?v=hjGwlxGY9vc",
+    "recorded_at": null,
+    "recording_location": null,
+    "upload_date": null,
+    "fields": {
+      "zh-Hant": {
+        "who": "石元仕與石氏家族",
+        "what": "尊美堂建築與家族興盛",
+        "when": "1877年宅院落成",
+        "where": "天津楊柳青",
+        "why": null,
+        "how": "從門樓、石雕與木雕追溯昔日繁盛"
+      },
+      "zh-Hans": {
+        "who": "石元仕与石氏家族",
+        "what": "尊美堂建筑与家族兴盛",
+        "when": "1877年宅院落成",
+        "where": "天津杨柳青",
+        "why": null,
+        "how": "从门楼、石雕与木雕追溯昔日繁盛"
+      },
+      "en": {
+        "who": "Shi Yuanshi and the Shi family",
+        "what": "Zunmeitang mansion and the family’s prosperity",
+        "when": "Mansion completed in 1877",
+        "where": "Yangliuqing, Tianjin",
+        "why": null,
+        "how": "Tracing former prosperity through gates and stone and wood carvings"
+      },
+      "ja": {
+        "who": "石元仕と石氏一族",
+        "what": "尊美堂の建築と一族の繁栄",
+        "when": "1877年に邸宅が完成",
+        "where": "天津・楊柳青",
+        "why": null,
+        "how": "門楼、石彫、木彫から往時をたどる"
+      }
+    }
+  },
+  "WfQAEXacjVQ": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "source": "https://www.youtube.com/watch?v=WfQAEXacjVQ",
+    "recorded_at": null,
+    "recording_location": null,
+    "upload_date": null,
+    "fields": {
+      "zh-Hant": {
+        "who": "日軍與中國守軍",
+        "what": "盧溝橋事變與戰爭擴大",
+        "when": "1937年7月7日",
+        "where": "盧溝橋、宛平城",
+        "why": "日軍以士兵失蹤為由要求入城搜查",
+        "how": "遭拒後進攻宛平城"
+      },
+      "zh-Hans": {
+        "who": "日军与中国守军",
+        "what": "卢沟桥事变与战争扩大",
+        "when": "1937年7月7日",
+        "where": "卢沟桥、宛平城",
+        "why": "日军以士兵失踪为由要求入城搜查",
+        "how": "遭拒后进攻宛平城"
+      },
+      "en": {
+        "who": "Japanese troops and Chinese defenders",
+        "what": "The Marco Polo Bridge Incident and the widening war",
+        "when": "7 July 1937",
+        "where": "Marco Polo Bridge and Wanping",
+        "why": "Japanese troops cited a missing soldier to demand a search inside the town",
+        "how": "They attacked Wanping after the demand was refused"
+      },
+      "ja": {
+        "who": "日本軍と中国守備軍",
+        "what": "盧溝橋事件と戦争の拡大",
+        "when": "1937年7月7日",
+        "where": "盧溝橋、宛平城",
+        "why": "日本軍が兵士の行方不明を理由に城内捜索を要求",
+        "how": "拒否後、宛平城を攻撃"
+      }
+    }
+  },
+  "saxqPlLejbI": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "source": "https://www.youtube.com/watch?v=saxqPlLejbI",
+    "recorded_at": null,
+    "recording_location": null,
+    "upload_date": null,
+    "fields": {
+      "zh-Hant": {
+        "who": "作家畢淑敏",
+        "what": "軍旅經歷與《昆侖殤》的創作",
+        "when": "1969年入伍；1987年獲獎",
+        "where": "北京、藏北高原",
+        "why": "年輕時的軍旅記憶促成寫作",
+        "how": "本人回憶從軍往事"
+      },
+      "zh-Hans": {
+        "who": "作家毕淑敏",
+        "what": "军旅经历与《昆仑殇》的创作",
+        "when": "1969年入伍；1987年获奖",
+        "where": "北京、藏北高原",
+        "why": "年轻时的军旅记忆促成写作",
+        "how": "本人回忆从军往事"
+      },
+      "en": {
+        "who": "Writer Bi Shumin",
+        "what": "Military experiences behind her novella Kunlun Shang",
+        "when": "Enlisted in 1969; literary award in 1987",
+        "where": "Beijing and the northern Tibetan plateau",
+        "why": "Memories of military service inspired her writing",
+        "how": "Bi recounts her experiences in her own words"
+      },
+      "ja": {
+        "who": "作家・畢淑敏",
+        "what": "軍隊生活と小説『崑崙殤』の創作",
+        "when": "1969年に入隊、1987年に受賞",
+        "where": "北京、チベット北部高原",
+        "why": "若い頃の軍隊生活が創作の契機に",
+        "how": "本人が従軍経験を回想"
+      }
+    },
+    "people": [
+      "bi-shumin"
+    ]
+  },
+  "qTudhVANlCk": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "source": "https://www.youtube.com/watch?v=qTudhVANlCk",
+    "recorded_at": null,
+    "recording_location": null,
+    "upload_date": null,
+    "fields": {
+      "zh-Hant": {
+        "who": "胡德華與父親胡耀邦",
+        "what": "兒子眼中的政治遭遇與改革主張",
+        "when": "文革及復出工作後",
+        "where": "廣東、深圳",
+        "why": null,
+        "how": "胡德華以家人視角回憶父親"
+      },
+      "zh-Hans": {
+        "who": "胡德华与父亲胡耀邦",
+        "what": "儿子眼中的政治遭遇与改革主张",
+        "when": "文革及复出工作后",
+        "where": "广东、深圳",
+        "why": null,
+        "how": "胡德华以家人视角回忆父亲"
+      },
+      "en": {
+        "who": "Hu Dehua and his father Hu Yaobang",
+        "what": "A son’s account of political persecution and reform ideas",
+        "when": "The Cultural Revolution and Hu Yaobang’s return to work",
+        "where": "Guangdong and Shenzhen",
+        "why": null,
+        "how": "Hu Dehua remembers his father from a family perspective"
+      },
+      "ja": {
+        "who": "胡徳華と父・胡耀邦",
+        "what": "息子が語る政治的経験と改革構想",
+        "when": "文化大革命と復職後",
+        "where": "広東、深圳",
+        "why": null,
+        "how": "家族の視点で父を回想"
+      }
+    }
+  },
+  "17CGuGDiK_o": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "source": "https://www.youtube.com/watch?v=17CGuGDiK_o",
+    "recorded_at": null,
+    "recording_location": null,
+    "upload_date": null,
+    "fields": {
+      "zh-Hant": {
+        "who": "當代藝術家任思鴻",
+        "what": "藝術人生與內心世界",
+        "when": null,
+        "where": null,
+        "why": "他認為藝術服務靈魂的真善美",
+        "how": "以個人創作經歷作演講"
+      },
+      "zh-Hans": {
+        "who": "当代艺术家任思鸿",
+        "what": "艺术人生与内心世界",
+        "when": null,
+        "where": null,
+        "why": "他认为艺术服务灵魂的真善美",
+        "how": "以个人创作经历作演讲"
+      },
+      "en": {
+        "who": "Contemporary artist Ren Sihong",
+        "what": "An artistic life and the inner self",
+        "when": null,
+        "where": null,
+        "why": "He sees art as serving truth, goodness and beauty within the soul",
+        "how": "A lecture drawing on his own creative experiences"
+      },
+      "ja": {
+        "who": "現代美術家・任思鴻",
+        "what": "芸術家としての人生と内面",
+        "when": null,
+        "where": null,
+        "why": "芸術は魂の真・善・美に仕えると考える",
+        "how": "自身の創作経験をもとに講演"
+      }
+    }
+  },
+  "DDimF5_NMF8": {
+    "status": "DRAFT_FROM_OFFICIAL_METADATA",
+    "source": "https://www.youtube.com/watch?v=DDimF5_NMF8",
+    "recorded_at": null,
+    "recording_location": null,
+    "upload_date": null,
+    "fields": {
+      "zh-Hant": {
+        "who": "作曲家、鋼琴家冼星海",
+        "what": "音樂求學、教學與合唱作品",
+        "when": "1905—1945年",
+        "where": "北京、巴黎、延安",
+        "why": null,
+        "how": "透過學習、教學與作曲走過音樂人生"
+      },
+      "zh-Hans": {
+        "who": "作曲家、钢琴家冼星海",
+        "what": "音乐求学、教学与合唱作品",
+        "when": "1905—1945年",
+        "where": "北京、巴黎、延安",
+        "why": null,
+        "how": "通过学习、教学与作曲走过音乐人生"
+      },
+      "en": {
+        "who": "Composer and pianist Xian Xinghai",
+        "what": "Musical studies, teaching and choral works",
+        "when": "1905–1945",
+        "where": "Beijing, Paris and Yan’an",
+        "why": null,
+        "how": "A musical life shaped by study, teaching and composition"
+      },
+      "ja": {
+        "who": "作曲家・ピアニストの冼星海",
+        "what": "音楽の学習、教育、合唱作品",
+        "when": "1905〜1945年",
+        "where": "北京、パリ、延安",
+        "why": null,
+        "how": "学習、教育、作曲を通じた音楽人生"
+      }
+    }
   }
 }
