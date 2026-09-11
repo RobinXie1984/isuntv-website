@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
-export type BrandLocale = 'zh-Hant' | 'en';
+import { translator } from './brand-i18n';
+export const brandLocales = ['zh-Hant', 'zh-Hans', 'en', 'ja', 'he'] as const;
+export type BrandLocale = (typeof brandLocales)[number];
 export const brandPaths = [
   'about',
   'global',
@@ -72,33 +74,30 @@ export const pageDescriptions: Record<string, [string, string]> = {
   ]
 };
 export function brandPath(path: string, locale: BrandLocale) {
-  return `${locale === 'en' ? '/en' : ''}/${path}`.replace(/\/$/, '') || '/';
+  return `${locale === 'zh-Hant' ? '' : '/' + locale}/${path}`.replace(/\/$/, '') || '/';
 }
 export function brandMetadata(
   path: string,
   locale: BrandLocale = 'zh-Hant',
 ): Metadata {
-  const title = pageTitles[path][locale === 'en' ? 1 : 0];
-  const description = pageDescriptions[path][locale === 'en' ? 1 : 0];
+  const t = translator(locale);
+  const title = path === 'robin' ? `${t('謝玢 Robin Xie', 'Robin Xie')} | ${t('陽光衛視執行董事 · 泰德陽光集團管理合夥人', 'Executive Director of iSunTV · Managing Partner of TideiSun Group')}` : t(...pageTitles[path]);
+  const description = t(...pageDescriptions[path]);
   return {
     title,
     description,
     robots: { index: true, follow: true },
     alternates: {
       canonical: `https://isuntv.com${brandPath(path, locale)}`,
-      languages: {
-        'zh-Hant': `https://isuntv.com${brandPath(path, 'zh-Hant')}`,
-        en: `https://isuntv.com${brandPath(path, 'en')}`,
-        'x-default': `https://isuntv.com${brandPath(path, 'zh-Hant')}`,
-      },
+      languages: Object.fromEntries([...brandLocales.map(l => [l, `https://isuntv.com${brandPath(path, l)}`]), ['x-default', `https://isuntv.com${brandPath(path, 'zh-Hant')}`]]),
     },
     openGraph: {
       title,
       description,
       type: 'website',
       siteName: 'iSunTV 陽光衛視',
-      locale: locale === 'en' ? 'en_US' : 'zh_TW',
-      alternateLocale: [locale === 'en' ? 'zh_TW' : 'en_US'],
+      locale: { 'zh-Hant': 'zh_TW', 'zh-Hans': 'zh_CN', en: 'en_US', ja: 'ja_JP', he: 'he_IL' }[locale],
+      alternateLocale: brandLocales.filter(l => l !== locale).map(l => ({ 'zh-Hant': 'zh_TW', 'zh-Hans': 'zh_CN', en: 'en_US', ja: 'ja_JP', he: 'he_IL' })[l]),
       url: `https://isuntv.com${brandPath(path, locale)}`,
     },
     twitter: { card: 'summary', title, description },

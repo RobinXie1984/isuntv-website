@@ -1,3 +1,5 @@
+import { translator } from '../lib/brand-i18n';
+import { contactLabels } from '../lib/contact-labels';
 import { env } from 'cloudflare:workers';
 /* oxlint-disable nextjs/no-img-element */
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
@@ -25,8 +27,7 @@ export function BrandContent({
     mailConfig.CONTACT_FORM_ENABLED === 'true' &&
     ((!!mailConfig.GOOGLE_WORKSPACE_RELAY_URL && !!mailConfig.GOOGLE_WORKSPACE_RELAY_SECRET) ||
       (!!mailConfig.RESEND_API_KEY && !!mailConfig.CONTACT_FROM_EMAIL));
-  const en = locale === 'en';
-  const t = (z: string, e: string) => (en ? e : z);
+  const t = translator(locale);
   const url = (p: string) => brandPath(p, locale);
   const intro: Record<string, [string, string]> = {
     about: [
@@ -72,7 +73,7 @@ export function BrandContent({
     '@type': profile || path === 'chairman' ? 'ProfilePage' : 'WebPage',
     '@id': `https://isuntv.com${url(path)}#webpage`,
     url: `https://isuntv.com${url(path)}`,
-    name: pageTitles[path][en ? 1 : 0],
+    name: t(...pageTitles[path]),
     inLanguage: locale,
     publisher: { '@id': entityIds.isuntv },
     ...(profile || path === 'chairman' ? { mainEntity: { '@id': profile ? entityIds.robin : entityIds.chairman } } : {}),
@@ -85,8 +86,8 @@ export function BrandContent({
       />
       <section className="page-intro">
         <p className="english-label">iSunTV / {path.toUpperCase()}</p>
-        <h1>{pageTitles[path][en ? 1 : 0]}</h1>
-        <p className="intro-summary">{intro[path][en ? 1 : 0]}</p>
+        <h1>{t(...pageTitles[path])}</h1>
+        <p className="intro-summary">{t(...intro[path])}</p>
       </section>
       {path === 'about' ? (
         <>
@@ -111,7 +112,7 @@ export function BrandContent({
               </a>
             </div>
             <img
-              src="/brand/harbour.webp"
+              src="/brand/harbour.webp" srcSet="/brand/harbour-480.webp 480w, /brand/harbour-768.webp 768w, /brand/harbour.webp 1122w" sizes="(max-width: 760px) 100vw, 54vw"
               width="1122"
               height="1402"
               loading="lazy"
@@ -140,7 +141,7 @@ export function BrandContent({
       {profile ? (
         <section className="page-content editorial-profile">
           <img
-            src="/brand/robin.jpg"
+            src="/brand/robin.webp"
             width="1600"
             height="1200"
             alt="謝玢 Robin Xie"
@@ -192,7 +193,7 @@ export function BrandContent({
         <section className="page-content editorial-profile">
           <img
             className="portrait-round"
-            src="/brand/chairman.png"
+            src="/brand/chairman.webp"
             width="853"
             height="853"
             alt={t('陳平', 'Chen Ping')}
@@ -221,7 +222,7 @@ export function BrandContent({
                 '@context': 'https://schema.org',
                 '@type': 'Person',
                 '@id': entityIds.chairman,
-                name: en ? 'Chen Ping' : '陳平',
+                name: t('陳平', 'Chen Ping'),
                 alternateName: ['陈平', 'Chen Ping'],
                 jobTitle: 'Chairman of iSunTV',
                 worksFor: { '@id': entityIds.isuntv },
@@ -336,7 +337,7 @@ export function BrandContent({
               {t('查驗', 'Verify')}
             </button>
           </form>
-          <VerificationResult id={id} en={en} />
+          <VerificationResult id={id} locale={locale} />
           <div className="notice">
             {!registry.published && (
               <p>
@@ -365,7 +366,7 @@ export function BrandContent({
               <p>{t('以香港為起點，將企業的經驗、品牌與故事，帶到更廣闊的國際舞台。', 'From Hong Kong, bring your experience, brand and story to a wider international audience.')}</p>
               <a className="brand-button dark" href={url('contact')}>{t('洽談出海合作', 'Discuss your plans')}<ArrowRight size={18}/></a>
             </div>
-            <img src="/brand/harbour.webp" width="1122" height="1402" alt={t('香港維多利亞港形象圖', 'Editorial view of Victoria Harbour')} />
+            <img src="/brand/harbour.webp" srcSet="/brand/harbour-480.webp 480w, /brand/harbour-768.webp 768w, /brand/harbour.webp 1122w" sizes="(max-width: 760px) 100vw, 54vw" width="1122" height="1402" alt={t('香港維多利亞港形象圖', 'Editorial view of Victoria Harbour')} />
           </section>
           <section className="page-content">
             <div className="business-grid global-services">
@@ -418,7 +419,7 @@ export function BrandContent({
             <p>
               <a href="mailto:partner@isuntv.com">partner@iSunTV.com</a>
             </p>
-            <ContactForm en={en} enabled={mailEnabled} />
+            <ContactForm locale={locale} labels={contactLabels(locale)} enabled={mailEnabled} />
           </div>
           <aside>
             <img
@@ -502,7 +503,8 @@ export function BrandContent({
     </BrandShell>
   );
 }
-function VerificationResult({ id, en }: { id: string; en: boolean }) {
+function VerificationResult({ id, locale }: { id: string; locale: BrandLocale }) {
+  const t = translator(locale);
   if (!id) return null;
   const result = lookupAuthorization(id);
   const labels: Record<string, [string, string]> = {
@@ -519,25 +521,25 @@ function VerificationResult({ id, en }: { id: string; en: boolean }) {
   };
   return (
     <section className="notice" aria-live="polite">
-      <h3>{labels[result.status][en ? 1 : 0]}</h3>
+      <h3>{t(...labels[result.status])}</h3>
       <p>
-        {en ? 'Authorization ID' : '查詢編號'}: {id}
+        {t('查詢編號', 'Authorization ID')}: {id}
       </p>
       {result.record && (
         <>
           <a href={`/api/authorizations/${encodeURIComponent(id)}`}>
-            {en ? 'Signed record (JSON)' : '已簽署紀錄（JSON）'}
+            {t('已簽署紀錄（JSON）', 'Signed record (JSON)')}
           </a>
           <dl className="record-detail">
             {Object.entries({
-              [en ? 'Organization' : '機構']: result.record.licensee,
-              [en ? 'Scope' : '範圍']: result.record.scope,
-              [en ? 'Territory' : '地域']: result.record.territory,
-              [en ? 'Valid from' : '起始日期']: result.record.validFrom,
-              [en ? 'Valid until' : '到期日期']: result.record.validUntil,
-              [en ? 'Last updated' : '最後更新']: result.record.updatedAt,
+              [t('機構', 'Organization')]: result.record.licensee,
+              [t('範圍', 'Scope')]: result.record.scope,
+              [t('地域', 'Territory')]: result.record.territory,
+              [t('起始日期', 'Valid from')]: result.record.validFrom,
+              [t('到期日期', 'Valid until')]: result.record.validUntil,
+              [t('最後更新', 'Last updated')]: result.record.updatedAt,
               ...(result.record.revokedAt
-                ? { [en ? 'Revoked at' : '撤銷日期']: result.record.revokedAt }
+                ? { [t('撤銷日期', 'Revoked at')]: result.record.revokedAt }
                 : {}),
             }).map(([k, v]) => (
               <div key={k}>

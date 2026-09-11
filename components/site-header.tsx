@@ -1,10 +1,9 @@
+import { LanguageMenu } from './language-menu';
 import { Search } from 'lucide-react';
 import { searchCopy } from '../lib/search-copy';
 /* oxlint-disable nextjs/no-img-element -- Fixed-size source thumbnails and the small official logo use direct images; no image proxy or optimizer is needed. */
 import {
   copy,
-  locales,
-  localeNames,
   homePath,
   sitePath,
   type Locale,
@@ -22,6 +21,7 @@ export function SiteHeader({
     'zh-Hans': '关于',
     en: 'About',
     ja: '紹介',
+    he: 'אודות',
   }[locale];
   return (
     <>
@@ -39,7 +39,7 @@ export function SiteHeader({
         </a>
         <nav className="main-nav" aria-label={t.nav}>
           <a href={sitePath(locale, 'programmes')}>{t.nav}</a>
-          <a href={locale === 'en' ? '/en/about' : '/about'} aria-label={t.about}>
+          <a href={sitePath(locale, 'about')} aria-label={t.about}>
             {aboutShort}
           </a>
           <a
@@ -50,18 +50,7 @@ export function SiteHeader({
             <Search size={20} />
           </a>
         </nav>
-        <nav className="languages" aria-label={t.lang}>
-          {locales.map((l) => (
-            <a
-              key={l}
-              href={sitePath(l, path)}
-              hrefLang={l}
-              aria-current={l === locale ? 'page' : undefined}
-            >
-              {localeNames[l]}
-            </a>
-          ))}
-        </nav>
+        <LanguageMenu locale={locale} path={path} />
       </header>
     </>
   );

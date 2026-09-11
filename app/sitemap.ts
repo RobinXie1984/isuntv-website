@@ -1,4 +1,4 @@
-import { brandPaths, brandPath } from '../lib/brand-pages';
+import { brandPaths, brandPath, brandLocales } from '../lib/brand-pages';
 import type { MetadataRoute } from 'next';
 import { locales, programmes, sitePath } from '../lib/catalogue';
 import { programmeVideos, findVideo } from '../lib/collection';
@@ -22,30 +22,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (findVideo(id)) paths.push(`videos/${id}`);
   }
   return [
-    ...['', ...brandPaths].flatMap((path) => [
-      {
-        url: `${publicOrigin}${brandPath(path, 'zh-Hant')}`,
-        alternates: {
-          languages: {
-            'zh-Hant': `${publicOrigin}${brandPath(path, 'zh-Hant')}`,
-            en: `${publicOrigin}${brandPath(path, 'en')}`,
-            'x-default': `${publicOrigin}${brandPath(path, 'zh-Hant')}`,
-          },
-        },
-      },
-      {
-        url: `${publicOrigin}${brandPath(path, 'en')}`,
-        alternates: {
-          languages: {
-            'zh-Hant': `${publicOrigin}${brandPath(path, 'zh-Hant')}`,
-            en: `${publicOrigin}${brandPath(path, 'en')}`,
-            'x-default': `${publicOrigin}${brandPath(path, 'zh-Hant')}`,
-          },
-        },
-      },
-    ]),
+    ...['', ...brandPaths].flatMap(path => brandLocales.map(locale => ({
+      url: `${publicOrigin}${brandPath(path, locale)}`,
+      alternates: { languages: Object.fromEntries([...brandLocales.map(l => [l, `${publicOrigin}${brandPath(path, l)}`]), ['x-default', `${publicOrigin}${brandPath(path, 'zh-Hant')}`]]) },
+    }))),
     ...paths.flatMap((path) =>
-      locales.map((locale) => ({
+      locales.filter(locale => locale !== 'he' || !path.startsWith('videos/')).map((locale) => ({
         url: new URL(sitePath(locale, path), publicOrigin).href,
         alternates: languageAlternates(path),
       })),

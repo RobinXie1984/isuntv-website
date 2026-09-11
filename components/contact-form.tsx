@@ -1,15 +1,19 @@
 'use client';
+import type { BrandLocale } from '../lib/brand-pages';
 import { useState, useSyncExternalStore } from 'react';
 const subscribeToHydration = () => () => {};
 const hydrated = () => true;
 const serverRendered = () => false;
 export function ContactForm({
-  en = false,
+  locale = 'zh-Hant',
+  labels,
   enabled = false,
 }: {
-  en?: boolean;
+  locale?: BrandLocale;
+  labels: Record<string, string>;
   enabled?: boolean;
 }) {
+  const t = (_zh: string, en: string) => labels[en] ?? en;
   const [state, setState] = useState<'idle' | 'sending' | 'success' | 'error'>(
     'idle',
   );
@@ -35,27 +39,21 @@ export function ContactForm({
           if (!response.ok) throw new Error('delivery');
           setState('success');
           setMessage(
-            en
-              ? 'Your enquiry has been accepted for delivery. We will reply by email.'
-              : '查詢已獲郵件服務接收，我們會透過電郵回覆。',
+            t('查詢已獲郵件服務接收，我們會透過電郵回覆。', 'Your enquiry has been accepted for delivery. We will reply by email.'),
           );
           form.reset();
         } catch {
           setState('error');
           setMessage(
-            en
-              ? 'Delivery could not be confirmed. Please email partner@iSunTV.com directly.'
-              : '目前無法確認寄送結果。請直接寄信至 partner@iSunTV.com。',
+            t('目前無法確認寄送結果。請直接寄信至 partner@iSunTV.com。', 'Delivery could not be confirmed. Please email partner@iSunTV.com directly.'),
           );
         }
       }}
     >
-      {enabled && !ready && <p className="status-message">{en ? 'Loading the form. You can also email partner@isuntv.com.' : '正在載入表單，亦可直接寄信至 partner@isuntv.com。'}</p>}
+      {enabled && !ready && <p className="status-message">{t('正在載入表單，亦可直接寄信至 partner@isuntv.com。', 'Loading the form. You can also email partner@isuntv.com.')}</p>}
       {!enabled && (
         <p className="status-message">
-          {en
-            ? 'For enquiries, please email partner@iSunTV.com directly. Online submission is not yet available.'
-            : '請直接寄信至 partner@iSunTV.com 洽談合作。網上提交尚未開放。'}
+          {t('請直接寄信至 partner@iSunTV.com 洽談合作。網上提交尚未開放。', 'For enquiries, please email partner@iSunTV.com directly. Online submission is not yet available.')}
         </p>
       )}
       <fieldset
@@ -64,11 +62,11 @@ export function ContactForm({
       >
         <div className="form-pair">
           <label>
-            {en ? 'Full name' : '姓名'}
+            {t('姓名', 'Full name')}
             <input name="name" autoComplete="name" required maxLength={100} />
           </label>
           <label>
-            {en ? 'Organization' : '機構名稱'}
+            {t('機構名稱', 'Organization')}
             <input
               name="organization"
               autoComplete="organization"
@@ -78,7 +76,7 @@ export function ContactForm({
           </label>
         </div>
         <label>
-          {en ? 'Business email' : '聯絡電郵'}
+          {t('聯絡電郵', 'Business email')}
           <input
             name="email"
             type="email"
@@ -88,18 +86,18 @@ export function ContactForm({
           />
         </label>
         <label>
-          {en ? 'Enquiry' : '合作方向'}
+          {t('合作方向', 'Enquiry')}
           <select name="interest">
-            <option value="global">{en ? 'Going global' : '華商出海'}</option>
-            <option value="interviews">{en ? 'Interviews' : '採訪合作'}</option>
+            <option value="global">{t('華商出海', 'Going global')}</option>
+            <option value="interviews">{t('採訪合作', 'Interviews')}</option>
             <option value="licensing">
-              {en ? 'Brand licensing' : '品牌授權'}
+              {t('品牌授權', 'Brand licensing')}
             </option>
-            <option value="other">{en ? 'Other enquiry' : '其他查詢'}</option>
+            <option value="other">{t('其他查詢', 'Other enquiry')}</option>
           </select>
         </label>
         <label>
-          {en ? 'How can we help?' : '合作構想'}
+          {t('合作構想', 'How can we help?')}
           <textarea name="message" required minLength={10} maxLength={4000} />
         </label>
         <label className="hp-field" aria-hidden="true">
@@ -109,11 +107,9 @@ export function ContactForm({
         <label className="checkbox-label">
           <input type="checkbox" name="consent" value="yes" required />
           <span>
-            {en
-              ? 'I agree to the use of my details to handle this enquiry.'
-              : '我同意使用上述資料處理本次查詢。'}{' '}
-            <a href={en ? '/en/privacy' : '/privacy'}>
-              {en ? 'Privacy notice' : '私隱說明'}
+            {t('我同意使用上述資料處理本次查詢。', 'I agree to the use of my details to handle this enquiry.')}{' '}
+            <a href={`${locale === 'zh-Hant' ? '' : '/' + locale}/privacy`}>
+              {t('私隱說明', 'Privacy notice')}
             </a>
           </span>
         </label>
@@ -123,12 +119,8 @@ export function ContactForm({
           disabled={!enabled || !ready || state === 'sending'}
         >
           {state === 'sending'
-            ? en
-              ? 'Sending…'
-              : '傳送中…'
-            : en
-              ? 'Submit enquiry'
-              : '提交查詢'}
+            ? t('傳送中…', 'Sending…')
+            : t('提交查詢', 'Submit enquiry')}
         </button>
       </fieldset>
       {message && (

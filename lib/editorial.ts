@@ -1,6 +1,7 @@
 import data from './drafts.json';
 import type { Locale } from './catalogue';
 export const detailCopy = {
+ he: {"unknown": "לא צוין במקור", "browse": "לפרקים", "submitted": "רשימת הצפייה שסופקה (אנשים ומקומות)", "missingTitle": "כותרת הסרטון אינה זמינה", "back": "כל התוכניות", "videos": "סרטונים", "watch": "לצפייה ב־YouTube", "source": "רשימת הצפייה המקורית", "previous": "הקודם", "next": "הבא", "page": "עמוד", "original": "הכותרת המקורית ב־YouTube", "summary": "במבט קצר", "who": "מי", "what": "מה", "when": "מתי", "where": "היכן", "why": "רקע", "how": "דרך הסיפור", "note": "התקציר מבוסס על הכותרת והתיאור הרשמיים. פרטים שלא נמסרו במקור מסומנים כלא ידועים.", "shared": "לשני החלקים תיאור רשמי משותף; פירוט נפרד לכל פרק נמצא בהכנה.", "person": "על הדמות", "pending": "התקציר בעברית נמצא בהכנה. ניתן לצפות בסרטון המקורי ב־YouTube.", "videoBack": "בחזרה לפרקים", "unavailable": "סרטונים ש־YouTube מסתיר אינם מופיעים כאן."},
   'zh-Hant': {
     unknown: '資料未載明',
     browse: '瀏覽影片',
@@ -117,7 +118,7 @@ export type SixField = 'who' | 'what' | 'when' | 'where' | 'why' | 'how';
 export type Draft = {
   status: string;
   editorial_scope?: string;
-  fields: Record<Locale, Record<SixField, string | null>>;
+  fields: Record<Exclude<Locale, 'he'>, Record<SixField, string | null>>;
   source: string;
   people?: string[];
   recorded_at: string | null;

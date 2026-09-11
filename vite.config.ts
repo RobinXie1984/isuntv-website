@@ -1,3 +1,6 @@
+import { createHash } from 'node:crypto';
+import { readFileSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
 import { sites } from '@openai/sites-vite-plugin';
 import tailwindcss from '@tailwindcss/postcss';
 import vinext from 'vinext';
@@ -13,7 +16,7 @@ const { d1, r2 } = hostingConfig;
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === 'seatbelt';
 
 const localBindingConfig = {
-  main: 'vinext/server/fetch-handler',
+  main: './worker.ts',
   compatibility_flags: ['nodejs_compat'],
   d1_databases: d1
     ? [
@@ -44,7 +47,18 @@ export default defineConfig(async () => {
   // Wrangler snapshots its log path while the Cloudflare plugin is imported.
   const { cloudflare } = await import('@cloudflare/vite-plugin');
 
+  const hash = createHash('sha256');
+  const visit = (path: string) => {
+    for (const entry of readdirSync(path, { withFileTypes: true }).sort((a,b) => a.name.localeCompare(b.name))) {
+      const file = join(path, entry.name);
+      if (entry.isDirectory()) visit(file);
+      else if (entry.isFile()) hash.update(file).update(readFileSync(file));
+    }
+  };
+  for (const dir of ['app', 'components', 'lib', 'public']) visit(dir);
+  for (const file of ['worker.ts', 'middleware.ts', 'next.config.ts', 'package-lock.json', 'vite.config.ts']) hash.update(readFileSync(file));
   return {
+    define: { __ISUN_RELEASE__: JSON.stringify(hash.digest('hex').slice(0, 20)) },
     css: { postcss: { plugins: [tailwindcss()] } },
     server: {
       host: '0.0.0.0',

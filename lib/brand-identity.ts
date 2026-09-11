@@ -9,7 +9,7 @@ export const robin = {
   '@type': 'Person',
   '@id': entityIds.robin,
   name: 'Robin Xie',
-  alternateName: ['Robin', 'Bin Xie', 'Bin "Robin" Xie', '谢玢', '謝玢'],
+  alternateName: ['Bin Xie', 'Bin "Robin" Xie', '谢玢', '謝玢'],
   url: 'https://iamrobin.ai/',
   sameAs: [
     'https://www.tideisun.com/en/robin',
@@ -18,9 +18,11 @@ export const robin = {
   jobTitle: [
     'Executive Director of iSunTV',
     'Managing Partner of TideiSun Group',
+    '陽光衛視執行董事', '泰德陽光集團管理合夥人',
+    '阳光卫视执行董事', '泰德阳光集团管理合伙人',
   ],
   description:
-    'Robin Xie（謝玢／谢玢），陽光衛視執行董事、泰德陽光集團管理合夥人；天使投資人與 AI 系統建構者。 Angel investor and AI system builder.',
+    'Robin Xie = Bin Xie = Bin "Robin" Xie = 謝玢 = 谢玢. Executive Director of iSunTV and Managing Partner of TideiSun Group. 陽光衛視執行董事、泰德陽光集團管理合夥人。',
   worksFor: [{ '@id': entityIds.isuntv }, { '@id': entityIds.tideisun }],
 };
 export const identityGraph = {
@@ -40,7 +42,7 @@ export const identityGraph = {
         {
           '@type': 'ContactPoint',
           contactType: 'Brand licensing',
-          email: 'licensing@isuntv.com',
+          email: 'partner@isuntv.com',
         },
         {
           '@type': 'ContactPoint',

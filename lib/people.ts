@@ -1,7 +1,7 @@
 import data from './people.json';
 import type { Locale } from './catalogue';
 export type Person = {
-  name: Record<Locale, string>;
+  name: Partial<Record<Locale, string>>;
   url: string;
   sourceLanguage: string;
   publisher: string;

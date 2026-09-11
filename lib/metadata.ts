@@ -16,7 +16,7 @@ export function languageAlternates(path: string, locale?: Locale) {
       ? { canonical: new URL(sitePath(locale, path), publicOrigin).href }
       : {}),
     languages: Object.fromEntries(
-      [...locales.map((l) => [l, new URL(sitePath(l, path), publicOrigin).href]), ['x-default', new URL(sitePath('zh-Hant', path), publicOrigin).href]],
+      [...locales.filter(l => l !== 'he' || !path.startsWith('videos/')).map((l) => [l, new URL(sitePath(l, path), publicOrigin).href]), ['x-default', new URL(sitePath('zh-Hant', path), publicOrigin).href]],
     ),
   };
 }
@@ -42,7 +42,7 @@ export function videoMetadata(locale: Locale, id: string): Metadata {
   const video = findVideo(id);
   if (!video) notFound();
   const title = videoTitle(video, locale);
-  const fields = drafts[id]?.fields[locale];
+  const fields = locale === 'he' ? undefined : drafts[id]?.fields[locale];
   const description = fields
     ? Object.values(fields).filter(Boolean).join(' · ')
     : title;

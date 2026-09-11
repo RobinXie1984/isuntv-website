@@ -1,6 +1,7 @@
-export const locales = ['zh-Hant', 'zh-Hans', 'en', 'ja'] as const;
+export const locales = ['zh-Hant', 'zh-Hans', 'en', 'ja', 'he'] as const;
 export type Locale = (typeof locales)[number];
 export const copy = {
+ he: {"title": "iSunTV", "nav": "ארכיון התוכניות", "about": "על iSunTV", "channel": "ערוץ YouTube", "kicker": "הונג קונג · סרטי תעודה", "headline": "סיפורי חיים.\nהיסטוריה מקרוב.", "intro": "מיצירתם של אמנים ועד לזיכרונות אישיים — גלו את האנשים והסיפורים באוסף התיעודי של iSunTV.", "explore": "לגלות את התוכניות", "watch": "לצפייה ב־YouTube", "series": "אוסף התוכניות", "all": "סיפורים שנשארים איתנו.", "aboutText": "iSunTV הוא ערוץ טלוויזיה לווייני מהונג קונג, המביא סיפורים על אנשים, היסטוריה ותרבות.", "skip": "דילוג לתוכן", "playlist": "לרשימת הצפייה", "footer": "陽光衛視 · iSunTV", "source": "רשימת הצפייה המקורית", "featured": "ראיונות אישיים", "featureTitle": "חיים בשיחה", "featureDesc": "המנצח לי דלון · פרק 1", "lang": "שפה"},
   'zh-Hant': {
     title: '陽光衛視',
     nav: '節目目錄',
@@ -99,13 +100,13 @@ export const copy = {
 export const programmes = [
   {
     slug: 'masters',
-    titles: {
+    titles: { he: "ענקי המאה",
       'zh-Hant': '百年巨匠',
       'zh-Hans': '百年巨匠',
       en: 'Masters of a Century',
       ja: '百年の巨匠',
     },
-    topics: {
+    topics: { he: "אמנות ויצירה",
       'zh-Hant': '藝術與創作',
       'zh-Hans': '艺术与创作',
       en: 'Art & creativity',
@@ -115,13 +116,13 @@ export const programmes = [
   },
   {
     slug: 'national-tragedy',
-    titles: {
+    titles: { he: "טרגדיה לאומית",
       'zh-Hant': '國殤',
       'zh-Hans': '国殇',
       en: 'National Tragedy',
       ja: '国殤',
     },
-    topics: {
+    topics: { he: "היסטוריה",
       'zh-Hant': '歷史紀錄',
       'zh-Hans': '历史纪录',
       en: 'History',
@@ -131,13 +132,13 @@ export const programmes = [
   },
   {
     slug: 'life-online',
-    titles: {
+    titles: { he: "חיים בשיחה",
       'zh-Hant': '人生在線',
       'zh-Hans': '人生在线',
       en: 'Life Online',
       ja: '人生在線',
     },
-    topics: {
+    topics: { he: "יזמים ואמנים",
       'zh-Hant': '企業家與藝術家',
       'zh-Hans': '企业家与艺术家',
       en: 'Entrepreneurs & artists',
@@ -147,13 +148,13 @@ export const programmes = [
   },
   {
     slug: 'love-marriage',
-    titles: {
+    titles: { he: "מאה של אהבה",
       'zh-Hant': '百年婚戀',
       'zh-Hans': '百年婚恋',
       en: 'A Century of Love',
       ja: '百年の愛と結婚',
     },
-    topics: {
+    topics: { he: "חיים ותקופות",
       'zh-Hant': '人生與時代',
       'zh-Hans': '人生与时代',
       en: 'Lives & times',
@@ -163,13 +164,13 @@ export const programmes = [
   },
   {
     slug: 'treasures',
-    titles: {
+    titles: { he: "אוצרות לאומיים",
       'zh-Hant': '國寶',
       'zh-Hans': '国宝',
       en: 'National Treasures',
       ja: '国宝',
     },
-    topics: {
+    topics: { he: "מורשת ותרבות",
       'zh-Hant': '文物與文化',
       'zh-Hans': '文物与文化',
       en: 'Heritage & culture',
@@ -179,13 +180,13 @@ export const programmes = [
   },
   {
     slug: 'geography',
-    titles: {
+    titles: { he: "אנשים ומקומות",
       'zh-Hant': '人文地理',
       'zh-Hans': '人文地理',
       en: 'People & Places',
       ja: '人文地理',
     },
-    topics: {
+    topics: { he: "תרבות וגאוגרפיה",
       'zh-Hant': '山河與人文',
       'zh-Hans': '山河与人文',
       en: 'Landscape & culture',
@@ -195,13 +196,13 @@ export const programmes = [
   },
   {
     slug: 'journeys',
-    titles: {
+    titles: { he: "מסעות בעולם",
       'zh-Hant': '天下行',
       'zh-Hans': '天下行',
       en: 'Journeys',
       ja: '世界を歩く',
     },
-    topics: {
+    topics: { he: "מסעות ותרבות",
       'zh-Hant': '行走與觀察',
       'zh-Hans': '行走与观察',
       en: 'Travel & observation',
@@ -211,13 +212,13 @@ export const programmes = [
   },
   {
     slug: 'science',
-    titles: {
+    titles: { he: "מדע לכול",
       'zh-Hant': '科普',
       'zh-Hans': '科普',
       en: 'Ideas & Discovery',
       ja: '科学と発見',
     },
-    topics: {
+    topics: { he: "מדע וידע",
       'zh-Hant': '知識與探索',
       'zh-Hans': '知识与探索',
       en: 'Knowledge & discovery',
@@ -227,13 +228,13 @@ export const programmes = [
   },
   {
     slug: 'personal-accounts',
-    titles: {
+    titles: { he: "סיפורים אישיים",
       'zh-Hant': '名人自述',
       'zh-Hans': '名人自述',
       en: 'Personal Accounts',
       ja: '人物の証言',
     },
-    topics: {
+    topics: { he: "עדויות אישיות",
       'zh-Hant': '我的家人 · 往事歲月',
       'zh-Hans': '我的家人 · 往事岁月',
       en: 'Family & memories',
@@ -246,13 +247,13 @@ export const programmes = [
   },
   {
     slug: 'oral-history',
-    titles: {
+    titles: { he: "היסטוריה בעל־פה",
       'zh-Hant': '口述歷史',
       'zh-Hans': '口述历史',
       en: 'Oral History',
       ja: 'オーラルヒストリー',
     },
-    topics: {
+    topics: { he: "זיכרון ועדות",
       'zh-Hant': '塵封記憶',
       'zh-Hans': '尘封记忆',
       en: 'Recollections',
@@ -262,6 +263,7 @@ export const programmes = [
   },
 ];
 export const localeNames: Record<Locale, string> = {
+  he: 'עברית',
   'zh-Hant': '繁體中文',
   'zh-Hans': '简体中文',
   en: 'English',

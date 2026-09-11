@@ -1,4 +1,6 @@
+import { translator } from '../lib/brand-i18n';
 /* oxlint-disable nextjs/no-img-element */
+import { LanguageMenu } from './language-menu';
 import { Search, ArrowUpRight } from 'lucide-react';
 import { brandPath, type BrandLocale } from '../lib/brand-pages';
 export function BrandHeader({
@@ -8,11 +10,11 @@ export function BrandHeader({
   locale?: BrandLocale;
   path?: string;
 }) {
-  const en = locale === 'en';
+  const t = translator(locale);
   return (
     <>
       <a className="skip" href="#main">
-        {en ? 'Skip to content' : '跳至主要內容'}
+        {t('跳至主要內容', 'Skip to content')}
       </a>
       <header className="brand-header">
         <a href={brandPath('', locale)} aria-label="iSunTV 陽光衛視">
@@ -24,10 +26,10 @@ export function BrandHeader({
           />
         </a>
         <div className="brand-motto">
-          <span>連接華商　影響世界</span>
+          <span>{t('連接華商　影響世界', 'Connecting entrepreneurs worldwide')}</span>
           <small>A BRIGHTER CHINA, A WIDER WORLD</small>
         </div>
-        <nav aria-label={en ? 'Main navigation' : '主要導覽'}>
+        <nav aria-label={t('主要導覽', 'Main navigation')}>
           {[
             ['about', '關於陽光', 'About'],
             ['global', '華商出海', 'Going global'],
@@ -39,33 +41,27 @@ export function BrandHeader({
               href={brandPath(p, locale)}
               aria-current={path === p ? 'page' : undefined}
             >
-              {en ? e : zh}
+              {t(zh, e)}
             </a>
           ))}
         </nav>
         <a
           className="brand-search"
           href={brandPath('search', locale)}
-          aria-label={en ? 'Search' : '搜尋'}
+          aria-label={t('搜尋', 'Search')}
         >
           <Search size={19} />
         </a>
-        <a
-          className="language-switch"
-          href={brandPath(path, en ? 'zh-Hant' : 'en')}
-          hrefLang={en ? 'zh-Hant' : 'en'}
-        >
-          {en ? '繁中' : 'EN'}
-        </a>
+        <LanguageMenu locale={locale} path={path} />
         <a className="brand-button small" href={brandPath('contact', locale)}>
-          {en ? 'Contact' : '聯絡我們'}
+          {t('聯絡我們', 'Contact')}
         </a>
       </header>
     </>
   );
 }
 export function BrandFooter({ locale = 'zh-Hant' }: { locale?: BrandLocale }) {
-  const en = locale === 'en';
+  const t = translator(locale);
   return (
     <footer className="brand-footer">
       <div>
@@ -82,7 +78,7 @@ export function BrandFooter({ locale = 'zh-Hant' }: { locale?: BrandLocale }) {
           ['contact', '聯絡我們', 'Contact'],
         ].map(([p, z, e]) => (
           <a key={p} href={brandPath(p, locale)}>
-            {en ? e : z}
+            {t(z, e)}
           </a>
         ))}
         <a href="https://www.tideisun.com/">
@@ -102,7 +98,7 @@ export function BrandShell({
   locale?: BrandLocale;
 }) {
   return (
-    <div className="institutional" lang={locale}>
+    <div className="institutional" lang={locale} dir={locale === 'he' ? 'rtl' : 'ltr'}>
       <BrandHeader path={path} locale={locale} />
       <main id="main">{children}</main>
       <BrandFooter locale={locale} />

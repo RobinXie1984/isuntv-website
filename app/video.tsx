@@ -20,7 +20,8 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
   const programme = programmes.find((p) =>
     selectedPlaylistIds(p.slug).includes(v.playlistId),
   );
-  const draft = drafts[id];
+  const draft = locale === 'he' ? undefined : drafts[id];
+  const fields = locale === 'he' ? undefined : draft?.fields[locale];
   return (
     <>
       <SiteHeader locale={locale} path={`videos/${id}/`} />
@@ -28,7 +29,7 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
         '@context': 'https://schema.org', '@type': 'VideoObject',
         '@id': `${publicOrigin}${sitePath(locale, `videos/${id}`)}#video`,
         name: videoTitle(v, locale),
-        description: draft ? Object.values(draft.fields[locale]).filter(Boolean).join(' · ') : videoTitle(v, locale),
+        description: fields ? Object.values(fields).filter(Boolean).join(' · ') : videoTitle(v, locale),
         ...(v.thumbnail ? { thumbnailUrl: [v.thumbnail] } : {}),
         url: `https://www.youtube.com/watch?v=${v.id}&list=${v.playlistId}`,
         mainEntityOfPage: `${publicOrigin}${sitePath(locale, `videos/${id}`)}`,
@@ -67,7 +68,7 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
             <ArrowUpRight size={18} />
           </span>
         </a>
-        {draft ? (
+        {draft && fields ? (
           <section className="six-w">
             <h2>{t.summary}</h2>
             <dl>
@@ -79,7 +80,7 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
                       {t[key]}
                     </dt>
                     <dd>
-                      {draft.fields[locale][key] ?? t.unknown}
+                      {fields[key] ?? t.unknown}
                       {key === 'who' && draft.people?.length ? (
                         <ul className="person-references" aria-label={t.person}>
                           {draft.people.map((personId) => {
@@ -90,9 +91,9 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
                                   href={person.url}
                                   hrefLang={person.sourceLanguage}
                                   className="person-reference"
-                                  aria-label={`${t.person}: ${person.name[locale]}`}
+                                  aria-label={`${t.person}: ${(person.name[locale] ?? person.name.en)}`}
                                 >
-                                  {person.name[locale]}
+                                  {(person.name[locale] ?? person.name.en)}
                                   <ArrowUpRight size={17} aria-hidden="true" />
                                 </a>
                               </li>

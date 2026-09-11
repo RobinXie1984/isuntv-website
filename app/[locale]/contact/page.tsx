@@ -1,7 +1,7 @@
-import { notFound } from 'next/navigation';
+import { checkedLocale } from '../../../lib/metadata';
 import { BrandContent } from '../../brand-content';
 import { brandMetadata } from '../../../lib/brand-pages';
-export const metadata = brandMetadata('contact', 'en');
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) { return brandMetadata('contact', checkedLocale((await params).locale)); }
 export default async function Page({
   params,
   searchParams,
@@ -9,12 +9,12 @@ export default async function Page({
   params: Promise<{ locale: string }>;
   searchParams: Promise<{ id?: string }>;
 }) {
-  if ((await params).locale !== 'en') notFound();
+  const locale = checkedLocale((await params).locale);
   const q = await searchParams;
   return (
     <BrandContent
       path="contact"
-      locale="en"
+      locale={locale}
       id={typeof q.id === 'string' ? q.id.slice(0, 100) : ''}
     />
   );

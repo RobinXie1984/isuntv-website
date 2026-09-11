@@ -34,7 +34,7 @@ export default async function Layout({
   const { locale } = await params;
   if (!locales.includes(locale as Locale) || locale === 'zh-Hant') notFound();
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={locale === 'he' ? 'rtl' : 'ltr'}>
       <head>
         <link rel="preconnect" href="https://i.ytimg.com" />
       </head>
