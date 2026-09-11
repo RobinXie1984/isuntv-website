@@ -779,3 +779,43 @@
 /* Preserve the approved logo crop independently of page reading direction. */
 .brand-header > a:first-of-type { direction:ltr; }
 @media(max-width:1400px) { .institutional:not([lang='zh-Hant']) .brand-motto { display:none; } }
+
+/* Going Global: presentation imagery in the existing editorial website style. */
+.global-feature { grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr); gap: 5%; }
+.global-feature-copy { min-width: 0; }
+.global-feature .english-label { font-size: 12px; letter-spacing: .12em; }
+.global-position { display: grid; gap: 8px; border-inline-start: 2px solid #94794a; padding-inline-start: 18px; margin: 26px 0 30px; font-size: 14px; color: #516965; }
+.global-position strong { font-weight: 500; color: #154a4b; font-size: 18px; }
+.global-gallery { min-width: 0; background: #0b2639; color: #faf6ec; }
+.global-gallery [data-slot=carousel-content] { overflow: hidden; }
+.global-gallery-track { display: flex; margin-left: 0; touch-action: pan-y pinch-zoom; }
+.global-gallery-slide { min-width: 0; flex: 0 0 100%; padding-left: 0; }
+.global-gallery-image { aspect-ratio: 3 / 2; overflow: hidden; background: #0b2639; }
+.global-mission .global-gallery img { width: 100%; height: 100%; max-height: none; object-fit: cover; }
+.global-gallery-bottom { display: flex; gap: 16px; align-items: center; justify-content: space-between; padding: 20px; min-height: 102px; }
+.global-gallery-caption { display: grid; gap: 6px; min-width: 0; font-size: 16px; line-height: 1.5; }
+.global-gallery-caption .english-label { color: #d4bd88; }
+.global-gallery-controls { display: flex; flex-shrink: 0; gap: 2px; }
+.global-gallery-controls button { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; color: #faf6ec; background: transparent; border: 1px solid #536675; border-radius: 0; cursor: pointer; }
+.global-gallery-controls button:hover { background: #274457; }
+.global-gallery-controls button:focus-visible { outline: 3px solid #e8c779; outline-offset: 3px; }
+.global-editorial { padding-top: 64px; padding-bottom: 64px; }
+.global-editorial > .english-label { margin-bottom: 14px; font-size: 12px; color: #61736d; }
+.global-editorial h2 { font-size: clamp(28px, 3vw, 40px); line-height: 1.35; }
+.global-editorial .business-grid { margin-top: 32px; }
+.global-editorial .business-grid .english-label { font-size: 13px; color: #61736d; margin-bottom: 16px; }
+.global-content-band { background: #e9eeea; }
+.global-section-intro { color: #51626a; }
+.global-process { list-style: none; padding: 0; margin: 34px 0 52px; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 30px; }
+.global-process li { border-top: 1px solid #8baba6; padding-top: 22px; }
+.global-process .english-label { display: block; margin-bottom: 18px; color: #61736d; }
+.global-process p { color: #51626a; }
+.global-invitation { border-top: 1px solid #c5ceca; padding-top: 40px; display: flex; align-items: center; justify-content: space-between; gap: 40px; }
+.global-invitation > div { max-width: 700px; }
+.global-invitation p { margin-bottom: 0; color: #51626a; }
+.global-invitation .brand-button { flex-shrink: 0; }
+@media (min-width: 761px) { .institutional[dir='rtl'] .global-feature { direction: ltr; } .institutional[dir='rtl'] .global-feature-copy, .institutional[dir='rtl'] .global-gallery { direction: rtl; } }
+@media (max-width: 1050px) { .global-gallery-bottom { align-items: flex-start; flex-direction: column; min-height: 160px; } .global-process { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 760px) { .global-feature { grid-template-columns: minmax(0,1fr); gap: 30px; } .global-feature h2 { font-size: clamp(32px,8vw,44px); } .global-gallery-bottom { padding: 16px; min-height: 150px; } .global-editorial { padding-top: 40px; padding-bottom: 40px; } .global-invitation { display: block; } .global-invitation .brand-button { margin-top: 24px; } }
+@media (max-width: 420px) { .global-process { grid-template-columns: minmax(0,1fr); gap: 18px; } }
+@media (prefers-reduced-motion: reduce) { .global-gallery * { transition: none !important; animation: none !important; } }

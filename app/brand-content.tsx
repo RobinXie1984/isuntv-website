@@ -1,3 +1,5 @@
+import { GlobalSection } from '../components/global-section';
+import { globalContent } from '../lib/global-content';
 import { translator } from '../lib/brand-i18n';
 import { contactLabels } from '../lib/contact-labels';
 import { env } from 'cloudflare:workers';
@@ -87,7 +89,7 @@ export function BrandContent({
       <section className="page-intro">
         <p className="english-label">iSunTV / {path.toUpperCase()}</p>
         <h1>{t(...pageTitles[path])}</h1>
-        <p className="intro-summary">{t(...intro[path])}</p>
+        <p className="intro-summary">{path === 'global' ? globalContent[locale].intro : t(...intro[path])}</p>
       </section>
       {path === 'about' ? (
         <>
@@ -336,30 +338,7 @@ export function BrandContent({
           <a href="mailto:partner@isuntv.com">partner@iSunTV.com</a>
         </section>
       ) : null}
-      {path === 'global' ? (
-        <>
-          <section className="mission-section global-mission">
-            <div>
-              <p className="english-label">HONG KONG · YOUR GLOBAL ADVANTAGE</p>
-              <h2>{t('讓世界看見，\n讓合作發生。', 'Be seen.\nBuild connections.')}</h2>
-              <p>{t('以香港為起點，將企業的經驗、品牌與故事，帶到更廣闊的國際舞台。', 'From Hong Kong, bring your experience, brand and story to a wider international audience.')}</p>
-              <a className="brand-button dark" href={url('contact')}>{t('洽談出海合作', 'Discuss your plans')}<ArrowRight size={18}/></a>
-            </div>
-            <img src="/brand/harbour.webp" srcSet="/brand/harbour-480.webp 480w, /brand/harbour-768.webp 768w, /brand/harbour.webp 1122w" sizes="(max-width: 760px) 100vw, 54vw" width="1122" height="1402" alt={t('香港維多利亞港形象圖', 'Editorial view of Victoria Harbour')} />
-          </section>
-          <section className="page-content">
-            <div className="business-grid global-services">
-              {[
-                ['01', t('品牌與敘事', 'Brand and story'), t('以深度訪談與影像內容，清楚呈現企業的經驗、價值與方向。', 'Communicate your experience, value and direction through in-depth conversations and film.'), 'interviews', t('探索採訪精選', 'Explore selected interviews')],
-                ['02', t('國際連接', 'International connections'), t('圍繞目標市場與具體項目，探討在地資源及合作可能。', 'Explore local relationships and opportunities around a defined market and project.'), 'contact', t('聯絡我們', 'Start a conversation')],
-                ['03', t('長期合作', 'Lasting partnerships'), t('從清晰的合作範圍開始，讓品牌使用、責任與推進方式有所依據。', 'Define the scope, responsibilities and brand use that support a lasting partnership.'), 'licensing', t('了解品牌合作', 'Explore brand partnerships')],
-              ].map(([n, title, description, destination, label]) => (
-                <article key={n}><p className="english-label">{n}</p><h3>{title}</h3><p>{description}</p><a href={url(destination)}>{label}<ArrowUpRight size={16}/></a></article>
-              ))}
-            </div>
-          </section>
-        </>
-      ) : null}
+      {path === 'global' ? <GlobalSection locale={locale} /> : null}
       {path === 'interviews' ? (
         <section className="page-content">
           <div className="columns">

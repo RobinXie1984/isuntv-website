@@ -1,3 +1,4 @@
+import { globalContent } from './global-content';
 import type { Metadata } from 'next';
 import { translator } from './brand-i18n';
 export const brandLocales = ['zh-Hant', 'zh-Hans', 'en', 'ja', 'he'] as const;
@@ -82,7 +83,7 @@ export function brandMetadata(
 ): Metadata {
   const t = translator(locale);
   const title = path === 'robin' ? `${t('謝玢 Robin Xie', 'Robin Xie')} | ${t('陽光衛視執行董事 · 泰德陽光集團管理合夥人', 'Executive Director of iSunTV · Managing Partner of TideiSun Group')}` : t(...pageTitles[path]);
-  const description = t(...pageDescriptions[path]);
+  const description = path === 'global' ? globalContent[locale].mission : t(...pageDescriptions[path]);
   return {
     title,
     description,
