@@ -6,14 +6,14 @@ source = source.replace("import handler from 'vinext/server/fetch-handler';",'co
 let renders=0; let status=200; let setCookie=false; let down=false;
 const stored=new Map();
 globalThis.mockHandler={async fetch(){renders++;return new Response('public page',{status,headers:{'Content-Type':'text/html',...(setCookie?{'Set-Cookie':'test=value'}:{})}});}};
-globalThis.caches={async open(){if(down)throw Error('unavailable');return {async match(r){return stored.get(r.url)?.clone()},async put(r,v){stored.set(r.url,v.clone())}}}};
+globalThis.caches={async open(){if(down)throw Error('unavailable');return {async match(r){const hit=stored.get(r.url)?.clone();if(hit)hit.headers.set('Cache-Control','public, max-age=14400');return hit},async put(r,v){stored.set(r.url,v.clone())}}}};
 const code=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText;
 const {default:worker,canCache}=await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
 const make=(path='/',headers={},method='GET',host='isuntv.com')=>new Request(`https://${host}${path}`,{method,headers:{accept:'text/html',...headers}});
 const waits=[]; const ctx={waitUntil(p){waits.push(p)}};
 assert(canCache(make()));assert(canCache(make('/he')));assert(canCache(make('/ja/robin')));
 for(const req of [make('/contact'),make('/verify?id=ISUN-1'),make('/api/contact'),make('/search?q=Robin'),make('/?q=x'),make('/',{cookie:'a=b'}),make('/',{authorization:'Bearer test'}),make('/',{rsc:'1'}),make('/',{'next-router-state-tree':'x'}),make('/',{'next-url':'/en'}),make('/',{'x-vinext-interception-id':'x'}),make('/',{accept:'text/x-component'}),make('/missing'),make('/',{},'POST'),make('/',{},'GET','www.isuntv.com'),make('/',{},'GET','isuntv-rebuild-preview.robin10.chatgpt.site')]) assert.equal(canCache(req),false,req.url);
-let r=await worker.fetch(make(),{},ctx);assert.equal(r.headers.get('X-iSunTV-Cache'),'MISS');await Promise.all(waits);r=await worker.fetch(make(),{},ctx);assert.equal(r.headers.get('X-iSunTV-Cache'),'HIT');assert.equal(renders,1);
+let r=await worker.fetch(make(),{},ctx);assert.equal(r.headers.get('X-iSunTV-Cache'),'MISS');await Promise.all(waits);r=await worker.fetch(make(),{},ctx);assert.equal(r.headers.get('X-iSunTV-Cache'),'HIT');assert.equal(r.headers.get('Cache-Control'),'public, max-age=0, s-maxage=300, must-revalidate');assert.equal(renders,1);
 status=500;r=await worker.fetch(make('/about'),{},ctx);assert.equal(r.headers.get('X-iSunTV-Cache'),null);status=200;setCookie=true;r=await worker.fetch(make('/global'),{},ctx);assert.equal(r.headers.get('X-iSunTV-Cache'),null);setCookie=false;down=true;r=await worker.fetch(make('/privacy'),{},ctx);assert.equal(r.status,200);
 assert([...stored.keys()].every(k=>k.includes('__isuntv_release=test-release')));
 console.log('Public cache eligibility, hit/miss, source version key, API/query/cookie/auth/RSC/preview bypass, error/Set-Cookie exclusion and cache failure fallback pass.');

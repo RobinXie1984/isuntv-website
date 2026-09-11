@@ -27,6 +27,8 @@ export default {
       if (hit) {
         const response = new Response(hit.body, hit);
         response.headers.set('X-iSunTV-Cache', 'HIT');
+        // The hosted Cache API can return a different browser TTL; reapply our policy.
+        response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=300, must-revalidate');
         return response;
       }
     } catch { /* Cache availability must never prevent serving the page. */ }
