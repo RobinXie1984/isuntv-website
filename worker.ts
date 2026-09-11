@@ -7,9 +7,12 @@ const publicPage = /^\/(?:zh-Hans\/|en\/|ja\/|he\/)?(?:about|global|interviews|c
 const localeHome = /^\/(?:zh-Hans|en|ja|he)$/;
 export function canCache(request: Request) {
   const url = new URL(request.url);
+  // Cloudflare adds __cf_bm to ordinary public visits. It is a bot-management
+  // cookie, not an application login; any other cookie still bypasses this cache.
+  const publicCookiesOnly = (request.headers.get('cookie') ?? '').split(';').every(part => !part.trim() || part.trim().split('=')[0] === '__cf_bm');
   return url.hostname === 'isuntv.com' && request.method === 'GET' && !url.search &&
     (publicPage.test(url.pathname) || localeHome.test(url.pathname)) &&
-    !request.headers.has('cookie') && !request.headers.has('authorization') &&
+    publicCookiesOnly && !request.headers.has('authorization') &&
     !Array.from(request.headers.keys()).some(name => name === 'rsc' || name.startsWith('next-') || name.startsWith('x-vinext-')) &&
     !request.headers.has('range') &&
     (request.headers.get('accept') ?? '').includes('text/html');
@@ -29,6 +32,7 @@ export default {
         response.headers.set('X-iSunTV-Cache', 'HIT');
         // The hosted Cache API can return a different browser TTL; reapply our policy.
         response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=300, must-revalidate');
+        response.headers.delete('Expires');
         return response;
       }
     } catch { /* Cache availability must never prevent serving the page. */ }
