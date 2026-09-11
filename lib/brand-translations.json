@@ -200,9 +200,9 @@
     "zh-Hans": "人物肖像与验证概念合成图"
   },
   "Robin Xie": {
-    "ja": "謝玢 Robin Xie",
-    "he": "רובין שיה — Robin Xie",
-    "zh-Hans": "谢玢 Robin Xie"
+    "zh-Hans": "谢玢",
+    "ja": "Robin Xie",
+    "he": "Robin Xie"
   },
   "Executive Director · Brand licensing lead": {
     "ja": "陽光衛視 エグゼクティブ・ディレクター · ブランドライセンス責任者",
@@ -667,7 +667,7 @@
   "Robin Xie | Executive Director of iSunTV": {
     "ja": "謝玢 Robin Xie｜陽光衛視 エグゼクティブ・ディレクター",
     "he": "רובין שיה Robin Xie | מנהלת ביצועית ב־iSunTV",
-    "zh-Hans": "谢玢 Robin Xie｜阳光卫视执行董事"
+    "zh-Hans": "谢玢｜阳光卫视执行董事"
   },
   "iSunTV is a Hong Kong satellite television channel connecting Chinese entrepreneurs with international opportunities, documentaries, interviews and brand partnerships.": {
     "ja": "陽光衛視は香港の衛星テレビチャンネルです。人文ドキュメンタリー、インタビュー、ブランド提携を通じて、中華圏の企業家と世界のビジネス機会をつなぎます。",
@@ -743,5 +743,25 @@
     "zh-Hans": "品牌授权",
     "ja": "ブランドライセンス",
     "he": "רישוי מותג"
+  },
+  "Robin Xie is Executive Director of iSunTV and Managing Partner of TideiSun Group. She began her career in engineering in the United States, working with offshore systems and the practical demands of energy infrastructure. A licensed Professional Engineer in Texas, she brings an engineer’s attention to constraints, reliability and real-world performance to her work in business.": {
+    "zh-Hans": "谢玢是阳光卫视执行董事、泰德阳光集团管理合伙人。她早年在美国从事工程工作，接触海洋工程系统与能源基础设施的实际运行。她持有美国得克萨斯州注册职业工程师（P.E.）资格，也将工程师对约束条件、可靠性与实际成效的重视，带入企业经营与投资。",
+    "ja": "Robin Xieは、iSunTVの執行董事、TideiSun Groupのマネージングパートナーです。米国でエンジニアとしてキャリアをスタートし、海洋工学やエネルギーインフラの実務に携わってきました。テキサス州のプロフェッショナル・エンジニア（P.E.）資格を持ち、制約条件や信頼性、現場での成果を重視する姿勢を、経営と投資にも生かしています。",
+    "he": "Robin Xie היא דירקטורית מנהלת ב־iSunTV ושותפה מנהלת בקבוצת TideiSun. את דרכה המקצועית החלה כמהנדסת בארצות הברית, בעבודה על מערכות ימיות ותשתיות אנרגיה. היא בעלת רישיון מהנדסת מקצועית (P.E.) במדינת טקסס, ומביאה לעולם העסקים וההשקעות גישה הנדסית שמדגישה מגבלות מעשיות, אמינות ותוצאות בשטח."
+  },
+  "Her work later expanded into entrepreneurship and financial technology, including payments, digital assets and cross-border financial infrastructure. At TideiSun Group, she works on strategic investment and financing, alongside the group’s international business development. This includes supporting companies as they consider overseas growth, cross-border transactions and capital-market opportunities.": {
+    "zh-Hans": "此后，她逐步走向创业与金融科技，关注支付、数字资产及跨境金融基础设施。在泰德阳光集团，她参与战略投融资与全球产业布局。她的工作也涵盖支持企业探索海外发展、跨境交易与资本市场机会。",
+    "ja": "その後、起業とフィンテックへと活動を広げ、決済、デジタル資産、国境を越えた金融インフラに取り組んできました。TideiSun Groupでは、戦略的な投資・資金調達と国際事業の展開に携わっています。企業による海外成長戦略、クロスボーダー取引、資本市場の活用の検討も支援しています。",
+    "he": "בהמשך הרחיבה את פעילותה ליזמות ולטכנולוגיה פיננסית, ובהן תשלומים, נכסים דיגיטליים ותשתיות פיננסיות חוצות גבולות. בקבוצת TideiSun היא עוסקת בהשקעות ובמימון אסטרטגיים, לצד פיתוח עסקי בינלאומי. במסגרת זו היא מסייעת לחברות לבחון התרחבות לשווקים חדשים, עסקאות חוצות גבולות והזדמנויות בשוקי ההון."
+  },
+  "Today, her research and investing interests span AI infrastructure, energy systems, robotics and programmable finance. Alongside investing in public and private markets, she builds AI-assisted research workflows to test ideas against evidence. She sees these tools as a way to improve the quality of decisions, while keeping final judgment and responsibility with people.": {
+    "zh-Hans": "目前，她的研究与投资兴趣涵盖人工智能基础设施、能源系统、机器人与可编程金融。除了参与公开及私募市场投资，她也亲自建立 AI 辅助研究流程，让想法接受数据与实际结果的检验。她看重的是工具能否帮助人作出更好的决策，最终判断与责任仍由人承担。",
+    "ja": "現在は、AIインフラ、エネルギーシステム、ロボティクス、プログラマブル・ファイナンスを研究・投資の対象としています。上場・非上場市場での投資と並行して、AIを活用したリサーチの仕組みを自ら構築し、仮説をデータと実際の結果に照らして検証しています。こうしたツールで意思決定の質を高めつつ、最終的な判断と責任は人が担うという考えを大切にしています。",
+    "he": "כיום תחומי המחקר וההשקעה שלה כוללים תשתיות בינה מלאכותית, מערכות אנרגיה, רובוטיקה ופיננסים ניתנים לתכנות. לצד השקעות בשווקים ציבוריים ופרטיים, היא בונה תהליכי מחקר בסיוע AI כדי לבחון רעיונות מול נתונים ותוצאות בפועל. מבחינתה, הכלים נועדו לשפר את איכות ההחלטות, בעוד ששיקול הדעת הסופי והאחריות נשארים בידי אנשים."
+  },
+  "At iSunTV, Robin Xie leads brand partnerships and licensing, helping connect the channel’s media heritage with its mission to support Chinese entrepreneurs abroad. Partnerships proceed within the scope approved and authorized by the board and management team.": {
+    "zh-Hans": "在阳光卫视，谢玢负责品牌合作与授权事务，将频道的人文传承与助力华商出海的方向连接起来。各项合作均按董事会及管理团队批准和授权的范围推进。",
+    "ja": "iSunTVではブランド提携とライセンス業務を統括し、同局が培ってきた人文・文化の発信を、華人企業の海外展開を支える使命へとつなげています。各提携は、取締役会および経営陣が承認・授権した範囲で進められます。",
+    "he": "ב־iSunTV מובילה Robin Xie את שיתופי הפעולה בתחום המותג ואת פעילות הרישוי, ומחברת בין המורשת התקשורתית של הערוץ לבין שליחותו לתמוך ביזמים סינים בזירה הבינלאומית. שיתופי הפעולה מתקדמים בהתאם להיקף שאושר והוסמך על ידי הדירקטוריון וצוות ההנהלה."
   }
 }

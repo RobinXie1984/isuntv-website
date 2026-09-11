@@ -23,7 +23,7 @@
   outline-offset: 4px;
 }
 .brand-header {
-  background: #0b2639;
+  background: #161616;
   color: #faf6ec;
   display: flex;
   gap: 24px;
@@ -564,7 +564,7 @@
     padding: 8px 5%;
   }
   .brand-header > a:first-of-type {
-    flex-basis: 130px;
+    flex-basis: 145px;
   }
   .brand-header img {
     width: 130px;
@@ -694,7 +694,7 @@
   height: 110px;
   object-fit: contain;
   position: relative;
-  left: -25px;
+  left: -20px;
   top: -25px;
 }
 .brand-form fieldset:disabled {
@@ -707,7 +707,7 @@
   .brand-header > a:first-of-type img {
     width: 180px;
     height: 90px;
-    left: -25px;
+    left: -15px;
     top: -17px;
   }
 }

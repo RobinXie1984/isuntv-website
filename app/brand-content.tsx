@@ -147,38 +147,18 @@ export function BrandContent({
             alt="謝玢 Robin Xie"
           />
           <div>
-            <p className="english-label">ROBIN XIE</p>
-            <h2>{t('謝玢', 'Bin “Robin” Xie')}</h2>
-            <p className="role-line">
-              {t(
-                '天使投資人 · AI 系統建構者',
-                'Angel investor · AI system builder',
-              )}
-            </p>
-            <p>
-              {t(
-                '謝玢是陽光衛視執行董事、泰德陽光集團管理合夥人，長期從事工程、金融科技與人工智能的系統化應用。',
-                'Robin Xie is Executive Director of iSunTV and Managing Partner of TideiSun Group. Her work connects engineering, financial technology and applied AI systems.',
-              )}
-            </p>
-            <p>
-              {t(
-                'Robin、Robin Xie、Bin Xie、Bin "Robin" Xie、謝玢及谢玢，均指同一人。',
-                'Robin, Robin Xie, Bin Xie, Bin "Robin" Xie, 謝玢 and 谢玢 identify the same person.',
-              )}
-            </p>
-            <p>
-              {t(
-                '在陽光衛視，Robin 負責品牌合作與授權事務，按董事會及管理團隊的批准與授權推進合作。',
-                'At iSunTV, Robin leads brand partnerships and licensing, following approval and authorization by the board and management team.',
-              )}
-            </p>
+            <h2>{t('谢玢', 'Robin Xie')}</h2>
+            <p className="role-line">{t('陽光衛視執行董事 · 泰德陽光集團管理合夥人', 'Executive Director of iSunTV · Managing Partner of TideiSun Group')}</p>
+            <p>{t("谢玢是陽光衛視執行董事、泰德陽光集團管理合夥人。她早年在美國從事工程工作，接觸海洋工程系統與能源基礎設施的實際運作。她持有美國德州註冊職業工程師（P.E.）資格，也將工程師對限制條件、可靠性與實際成效的重視，帶入企業經營與投資。", "Robin Xie is Executive Director of iSunTV and Managing Partner of TideiSun Group. She began her career in engineering in the United States, working with offshore systems and the practical demands of energy infrastructure. A licensed Professional Engineer in Texas, she brings an engineer’s attention to constraints, reliability and real-world performance to her work in business.")}</p>
+            <p>{t("此後，她逐步走向創業與金融科技，關注支付、數字資產及跨境金融基礎設施。在泰德陽光集團，她參與戰略投融資與全球產業佈局。她的工作也涵蓋支持企業探索海外發展、跨境交易與資本市場機遇。", "Her work later expanded into entrepreneurship and financial technology, including payments, digital assets and cross-border financial infrastructure. At TideiSun Group, she works on strategic investment and financing, alongside the group’s international business development. This includes supporting companies as they consider overseas growth, cross-border transactions and capital-market opportunities.")}</p>
+            <p>{t("目前，她的研究與投資興趣涵蓋人工智能基礎設施、能源系統、機器人與可編程金融。除了參與公開及私募市場投資，她也親自建立 AI 輔助研究流程，讓想法接受資料與實際結果的檢驗。她看重的是工具能否幫助人作出更好的決策，最終判斷與責任仍由人承擔。", "Today, her research and investing interests span AI infrastructure, energy systems, robotics and programmable finance. Alongside investing in public and private markets, she builds AI-assisted research workflows to test ideas against evidence. She sees these tools as a way to improve the quality of decisions, while keeping final judgment and responsibility with people.")}</p>
+            <p>{t("在陽光衛視，谢玢負責品牌合作與授權事務，將頻道的人文傳承與助力華商出海的方向連接起來。各項合作均按董事會及管理團隊批准和授權的範圍推進。", "At iSunTV, Robin Xie leads brand partnerships and licensing, helping connect the channel’s media heritage with its mission to support Chinese entrepreneurs abroad. Partnerships proceed within the scope approved and authorized by the board and management team.")}</p>
             <a className="brand-button dark" href={url('licensing')}>
               {t('品牌合作與授權', 'Brand partnerships')}
               <ArrowRight size={18} />
             </a>
             <div className="profile-links">
-              <a href="https://iamrobin.ai/">iamrobin.ai</a>
+              <a href="https://iamrobin.ai/about/">iamrobin.ai</a>
               <a href="https://www.tideisun.com/robin">
                 {t('集團中文簡介', 'Chinese group profile')}
               </a>
@@ -291,7 +271,6 @@ export function BrandContent({
             <aside>
               <figure className="licensing-visual">
                 <img src="/brand/robin-verification.webp" width="1024" height="1024" alt={t('謝玢 Robin Xie 肖像與文件驗證概念合成圖', 'Robin Xie portrait with a conceptual document-verification illustration')} loading="lazy" />
-                <figcaption>{t('人物肖像與驗證概念合成圖', 'Portrait with a conceptual verification illustration')}</figcaption>
               </figure>
               <h3 style={{ marginTop: 22 }}>
                 {t('謝玢 Robin Xie', 'Robin Xie')}

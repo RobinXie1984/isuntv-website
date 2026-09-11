@@ -23,7 +23,7 @@ export const pageTitles: Record<string, [string, string]> = {
   interviews: ['採訪精選', 'Selected interviews'],
   chairman: ['陳平｜陽光衛視董事局主席', 'Chen Ping | Chairman of iSunTV'],
   robin: [
-    '謝玢 Robin Xie｜陽光衛視執行董事',
+    '谢玢｜陽光衛視執行董事',
     'Robin Xie | Executive Director of iSunTV',
   ],
   licensing: ['品牌授權', 'Brand licensing'],
