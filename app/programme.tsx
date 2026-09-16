@@ -1,3 +1,6 @@
+'use client';
+import { useEffect, useState } from 'react';
+import { videoAvailability } from '../lib/video-availability';
 import { VideoGrid } from '../components/video-grid';
 /* oxlint-disable nextjs/no-img-element -- Fixed-size source thumbnails and the small official logo use direct images; no image proxy or optimizer is needed. */
 import { notFound } from 'next/navigation';
@@ -21,12 +24,14 @@ export function Programme({
   slug: string;
   pageRaw?: string;
 }) {
+  const [browserPage, setBrowserPage] = useState<string | null>(null);
+  useEffect(() => { setBrowserPage(new URLSearchParams(window.location.search).get('page')); }, []);
   const p = getProgramme(slug);
   if (!p) notFound();
   const t = detailCopy[locale];
   const videos = programmeVideos(slug);
   const pages = Math.max(1, Math.ceil(videos.length / 24));
-  const parsed = Number(pageRaw ?? 1);
+  const parsed = Number(browserPage ?? pageRaw ?? 1);
   const page =
     Number.isInteger(parsed) && parsed > 0 && parsed <= pages ? parsed : 1;
   const visible = videos.slice((page - 1) * 24, page * 24);
@@ -34,6 +39,7 @@ export function Programme({
     <>
       <SiteHeader locale={locale} path={`programmes/${slug}${page > 1 ? `?page=${page}` : ''}`} />
       <main id="main" className="detail">
+        <p className="source-note">{videoAvailability[locale]}</p>
         <a className="back-link" href={`${sitePath(locale, 'programmes')}#programmes`}>
           <ArrowLeft size={16} />
           {t.back}

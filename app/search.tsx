@@ -1,3 +1,5 @@
+'use client';
+import { useEffect, useState } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { SiteHeader } from '../components/site-header';
 import { VideoGrid } from '../components/video-grid';
@@ -16,10 +18,12 @@ export function SearchPage({
 }) {
   const t = searchCopy[locale];
   const d = detailCopy[locale];
-  const q = cleanQuery(query);
+  const [browserQuery, setBrowserQuery] = useState<{q?: string; page?: string} | null>(null);
+  useEffect(() => { const q = new URLSearchParams(window.location.search); setBrowserQuery({q:q.get('q') ?? '',page:q.get('page') ?? '1'}); }, []);
+  const q = cleanQuery(browserQuery?.q ?? query);
   const videos = searchVideos(q);
   const total = Math.max(1, Math.ceil(videos.length / 24));
-  const number = Number(pageRaw ?? 1);
+  const number = Number(browserQuery?.page ?? pageRaw ?? 1);
   const page =
     Number.isInteger(number) && number > 0 && number <= total ? number : 1;
   const path = `search/?q=${encodeURIComponent(q)}`;
@@ -36,6 +40,7 @@ export function SearchPage({
           <label htmlFor="query">{t.label}</label>
           <div className="search-controls">
             <input
+              key={q}
               id="query"
               name="q"
               type="search"

@@ -1,3 +1,4 @@
+import { videoAvailability } from '../lib/video-availability';
 import { SiteHeader } from '../components/site-header';
 /* oxlint-disable nextjs/no-img-element -- Fixed-size source thumbnails and the small official logo use direct images; no image proxy or optimizer is needed. */
 import {
@@ -14,6 +15,7 @@ export function Catalogue({ locale }: { locale: Locale }) {
     <div lang={locale}>
       <SiteHeader locale={locale} path="programmes" />
       <main id="main">
+        <p className="source-note">{videoAvailability[locale]}</p>
         <section className="intro">
           <div className="intro-text">
             <p className="eyebrow">{t.kicker}</p>
@@ -35,7 +37,7 @@ export function Catalogue({ locale }: { locale: Locale }) {
           >
             <div className="feature-media">
               <img
-                src="https://i.ytimg.com/vi/anL-lcfB2y0/hqdefault.jpg?sqp=-oaymwEiCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCbMy7FbPjYvbTDB0VzZV5m1MV0rA"
+                src="/thumbnails/anL-lcfB2y0.jpg"
                 width="336"
                 height="188"
                 fetchPriority="high"

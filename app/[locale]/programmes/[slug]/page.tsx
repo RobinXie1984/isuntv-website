@@ -1,3 +1,4 @@
+import { programmes } from '../../../../lib/catalogue';
 import { programmeMetadata, checkedLocale } from '../../../../lib/metadata';
 import { Programme } from '../../../programme';
 import { type Locale, locales } from '../../../../lib/catalogue';
@@ -16,7 +17,7 @@ export default async function Page({
     <Programme
       locale={locale as Locale}
       slug={p.slug}
-      pageRaw={(await searchParams).page}
+      pageRaw={(process.env.ISUN_STATIC_EXPORT === '1' ? undefined : (await searchParams).page)}
     />
   );
 }
@@ -29,5 +30,7 @@ export async function generateMetadata({
   searchParams: Promise<{ page?: string }>;
 }) {
   const p = await params;
-  return programmeMetadata(checkedLocale(p.locale), p.slug, (await searchParams).page);
+  return programmeMetadata(checkedLocale(p.locale), p.slug, (process.env.ISUN_STATIC_EXPORT === '1' ? undefined : (await searchParams).page));
 }
+
+export function generateStaticParams() { return programmes.map(p => ({ slug: p.slug })); }

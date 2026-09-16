@@ -1,16 +1,17 @@
+import { publicOrigin } from './lib/site-profile';
 import handler from 'vinext/server/fetch-handler';
 
 declare const __ISUN_RELEASE__: string;
 // Only anonymous, query-free HTML information pages. Forms, verification, APIs,
 // search, RSC navigation and previews always use their existing live handler.
-const publicPage = /^\/(?:zh-Hans\/|en\/|ja\/|he\/)?(?:about|global|interviews|chairman|robin|licensing|privacy)?$/;
-const localeHome = /^\/(?:zh-Hans|en|ja|he)$/;
+const publicPage = /^\/(?:zh-Hant\/|zh-Hans\/|en\/|fr\/|es\/|ja\/|hi\/|he\/)?(?:about|global|interviews|chairman|robin|licensing|privacy)?$/;
+const localeHome = /^\/(?:zh-Hant|zh-Hans|en|fr|es|ja|hi|he)$/;
 export function canCache(request: Request) {
   const url = new URL(request.url);
   // Cloudflare adds __cf_bm to ordinary public visits. It is a bot-management
   // cookie, not an application login; any other cookie still bypasses this cache.
   const publicCookiesOnly = (request.headers.get('cookie') ?? '').split(';').every(part => !part.trim() || part.trim().split('=')[0] === '__cf_bm');
-  return url.hostname === 'isuntv.com' && request.method === 'GET' && !url.search &&
+  return url.hostname === new URL(publicOrigin).hostname && request.method === 'GET' && !url.search &&
     (publicPage.test(url.pathname) || localeHome.test(url.pathname)) &&
     publicCookiesOnly && !request.headers.has('authorization') &&
     !Array.from(request.headers.keys()).some(name => name === 'rsc' || name.startsWith('next-') || name.startsWith('x-vinext-')) &&

@@ -1,4 +1,4 @@
-import data from './display-titles.json';
+import data from './generated/display-titles.json';
 import type { Locale } from './catalogue';
 import { detailCopy } from './editorial';
 export const displayTitles: Partial<Record<string, Partial<Record<Locale, string>>>> = data;

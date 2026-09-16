@@ -1,16 +1,22 @@
 {
-  "name": "sites-project",
+  "name": "isuntv-shared-website",
   "version": "0.1.0",
   "private": true,
   "engines": {
     "node": ">=22.13.0"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vinext build",
+    "dev": "node scripts/project-site.mjs ${SITE_ID:-isuntv} && vite",
+    "build": "npm run build:both",
+    "build:static": "node scripts/build-static.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
-    "format": "oxfmt"
+    "format": "oxfmt",
+    "build:isuntv": "node scripts/build-site.mjs isuntv",
+    "build:isun1": "node scripts/build-site.mjs isun1",
+    "build:both": "npm run build:isuntv && npm run build:isun1",
+    "test": "node --test scripts/visibility.test.mjs",
+    "check:drift": "node scripts/check-drift.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

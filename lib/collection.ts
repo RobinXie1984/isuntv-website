@@ -1,6 +1,9 @@
-import data from './videos.json';
+import data from './generated/videos.json';
+import thumbnailCache from './generated/thumbnail-cache.json';
+const thumbnailFiles = thumbnailCache as Record<string, string>;
+export const localThumbnail = (id: string) => thumbnailFiles[id] ?? '/isuntv-logo.png';
 import { programmes, sitePath, type Locale } from './catalogue';
-export const playlists = data;
+export const playlists = data.map(p => ({...p, entries: p.entries.map(v => ({...v, thumbnail: localThumbnail(v.id)}))}));
 export const getProgramme = (slug: string) =>
   programmes.find((p) => p.slug === slug);
 export const selectedPlaylistIds = (slug: string) =>

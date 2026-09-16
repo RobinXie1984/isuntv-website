@@ -1,7 +1,11 @@
+import { publicOrigin } from './site-profile';
+import { defaultLocale } from './site-profile';
 import { globalContent } from './global-content';
+import { sitePath, programmes } from './catalogue';
+import { interviewProgrammeIds } from './site-profile';
 import type { Metadata } from 'next';
 import { translator } from './brand-i18n';
-export const brandLocales = ['zh-Hant', 'zh-Hans', 'en', 'ja', 'he'] as const;
+export const brandLocales = ['zh-Hans', 'zh-Hant', 'en', 'fr', 'es', 'ja', 'hi', 'he'] as const;
 export type BrandLocale = (typeof brandLocales)[number];
 export const brandPaths = [
   'about',
@@ -45,10 +49,7 @@ export const pageDescriptions: Record<string, [string, string]> = {
     "陽光衛視以香港為起點，透過品牌敘事、深度訪談與國際連接，與華商探討出海合作。",
     "Explore international collaboration with iSunTV through brand storytelling, in-depth interviews and connections from Hong Kong."
   ],
-  "interviews": [
-    "觀看陽光衛視採訪精選：百年巨匠、人生在線、名人自述及口述歷史，走進人物的創作、事業與時代記憶。",
-    "Explore Masters of a Century, Life Online, Personal Accounts and Oral History: iSunTV stories about creative work, careers and lived history."
-  ],
+  "interviews": ["採訪精選", "Selected interviews"],
   "chairman": [
     "陳平，陽光衛視董事局主席、泰德陽光集團創辦人。閱讀其政策研究、企業經營、媒體及科技實踐的精簡介紹。",
     "Meet Chen Ping, Chairman of iSunTV and founder of TideiSun Group, through his work in policy research, entrepreneurship, media and technology."
@@ -75,31 +76,31 @@ export const pageDescriptions: Record<string, [string, string]> = {
   ]
 };
 export function brandPath(path: string, locale: BrandLocale) {
-  return `${locale === 'zh-Hant' ? '' : '/' + locale}/${path}`.replace(/\/$/, '') || '/';
+  return sitePath(locale, path);
 }
 export function brandMetadata(
   path: string,
-  locale: BrandLocale = 'zh-Hant',
+  locale: BrandLocale = defaultLocale,
 ): Metadata {
   const t = translator(locale);
   const title = path === 'robin' ? `${t('謝玢 Robin Xie', 'Robin Xie')} | ${t('陽光衛視執行董事 · 泰德陽光集團管理合夥人', 'Executive Director of iSunTV · Managing Partner of TideiSun Group')}` : t(...pageTitles[path]);
-  const description = path === 'global' ? globalContent[locale].mission : t(...pageDescriptions[path]);
+  const description = path === 'interviews' ? interviewProgrammeIds.map(id => programmes.find(p => p.slug === id)!.titles[locale]).join(' · ') : path === 'global' ? globalContent[locale].mission : t(...pageDescriptions[path]);
   return {
     title,
     description,
     robots: { index: true, follow: true },
     alternates: {
-      canonical: `https://isuntv.com${brandPath(path, locale)}`,
-      languages: Object.fromEntries([...brandLocales.map(l => [l, `https://isuntv.com${brandPath(path, l)}`]), ['x-default', `https://isuntv.com${brandPath(path, 'zh-Hant')}`]]),
+      canonical: `${publicOrigin}${brandPath(path, locale)}`,
+      languages: Object.fromEntries([...brandLocales.map(l => [l, `${publicOrigin}${brandPath(path, l)}`]), ['x-default', `${publicOrigin}${brandPath(path, defaultLocale)}`]]),
     },
     openGraph: {
       title,
       description,
       type: 'website',
       siteName: 'iSunTV 陽光衛視',
-      locale: { 'zh-Hant': 'zh_TW', 'zh-Hans': 'zh_CN', en: 'en_US', ja: 'ja_JP', he: 'he_IL' }[locale],
-      alternateLocale: brandLocales.filter(l => l !== locale).map(l => ({ 'zh-Hant': 'zh_TW', 'zh-Hans': 'zh_CN', en: 'en_US', ja: 'ja_JP', he: 'he_IL' })[l]),
-      url: `https://isuntv.com${brandPath(path, locale)}`,
+      locale: { 'zh-Hant': 'zh_TW', 'zh-Hans': 'zh_CN', en: 'en_US', ja: 'ja_JP', he: 'he_IL', fr: 'fr_FR', es: 'es_ES', hi: 'hi_IN' }[locale],
+      alternateLocale: brandLocales.filter(l => l !== locale).map(l => ({ 'zh-Hant': 'zh_TW', 'zh-Hans': 'zh_CN', en: 'en_US', ja: 'ja_JP', he: 'he_IL', fr: 'fr_FR', es: 'es_ES', hi: 'hi_IN' })[l]),
+      url: `${publicOrigin}${brandPath(path, locale)}`,
     },
     twitter: { card: 'summary', title, description },
   };

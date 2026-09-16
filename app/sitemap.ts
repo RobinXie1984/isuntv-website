@@ -1,14 +1,15 @@
+import { defaultLocale } from '../lib/site-profile';
 import { brandPaths, brandPath, brandLocales } from '../lib/brand-pages';
 import type { MetadataRoute } from 'next';
 import { locales, programmes, sitePath } from '../lib/catalogue';
 import { programmeVideos, findVideo } from '../lib/collection';
 import { drafts } from '../lib/editorial';
 import { languageAlternates } from '../lib/metadata';
-import { publicOrigin } from '../lib/site-config.json';
+import { publicOrigin } from '../lib/site-profile';
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = ['programmes'];
   for (const programme of programmes) {
-    const pages = Math.max(
+    const pages = process.env.ISUN_STATIC_EXPORT === '1' ? 1 : Math.max(
       1,
       Math.ceil(programmeVideos(programme.slug).length / 24),
     );
@@ -24,10 +25,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...['', ...brandPaths].flatMap(path => brandLocales.map(locale => ({
       url: `${publicOrigin}${brandPath(path, locale)}`,
-      alternates: { languages: Object.fromEntries([...brandLocales.map(l => [l, `${publicOrigin}${brandPath(path, l)}`]), ['x-default', `${publicOrigin}${brandPath(path, 'zh-Hant')}`]]) },
+      alternates: { languages: Object.fromEntries([...brandLocales.map(l => [l, `${publicOrigin}${brandPath(path, l)}`]), ['x-default', `${publicOrigin}${brandPath(path, defaultLocale)}`]]) },
     }))),
     ...paths.flatMap((path) =>
-      locales.filter(locale => locale !== 'he' || !path.startsWith('videos/')).map((locale) => ({
+      locales.filter(locale => !path.startsWith('videos/') || Boolean(drafts[path.slice(7)]?.fields[locale])).map((locale) => ({
         url: new URL(sitePath(locale, path), publicOrigin).href,
         alternates: languageAlternates(path),
       })),

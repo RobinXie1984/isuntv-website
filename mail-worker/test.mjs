@@ -1,0 +1,35 @@
+import assert from 'node:assert/strict';
+import {createHmac} from 'node:crypto';
+import worker from './index.mjs';
+const env={RELAY_SECRET:'fixture-only',ENABLED:'true'};
+const fields={name:'Fixture',organization:'QA',email:'qa@example.com',interest:'global',message:'Integration fixture only',consent:'yes',website:''};
+let calls=0, mode='ok', ip=0, last;
+globalThis.fetch=async (url,options)=>{
+  calls++; const r=JSON.parse(options.body); last=JSON.parse(r.payload);
+  assert.equal(r.signature,createHmac('sha256',env.RELAY_SECRET).update(r.payload).digest('hex'));
+  assert.ok(!JSON.stringify(last).includes('192.0.2.'));
+  if(mode==='throw') throw new Error('private fixture must not escape');
+  if(mode==='http') return new Response('',{status:500});
+  if(mode==='invalid') return new Response('not json');
+  return Response.json(mode==='limit'?{accepted:false,reason:'rate-limit'}:mode==='reject'?{accepted:false}:{accepted:true,id:last.nonce});
+};
+const request=(body=fields,headers={},method='POST',path='/contact')=>new Request('https://fixture.test'+path,{method,headers:{origin:'https://isun1.com','content-type':'application/json','cf-connecting-ip':'192.0.2.'+(++ip),...headers},...(['GET','HEAD','OPTIONS'].includes(method)?{}:{body:typeof body==='string'?body:JSON.stringify(body)})});
+let checks=0;
+const check=async (req,status,config=env)=>{const r=await worker.fetch(req,config);assert.equal(r.status,status);assert.equal(r.headers.get('cache-control'),'no-store');checks++;return r;};
+await check(request({}, {},'GET','/health'),200);
+await check(request({}, {},'GET','/other'),404);
+await check(request({}, {origin:'https://evil.test'}),403);
+const pre=await check(request({}, {},'OPTIONS'),204);assert.equal(pre.headers.get('access-control-allow-origin'),'https://isun1.com');
+await check(request({}, {},'GET'),405);
+await check(request({}, {'content-type':'text/plain'}),415);
+await check(request(fields,{'content-length':'16001'}),413);
+await check(request('x'.repeat(16001)),413);
+await check(request('{'),400);
+await check(request([]),400);
+for(const change of [{email:'invalid'},{consent:''},{website:'bot'},{message:'short'},{interest:'arbitrary'},{name:'x'.repeat(101)}]) await check(request({...fields,...change}),400);
+await check(request(),503,{...env,ENABLED:'false'});
+assert.equal(calls,0);
+const accepted=await check(request(),202);assert.ok((await accepted.json()).id);assert.equal(calls,1);
+const burst=request(fields,{'cf-connecting-ip':'192.0.2.250'});await check(burst.clone(),202);await check(burst.clone(),429);assert.equal(calls,2);
+for(const [m,status] of [['limit',429],['reject',502],['http',502],['invalid',502],['throw',502]]) {mode=m;await check(request(),status);}
+console.log(JSON.stringify({status:'PASS',checks,mail:'mock only; no delivery claim',coverage:'origin, CORS, byte bounds, validation, fail closed, HMAC, anonymized visitor, burst/global limits, provider failures'}));

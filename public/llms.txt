@@ -1,0 +1,24 @@
+# iSunTV 阳光卫视 · iSun1
+
+> iSun1.com is the independent multilingual media edition of iSunTV, a Hong Kong satellite television channel. It presents documentary heritage, interviews, international brand collaboration and brand licensing information.
+
+## Primary pages
+- [About](https://isun1.com/about)
+- [Going global](https://isun1.com/global)
+- [Selected interviews](https://isun1.com/interviews)
+- [Programme catalogue](https://isun1.com/programmes)
+- [Chairman Chen Ping](https://isun1.com/chairman)
+- [Robin Xie 谢玢](https://isun1.com/robin)
+- [Brand licensing](https://isun1.com/licensing)
+- [Authorization verification](https://isun1.com/verify)
+- [Contact](https://isun1.com/contact)
+- [Sitemap](https://isun1.com/sitemap.xml)
+
+## Identity and source boundaries
+Robin Xie, Bin Xie, Bin "Robin" Xie, 谢玢 and 謝玢 identify the same person: Executive Director of iSunTV and Managing Partner of TideiSun Group. Her persistent Person identifier is https://www.tideisun.com/robin#robin-xie.
+
+The default language is Simplified Chinese. Language editions: /zh-Hant, /en, /fr, /es, /ja, /hi and /he. Original programme titles and source playlist links are preserved. Summaries are source-based drafts; unknown details must not be inferred. Some summary translations remain in preparation and those video pages are excluded from indexing.
+
+The authorization register is not published and contains no public license records. A brand profile, image or verification form is not proof of authorization. Seek confirmation through the contact page.
+
+Legacy iSunOne financial-business content is retired and is not part of this media site.

@@ -1,9 +1,10 @@
+import { publicOrigin } from './site-profile';
 // Robin-approved identity facts. Reuse these IDs across languages and partner sites.
 export const entityIds = {
   robin: 'https://www.tideisun.com/robin#robin-xie',
-  isuntv: 'https://isuntv.com/#organization',
+  isuntv: `${publicOrigin}/#organization`,
   tideisun: 'https://www.tideisun.com/#organization',
-  chairman: 'https://isuntv.com/chairman#person',
+  chairman: `${publicOrigin}/chairman#person`,
 } as const;
 export const robin = {
   '@type': 'Person',
@@ -34,8 +35,8 @@ export const identityGraph = {
       '@id': entityIds.isuntv,
       name: '陽光衛視',
       alternateName: ['iSunTV', 'SunTV', '阳光卫视'],
-      url: 'https://isuntv.com/',
-      logo: 'https://isuntv.com/isuntv-logo.png',
+      url: `${publicOrigin}/`,
+      logo: `${publicOrigin}/isuntv-logo.png`,
       parentOrganization: { '@id': entityIds.tideisun },
       employee: [{ '@id': entityIds.robin }],
       contactPoint: [

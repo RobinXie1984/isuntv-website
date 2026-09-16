@@ -1,17 +1,21 @@
 'use client';
+import { sitePath } from '../lib/catalogue';
+import { defaultLocale } from '../lib/site-profile';
 import type { BrandLocale } from '../lib/brand-pages';
 import { useState, useSyncExternalStore } from 'react';
 const subscribeToHydration = () => () => {};
 const hydrated = () => true;
 const serverRendered = () => false;
 export function ContactForm({
-  locale = 'zh-Hant',
+  locale = defaultLocale,
   labels,
   enabled = false,
+  endpoint = '/api/contact',
 }: {
   locale?: BrandLocale;
   labels: Record<string, string>;
   enabled?: boolean;
+  endpoint?: string;
 }) {
   const t = (_zh: string, en: string) => labels[en] ?? en;
   const [state, setState] = useState<'idle' | 'sending' | 'success' | 'error'>(
@@ -23,7 +27,7 @@ export function ContactForm({
     <form
       className="brand-form"
       method="post"
-      action="/api/contact"
+      action={endpoint}
       onSubmit={async (e) => {
         e.preventDefault();
         if (!enabled || !ready || state === 'sending') return;
@@ -31,12 +35,15 @@ export function ContactForm({
         const form = e.currentTarget;
         const fields = Object.fromEntries(new FormData(form));
         try {
-          const response = await fetch('/api/contact', {
+          const response = await fetch(endpoint, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(fields),
+            signal: AbortSignal.timeout(20000),
           });
-          if (!response.ok) throw new Error('delivery');
+          if (response.status !== 202) throw new Error('delivery');
+          const result = await response.json() as { message?: unknown } | null;
+          if (result?.message !== 'Accepted for delivery') throw new Error('delivery');
           setState('success');
           setMessage(
             t('查詢已獲郵件服務接收，我們會透過電郵回覆。', 'Your enquiry has been accepted for delivery. We will reply by email.'),
@@ -45,7 +52,7 @@ export function ContactForm({
         } catch {
           setState('error');
           setMessage(
-            t('目前無法確認寄送結果。請直接寄信至 partner@iSunTV.com。', 'Delivery could not be confirmed. Please email partner@iSunTV.com directly.'),
+            t('目前無法確認寄送結果。請直接寄信至 partner@isuntv.com。', 'Delivery could not be confirmed. Please email partner@isuntv.com directly.'),
           );
         }
       }}
@@ -53,7 +60,7 @@ export function ContactForm({
       {enabled && !ready && <p className="status-message">{t('正在載入表單，亦可直接寄信至 partner@isuntv.com。', 'Loading the form. You can also email partner@isuntv.com.')}</p>}
       {!enabled && (
         <p className="status-message">
-          {t('請直接寄信至 partner@iSunTV.com 洽談合作。網上提交尚未開放。', 'For enquiries, please email partner@iSunTV.com directly. Online submission is not yet available.')}
+          {t('請直接寄信至 partner@isuntv.com 洽談合作。網上提交尚未開放。', 'For enquiries, please email partner@isuntv.com directly. Online submission is not yet available.')}
         </p>
       )}
       <fieldset
@@ -108,7 +115,7 @@ export function ContactForm({
           <input type="checkbox" name="consent" value="yes" required />
           <span>
             {t('我同意使用上述資料處理本次查詢。', 'I agree to the use of my details to handle this enquiry.')}{' '}
-            <a href={`${locale === 'zh-Hant' ? '' : '/' + locale}/privacy`}>
+            <a href={sitePath(locale, 'privacy')}>
               {t('私隱說明', 'Privacy notice')}
             </a>
           </span>
@@ -132,7 +139,7 @@ export function ContactForm({
           {state === 'error' && (
             <>
               {' '}
-              <a href="mailto:partner@isuntv.com">partner@iSunTV.com</a>
+              <a href="mailto:partner@isuntv.com">partner@isuntv.com</a>
             </>
           )}
         </div>

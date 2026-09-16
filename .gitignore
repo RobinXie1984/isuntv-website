@@ -40,3 +40,11 @@ next-env.d.ts
 *.tsbuildinfo
 
 !.env.example
+
+.dev.vars*
+.sites-runtime/
+/evidence/
+
+/lib/generated/
+/.generated/
+/artifacts/

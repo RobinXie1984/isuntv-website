@@ -1,0 +1,12 @@
+{
+  "isuntv": {
+    "publicOrigin": "https://isuntv.com",
+    "defaultLocale": "zh-Hant",
+    "staticExport": false
+  },
+  "isun1": {
+    "publicOrigin": "https://isun1.com",
+    "defaultLocale": "zh-Hans",
+    "staticExport": true
+  }
+}
