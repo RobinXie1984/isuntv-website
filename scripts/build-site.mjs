@@ -33,4 +33,6 @@ else {
  await build({entryPoints:['.generated/pages-entry.js'],outfile:join(out,'_worker.js'),bundle:true,format:'esm',platform:'neutral',target:'es2022',minify:true,external:['node:*','cloudflare:*'],conditions:['worker','browser','import']});
  writeFileSync(join(out,'_routes.json'),JSON.stringify({version:1,include:['/*'],exclude:[]}));
 }
+// Vinext's generated Worker redirect must not override the separate Pages adapter config.
+rmSync('.wrangler/deploy/config.json',{force:true});
 run(process.execPath,['scripts/check-artifact.mjs',site]);

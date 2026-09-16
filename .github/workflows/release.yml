@@ -48,12 +48,13 @@ jobs:
           name: isuntv-pages
           path: artifacts/isuntv
       - name: Publish existing Cloudflare Pages project
+        working-directory: deployment/cloudflare
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: c805fea6fe0eb47cd90cd5e19f0ff00e
         run: |
           test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing scoped Cloudflare deployment permission'; exit 1; }
-          npx wrangler pages deploy artifacts/isuntv --config=wrangler.pages.json --project-name=isuntv-public --branch=main --commit-hash="$GITHUB_SHA"
+          node ../../node_modules/wrangler/bin/wrangler.js pages deploy ../../artifacts/isuntv --project-name=isuntv-public --branch=main --commit-hash="$GITHUB_SHA"
   deploy-isun1:
     needs: build
     runs-on: ubuntu-latest

@@ -26,7 +26,7 @@ export function prepare(siteId) {
     if(entry.isDirectory())visit(path);else if(entry.isFile())hash.update(path).update(readFileSync(path));
   }}
   for(const dir of ['app','components','content','lib','public','scripts','mail-worker'])visit(dir);
-  for(const file of ['sites.json','package.json','package-lock.json','vite.config.ts','next.config.ts','worker.ts','middleware.ts','wrangler.pages.json'])hash.update(file).update(readFileSync(file));
+  for(const file of ['sites.json','package.json','package-lock.json','vite.config.ts','next.config.ts','worker.ts','middleware.ts','deployment/cloudflare/wrangler.json'])hash.update(file).update(readFileSync(file));
   const release={schemaVersion:1,sourceCommit:process.env.GITHUB_SHA??execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),sharedSourceSha256:hash.digest('hex'),siteId,publicOrigin:profile.publicOrigin,defaultLocale:profile.defaultLocale,visibleVideoCount:projection.visibleIds.size,globalOnlyVideoCount:projection.globalOnlyIds.size,visibilityPolicySha256:createHash('sha256').update(readFileSync('content/visibility-policy.json')).digest('hex')};
   writeFileSync('.generated/public/release.json',JSON.stringify(release,null,2)+'\n');
   const catalogue=projection.programmes.map(p=>`- ${p.titles.en}: ${profile.publicOrigin}/programmes/${p.slug}${profile.staticExport?'/':''}`).join('\n');

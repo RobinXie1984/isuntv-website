@@ -1,6 +1,6 @@
 {
   "name": "isuntv-public",
-  "pages_build_output_dir": "artifacts/isuntv",
+  "pages_build_output_dir": "../../artifacts/isuntv",
   "compatibility_date": "2026-09-08",
   "compatibility_flags": [
     "nodejs_compat"
