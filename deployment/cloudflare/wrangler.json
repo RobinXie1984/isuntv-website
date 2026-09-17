@@ -4,5 +4,9 @@
   "compatibility_date": "2026-09-08",
   "compatibility_flags": [
     "nodejs_compat"
-  ]
+  ],
+  "vars": {
+    "CONTACT_FORM_ENABLED": "true",
+    "GOOGLE_WORKSPACE_RELAY_URL": "https://script.google.com/macros/s/AKfycbweZ9Gk2-ifSerj0C7QqlmkX3RMUbUUKmBaZd6sRanQ_D6-rQjXwLF_YsRuzz77DI2FiQ/exec"
+  }
 }

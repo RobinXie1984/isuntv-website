@@ -46,7 +46,9 @@ Two providers cannot commit atomically: a brief mixed-version interval is possib
 
 Required setup: GitHub Pages uses Actions in this repository and claims `isun1.com`; the old repository relinquishes only that Pages claim after the new artifacts are ready. `CLOUDFLARE_PAGES_DEPLOY_TOKEN` is a GitHub encrypted secret with only **Cloudflare Pages Edit** for the Tidenet account. It grants deployment control over Pages projects in that account, not DNS, mail or other accounts. Creating this new persistent grant requires Robin's approval. Never put tokens in source, logs, email or a cross-machine copy.
 
-The existing mail relay secrets stay in their current hosting providers. iSunTV uses its same-origin form endpoint; iSun1 uses the existing dedicated enquiry worker. Both show the approved public contact alias `partner@isuntv.com`. The empty unpublished authorization register remains closed; a future published register requires a signed current verification service before a static build will proceed.
+Robin approved the one-year Pages-only publishing grant on 2026-09-17; it is stored encrypted in GitHub and expires 2027-09-17.
+
+The existing mail relay secrets stay in their current hosting providers. The non-secret form-enabled flag and relay URL are explicitly retained in the Pages configuration; no relay secret is stored in Git. iSunTV uses its same-origin form endpoint; iSun1 uses the existing dedicated enquiry worker. Both show the approved public contact alias `partner@isuntv.com`. The empty unpublished authorization register remains closed; a future published register requires a signed current verification service before a static build will proceed.
 
 `.github/workflows/drift.yml` performs a weekly **read-only** fingerprint check. It does not redeploy or modify content. GitHub's failed-workflow reporting is the alert surface; no unsolicited email integration is added. Run `npm run check:drift` on demand.
 
@@ -54,7 +56,7 @@ The existing mail relay secrets stay in their current hosting providers. iSunTV 
 
 Robin owns editorial decisions and approvals. Maimai owns routine build, deployment, verification and recovery. Studio owns the canonical project and evidence; iMac is the control plane.
 
-After the coordinated release passes acceptance, preserve the approved design and content for six months (target through 2027-03-16 if accepted on 2026-09-16). No feature work, redesign, automated dependency upgrades or routine content churn during the freeze. Read-only health/drift checks continue. Necessary security/availability recovery and Robin's explicit later requests remain allowed and must use the same source and paired-release checks.
+After the coordinated release passes acceptance, preserve the approved design and content for six months (target through 2027-03-17 if accepted on 2026-09-17). No feature work, redesign, automated dependency upgrades or routine content churn during the freeze. Read-only health/drift checks continue. Necessary security/availability recovery and Robin's explicit later requests remain allowed and must use the same source and paired-release checks.
 
 The one living operational status file is `../PROJECT_STATE.md` in the canonical Studio project (not a second independent website status). Detailed migration evidence is `../evidence/two-domains-20260916/`. Source baselines: iSunTV `e55756bcd25bbe6beb8c453b4282288929502f7c`; iSun1 `62f3cf8ad2339520cb9b9f46eb63610394084e7c`.
 

@@ -9,4 +9,5 @@ const body=await response.json();assert(body.success&&body.result?.name==='isunt
 const gh=await fetch(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/pages`,{headers:{Authorization:`Bearer ${process.env.GITHUB_TOKEN}`,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'},signal:AbortSignal.timeout(20000)});
 assert.equal(gh.status,200,'GitHub Pages destination is not ready');
 const pages=await gh.json();assert.equal(pages.build_type,'workflow');assert.equal(pages.cname,'isun1.com');
-console.log('Both existing deployment destinations are ready.');
+assert.equal(body.result.deployment_configs?.production?.env_vars?.GOOGLE_WORKSPACE_RELAY_SECRET?.type,'secret_text','Existing encrypted mail relay binding must remain configured');
+console.log('Both existing deployment destinations and encrypted mail binding are ready.');
