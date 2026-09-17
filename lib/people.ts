@@ -1,4 +1,4 @@
-import data from './people.json';
+import data from './generated/people.json';
 import type { Locale } from './catalogue';
 export type Person = {
   name: Partial<Record<Locale, string>>;

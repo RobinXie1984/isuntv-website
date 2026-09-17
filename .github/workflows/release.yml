@@ -1,0 +1,114 @@
+name: Release both iSun domains
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: isun-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run build:both
+      - run: python3 scripts/check-static.py artifacts/isun1
+      - name: Assert both artifacts came from this source
+        run: node scripts/check-pair.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isuntv-pages
+          path: artifacts/isuntv
+          include-hidden-files: true
+          retention-days: 30
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: artifacts/isun1
+  release-access:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check both deployment destinations before changing either
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/check-release-access.mjs
+  deploy-isuntv:
+    needs: [build, release-access]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: isuntv-pages
+          path: artifacts/isuntv
+      - name: Publish existing Cloudflare Pages project
+        working-directory: deployment/cloudflare
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: c805fea6fe0eb47cd90cd5e19f0ff00e
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing scoped Cloudflare deployment permission'; exit 1; }
+          node ../../node_modules/wrangler/bin/wrangler.js pages deploy ../../artifacts/isuntv --project-name=isuntv-public --branch=main --commit-hash="$GITHUB_SHA"
+  deploy-isun1:
+    needs: [build, release-access]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish GitHub Pages from this repository
+        id: deployment
+        uses: actions/deploy-pages@v4
+  verify:
+    if: always() && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: [build, release-access, deploy-isuntv, deploy-isun1]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify both live domains and matching release fingerprints
+        env:
+          EXPECTED_COMMIT: ${{ github.sha }}
+          DRIFT_ATTEMPTS: '12'
+        run: node scripts/check-drift.mjs
+      - name: Require both publishing jobs to pass
+        if: always()
+        env:
+          BUILD: ${{ needs.build.result }}
+          TV: ${{ needs.deploy-isuntv.result }}
+          ONE: ${{ needs.deploy-isun1.result }}
+        run: |
+          echo "Build=$BUILD; iSunTV=$TV; iSun1=$ONE" >> "$GITHUB_STEP_SUMMARY"
+          test "$BUILD" = success && test "$TV" = success && test "$ONE" = success

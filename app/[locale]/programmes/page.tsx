@@ -1,3 +1,5 @@
+import { defaultLocale } from '../../../lib/site-profile';
+import { locales as staticLocales } from '../../../lib/catalogue';
 import { Catalogue } from '../../catalogue';
 import { checkedLocale, languageAlternates } from '../../../lib/metadata';
 export default async function Page({
@@ -16,3 +18,5 @@ export async function generateMetadata({
   const locale = checkedLocale((await params).locale);
   return { alternates: languageAlternates('programmes', locale) };
 }
+
+export function generateStaticParams() { return staticLocales.filter(locale => locale !== defaultLocale).map(locale => ({ locale })); }

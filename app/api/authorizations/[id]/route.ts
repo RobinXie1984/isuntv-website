@@ -1,3 +1,4 @@
+import { publicOrigin } from '../../../../lib/site-profile';
 import { lookupAuthorization } from '../../../../lib/authorizations';
 import registry from '../../../../lib/authorization-registry.json';
 export const dynamic = 'force-dynamic';
@@ -17,7 +18,7 @@ export async function GET(
       ...result,
       publicKeyPem: registry.publicKeyPem,
       checkedAt: new Date().toISOString(),
-      verificationUrl: `https://isuntv.com/verify?id=${encodeURIComponent(id)}`,
+      verificationUrl: `${publicOrigin}/verify?id=${encodeURIComponent(id)}`,
     },
     {
       status:

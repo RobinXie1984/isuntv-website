@@ -1,10 +1,11 @@
+import { defaultLocale } from '../lib/site-profile';
 import { translator } from '../lib/brand-i18n';
 /* oxlint-disable nextjs/no-img-element */
 import { LanguageMenu } from './language-menu';
 import { Search, ArrowUpRight } from 'lucide-react';
 import { brandPath, type BrandLocale } from '../lib/brand-pages';
 export function BrandHeader({
-  locale = 'zh-Hant',
+  locale = defaultLocale,
   path = '',
 }: {
   locale?: BrandLocale;
@@ -60,7 +61,7 @@ export function BrandHeader({
     </>
   );
 }
-export function BrandFooter({ locale = 'zh-Hant' }: { locale?: BrandLocale }) {
+export function BrandFooter({ locale = defaultLocale }: { locale?: BrandLocale }) {
   const t = translator(locale);
   return (
     <footer className="brand-footer">
@@ -91,7 +92,7 @@ export function BrandFooter({ locale = 'zh-Hant' }: { locale?: BrandLocale }) {
 export function BrandShell({
   children,
   path,
-  locale = 'zh-Hant',
+  locale = defaultLocale,
 }: {
   children: React.ReactNode;
   path: string;

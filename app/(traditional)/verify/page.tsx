@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
 import { BrandContent } from '../../brand-content';
 import { brandMetadata } from '../../../lib/brand-pages';
 export const metadata = brandMetadata('verify');
@@ -8,7 +6,7 @@ export default async function Page({
 }: {
   searchParams: Promise<{ id?: string }>;
 }) {
-  const q = await searchParams;
+  const q = process.env.ISUN_STATIC_EXPORT === '1' ? {} as Awaited<typeof searchParams> : await searchParams;
   return (
     <BrandContent
       path="verify"

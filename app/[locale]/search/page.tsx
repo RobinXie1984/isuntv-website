@@ -1,3 +1,5 @@
+import { defaultLocale } from '../../../lib/site-profile';
+import { locales as staticLocales } from '../../../lib/catalogue';
 import { SearchPage } from '../../search';
 import { checkedLocale, languageAlternates } from '../../../lib/metadata';
 import { searchCopy } from '../../../lib/search-copy';
@@ -7,7 +9,7 @@ type Props = {
 };
 export default async function Page({ params, searchParams }: Props) {
   const p = await params;
-  const q = await searchParams;
+  const q = process.env.ISUN_STATIC_EXPORT === '1' ? {} as Awaited<typeof searchParams> : await searchParams;
   const locale = p.locale ? checkedLocale(p.locale) : 'zh-Hant';
   return <SearchPage locale={locale} query={q.q} pageRaw={q.page} />;
 }
@@ -20,3 +22,5 @@ export async function generateMetadata({ params }: Props) {
     alternates: languageAlternates('search/', locale),
   };
 }
+
+export function generateStaticParams() { return staticLocales.filter(locale => locale !== defaultLocale).map(locale => ({ locale })); }

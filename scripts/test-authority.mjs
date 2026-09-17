@@ -142,8 +142,8 @@ const fields = {
   consent: 'yes',
   website: '',
 };
-const req = (data = fields, origin = 'https://isuntv.com') =>
-  new Request('https://isuntv.com/api/contact', {
+const req = (data = fields, origin = 'https://isun1.com') =>
+  new Request('https://isun1.com/api/contact', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Origin: origin },
     body: JSON.stringify(data),
@@ -175,7 +175,7 @@ try {
   globalThis.fetch = async (url, options) => {
     assert.equal(url, 'https://api.resend.com/emails');
     const payload = JSON.parse(options.body);
-    assert.deepEqual(payload.to, ['partner@isuntv.com']);
+    assert.deepEqual(payload.to, ['admin@tideisun.com']);
     assert.equal(payload.reply_to, 'qa@example.com');
     assert.equal(payload.from, 'fixture@example.com');
     return Response.json({ id: 'fixture-provider-acceptance' });

@@ -1,4 +1,8 @@
 export const searchCopy = {
+"fr": {"title": "Rechercher une vidéo", "label": "Titre original, personne ou programme", "submit": "Rechercher", "empty": "Saisissez un mot-clé pour explorer la collection iSunTV.", "none": "Aucune vidéo trouvée. Essayez un autre mot-clé ou le titre original.", "results": "vidéos trouvées", "hint": "Les titres des vidéos sont conservés dans leur langue d’origine. Recherchez un titre, une personne ou un programme."},
+"es": {"title": "Buscar vídeos", "label": "Título original, persona o programa", "submit": "Buscar", "empty": "Introduzca una palabra clave para explorar la colección de iSunTV.", "none": "No hay coincidencias. Pruebe otra palabra clave o el título original.", "results": "vídeos encontrados", "hint": "Los títulos se conservan en su idioma original. Busque por título, persona o programa."},
+"hi": {"title": "वीडियो खोजें", "label": "मूल शीर्षक, व्यक्ति या कार्यक्रम", "submit": "खोजें", "empty": "iSunTV संग्रह में खोजने के लिए कोई शब्द लिखें।", "none": "कोई वीडियो नहीं मिला। कोई दूसरा शब्द या मूल शीर्षक आज़माएँ।", "results": "वीडियो मिले", "hint": "वीडियो के शीर्षक मूल भाषा में रखे गए हैं। शीर्षक, व्यक्ति या कार्यक्रम के नाम से खोजें।"},
+
  he: {"title": "חיפוש סרטונים", "label": "כותרת מקורית, דמות או שם תוכנית", "submit": "חיפוש", "empty": "הזינו מילת חיפוש כדי לגלות את אוסף iSunTV.", "none": "לא נמצאו סרטונים מתאימים. נסו מילת חיפוש אחרת או את הכותרת המקורית.", "results": "סרטונים מתאימים", "hint": "כותרות הסרטונים נשמרות בשפת המקור. ניתן לחפש לפי כותרת, דמות או תוכנית."},
   'zh-Hant': {
     title: '搜尋影片',

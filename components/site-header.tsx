@@ -19,7 +19,7 @@ export function SiteHeader({
   const aboutShort = {
     'zh-Hant': '關於',
     'zh-Hans': '关于',
-    en: 'About',
+    en: 'About', fr: 'À propos', es: 'Nosotros', hi: 'परिचय',
     ja: '紹介',
     he: 'אודות',
   }[locale];

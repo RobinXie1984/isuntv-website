@@ -1,0 +1,12 @@
+{
+  "name": "isun1-enquiry",
+  "main": "index.mjs",
+  "account_id": "c805fea6fe0eb47cd90cd5e19f0ff00e",
+  "compatibility_date": "2026-09-16",
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {"ENABLED": "true"},
+  "routes": [{"pattern": "isun1-enquiry.isunmedia.com", "custom_domain": true}],
+  "observability": {"enabled": true},
+  "secrets": {"required": ["RELAY_SECRET"]}
+}

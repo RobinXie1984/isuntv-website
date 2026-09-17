@@ -1,3 +1,4 @@
+import { defaultLocale } from '../lib/site-profile';
 import { translator } from '../lib/brand-i18n';
 /* oxlint-disable nextjs/no-img-element */
 import {
@@ -9,7 +10,7 @@ import {
 } from 'lucide-react';
 import { BrandShell } from '../components/brand-shell';
 import { brandPath, type BrandLocale } from '../lib/brand-pages';
-export function BrandHome({ locale = 'zh-Hant' }: { locale?: BrandLocale }) {
+export function BrandHome({ locale = defaultLocale }: { locale?: BrandLocale }) {
   const t = translator(locale);
   const en = locale === 'en';
   const url = (p: string) => brandPath(p, locale);

@@ -1,3 +1,6 @@
+import { interviewProgrammeIds } from '../lib/site-profile';
+import { publicOrigin } from '../lib/site-profile';
+import { defaultLocale } from '../lib/site-profile';
 import { GlobalSection } from '../components/global-section';
 import { globalContent } from '../lib/global-content';
 import { translator } from '../lib/brand-i18n';
@@ -7,6 +10,7 @@ import { env } from 'cloudflare:workers';
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import { BrandShell } from '../components/brand-shell';
 import { ContactForm } from '../components/contact-form';
+import { StaticVerify } from '../components/static-verify';
 import { brandPath, pageTitles, type BrandLocale } from '../lib/brand-pages';
 import { entityIds, jsonLd } from '../lib/brand-identity';
 import registry from '../lib/authorization-registry.json';
@@ -17,7 +21,7 @@ const founderPdf =
   'https://fc2c974a-f596-42ec-9016-5c1914faeba1.filesusr.com/ugd/0e91c2_01be1caa402f4ae8bec43090a1c3ed11.pdf';
 export function BrandContent({
   path,
-  locale = 'zh-Hant',
+  locale = defaultLocale,
   id = '',
 }: {
   path: string;
@@ -26,9 +30,9 @@ export function BrandContent({
 }) {
   const mailConfig = env as unknown as Record<string, string | undefined>;
   const mailEnabled =
-    mailConfig.CONTACT_FORM_ENABLED === 'true' &&
+    process.env.ISUN_STATIC_EXPORT === '1' || (mailConfig.CONTACT_FORM_ENABLED === 'true' &&
     ((!!mailConfig.GOOGLE_WORKSPACE_RELAY_URL && !!mailConfig.GOOGLE_WORKSPACE_RELAY_SECRET) ||
-      (!!mailConfig.RESEND_API_KEY && !!mailConfig.CONTACT_FROM_EMAIL));
+      (!!mailConfig.RESEND_API_KEY && !!mailConfig.CONTACT_FROM_EMAIL)));
   const t = translator(locale);
   const url = (p: string) => brandPath(p, locale);
   const intro: Record<string, [string, string]> = {
@@ -73,8 +77,8 @@ export function BrandContent({
   const pageGraph = {
     '@context': 'https://schema.org',
     '@type': profile || path === 'chairman' ? 'ProfilePage' : 'WebPage',
-    '@id': `https://isuntv.com${url(path)}#webpage`,
-    url: `https://isuntv.com${url(path)}`,
+    '@id': `${publicOrigin}${url(path)}#webpage`,
+    url: `${publicOrigin}${url(path)}`,
     name: t(...pageTitles[path]),
     inLanguage: locale,
     publisher: { '@id': entityIds.isuntv },
@@ -266,7 +270,7 @@ export function BrandContent({
                 className="brand-button dark"
                 href="mailto:partner@isuntv.com"
               >
-                partner@iSunTV.com
+                partner@isuntv.com
                 <ArrowUpRight size={18} />
               </a>
             </div>
@@ -302,7 +306,7 @@ export function BrandContent({
       {path === 'verify' ? (
         <section className="page-content">
           <h2>{t('輸入授權編號', 'Enter an authorization ID')}</h2>
-          <form className="verify-form" method="get" action={url('verify')}>
+          {process.env.ISUN_STATIC_EXPORT === '1' ? <StaticVerify locale={locale} /> : <><form className="verify-form" method="get" action={url('verify')}>
             <label className="sr-only" htmlFor="authorization-id">
               {t('授權編號', 'Authorization ID')}
             </label>
@@ -318,13 +322,13 @@ export function BrandContent({
               {t('查驗', 'Verify')}
             </button>
           </form>
-          <VerificationResult id={id} locale={locale} />
+          <VerificationResult id={id} locale={locale} /></>}
           <div className="notice">
             {!registry.published && (
               <p>
                 {t(
-                  '公開登記正在準備中。現階段，請向 partner@iSunTV.com 核實授權。未查到紀錄不等於判定為冒用；請先聯絡我們。',
-                  'The public register is being prepared. For now, confirm authorizations with partner@iSunTV.com. An absent record is not, by itself, a finding of misuse.',
+                  '公開登記正在準備中。現階段，請向 partner@isuntv.com 核實授權。未查到紀錄不等於判定為冒用；請先聯絡我們。',
+                  'The public register is being prepared. For now, confirm authorizations with partner@isuntv.com. An absent record is not, by itself, a finding of misuse.',
                 )}
               </p>
             )}
@@ -335,7 +339,7 @@ export function BrandContent({
               )}
             </p>
           </div>
-          <a href="mailto:partner@isuntv.com">partner@iSunTV.com</a>
+          <a href="mailto:partner@isuntv.com">partner@isuntv.com</a>
         </section>
       ) : null}
       {path === 'global' ? <GlobalSection locale={locale} /> : null}
@@ -356,7 +360,7 @@ export function BrandContent({
               </a>
             </div>
             <div>
-              {['masters', 'life-online', 'personal-accounts', 'oral-history'].map((slug) => programmes.find((p) => p.slug === slug)!).map((p) => (
+              {interviewProgrammeIds.map((slug) => programmes.find((p) => p.slug === slug)!).map((p) => (
                 <a
                   className="catalogue-link"
                   key={p.slug}
@@ -375,9 +379,9 @@ export function BrandContent({
           <div>
             <h2>{t('商務合作', 'Business partnerships')}</h2>
             <p>
-              <a href="mailto:partner@isuntv.com">partner@iSunTV.com</a>
+              <a href="mailto:partner@isuntv.com">partner@isuntv.com</a>
             </p>
-            <ContactForm locale={locale} labels={contactLabels(locale)} enabled={mailEnabled} />
+            <ContactForm locale={locale} labels={contactLabels(locale)} enabled={mailEnabled} endpoint={process.env.ISUN_STATIC_EXPORT === '1' ? 'https://isun1-enquiry.isunmedia.com/contact' : '/api/contact'} />
           </div>
           <aside>
             <img
@@ -454,7 +458,7 @@ export function BrandContent({
               '如需更正、刪除資料或查詢處理方式，請聯絡：',
               'For correction, deletion or questions about your information, contact:',
             )}{' '}
-            <a href="mailto:partner@isuntv.com">partner@iSunTV.com</a>
+            <a href="mailto:partner@isuntv.com">partner@isuntv.com</a>
           </p>
         </section>
       ) : null}

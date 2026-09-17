@@ -6,7 +6,7 @@ export default async function Page({
 }: {
   searchParams: Promise<{ id?: string }>;
 }) {
-  const q = await searchParams;
+  const q = process.env.ISUN_STATIC_EXPORT === '1' ? {} as Awaited<typeof searchParams> : await searchParams;
   return (
     <BrandContent
       path="robin"

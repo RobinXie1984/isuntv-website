@@ -1,0 +1,263 @@
+[
+  {
+    "slug": "masters",
+    "titles": {
+      "fr": "Maîtres du siècle",
+      "es": "Maestros de un siglo",
+      "hi": "सदी के महान रचनाकार",
+      "he": "ענקי המאה",
+      "zh-Hant": "百年巨匠",
+      "zh-Hans": "百年巨匠",
+      "en": "Masters of a Century",
+      "ja": "百年の巨匠"
+    },
+    "topics": {
+      "fr": "Arts et création",
+      "es": "Arte y creación",
+      "hi": "कला और सृजन",
+      "he": "אמנות ויצירה",
+      "zh-Hant": "藝術與創作",
+      "zh-Hans": "艺术与创作",
+      "en": "Art & creativity",
+      "ja": "芸術と創作"
+    },
+    "playlistIds": [
+      "PLbVkuc2XJS-I"
+    ]
+  },
+  {
+    "slug": "national-tragedy",
+    "titles": {
+      "fr": "Tragédie nationale",
+      "es": "Tragedia nacional",
+      "hi": "राष्ट्रीय त्रासदी",
+      "he": "טרגדיה לאומית",
+      "zh-Hant": "國殤",
+      "zh-Hans": "国殇",
+      "en": "National Tragedy",
+      "ja": "国殤"
+    },
+    "topics": {
+      "fr": "Histoire",
+      "es": "Historia",
+      "hi": "इतिहास",
+      "he": "היסטוריה",
+      "zh-Hant": "歷史紀錄",
+      "zh-Hans": "历史纪录",
+      "en": "History",
+      "ja": "歴史"
+    },
+    "playlistIds": [
+      "PL1Flk3ukUUwaCT5EJmgj-a7apqvgwouw0"
+    ]
+  },
+  {
+    "slug": "life-online",
+    "titles": {
+      "fr": "Parcours de vie",
+      "es": "Trayectorias de vida",
+      "hi": "जीवन की कहानियाँ",
+      "he": "חיים בשיחה",
+      "zh-Hant": "人生在線",
+      "zh-Hans": "人生在线",
+      "en": "Life Online",
+      "ja": "人生在線"
+    },
+    "topics": {
+      "fr": "Entrepreneurs et artistes",
+      "es": "Empresarios y artistas",
+      "hi": "उद्यमी और कलाकार",
+      "he": "יזמים ואמנים",
+      "zh-Hant": "企業家與藝術家",
+      "zh-Hans": "企业家与艺术家",
+      "en": "Entrepreneurs & artists",
+      "ja": "起業家と芸術家"
+    },
+    "playlistIds": [
+      "PL1Flk3ukUUwZr2_mKVQCiHW7gUcTVGnAC"
+    ]
+  },
+  {
+    "slug": "love-marriage",
+    "titles": {
+      "fr": "Un siècle d’amour",
+      "es": "Un siglo de amor",
+      "hi": "प्रेम की एक सदी",
+      "he": "מאה של אהבה",
+      "zh-Hant": "百年婚戀",
+      "zh-Hans": "百年婚恋",
+      "en": "A Century of Love",
+      "ja": "百年の愛と結婚"
+    },
+    "topics": {
+      "fr": "Vies et époques",
+      "es": "Vidas y épocas",
+      "hi": "जीवन और समय",
+      "he": "חיים ותקופות",
+      "zh-Hant": "人生與時代",
+      "zh-Hans": "人生与时代",
+      "en": "Lives & times",
+      "ja": "人生と時代"
+    },
+    "playlistIds": [
+      "PL1Flk3ukUUwbU1DKENJt-DQ_coS9LOl0z"
+    ]
+  },
+  {
+    "slug": "treasures",
+    "titles": {
+      "fr": "Trésors nationaux",
+      "es": "Tesoros nacionales",
+      "hi": "राष्ट्रीय धरोहर",
+      "he": "אוצרות לאומיים",
+      "zh-Hant": "國寶",
+      "zh-Hans": "国宝",
+      "en": "National Treasures",
+      "ja": "国宝"
+    },
+    "topics": {
+      "fr": "Patrimoine et culture",
+      "es": "Patrimonio y cultura",
+      "hi": "विरासत और संस्कृति",
+      "he": "מורשת ותרבות",
+      "zh-Hant": "文物與文化",
+      "zh-Hans": "文物与文化",
+      "en": "Heritage & culture",
+      "ja": "文化と遺産"
+    },
+    "playlistIds": [
+      "PL1Flk3ukUUwZ5i6HEl3MVvBqz4U5N4NXg"
+    ]
+  },
+  {
+    "slug": "geography",
+    "titles": {
+      "fr": "Peuples et paysages",
+      "es": "Personas y lugares",
+      "hi": "लोग और स्थान",
+      "he": "אנשים ומקומות",
+      "zh-Hant": "人文地理",
+      "zh-Hans": "人文地理",
+      "en": "People & Places",
+      "ja": "人文地理"
+    },
+    "topics": {
+      "fr": "Paysages et cultures",
+      "es": "Paisajes y cultura",
+      "hi": "प्रकृति और संस्कृति",
+      "he": "תרבות וגאוגרפיה",
+      "zh-Hant": "山河與人文",
+      "zh-Hans": "山河与人文",
+      "en": "Landscape & culture",
+      "ja": "風土と文化"
+    },
+    "playlistIds": [
+      "PL1Flk3ukUUwZWhsu8EOzMib8AHrsKW_JY"
+    ]
+  },
+  {
+    "slug": "journeys",
+    "titles": {
+      "fr": "Voyages",
+      "es": "Viajes",
+      "hi": "यात्राएँ",
+      "he": "מסעות בעולם",
+      "zh-Hant": "天下行",
+      "zh-Hans": "天下行",
+      "en": "Journeys",
+      "ja": "世界を歩く"
+    },
+    "topics": {
+      "fr": "Voyage et observation",
+      "es": "Viajes y observación",
+      "hi": "यात्रा और अवलोकन",
+      "he": "מסעות ותרבות",
+      "zh-Hant": "行走與觀察",
+      "zh-Hans": "行走与观察",
+      "en": "Travel & observation",
+      "ja": "旅と観察"
+    },
+    "playlistIds": [
+      "PL1Flk3ukUUwZWhsu8EOzMib8AHrsKW_JY"
+    ]
+  },
+  {
+    "slug": "science",
+    "titles": {
+      "fr": "Sciences et découvertes",
+      "es": "Ciencia y descubrimiento",
+      "hi": "विज्ञान और खोज",
+      "he": "מדע לכול",
+      "zh-Hant": "科普",
+      "zh-Hans": "科普",
+      "en": "Ideas & Discovery",
+      "ja": "科学と発見"
+    },
+    "topics": {
+      "fr": "Savoir et découverte",
+      "es": "Conocimiento y descubrimiento",
+      "hi": "ज्ञान और खोज",
+      "he": "מדע וידע",
+      "zh-Hant": "知識與探索",
+      "zh-Hans": "知识与探索",
+      "en": "Knowledge & discovery",
+      "ja": "知識と探究"
+    },
+    "playlistIds": [
+      "PL1Flk3ukUUwZqqkadWf_lO63t9YjnmnbQ"
+    ]
+  },
+  {
+    "slug": "personal-accounts",
+    "titles": {
+      "fr": "Récits personnels",
+      "es": "Relatos personales",
+      "hi": "अपनी ज़ुबानी",
+      "he": "סיפורים אישיים",
+      "zh-Hant": "名人自述",
+      "zh-Hans": "名人自述",
+      "en": "Personal Accounts",
+      "ja": "人物の証言"
+    },
+    "topics": {
+      "fr": "Famille et souvenirs",
+      "es": "Familia y recuerdos",
+      "hi": "परिवार और यादें",
+      "he": "עדויות אישיות",
+      "zh-Hant": "我的家人 · 往事歲月",
+      "zh-Hans": "我的家人 · 往事岁月",
+      "en": "Family & memories",
+      "ja": "家族と記憶"
+    },
+    "playlistIds": [
+      "PL1Flk3ukUUwZhSrljesLtA-xsklSHwWW3",
+      "PL1Flk3ukUUwYB7iQ422m5mIkJNRLhejp8"
+    ]
+  },
+  {
+    "slug": "oral-history",
+    "titles": {
+      "fr": "Histoire orale",
+      "es": "Historia oral",
+      "hi": "मौखिक इतिहास",
+      "he": "היסטוריה בעל־פה",
+      "zh-Hant": "口述歷史",
+      "zh-Hans": "口述历史",
+      "en": "Oral History",
+      "ja": "オーラルヒストリー"
+    },
+    "topics": {
+      "fr": "Mémoires vécues",
+      "es": "Memorias",
+      "hi": "स्मृतियाँ",
+      "he": "זיכרון ועדות",
+      "zh-Hant": "塵封記憶",
+      "zh-Hans": "尘封记忆",
+      "en": "Recollections",
+      "ja": "記憶をたどる"
+    },
+    "playlistIds": [
+      "PL1Flk3ukUUwa7ELqkjc0rcndcrgnSM5Lx"
+    ]
+  }
+]

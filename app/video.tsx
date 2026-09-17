@@ -1,3 +1,4 @@
+import { videoAvailability } from '../lib/video-availability';
 /* oxlint-disable nextjs/no-img-element -- Fixed-size source thumbnails and the small official logo use direct images; no image proxy or optimizer is needed. */
 import { notFound } from 'next/navigation';
 import { ArrowUpRight, ArrowLeft, UserRound, Play } from 'lucide-react';
@@ -5,7 +6,7 @@ import { SiteHeader } from '../components/site-header';
 import { detailCopy, drafts } from '../lib/editorial';
 import { people } from '../lib/people';
 import { jsonLd } from '../lib/brand-identity';
-import { publicOrigin } from '../lib/site-config.json';
+import { publicOrigin } from '../lib/site-profile';
 import { displayTitles, videoTitle } from '../lib/titles';
 import { programmes, sitePath, type Locale } from '../lib/catalogue';
 import {
@@ -20,8 +21,8 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
   const programme = programmes.find((p) =>
     selectedPlaylistIds(p.slug).includes(v.playlistId),
   );
-  const draft = locale === 'he' ? undefined : drafts[id];
-  const fields = locale === 'he' ? undefined : draft?.fields[locale];
+  const draft = drafts[id];
+  const fields = draft?.fields[locale];
   return (
     <>
       <SiteHeader locale={locale} path={`videos/${id}/`} />
@@ -30,7 +31,7 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
         '@id': `${publicOrigin}${sitePath(locale, `videos/${id}`)}#video`,
         name: videoTitle(v, locale),
         description: fields ? Object.values(fields).filter(Boolean).join(' · ') : videoTitle(v, locale),
-        ...(v.thumbnail ? { thumbnailUrl: [v.thumbnail] } : {}),
+        ...(v.thumbnail ? { thumbnailUrl: [new URL(v.thumbnail, publicOrigin).href] } : {}),
         url: `https://www.youtube.com/watch?v=${v.id}&list=${v.playlistId}`,
         mainEntityOfPage: `${publicOrigin}${sitePath(locale, `videos/${id}`)}`,
         inLanguage: locale,
@@ -68,6 +69,7 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
             <ArrowUpRight size={18} />
           </span>
         </a>
+        <p className="source-note">{videoAvailability[locale]}</p>
         {draft && fields ? (
           <section className="six-w">
             <h2>{t.summary}</h2>

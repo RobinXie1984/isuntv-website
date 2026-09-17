@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "globalOnlyPlaylistIds": [
+    "PL1Flk3ukUUwZhSrljesLtA-xsklSHwWW3",
+    "PL1Flk3ukUUwYB7iQ422m5mIkJNRLhejp8",
+    "PL1Flk3ukUUwa7ELqkjc0rcndcrgnSM5Lx"
+  ],
+  "interviews": {
+    "isuntv": [
+      "masters",
+      "life-online",
+      "personal-accounts",
+      "oral-history"
+    ],
+    "isun1": [
+      "masters",
+      "life-online",
+      "love-marriage",
+      "national-tragedy"
+    ]
+  }
+}

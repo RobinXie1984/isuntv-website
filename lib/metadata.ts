@@ -1,13 +1,14 @@
+import { defaultLocale } from './site-profile';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { sitePath, locales, type Locale } from './catalogue';
 import { findVideo, getProgramme, programmeVideos } from './collection';
 import { drafts } from './editorial';
 import { videoTitle } from './titles';
-import { publicOrigin } from './site-config.json';
+import { publicOrigin } from './site-profile';
 
 export function checkedLocale(value: string | undefined): Locale {
-  if (!locales.includes(value as Locale) || value === 'zh-Hant') notFound();
+  if (!locales.includes(value as Locale) || value === defaultLocale) notFound();
   return value as Locale;
 }
 export function languageAlternates(path: string, locale?: Locale) {
@@ -16,7 +17,7 @@ export function languageAlternates(path: string, locale?: Locale) {
       ? { canonical: new URL(sitePath(locale, path), publicOrigin).href }
       : {}),
     languages: Object.fromEntries(
-      [...locales.filter(l => l !== 'he' || !path.startsWith('videos/')).map((l) => [l, new URL(sitePath(l, path), publicOrigin).href]), ['x-default', new URL(sitePath('zh-Hant', path), publicOrigin).href]],
+      [...locales.filter(l => !path.startsWith('videos/') || Boolean(drafts[path.slice(7)]?.fields[l])).map((l) => [l, new URL(sitePath(l, path), publicOrigin).href]), ['x-default', new URL(sitePath(defaultLocale, path), publicOrigin).href]],
     ),
   };
 }
@@ -42,7 +43,7 @@ export function videoMetadata(locale: Locale, id: string): Metadata {
   const video = findVideo(id);
   if (!video) notFound();
   const title = videoTitle(video, locale);
-  const fields = locale === 'he' ? undefined : drafts[id]?.fields[locale];
+  const fields = drafts[id]?.fields[locale];
   const description = fields
     ? Object.values(fields).filter(Boolean).join(' · ')
     : title;

@@ -2,766 +2,1217 @@
   "Record our times. Connect a wider world.": {
     "ja": "時代を記録し、世界とのつながりを育む。",
     "he": "מתעדים את התקופה. מחברים לעולם רחב יותר.",
-    "zh-Hans": "以影像记录时代，以连接创造可能。"
+    "zh-Hans": "以影像记录时代，以连接创造可能。",
+    "fr": "Témoigner de notre époque. Ouvrir de nouveaux horizons.",
+    "es": "Documentar nuestro tiempo. Conectar con el mundo.",
+    "hi": "अपने समय का दस्तावेज़। दुनिया से नया जुड़ाव।"
   },
   "From Hong Kong, connect Chinese entrepreneurs with international opportunities.": {
     "ja": "香港を拠点に、中華圏の企業家と世界のビジネス機会をつなぎます。",
     "he": "מהונג קונג, מחברים יזמים מהעולם הסיני להזדמנויות בינלאומיות.",
-    "zh-Hans": "立足香港，连接华商与国际机遇。"
+    "zh-Hans": "立足香港，连接华商与国际机遇。",
+    "fr": "Depuis Hong Kong, relier les entrepreneurs chinois aux opportunités internationales.",
+    "es": "Desde Hong Kong, conectamos a los emprendedores chinos con oportunidades internacionales.",
+    "hi": "हांगकांग से चीनी उद्यमियों को अंतरराष्ट्रीय अवसरों से जोड़ना।"
   },
   "Real people. Experience worth sharing.": {
     "ja": "一人ひとりの歩みから、未来へのヒントを。",
     "he": "אנשים אמיתיים. ניסיון שכדאי להכיר.",
-    "zh-Hans": "真实人物。值得留下的经验。"
+    "zh-Hans": "真实人物。值得留下的经验。",
+    "fr": "Des parcours authentiques. Des expériences à partager.",
+    "es": "Personas reales. Experiencias que merece la pena compartir.",
+    "hi": "असली लोग। साझा करने योग्य अनुभव।"
   },
   "Scholar, entrepreneur and founder of TideiSun Group.": {
     "ja": "研究者、企業家、そして泰德陽光集団の創業者。",
     "he": "חוקר, יזם ומייסד קבוצת TideiSun.",
-    "zh-Hans": "学者、企业家与泰德阳光集团创办人。"
+    "zh-Hans": "学者、企业家与泰德阳光集团创办人。",
+    "fr": "Chercheur, entrepreneur et fondateur de TideiSun Group.",
+    "es": "Investigador, empresario y fundador de TideiSun Group.",
+    "hi": "शोधकर्ता, उद्यमी और TideiSun Group के संस्थापक।"
   },
   "Executive Director of iSunTV · Managing Partner of TideiSun Group": {
     "ja": "陽光衛視 エグゼクティブ・ディレクター · 泰德陽光集団 マネージング・パートナー",
     "he": "מנהלת ביצועית ב־iSunTV · שותפה מנהלת בקבוצת TideiSun",
-    "zh-Hans": "阳光卫视执行董事 · 泰德阳光集团管理合伙人"
+    "zh-Hans": "阳光卫视执行董事 · 泰德阳光集团管理合伙人",
+    "fr": "Directrice exécutive d’iSunTV · Associée dirigeante de TideiSun Group",
+    "es": "Directora ejecutiva de iSunTV · Socia directora de TideiSun Group",
+    "hi": "iSunTV की कार्यकारी निदेशक · TideiSun Group की प्रबंध साझेदार"
   },
   "Clear scope. Accountable partnerships. Verifiable authorization.": {
     "ja": "範囲と責任を明確に。確認できる、信頼あるブランド提携へ。",
     "he": "שותפויות עם אחריות, תנאים ברורים והרשאה שניתן לאמת.",
-    "zh-Hans": "让品牌合作有清晰的范围、责任与依据。"
+    "zh-Hans": "让品牌合作有清晰的范围、责任与依据。",
+    "fr": "Un périmètre clair. Des engagements précis. Des autorisations vérifiables.",
+    "es": "Alcance claro. Responsabilidades definidas. Autorizaciones verificables.",
+    "hi": "स्पष्ट दायरा। तय ज़िम्मेदारियाँ। सत्यापन योग्य अनुमति।"
   },
   "Check the organization, permitted use and current status.": {
     "ja": "許諾先、利用範囲、現在の有効性をご確認ください。",
     "he": "בדקו את זהות הארגון, השימוש המותר ומצב ההרשאה העדכני.",
-    "zh-Hans": "核对机构、使用范围与目前状态。"
+    "zh-Hans": "核对机构、使用范围与目前状态。",
+    "fr": "Vérifiez l’organisme, les usages autorisés et le statut actuel.",
+    "es": "Compruebe la entidad, los usos permitidos y el estado actual.",
+    "hi": "संस्था, अनुमत उपयोग और मौजूदा स्थिति की जाँच करें।"
   },
   "Headquartered in Hong Kong. Connected to the world.": {
     "ja": "香港を拠点に、世界へ。",
     "he": "המטה בהונג קונג. הקשרים ברחבי העולם.",
-    "zh-Hans": "香港总部，连接世界。"
+    "zh-Hans": "香港总部，连接世界。",
+    "fr": "Un siège à Hong Kong. Une ouverture sur le monde.",
+    "es": "Con sede en Hong Kong y una mirada global.",
+    "hi": "मुख्यालय हांगकांग में। संबंध दुनिया भर में।"
   },
   "How we handle your business enquiry.": {
     "ja": "お問い合わせ情報の取り扱いについて。",
     "he": "כיצד אנו מטפלים בפנייה העסקית שלכם.",
-    "zh-Hans": "我们如何处理你的合作查询。"
+    "zh-Hans": "我们如何处理你的合作查询。",
+    "fr": "Comment nous traitons votre demande professionnelle.",
+    "es": "Cómo gestionamos su consulta profesional.",
+    "hi": "हम आपकी व्यावसायिक पूछताछ कैसे संभालते हैं।"
   },
   "Stories with purpose.": {
     "ja": "伝えるべき物語を、誠実に。",
     "he": "סיפורים שיש להם משמעות.",
-    "zh-Hans": "真话・真知・真相"
+    "zh-Hans": "真话・真知・真相",
+    "fr": "Des récits qui ont du sens.",
+    "es": "Historias con propósito.",
+    "hi": "सार्थक कहानियाँ।"
   },
   "Through documentaries and in-depth conversations, iSunTV preserves personal experience and the memory of our times. We are extending that work into entrepreneurial connections and accountable brand partnerships.": {
     "ja": "陽光衛視は、ドキュメンタリーと深い対話を通じて、人々の経験と時代の記憶を伝えてきました。その蓄積を生かし、企業家同士のつながりと、責任あるブランド提携へと活動を広げています。",
     "he": "באמצעות סרטי תעודה ושיחות עומק, iSunTV משמרת ניסיון אישי ואת זיכרון התקופה. על בסיס עשייה זו, אנו מרחיבים את פעילותנו לחיבורים בין יזמים ולשותפויות מותג עם אחריות ברורה.",
-    "zh-Hans": "阳光卫视以人文纪录与深度访谈，保存人物的经验与时代的记忆。今天，我们延伸这份积累，连接华商、国际机遇与可信赖的品牌合作。"
+    "zh-Hans": "阳光卫视以人文纪录与深度访谈，保存人物的经验与时代的记忆。今天，我们延伸这份积累，连接华商、国际机遇与可信赖的品牌合作。",
+    "fr": "À travers ses documentaires et ses entretiens approfondis, iSunTV préserve les expériences individuelles et la mémoire de notre époque. Nous prolongeons cette mission en favorisant les liens entre entrepreneurs et des partenariats de marque aux responsabilités clairement définies.",
+    "es": "A través de documentales y conversaciones en profundidad, iSunTV conserva las experiencias personales y la memoria de nuestro tiempo. Ampliamos esa labor mediante conexiones entre emprendedores y colaboraciones de marca con responsabilidades claras.",
+    "hi": "वृत्तचित्रों और गहन बातचीत के माध्यम से iSunTV लोगों के अनुभवों और हमारे समय की स्मृतियों को सहेजता है। हम इसी काम को आगे बढ़ाते हुए उद्यमियों के बीच संपर्क और स्पष्ट ज़िम्मेदारियों वाली ब्रांड साझेदारियाँ विकसित कर रहे हैं।"
   },
   "A responsibility to the people and stories we bring into view.": {
     "ja": "カメラの前に立つ人と、その物語に責任を持つ。",
     "he": "מחויבות לאנשים ולסיפורים שאנו מביאים אל המסך.",
-    "zh-Hans": "资本担道义，镜头讲责任。"
+    "zh-Hans": "资本担道义，镜头讲责任。",
+    "fr": "Une responsabilité envers les personnes et les histoires que nous faisons connaître.",
+    "es": "Un compromiso con las personas y las historias que damos a conocer.",
+    "hi": "जिन लोगों और कहानियों को हम सामने लाते हैं, उनके प्रति ज़िम्मेदारी।"
   },
   "Meet Chairman Chen Ping": {
     "ja": "陳平董事局主席について",
     "he": "הכירו את היו״ר צ׳ן פינג",
-    "zh-Hans": "认识董事局主席陈平"
+    "zh-Hans": "认识董事局主席陈平",
+    "fr": "Découvrir Chen Ping, président du conseil",
+    "es": "Conozca a Chen Ping, presidente del consejo",
+    "hi": "अध्यक्ष चेन पिंग से परिचय"
   },
   "Editorial view of Victoria Harbour": {
     "ja": "ビクトリア・ハーバーのイメージ",
     "he": "המחשה של נמל ויקטוריה בהונג קונג",
-    "zh-Hans": "香港维多利亚港形象图"
+    "zh-Hans": "香港维多利亚港形象图",
+    "fr": "Vue éditoriale du port Victoria",
+    "es": "Vista editorial del puerto Victoria",
+    "hi": "विक्टोरिया हार्बर का संपादकीय दृश्य"
   },
   "Explore": {
     "ja": "詳しく見る",
     "he": "לפרטים נוספים",
-    "zh-Hans": "了解更多"
+    "zh-Hans": "了解更多",
+    "fr": "Découvrir",
+    "es": "Explorar",
+    "hi": "देखें"
   },
   "Bin “Robin” Xie": {
     "ja": "謝玢（Bin “Robin” Xie）",
     "he": "בין ״רובין״ שיה — Bin “Robin” Xie",
-    "zh-Hans": "谢玢"
+    "zh-Hans": "谢玢",
+    "fr": "Robin Xie",
+    "es": "Robin Xie",
+    "hi": "Robin Xie"
   },
   "Angel investor · AI system builder": {
     "ja": "エンジェル投資家 · AIシステム構築者",
     "he": "משקיעת אנג׳ל · מפתחת מערכות בינה מלאכותית",
-    "zh-Hans": "天使投资人 · AI 系统建构者"
+    "zh-Hans": "天使投资人 · AI 系统建构者",
+    "fr": "Investisseuse providentielle · Conceptrice de systèmes d’IA",
+    "es": "Inversora ángel · Creadora de sistemas de IA",
+    "hi": "एंजेल निवेशक · एआई सिस्टम निर्माता"
   },
   "Robin Xie is Executive Director of iSunTV and Managing Partner of TideiSun Group. Her work connects engineering, financial technology and applied AI systems.": {
     "ja": "謝玢（Robin Xie）は、陽光衛視のエグゼクティブ・ディレクター、泰德陽光集団のマネージング・パートナーです。工学、金融テクノロジー、AIの実用化を横断し、システムの構築と活用に取り組んでいます。",
     "he": "רובין שיה (Robin Xie) היא מנהלת ביצועית ב־iSunTV ושותפה מנהלת בקבוצת TideiSun. עבודתה מחברת בין הנדסה, טכנולוגיה פיננסית ויישום מערכות בינה מלאכותית.",
-    "zh-Hans": "谢玢是阳光卫视执行董事、泰德阳光集团管理合伙人，长期从事工程、金融科技与人工智能的系统化应用。"
+    "zh-Hans": "谢玢是阳光卫视执行董事、泰德阳光集团管理合伙人，长期从事工程、金融科技与人工智能的系统化应用。",
+    "fr": "Robin Xie est directrice exécutive d’iSunTV et associée dirigeante de TideiSun Group. Son parcours relie l’ingénierie, les technologies financières et les applications concrètes de l’IA.",
+    "es": "Robin Xie es directora ejecutiva de iSunTV y socia directora de TideiSun Group. Su trabajo conecta la ingeniería, la tecnología financiera y los sistemas de IA aplicada.",
+    "hi": "Robin Xie, iSunTV की कार्यकारी निदेशक और TideiSun Group की प्रबंध साझेदार हैं। उनका काम इंजीनियरिंग, वित्तीय प्रौद्योगिकी और व्यावहारिक एआई प्रणालियों को जोड़ता है।"
   },
   "Robin, Robin Xie, Bin Xie, Bin \"Robin\" Xie, 謝玢 and 谢玢 identify the same person.": {
     "ja": "Robin、Robin Xie、Bin Xie、Bin \"Robin\" Xie、謝玢、谢玢は、すべて同一人物を指します。",
     "he": "השמות Robin, Robin Xie, Bin Xie, Bin \"Robin\" Xie, 謝玢 ו־谢玢 מתייחסים לאותה אישה.",
-    "zh-Hans": "Robin、Robin Xie、Bin Xie、Bin \"Robin\" Xie、谢玢及谢玢，均指同一人。"
+    "zh-Hans": "Robin、Robin Xie、Bin Xie、Bin \"Robin\" Xie、谢玢及谢玢，均指同一人。",
+    "fr": "Robin, Robin Xie, Bin Xie, Bin \"Robin\" Xie, 謝玢 et 谢玢 désignent la même personne.",
+    "es": "Robin, Robin Xie, Bin Xie, Bin \"Robin\" Xie, 謝玢 y 谢玢 se refieren a la misma persona.",
+    "hi": "Robin, Robin Xie, Bin Xie, Bin \"Robin\" Xie, 謝玢 और 谢玢 एक ही व्यक्ति के नाम हैं।"
   },
   "At iSunTV, Robin leads brand partnerships and licensing, following approval and authorization by the board and management team.": {
     "ja": "陽光衛視では、取締役会および経営陣による承認と権限付与に基づき、ブランド提携とライセンス業務を統括しています。",
     "he": "ב־iSunTV רובין מובילה את שותפויות המותג והרישוי, בהתאם לאישור ולהרשאה של הדירקטוריון וצוות ההנהלה.",
-    "zh-Hans": "在阳光卫视，Robin 负责品牌合作与授权事务，按董事会及管理团队的批准与授权推进合作。"
+    "zh-Hans": "在阳光卫视，Robin 负责品牌合作与授权事务，按董事会及管理团队的批准与授权推进合作。",
+    "fr": "Chez iSunTV, Robin dirige les partenariats de marque et les licences, dans le cadre des approbations et autorisations du conseil et de l’équipe de direction.",
+    "es": "En iSunTV, Robin dirige las colaboraciones de marca y las licencias, conforme a la aprobación y autorización del consejo y del equipo directivo.",
+    "hi": "iSunTV में Robin, निदेशक मंडल और प्रबंधन टीम की स्वीकृति तथा अनुमति के अनुरूप ब्रांड साझेदारियों और लाइसेंसिंग का नेतृत्व करती हैं।"
   },
   "Brand partnerships": {
     "ja": "ブランド提携",
     "he": "שותפויות מותג",
-    "zh-Hans": "品牌合作与授权"
+    "zh-Hans": "品牌合作与授权",
+    "fr": "Partenariats de marque",
+    "es": "Colaboraciones de marca",
+    "hi": "ब्रांड साझेदारियाँ"
   },
   "Chinese group profile": {
     "ja": "グループ公式プロフィール（中国語）",
     "he": "פרופיל באתר הקבוצה בסינית",
-    "zh-Hans": "集团中文简介"
+    "zh-Hans": "集团中文简介",
+    "fr": "Présentation du groupe en chinois",
+    "es": "Perfil del grupo en chino",
+    "hi": "समूह का परिचय: चीनी"
   },
   "English group profile": {
     "ja": "グループ公式プロフィール（英語）",
     "he": "פרופיל באתר הקבוצה באנגלית",
-    "zh-Hans": "集团英文简介"
+    "zh-Hans": "集团英文简介",
+    "fr": "Présentation du groupe en anglais",
+    "es": "Perfil del grupo en inglés",
+    "hi": "समूह का परिचय: अंग्रेज़ी"
   },
   "Chen Ping": {
     "ja": "陳平（Chen Ping）",
     "he": "צ׳ן פינג",
-    "zh-Hans": "陈平"
+    "zh-Hans": "陈平",
+    "fr": "Chen Ping",
+    "es": "Chen Ping",
+    "hi": "चेन पिंग"
   },
   "Chairman of iSunTV": {
     "ja": "陽光衛視 董事局主席",
     "he": "יו״ר iSunTV",
-    "zh-Hans": "阳光卫视董事局主席"
+    "zh-Hans": "阳光卫视董事局主席",
+    "fr": "Président du conseil d’iSunTV",
+    "es": "Presidente del consejo de iSunTV",
+    "hi": "iSunTV के निदेशक मंडल के अध्यक्ष"
   },
   "Chen Ping is a scholar, entrepreneur, founder of TideiSun Group and Chairman of iSunTV. In the 1980s, his policy research focused on economic reform, coastal opening, technology and international exchange. He participated in the 1984 Moganshan Conference, contributing to discussions on China’s economic direction.": {
     "ja": "陳平は、研究者・企業家であり、泰德陽光集団の創業者、陽光衛視の董事局主席です。1980年代には、中国の改革開放に関する政策研究に携わり、沿海地域の開放、科学技術、国際交流に取り組みました。1984年の莫干山会議にも参加し、中国の経済改革の方向性について議論しました。",
     "he": "צ׳ן פינג הוא חוקר, יזם, מייסד קבוצת TideiSun ויו״ר iSunTV. בשנות השמונים עסק במחקר מדיניות בנושאי הרפורמות הכלכליות בסין, פתיחת אזורי החוף, פיתוח טכנולוגי וקשרים בינלאומיים. ב־1984 השתתף בוועידת מוגאנשאן ותרם לדיונים על כיוונה הכלכלי של סין.",
-    "zh-Hans": "陈平是学者、企业家及泰德阳光集团创办人，现任阳光卫视董事局主席。八十年代，他参与中国改革开放的政策研究，关注沿海开放、科技发展与国际交流。1984 年，他参加莫干山会议，与同代研究者探讨经济改革的方向。"
+    "zh-Hans": "陈平是学者、企业家及泰德阳光集团创办人，现任阳光卫视董事局主席。八十年代，他参与中国改革开放的政策研究，关注沿海开放、科技发展与国际交流。1984 年，他参加莫干山会议，与同代研究者探讨经济改革的方向。",
+    "fr": "Chen Ping est chercheur, entrepreneur, fondateur de TideiSun Group et président du conseil d’iSunTV. Dans les années 1980, ses recherches portaient sur la réforme économique, l’ouverture des régions côtières, la technologie et les échanges internationaux. Il a participé à la conférence de Moganshan de 1984 et aux débats sur l’orientation économique de la Chine.",
+    "es": "Chen Ping es investigador, empresario, fundador de TideiSun Group y presidente del consejo de iSunTV. En la década de 1980, sus investigaciones se centraron en la reforma económica, la apertura de las regiones costeras, la tecnología y el intercambio internacional. Participó en la Conferencia de Moganshan de 1984, contribuyendo al debate sobre el rumbo económico de China.",
+    "hi": "चेन पिंग शोधकर्ता, उद्यमी, TideiSun Group के संस्थापक और iSunTV के अध्यक्ष हैं। 1980 के दशक में उनका नीतिगत शोध आर्थिक सुधार, तटीय क्षेत्रों के खुलेपन, प्रौद्योगिकी और अंतरराष्ट्रीय आदान-प्रदान पर केंद्रित था। उन्होंने 1984 के मोगानशान सम्मेलन में भाग लेकर चीन की आर्थिक दिशा पर चर्चा में योगदान दिया।"
   },
   "He later moved into business, working across trade, manufacturing, property and financial services. Tidetime developed in Hong Kong and established a long-running manufacturing and global sales relationship with Sony. After acquiring Sun TV in 2005, he directed the channel towards history, cultural documentaries and in-depth discussion.": {
     "ja": "その後は企業経営へと活動を広げ、貿易、製造、不動産、金融サービスに携わりました。香港で発展したTidetimeは、Sonyと製造および世界販売における長期的な協力関係を築きました。2005年に陽光衛視を取得した後は、歴史、人文ドキュメンタリー、深い対話を中心とする番組づくりを推進しました。",
     "he": "בהמשך פנה לעולם העסקים ופעל בתחומי המסחר, הייצור, הנדל״ן והשירותים הפיננסיים. חברת Tidetime צמחה בהונג קונג וקיימה שיתוף פעולה ממושך עם Sony בייצור ובמכירות ברחבי העולם. לאחר שרכש את Sun TV ב־2005, כיוון את הערוץ להיסטוריה, לסרטי תעודה על תרבות ולדיוני עומק.",
-    "zh-Hans": "其后，他转向企业经营，业务经历涵盖贸易、制造、地产与金融服务。泰德时代在香港发展，并曾与 Sony 展开长期制造及全球销售合作。2005 年取得阳光卫视后，他推动频道专注历史、人文纪录片及深度谈话节目。"
+    "zh-Hans": "其后，他转向企业经营，业务经历涵盖贸易、制造、地产与金融服务。泰德时代在香港发展，并曾与 Sony 展开长期制造及全球销售合作。2005 年取得阳光卫视后，他推动频道专注历史、人文纪录片及深度谈话节目。",
+    "fr": "Il s’est ensuite tourné vers les affaires, dans le commerce, l’industrie, l’immobilier et les services financiers. Implantée à Hong Kong, Tidetime a noué avec Sony une relation durable de production et de distribution internationale. Après l’acquisition de Sun TV en 2005, il a orienté la chaîne vers l’histoire, les documentaires culturels et les débats de fond.",
+    "es": "Más adelante se dedicó a los negocios en sectores como el comercio, la industria, el mercado inmobiliario y los servicios financieros. Tidetime se desarrolló en Hong Kong y estableció una relación duradera con Sony en fabricación y ventas internacionales. Tras adquirir Sun TV en 2005, orientó el canal hacia la historia, los documentales culturales y el debate en profundidad.",
+    "hi": "बाद में उन्होंने व्यापार, विनिर्माण, संपत्ति और वित्तीय सेवाओं में काम किया। हांगकांग में विकसित Tidetime ने Sony के साथ विनिर्माण और वैश्विक बिक्री का दीर्घकालिक संबंध बनाया। 2005 में Sun TV के अधिग्रहण के बाद उन्होंने चैनल को इतिहास, सांस्कृतिक वृत्तचित्रों और गहन चर्चा की ओर मोड़ा।"
   },
   "His media work includes preserving personal testimony and public debate, as well as the launch of iSun Affairs. His technology interests extend to distributed cloud systems, blockchain and financial technology. Across research, business and media, his work explores social change, individual agency and new forms of collaboration.": {
     "ja": "メディアを通じて個人の証言と時代の記憶を残し、『陽光時務』の創刊や公共的な議論にも関わってきました。技術分野では、分散型クラウド、ブロックチェーン、金融テクノロジーの可能性を探究しています。政策研究から企業経営、メディア、技術まで、社会の変化と個人の自律、新たな協力のあり方を問い続けています。",
     "he": "עשייתו בתקשורת כוללת שימור עדויות אישיות וקידום דיון ציבורי, לצד השקת iSun Affairs. תחומי העניין הטכנולוגיים שלו כוללים ענן מבוזר, בלוקצ׳יין וטכנולוגיה פיננסית. במחקר, בעסקים ובתקשורת, עבודתו עוסקת בשינוי חברתי, בעצמאות הפרט ובאפשרויות חדשות לשיתוף פעולה.",
-    "zh-Hans": "他以媒体保存人物经验与时代记忆，亦参与《阳光时务》的创办及公共议题讨论。在科技领域，他持续探索分散式云端、区块链与金融科技的应用。从政策研究、企业实践到媒体与科技，他的工作始终围绕社会变迁、人的自主与新的合作可能。"
+    "zh-Hans": "他以媒体保存人物经验与时代记忆，亦参与《阳光时务》的创办及公共议题讨论。在科技领域，他持续探索分散式云端、区块链与金融科技的应用。从政策研究、企业实践到媒体与科技，他的工作始终围绕社会变迁、人的自主与新的合作可能。",
+    "fr": "Son engagement dans les médias comprend la préservation des témoignages et du débat public, ainsi que le lancement d’iSun Affairs. Il s’intéresse également au cloud distribué, à la blockchain et aux technologies financières. Ses activités de recherche, d’entreprise et de médias explorent les transformations sociales, la capacité d’action individuelle et de nouvelles formes de coopération.",
+    "es": "Su labor en los medios incluye la conservación de testimonios y del debate público, así como el lanzamiento de iSun Affairs. Sus intereses tecnológicos abarcan la nube distribuida, la cadena de bloques y la tecnología financiera. Desde la investigación, la empresa y los medios, explora el cambio social, la iniciativa individual y nuevas formas de colaboración.",
+    "hi": "मीडिया में उनके काम में व्यक्तिगत गवाहियों और सार्वजनिक बहस का संरक्षण तथा iSun Affairs की शुरुआत शामिल है। उनकी तकनीकी रुचियों में वितरित क्लाउड प्रणालियाँ, ब्लॉकचेन और वित्तीय प्रौद्योगिकी शामिल हैं। शोध, व्यवसाय और मीडिया के माध्यम से वे सामाजिक बदलाव, व्यक्ति की निर्णय क्षमता और सहयोग के नए रूपों को समझते हैं।"
   },
   "Official group biography": {
     "ja": "グループ公式略歴",
     "he": "ביוגרפיה רשמית באתר הקבוצה",
-    "zh-Hans": "集团官方简介"
+    "zh-Hans": "集团官方简介",
+    "fr": "Biographie officielle du groupe",
+    "es": "Biografía oficial del grupo",
+    "hi": "समूह की आधिकारिक जीवनी"
   },
   "Read the full profile PDF": {
     "ja": "詳しい紹介を読む（PDF）",
     "he": "לפרופיל המלא ב־PDF",
-    "zh-Hans": "阅读完整介绍 PDF"
+    "zh-Hans": "阅读完整介绍 PDF",
+    "fr": "Lire la biographie complète en PDF",
+    "es": "Leer el perfil completo en PDF",
+    "hi": "पूरा परिचय PDF में पढ़ें"
   },
   "Every authorization, clearly defined.": {
     "ja": "一つひとつの許諾を、明確に。",
     "he": "כל הרשאה, בתנאים ברורים.",
-    "zh-Hans": "每一份授权，清楚可查。"
+    "zh-Hans": "每一份授权，清楚可查。",
+    "fr": "Chaque autorisation, clairement définie.",
+    "es": "Cada autorización, claramente definida.",
+    "hi": "हर अनुमति का स्पष्ट दायरा।"
   },
   "We welcome enquiries from education providers, cultural projects and commercial partners. Scope, territory, duration and brand use are reviewed for each partnership.": {
     "ja": "教育・研修機関、文化事業、企業の皆様からのご相談を歓迎します。提携ごとに、利用範囲、地域、期間、ブランドの使用方法を確認します。",
     "he": "נשמח לשמוע ממוסדות חינוך והכשרה, ממיזמי תרבות ומשותפים עסקיים. בכל שותפות נבחנים היקף הפעילות, האזור, התקופה ואופן השימוש במותג.",
-    "zh-Hans": "欢迎教育培训机构、文化项目与商业伙伴洽谈品牌合作。合作范围、地域、期限及品牌使用方式，均须逐项确认。"
+    "zh-Hans": "欢迎教育培训机构、文化项目与商业伙伴洽谈品牌合作。合作范围、地域、期限及品牌使用方式，均须逐项确认。",
+    "fr": "Nous accueillons les propositions d’acteurs de l’éducation, de projets culturels et de partenaires commerciaux. Le périmètre, le territoire, la durée et les usages de la marque sont examinés pour chaque partenariat.",
+    "es": "Recibimos propuestas de entidades educativas, proyectos culturales y socios comerciales. Para cada colaboración se revisan el alcance, el territorio, la duración y el uso de la marca.",
+    "hi": "शैक्षिक संस्थाओं, सांस्कृतिक परियोजनाओं और व्यावसायिक साझेदारों के प्रस्तावों का स्वागत है। हर साझेदारी में कार्य-दायरा, क्षेत्र, अवधि और ब्रांड के उपयोग की अलग समीक्षा होती है।"
   },
   "Propose a partnership": {
     "ja": "提携のご相談",
     "he": "הציעו שותפות",
-    "zh-Hans": "提出合作"
+    "zh-Hans": "提出合作",
+    "fr": "Proposer un partenariat",
+    "es": "Proponer una colaboración",
+    "hi": "साझेदारी का प्रस्ताव दें"
   },
   "Share your organization, project and proposed brand use.": {
     "ja": "組織の概要、企画内容、想定するブランド利用方法をお知らせください。",
     "he": "ספרו לנו על הארגון, על הפרויקט ועל השימוש המתוכנן במותג.",
-    "zh-Hans": "说明机构背景、项目与预计使用方式。"
+    "zh-Hans": "说明机构背景、项目与预计使用方式。",
+    "fr": "Présentez votre organisme, votre projet et l’usage envisagé de la marque.",
+    "es": "Presente su entidad, su proyecto y el uso previsto de la marca.",
+    "hi": "अपनी संस्था, परियोजना और ब्रांड के प्रस्तावित उपयोग के बारे में बताएँ।"
   },
   "Review and approval": {
     "ja": "審査・承認",
     "he": "בחינה ואישור",
-    "zh-Hans": "审核与批准"
+    "zh-Hans": "审核与批准",
+    "fr": "Examen et approbation",
+    "es": "Revisión y aprobación",
+    "hi": "समीक्षा और स्वीकृति"
   },
   "Obtain approval and authorization from the board and management team.": {
     "ja": "取締役会および経営陣の承認と権限付与を受けます。",
     "he": "קבלת אישור והרשאה מהדירקטוריון ומצוות ההנהלה.",
-    "zh-Hans": "经过董事会及管理团队批准和授权"
+    "zh-Hans": "经过董事会及管理团队批准和授权",
+    "fr": "Obtenir l’approbation et l’autorisation du conseil et de l’équipe de direction.",
+    "es": "Obtener la aprobación y autorización del consejo y del equipo directivo.",
+    "hi": "निदेशक मंडल और प्रबंधन टीम की स्वीकृति तथा अनुमति प्राप्त करें।"
   },
   "Register and verify": {
     "ja": "登録・確認",
     "he": "רישום ואימות",
-    "zh-Hans": "登记与查验"
+    "zh-Hans": "登记与查验",
+    "fr": "Enregistrement et vérification",
+    "es": "Registro y verificación",
+    "hi": "पंजीकरण और सत्यापन"
   },
   "Once registered, an authorization can be checked for scope, validity and revocation.": {
     "ja": "正式登録後は、利用範囲、有効期間、取消状況を確認できます。",
     "he": "לאחר הרישום ניתן לבדוק את היקף ההרשאה, את תוקפה ואם בוטלה.",
-    "zh-Hans": "正式授权登记后，可核对适用范围、期限及撤销状态。"
+    "zh-Hans": "正式授权登记后，可核对适用范围、期限及撤销状态。",
+    "fr": "Une fois enregistrée, une autorisation peut être vérifiée quant à son périmètre, sa validité et son éventuelle révocation.",
+    "es": "Una vez registrada, la autorización puede comprobarse en cuanto a alcance, vigencia y posible revocación.",
+    "hi": "पंजीकरण के बाद अनुमति के दायरे, वैधता और निरस्तीकरण की जाँच की जा सकती है।"
   },
   "Robin Xie portrait with a conceptual document-verification illustration": {
     "ja": "謝玢 Robin Xieの肖像と文書検証の概念を組み合わせたイメージ",
     "he": "דיוקן של רובין שיה בשילוב המחשה רעיונית לאימות מסמכים",
-    "zh-Hans": "谢玢 Robin Xie 肖像与文件验证概念合成图"
+    "zh-Hans": "谢玢 Robin Xie 肖像与文件验证概念合成图",
+    "fr": "Portrait de Robin Xie associé à une illustration conceptuelle de vérification documentaire",
+    "es": "Retrato de Robin Xie con una ilustración conceptual de verificación documental",
+    "hi": "दस्तावेज़ सत्यापन की वैचारिक छवि के साथ Robin Xie का चित्र"
   },
   "Portrait with a conceptual verification illustration": {
     "ja": "肖像と検証の概念を組み合わせたイメージ",
     "he": "דיוקן בשילוב המחשה רעיונית לאימות",
-    "zh-Hans": "人物肖像与验证概念合成图"
+    "zh-Hans": "人物肖像与验证概念合成图",
+    "fr": "Portrait et illustration conceptuelle de vérification",
+    "es": "Retrato e ilustración conceptual de verificación",
+    "hi": "सत्यापन की वैचारिक छवि के साथ व्यक्ति का चित्र"
   },
   "Robin Xie": {
     "zh-Hans": "谢玢",
     "ja": "Robin Xie",
-    "he": "Robin Xie"
+    "he": "Robin Xie",
+    "fr": "Robin Xie",
+    "es": "Robin Xie",
+    "hi": "Robin Xie"
   },
   "Executive Director · Brand licensing lead": {
     "ja": "陽光衛視 エグゼクティブ・ディレクター · ブランドライセンス責任者",
     "he": "מנהלת ביצועית ב־iSunTV · אחראית רישוי המותג",
-    "zh-Hans": "阳光卫视执行董事 · 品牌授权负责人"
+    "zh-Hans": "阳光卫视执行董事 · 品牌授权负责人",
+    "fr": "Directrice exécutive · Responsable des licences de marque",
+    "es": "Directora ejecutiva · Responsable de licencias de marca",
+    "hi": "कार्यकारी निदेशक · ब्रांड लाइसेंसिंग प्रमुख"
   },
   "Official profile": {
     "ja": "公式プロフィール",
     "he": "הפרופיל הרשמי",
-    "zh-Hans": "官方人物简介"
+    "zh-Hans": "官方人物简介",
+    "fr": "Profil officiel",
+    "es": "Perfil oficial",
+    "hi": "आधिकारिक परिचय"
   },
   "A conversation, photograph, business card or payment alone does not constitute an iSunTV brand authorization.": {
     "ja": "面談、記念写真、名刺の交換、支払いのみでは、陽光衛視のブランド使用許諾は成立しません。",
     "he": "שיחה, צילום משותף, כרטיס ביקור או תשלום לבדם אינם מהווים הרשאה לשימוש במותג iSunTV.",
-    "zh-Hans": "洽谈、合照、名片或付款本身，均不构成阳光卫视品牌授权。"
+    "zh-Hans": "洽谈、合照、名片或付款本身，均不构成阳光卫视品牌授权。",
+    "fr": "Une conversation, une photographie, une carte de visite ou un paiement ne constitue pas, à lui seul, une autorisation d’utilisation de la marque iSunTV.",
+    "es": "Una conversación, una fotografía, una tarjeta de visita o un pago no constituyen, por sí solos, una autorización para usar la marca iSunTV.",
+    "hi": "केवल बातचीत, तस्वीर, विज़िटिंग कार्ड या भुगतान को iSunTV ब्रांड के उपयोग की अनुमति नहीं माना जा सकता।"
   },
   "Verify an authorization": {
     "ja": "ブランド使用許諾を確認",
     "he": "בדיקת הרשאה",
-    "zh-Hans": "授权查验"
+    "zh-Hans": "授权查验",
+    "fr": "Vérifier une autorisation",
+    "es": "Verificar una autorización",
+    "hi": "अनुमति की जाँच करें"
   },
   "Enter an authorization ID": {
     "ja": "許諾番号を入力",
     "he": "הזינו מספר הרשאה",
-    "zh-Hans": "输入授权编号"
+    "zh-Hans": "输入授权编号",
+    "fr": "Saisissez un numéro d’autorisation",
+    "es": "Introduzca un número de autorización",
+    "hi": "अनुमति संख्या दर्ज करें"
   },
   "Authorization ID": {
     "ja": "許諾番号",
     "he": "מספר הרשאה",
-    "zh-Hans": "查询编号"
+    "zh-Hans": "查询编号",
+    "fr": "Numéro d’autorisation",
+    "es": "Número de autorización",
+    "hi": "अनुमति संख्या"
   },
   "Verify": {
     "ja": "確認する",
     "he": "בדיקה",
-    "zh-Hans": "查验"
+    "zh-Hans": "查验",
+    "fr": "Vérifier",
+    "es": "Verificar",
+    "hi": "जाँचें"
   },
-  "The public register is being prepared. For now, confirm authorizations with partner@iSunTV.com. An absent record is not, by itself, a finding of misuse.": {
-    "ja": "公開登録簿は準備中です。現在は partner@iSunTV.com まで確認をお申し付けください。記録が見つからないことだけをもって、不正利用とは判断できません。",
-    "he": "המרשם הציבורי נמצא בהכנה. בינתיים, לאימות הרשאות פנו אל partner@iSunTV.com. היעדר רישום כשלעצמו אינו מעיד על שימוש בלתי מורשה.",
-    "zh-Hans": "公开登记正在准备中。现阶段，请向 partner@iSunTV.com 核实授权。未查到纪录不等于判定为冒用；请先联络我们。"
+  "The public register is being prepared. For now, confirm authorizations with partner@isuntv.com. An absent record is not, by itself, a finding of misuse.": {
+    "ja": "公開登録簿は準備中です。現在は partner@isuntv.com まで確認をお申し付けください。記録が見つからないことだけをもって、不正利用とは判断できません。",
+    "he": "המרשם הציבורי נמצא בהכנה. בינתיים, לאימות הרשאות פנו אל partner@isuntv.com. היעדר רישום כשלעצמו אינו מעיד על שימוש בלתי מורשה.",
+    "zh-Hans": "公开登记正在准备中。现阶段，请向 partner@isuntv.com 核实授权。未查到纪录不等于判定为冒用；请先联络我们。",
+    "fr": "Le registre public est en préparation. Pour l’instant, faites confirmer les autorisations auprès de partner@isuntv.com. L’absence d’un enregistrement ne prouve pas, à elle seule, un usage abusif.",
+    "es": "El registro público está en preparación. Por ahora, confirme las autorizaciones escribiendo a partner@isuntv.com. La ausencia de un registro no demuestra por sí sola un uso indebido.",
+    "hi": "सार्वजनिक रजिस्टर तैयार किया जा रहा है। फिलहाल अनुमति की पुष्टि के लिए partner@isuntv.com पर संपर्क करें। किसी रिकॉर्ड का न मिलना अपने-आप में दुरुपयोग का प्रमाण नहीं है।"
   },
   "Blockchain evidence can support the existence and integrity of a document. Validity also requires checking approval, scope and current status.": {
     "ja": "ブロックチェーンの記録は、文書の存在と完全性を裏付ける手段です。許諾の有効性については、承認内容、利用範囲、最新の状態も確認する必要があります。",
     "he": "רישום בבלוקצ׳יין עשוי לתמוך בהוכחת קיומו ושלמותו של מסמך. לבדיקת תוקף ההרשאה יש לוודא גם את האישור, את היקף השימוש ואת המצב העדכני.",
-    "zh-Hans": "区块链存证可佐证文件的存在与完整性；授权是否有效，仍须核对批准、使用范围及最新状态。"
+    "zh-Hans": "区块链存证可佐证文件的存在与完整性；授权是否有效，仍须核对批准、使用范围及最新状态。",
+    "fr": "Une preuve blockchain peut étayer l’existence et l’intégrité d’un document. Sa validité exige également de vérifier l’approbation, le périmètre et le statut actuel.",
+    "es": "Una prueba en blockchain puede respaldar la existencia e integridad de un documento. Para determinar su validez también deben comprobarse la aprobación, el alcance y el estado actual.",
+    "hi": "ब्लॉकचेन प्रमाण किसी दस्तावेज़ के अस्तित्व और अखंडता की पुष्टि में मदद कर सकता है। उसकी वैधता के लिए स्वीकृति, दायरे और वर्तमान स्थिति की जाँच भी ज़रूरी है।"
   },
   "Be seen.\nBuild connections.": {
     "ja": "世界に伝わる。\nつながりが生まれる。",
     "he": "נראות בינלאומית.\nקשרים בעלי ערך.",
-    "zh-Hans": "让世界看见，\n让合作发生。"
+    "zh-Hans": "让世界看见，\n让合作发生。",
+    "fr": "Gagner en visibilité.\nCréer des liens.",
+    "es": "Ganar visibilidad.\nCrear conexiones.",
+    "hi": "पहचान बढ़ाएँ।\nनए संबंध बनाएँ।"
   },
   "From Hong Kong, bring your experience, brand and story to a wider international audience.": {
     "ja": "香港を起点に、企業の経験、ブランド、ストーリーを世界へ届けます。",
     "he": "מהונג קונג, מביאים את הניסיון, המותג והסיפור שלכם לקהל בינלאומי רחב יותר.",
-    "zh-Hans": "以香港为起点，将企业的经验、品牌与故事，带到更广阔的国际舞台。"
+    "zh-Hans": "以香港为起点，将企业的经验、品牌与故事，带到更广阔的国际舞台。",
+    "fr": "Depuis Hong Kong, faire connaître votre expérience, votre marque et votre histoire à un public international plus large.",
+    "es": "Desde Hong Kong, lleve su experiencia, su marca y su historia a un público internacional más amplio.",
+    "hi": "हांगकांग से अपने अनुभव, ब्रांड और कहानी को व्यापक अंतरराष्ट्रीय दर्शकों तक पहुँचाएँ।"
   },
   "Discuss your plans": {
     "ja": "海外展開について相談する",
     "he": "בואו נדבר על התוכניות שלכם",
-    "zh-Hans": "洽谈出海合作"
+    "zh-Hans": "洽谈出海合作",
+    "fr": "Parlons de vos projets",
+    "es": "Hablemos de sus planes",
+    "hi": "अपनी योजना पर बात करें"
   },
   "Brand and story": {
     "ja": "ブランドを伝える物語",
     "he": "המותג והסיפור",
-    "zh-Hans": "品牌与叙事"
+    "zh-Hans": "品牌与叙事",
+    "fr": "La marque et son histoire",
+    "es": "La marca y su historia",
+    "hi": "ब्रांड और उसकी कहानी"
   },
   "Communicate your experience, value and direction through in-depth conversations and film.": {
     "ja": "深い対話と映像を通じて、企業の経験、価値、目指す未来を伝えます。",
     "he": "הציגו את הניסיון, הערך והכיוון שלכם באמצעות שיחות עומק ותוכן מצולם.",
-    "zh-Hans": "以深度访谈与影像内容，清楚呈现企业的经验、价值与方向。"
+    "zh-Hans": "以深度访谈与影像内容，清楚呈现企业的经验、价值与方向。",
+    "fr": "Mettre en lumière votre expérience, vos valeurs et votre vision grâce à des entretiens approfondis et à l’image.",
+    "es": "Comunique su experiencia, su valor y su rumbo mediante conversaciones en profundidad y contenidos audiovisuales.",
+    "hi": "गहन बातचीत और फ़िल्म के माध्यम से अपने अनुभव, मूल्य और दिशा को सामने रखें।"
   },
   "Explore selected interviews": {
     "ja": "インタビューを見る",
     "he": "למבחר הראיונות",
-    "zh-Hans": "探索采访精选"
+    "zh-Hans": "探索采访精选",
+    "fr": "Découvrir les entretiens sélectionnés",
+    "es": "Descubrir las entrevistas seleccionadas",
+    "hi": "चुनिंदा साक्षात्कार देखें"
   },
   "International connections": {
     "ja": "国際的なつながり",
     "he": "קשרים בינלאומיים",
-    "zh-Hans": "国际连接"
+    "zh-Hans": "国际连接",
+    "fr": "Connexions internationales",
+    "es": "Conexiones internacionales",
+    "hi": "अंतरराष्ट्रीय संपर्क"
   },
   "Explore local relationships and opportunities around a defined market and project.": {
     "ja": "目標市場と具体的なプロジェクトを軸に、現地との接点や協力の可能性を探ります。",
     "he": "בוחנים קשרים מקומיים והזדמנויות סביב שוק יעד מוגדר ופרויקט קונקרטי.",
-    "zh-Hans": "围绕目标市场与具体项目，探讨在地资源及合作可能。"
+    "zh-Hans": "围绕目标市场与具体项目，探讨在地资源及合作可能。",
+    "fr": "Explorer les contacts et les opportunités locales autour d’un marché et d’un projet précis.",
+    "es": "Explorar relaciones y oportunidades locales en torno a un mercado y un proyecto definidos.",
+    "hi": "किसी तय बाज़ार और परियोजना के लिए स्थानीय संबंधों और अवसरों की संभावनाएँ तलाशें।"
   },
   "Start a conversation": {
     "ja": "まずはご相談ください",
     "he": "מתחילים בשיחה",
-    "zh-Hans": "联络我们"
+    "zh-Hans": "联络我们",
+    "fr": "Engager le dialogue",
+    "es": "Iniciar una conversación",
+    "hi": "बातचीत शुरू करें"
   },
   "Lasting partnerships": {
     "ja": "長期的なパートナーシップ",
     "he": "שותפויות לאורך זמן",
-    "zh-Hans": "长期合作"
+    "zh-Hans": "长期合作",
+    "fr": "Des partenariats durables",
+    "es": "Colaboraciones duraderas",
+    "hi": "दीर्घकालिक साझेदारियाँ"
   },
   "Define the scope, responsibilities and brand use that support a lasting partnership.": {
     "ja": "協力の範囲、責任分担、ブランド使用を明確にし、継続的な提携の土台を整えます。",
     "he": "מגדירים היקף פעילות, אחריות ושימוש במותג כבסיס לשותפות מתמשכת.",
-    "zh-Hans": "从清晰的合作范围开始，让品牌使用、责任与推进方式有所依据。"
+    "zh-Hans": "从清晰的合作范围开始，让品牌使用、责任与推进方式有所依据。",
+    "fr": "Définir le périmètre, les responsabilités et les usages de la marque pour construire une relation durable.",
+    "es": "Definir el alcance, las responsabilidades y el uso de la marca para construir una colaboración duradera.",
+    "hi": "स्थायी साझेदारी के लिए कार्य-दायरा, ज़िम्मेदारियाँ और ब्रांड का उपयोग स्पष्ट करें।"
   },
   "Explore brand partnerships": {
     "ja": "ブランド提携について",
     "he": "על שותפויות המותג",
-    "zh-Hans": "了解品牌合作"
+    "zh-Hans": "了解品牌合作",
+    "fr": "Découvrir les partenariats de marque",
+    "es": "Conocer las colaboraciones de marca",
+    "hi": "ब्रांड साझेदारियाँ जानें"
   },
   "People and their times": {
     "ja": "人物から見つめる時代",
     "he": "אנשים ותקופתם",
-    "zh-Hans": "人物与时代"
+    "zh-Hans": "人物与时代",
+    "fr": "Des personnes et leur époque",
+    "es": "Las personas y su época",
+    "hi": "लोग और उनका समय"
   },
   "Explore our archive of conversations about creative work, careers and life. New entrepreneur interviews will be added as they are produced.": {
     "ja": "創作、仕事、人生をめぐる、珠玉の対話をアーカイブからお届けします。企業家への新たなインタビューも、制作に合わせて順次公開します。",
     "he": "גלו שיחות מהארכיון על יצירה, קריירה וחיים. ראיונות חדשים עם יזמים יתווספו עם השלמת הפקתם.",
-    "zh-Hans": "从经典人物访谈开始，看见创作、事业与人生。企业主新访谈将随内容制作陆续推出。"
+    "zh-Hans": "从经典人物访谈开始，看见创作、事业与人生。企业主新访谈将随内容制作陆续推出。",
+    "fr": "Explorez nos archives d’entretiens consacrés à la création, aux parcours professionnels et à la vie. De nouveaux entretiens avec des entrepreneurs seront ajoutés au fil de leur production.",
+    "es": "Explore nuestro archivo de conversaciones sobre creación, trayectorias profesionales y experiencias de vida. Se incorporarán nuevas entrevistas con emprendedores a medida que se produzcan.",
+    "hi": "रचनात्मक कार्य, पेशेवर यात्राओं और जीवन पर बातचीत का हमारा संग्रह देखें। उद्यमियों के नए साक्षात्कार तैयार होने पर इसमें जोड़े जाएँगे।"
   },
   "Browse the programme archive": {
     "ja": "番組アーカイブを見る",
     "he": "לארכיון התוכניות",
-    "zh-Hans": "浏览完整节目库"
+    "zh-Hans": "浏览完整节目库",
+    "fr": "Parcourir les archives des programmes",
+    "es": "Explorar el archivo de programas",
+    "hi": "कार्यक्रमों का संग्रह देखें"
   },
   "Business partnerships": {
     "ja": "ビジネスに関するご相談",
     "he": "שותפויות עסקיות",
-    "zh-Hans": "商务合作"
+    "zh-Hans": "商务合作",
+    "fr": "Partenariats professionnels",
+    "es": "Colaboraciones profesionales",
+    "hi": "व्यावसायिक साझेदारियाँ"
   },
   "Global presence illustration": {
     "ja": "世界の拠点を示すイメージ",
     "he": "המחשה של הפריסה הבינלאומית",
-    "zh-Hans": "全球联络据点示意"
+    "zh-Hans": "全球联络据点示意",
+    "fr": "Illustration de la présence internationale",
+    "es": "Ilustración de presencia internacional",
+    "hi": "वैश्विक उपस्थिति की सांकेतिक छवि"
   },
   "Our group offices": {
     "ja": "グループのオフィス",
     "he": "משרדי הקבוצה",
-    "zh-Hans": "集团办公室"
+    "zh-Hans": "集团办公室",
+    "fr": "Les bureaux du groupe",
+    "es": "Oficinas del grupo",
+    "hi": "समूह के कार्यालय"
   },
   "Show Hong Kong map (Google Maps)": {
     "ja": "香港の地図を表示（Google Maps）",
     "he": "הצגת מפת הונג קונג ב־Google Maps",
-    "zh-Hans": "显示香港地图（Google Maps）"
+    "zh-Hans": "显示香港地图（Google Maps）",
+    "fr": "Afficher le plan de Hong Kong (Google Maps)",
+    "es": "Mostrar el mapa de Hong Kong (Google Maps)",
+    "hi": "हांगकांग का नक्शा दिखाएँ (Google Maps)"
   },
   "Offices are shared with TideiSun Group. Please arrange an appointment before visiting.": {
     "ja": "オフィスは泰德陽光集団と共用しています。ご来訪の際は、事前にご予約ください。",
     "he": "המשרדים משותפים עם קבוצת TideiSun. יש לתאם פגישה לפני ההגעה.",
-    "zh-Hans": "办公室与 TideiSun Group 共用。到访前请先预约。"
+    "zh-Hans": "办公室与 TideiSun Group 共用。到访前请先预约。",
+    "fr": "Les bureaux sont partagés avec TideiSun Group. Merci de prendre rendez-vous avant toute visite.",
+    "es": "Compartimos oficinas con TideiSun Group. Concierte una cita antes de visitarnos.",
+    "hi": "कार्यालय TideiSun Group के साथ साझा हैं। आने से पहले कृपया समय तय करें।"
   },
   "Business enquiry information": {
     "ja": "お問い合わせ情報について",
     "he": "המידע בפנייה העסקית",
-    "zh-Hans": "合作查询资料"
+    "zh-Hans": "合作查询资料",
+    "fr": "Informations relatives aux demandes professionnelles",
+    "es": "Información de las consultas profesionales",
+    "hi": "व्यावसायिक पूछताछ की जानकारी"
   },
   "We use your name, organization, email and message to review and respond to your enquiry. Your submission is not displayed publicly.": {
     "ja": "ご提供いただいた氏名、組織名、メールアドレス、お問い合わせ内容は、ご相談の検討と返信に使用します。送信内容をウェブサイトで公開することはありません。",
     "he": "אנו משתמשים בשם, בשם הארגון, בכתובת הדוא״ל ובתוכן ההודעה כדי לבחון את פנייתכם ולהשיב עליה. תוכן הפנייה אינו מוצג באתר לציבור.",
-    "zh-Hans": "提交表格时，我们会使用你提供的姓名、机构、电邮与讯息，处理合作查询及回复。我们不会在公开网站展示你的查询内容。"
+    "zh-Hans": "提交表格时，我们会使用你提供的姓名、机构、电邮与讯息，处理合作查询及回复。我们不会在公开网站展示你的查询内容。",
+    "fr": "Nous utilisons votre nom, votre organisme, votre adresse électronique et votre message pour examiner votre demande et y répondre. Votre envoi n’est pas rendu public.",
+    "es": "Utilizamos su nombre, entidad, correo electrónico y mensaje para estudiar su consulta y responderle. Su envío no se publica.",
+    "hi": "हम आपका नाम, संस्था, ईमेल और संदेश आपकी पूछताछ समझने तथा उसका उत्तर देने के लिए उपयोग करते हैं। आपकी भेजी जानकारी सार्वजनिक नहीं की जाती।"
   },
   "When enabled, the form sends your details to the Google Workspace mailbox managed by the iSunTV partnerships team to handle and answer your enquiry. The website does not maintain a separate enquiry database; the team manages the resulting email. If submission is not confirmed, please email us directly.": {
     "ja": "フォームが有効な場合、情報はメール配信サービスを通じて、陽光衛視の提携担当チームが管理するGoogle Workspaceのメールボックスへ送られます。ウェブサイトに問い合わせ専用のデータベースは設けず、届いたメールは担当チームが管理します。送信完了を確認できない場合は、直接メールでご連絡ください。",
     "he": "כשהטופס פעיל, הפרטים נשלחים באמצעות שירות הדואר לתיבת Google Workspace שבניהול צוות השותפויות של iSunTV, לצורך טיפול ומענה. האתר אינו מחזיק מאגר פניות נפרד; הצוות מנהל את הודעות הדוא״ל שהתקבלו. אם לא התקבל אישור לשליחה, פנו אלינו ישירות בדוא״ל.",
-    "zh-Hans": "表格启用后，资料会透过邮件服务传送至阳光卫视合作团队管理的 Google Workspace 信箱，用于处理及回复查询。网站不另行建立查询资料库；邮件由合作团队管理。如页面未确认提交成功，请改用直接电邮。"
+    "zh-Hans": "表格启用后，资料会透过邮件服务传送至阳光卫视合作团队管理的 Google Workspace 信箱，用于处理及回复查询。网站不另行建立查询资料库；邮件由合作团队管理。如页面未确认提交成功，请改用直接电邮。",
+    "fr": "Lorsqu’il est activé, le formulaire transmet vos informations à la boîte Google Workspace gérée par l’équipe partenariats d’iSunTV, afin de traiter votre demande et d’y répondre. Le site ne tient pas de base de données distincte des demandes ; l’équipe gère les courriels reçus. Si l’envoi n’est pas confirmé, contactez-nous directement par courriel.",
+    "es": "Cuando está habilitado, el formulario envía sus datos al buzón de Google Workspace gestionado por el equipo de colaboraciones de iSunTV para atender su consulta. El sitio no mantiene una base de datos independiente de consultas; el equipo gestiona los correos recibidos. Si no se confirma el envío, escríbanos directamente.",
+    "hi": "सक्रिय होने पर यह फ़ॉर्म आपकी जानकारी iSunTV की साझेदारी टीम द्वारा संचालित Google Workspace मेलबॉक्स में भेजता है, ताकि आपकी पूछताछ का उत्तर दिया जा सके। वेबसाइट पूछताछ का अलग डेटाबेस नहीं रखती; टीम प्राप्त ईमेल संभालती है। यदि भेजे जाने की पुष्टि न हो, तो हमें सीधे ईमेल करें।"
   },
   "External services including Google Maps and YouTube process connection information under their own policies. You may choose whether to follow external links.": {
     "ja": "Google MapsやYouTubeなどの外部サービスは、それぞれの方針に基づき接続情報を処理します。外部リンクを利用するかどうかは、ご自身でお選びいただけます。",
     "he": "שירותים חיצוניים, ובהם Google Maps ו־YouTube, מעבדים נתוני חיבור בהתאם למדיניות שלהם. השימוש בקישורים החיצוניים נתון לבחירתכם.",
-    "zh-Hans": "Google Maps 及 YouTube 等外部服务按其各自政策处理连线资料。你可选择使用外部连结。"
+    "zh-Hans": "Google Maps 及 YouTube 等外部服务按其各自政策处理连线资料。你可选择使用外部连结。",
+    "fr": "Les services externes, notamment Google Maps et YouTube, traitent les informations de connexion selon leurs propres politiques. Vous êtes libre d’ouvrir ou non ces liens.",
+    "es": "Los servicios externos, incluidos Google Maps y YouTube, tratan los datos de conexión según sus propias políticas. Usted decide si desea abrir esos enlaces.",
+    "hi": "Google Maps और YouTube जैसी बाहरी सेवाएँ अपनी नीतियों के अनुसार कनेक्शन की जानकारी संभालती हैं। उनके लिंक खोलना आपकी इच्छा पर निर्भर है।"
   },
   "For correction, deletion or questions about your information, contact:": {
     "ja": "情報の訂正・削除、取り扱いに関するお問い合わせ先：",
     "he": "לתיקון או למחיקת מידע, ולשאלות על אופן הטיפול בו, פנו אל:",
-    "zh-Hans": "如需更正、删除资料或查询处理方式，请联络："
+    "zh-Hans": "如需更正、删除资料或查询处理方式，请联络：",
+    "fr": "Pour faire corriger ou supprimer vos informations, ou pour toute question, contactez :",
+    "es": "Para solicitar la corrección o eliminación de sus datos, o hacer una consulta, contacte con:",
+    "hi": "अपनी जानकारी में सुधार, उसे हटाने या किसी प्रश्न के लिए संपर्क करें:"
   },
   "Public register not yet enabled": {
     "ja": "公開登録簿はまだ利用できません",
     "he": "המרשם הציבורי עדיין אינו פעיל",
-    "zh-Hans": "公开登记尚未启用"
+    "zh-Hans": "公开登记尚未启用",
+    "fr": "Le registre public n’est pas encore activé",
+    "es": "El registro público aún no está habilitado",
+    "hi": "सार्वजनिक रजिस्टर अभी सक्रिय नहीं है"
   },
   "No public record found": {
     "ja": "該当する公開記録が見つかりません",
     "he": "לא נמצא רישום ציבורי למספר זה",
-    "zh-Hans": "未找到此编号的公开纪录"
+    "zh-Hans": "未找到此编号的公开纪录",
+    "fr": "Aucun enregistrement public trouvé",
+    "es": "No se encontró ningún registro público",
+    "hi": "कोई सार्वजनिक रिकॉर्ड नहीं मिला"
   },
   "This record cannot currently be verified": {
     "ja": "この記録は現在確認できません",
     "he": "לא ניתן לאמת את הרישום כעת",
-    "zh-Hans": "目前无法确认此纪录"
+    "zh-Hans": "目前无法确认此纪录",
+    "fr": "Cet enregistrement ne peut pas être vérifié pour le moment",
+    "es": "Este registro no puede verificarse por el momento",
+    "hi": "इस रिकॉर्ड की अभी पुष्टि नहीं की जा सकती"
   },
   "Active authorization": {
     "ja": "有効な許諾",
     "he": "ההרשאה בתוקף",
-    "zh-Hans": "授权有效"
+    "zh-Hans": "授权有效",
+    "fr": "Autorisation en vigueur",
+    "es": "Autorización vigente",
+    "hi": "अनुमति प्रभावी है"
   },
   "Not yet effective": {
     "ja": "有効期間前",
     "he": "ההרשאה טרם נכנסה לתוקף",
-    "zh-Hans": "尚未生效"
+    "zh-Hans": "尚未生效",
+    "fr": "Pas encore entrée en vigueur",
+    "es": "Aún no ha entrado en vigor",
+    "hi": "अभी प्रभावी नहीं है"
   },
   "Authorization expired": {
     "ja": "許諾期間終了",
     "he": "תוקף ההרשאה פג",
-    "zh-Hans": "授权已到期"
+    "zh-Hans": "授权已到期",
+    "fr": "Autorisation expirée",
+    "es": "Autorización caducada",
+    "hi": "अनुमति की अवधि समाप्त"
   },
   "Authorization revoked": {
     "ja": "許諾取消済み",
     "he": "ההרשאה בוטלה",
-    "zh-Hans": "授权已撤销"
+    "zh-Hans": "授权已撤销",
+    "fr": "Autorisation révoquée",
+    "es": "Autorización revocada",
+    "hi": "अनुमति रद्द"
   },
   "Signed record (JSON)": {
     "ja": "署名済み記録（JSON）",
     "he": "רישום חתום (JSON)",
-    "zh-Hans": "已签署纪录（JSON）"
+    "zh-Hans": "已签署纪录（JSON）",
+    "fr": "Enregistrement signé (JSON)",
+    "es": "Registro firmado (JSON)",
+    "hi": "हस्ताक्षरित रिकॉर्ड (JSON)"
   },
   "Organization": {
     "ja": "組織",
     "he": "ארגון",
-    "zh-Hans": "机构名称"
+    "zh-Hans": "机构名称",
+    "fr": "Organisme",
+    "es": "Entidad",
+    "hi": "संस्था"
   },
   "Scope": {
     "ja": "利用範囲",
     "he": "היקף",
-    "zh-Hans": "范围"
+    "zh-Hans": "范围",
+    "fr": "Périmètre",
+    "es": "Alcance",
+    "hi": "कार्य-दायरा"
   },
   "Territory": {
     "ja": "対象地域",
     "he": "אזור",
-    "zh-Hans": "地域"
+    "zh-Hans": "地域",
+    "fr": "Territoire",
+    "es": "Territorio",
+    "hi": "क्षेत्र"
   },
   "Valid from": {
     "ja": "有効開始日",
     "he": "בתוקף מתאריך",
-    "zh-Hans": "起始日期"
+    "zh-Hans": "起始日期",
+    "fr": "Valable à partir du",
+    "es": "Válida desde",
+    "hi": "वैधता शुरू"
   },
   "Valid until": {
     "ja": "有効終了日",
     "he": "בתוקף עד",
-    "zh-Hans": "到期日期"
+    "zh-Hans": "到期日期",
+    "fr": "Valable jusqu’au",
+    "es": "Válida hasta",
+    "hi": "वैधता समाप्त"
   },
   "Last updated": {
     "ja": "最終更新",
     "he": "עדכון אחרון",
-    "zh-Hans": "最后更新"
+    "zh-Hans": "最后更新",
+    "fr": "Dernière mise à jour",
+    "es": "Última actualización",
+    "hi": "अंतिम अपडेट"
   },
   "Revoked at": {
     "ja": "取消日",
     "he": "תאריך הביטול",
-    "zh-Hans": "撤销日期"
+    "zh-Hans": "撤销日期",
+    "fr": "Date de révocation",
+    "es": "Fecha de revocación",
+    "hi": "रद्द करने की तारीख"
   },
   "HONG KONG": {
     "ja": "香港から世界へ",
     "he": "מהונג קונג לעולם",
-    "zh-Hans": "立足香港　连接全球"
+    "zh-Hans": "立足香港　连接全球",
+    "fr": "HONG KONG",
+    "es": "HONG KONG",
+    "hi": "हांगकांग"
   },
   "Chinese entrepreneurs.\nA wider world.": {
     "ja": "陽光衛視\n中華圏の企業家を世界へ",
     "he": "iSunTV\nמחברים יזמים סינים לעולם",
-    "zh-Hans": "阳光卫视\n助力华商出海"
+    "zh-Hans": "阳光卫视\n助力华商出海",
+    "fr": "Entrepreneurs chinois.\nHorizons internationaux.",
+    "es": "Emprendedores chinos.\nUn mundo de posibilidades.",
+    "hi": "चीनी उद्यमी।\nवैश्विक अवसर।"
   },
   "A broader perspective. Closer connections.": {
     "ja": "視野を広げ、チャンスを身近に。",
     "he": "אופקים רחבים יותר. הזדמנויות קרובות יותר.",
-    "zh-Hans": "更广的视野，更近的机遇。"
+    "zh-Hans": "更广的视野，更近的机遇。",
+    "fr": "Une perspective plus large. Des liens plus étroits.",
+    "es": "Una perspectiva más amplia. Conexiones más cercanas.",
+    "hi": "व्यापक नज़रिया। अधिक निकट संबंध।"
   },
   "Explore opportunities": {
     "ja": "海外展開の可能性を探る",
     "he": "לגלות הזדמנויות",
-    "zh-Hans": "探索出海机遇"
+    "zh-Hans": "探索出海机遇",
+    "fr": "Explorer les opportunités",
+    "es": "Explorar oportunidades",
+    "hi": "अवसर तलाशें"
   },
   "HONG KONG  /  GLOBAL MARKETS  /  REAL CONNECTIONS": {
     "ja": "香港の強み　｜　世界の市場　｜　企業家のネットワーク",
     "he": "היתרון של הונג קונג / שווקים בינלאומיים / קשרים עסקיים",
-    "zh-Hans": "香港优势　｜　国际市场　｜　华商网络"
+    "zh-Hans": "香港优势　｜　国际市场　｜　华商网络",
+    "fr": "HONG KONG / MARCHÉS INTERNATIONAUX / CONNEXIONS AUTHENTIQUES",
+    "es": "HONG KONG / MERCADOS GLOBALES / CONEXIONES REALES",
+    "hi": "हांगकांग / वैश्विक बाज़ार / वास्तविक संबंध"
   },
   "IN CONVERSATION": {
     "ja": "人物が語る、時代の記憶",
     "he": "סיפורים ממקור ראשון",
-    "zh-Hans": "真实人物　时代见证"
+    "zh-Hans": "真实人物　时代见证",
+    "fr": "ENTRETIENS",
+    "es": "EN CONVERSACIÓN",
+    "hi": "बातचीत"
   },
   "Selected\ninterviews.": {
     "ja": "選りすぐりの\nインタビュー",
     "he": "מבחר\nראיונות",
-    "zh-Hans": "采访\n精选"
+    "zh-Hans": "采访\n精选",
+    "fr": "Une sélection\nd’entretiens.",
+    "es": "Entrevistas\nseleccionadas.",
+    "hi": "चुनिंदा\nसाक्षात्कार।"
   },
   "Stories that open new perspectives.": {
     "ja": "物語の向こうに、新たな視点を。",
     "he": "סיפורים שפותחים נקודת מבט חדשה.",
-    "zh-Hans": "看见故事，也看见可能。"
+    "zh-Hans": "看见故事，也看见可能。",
+    "fr": "Des histoires qui ouvrent de nouvelles perspectives.",
+    "es": "Historias que abren nuevas perspectivas.",
+    "hi": "नई दृष्टि देने वाली कहानियाँ।"
   },
   "Explore interviews": {
     "ja": "インタビューを見る",
     "he": "לצפייה בראיונות",
-    "zh-Hans": "观看采访精选"
+    "zh-Hans": "观看采访精选",
+    "fr": "Découvrir les entretiens",
+    "es": "Descubrir entrevistas",
+    "hi": "साक्षात्कार देखें"
   },
   "Editorial illustration": {
     "ja": "イメージイラスト",
     "he": "איור להמחשה",
-    "zh-Hans": "形象示意"
+    "zh-Hans": "形象示意",
+    "fr": "Illustration éditoriale",
+    "es": "Ilustración editorial",
+    "hi": "संपादकीय चित्रण"
   },
   "From Hong Kong, to a wider world.": {
     "ja": "香港から、より広い世界へ。",
     "he": "מהונג קונג, לעולם רחב יותר.",
-    "zh-Hans": "从香港出发，连接更广阔的世界"
+    "zh-Hans": "从香港出发，连接更广阔的世界",
+    "fr": "De Hong Kong vers de nouveaux horizons.",
+    "es": "De Hong Kong a un mundo más amplio.",
+    "hi": "हांगकांग से एक व्यापक दुनिया की ओर।"
   },
   "GLOBAL PERSPECTIVE": {
     "ja": "国際的な視点",
     "he": "מבט בינלאומי",
-    "zh-Hans": "国际视野"
+    "zh-Hans": "国际视野",
+    "fr": "PERSPECTIVE INTERNATIONALE",
+    "es": "PERSPECTIVA GLOBAL",
+    "hi": "वैश्विक दृष्टि"
   },
   "IN-DEPTH STORYTELLING": {
     "ja": "深く伝える映像",
     "he": "סיפורים לעומק",
-    "zh-Hans": "深度叙事"
+    "zh-Hans": "深度叙事",
+    "fr": "DES RÉCITS APPROFONDIS",
+    "es": "HISTORIAS EN PROFUNDIDAD",
+    "hi": "गहन कहानी-वाचन"
   },
   "REAL PEOPLE": {
     "ja": "実像に迫る対話",
     "he": "אנשים אמיתיים",
-    "zh-Hans": "真实人物"
+    "zh-Hans": "真实人物",
+    "fr": "DES PARCOURS AUTHENTIQUES",
+    "es": "PERSONAS REALES",
+    "hi": "वास्तविक लोग"
   },
   "LASTING OPPORTUNITIES": {
     "ja": "未来につながる機会",
     "he": "הזדמנויות לאורך זמן",
-    "zh-Hans": "连接机遇"
+    "zh-Hans": "连接机遇",
+    "fr": "DES OPPORTUNITÉS DURABLES",
+    "es": "OPORTUNIDADES DURADERAS",
+    "hi": "दीर्घकालिक अवसर"
   },
   "A name with accountability.": {
     "ja": "信頼は、明確な責任から。",
     "he": "מותג עם אחריות.",
-    "zh-Hans": "品牌有主张，授权有依据。"
+    "zh-Hans": "品牌有主张，授权有依据。",
+    "fr": "Une marque qui assume ses engagements.",
+    "es": "Una marca que responde por sus compromisos.",
+    "hi": "एक ज़िम्मेदार ब्रांड।"
   },
   "Brand licensing": {
     "ja": "ブランドライセンス",
     "he": "רישוי מותג",
-    "zh-Hans": "品牌授权"
+    "zh-Hans": "品牌授权",
+    "fr": "Licences de marque",
+    "es": "Licencias de marca",
+    "hi": "ब्रांड लाइसेंसिंग"
   },
   "Verify authorization": {
     "ja": "許諾を確認",
     "he": "אימות הרשאה",
-    "zh-Hans": "查验授权"
+    "zh-Hans": "查验授权",
+    "fr": "Vérifier une autorisation",
+    "es": "Verificar autorización",
+    "hi": "अनुमति सत्यापित करें"
   },
   "Skip to content": {
     "ja": "本文へスキップ",
     "he": "דילוג לתוכן",
-    "zh-Hans": "跳至主要内容"
+    "zh-Hans": "跳至主要内容",
+    "fr": "Aller au contenu",
+    "es": "Ir al contenido",
+    "hi": "मुख्य सामग्री पर जाएँ"
   },
   "Connecting entrepreneurs worldwide": {
     "ja": "企業家をつなぎ、世界へ",
     "he": "מחברים יזמים ברחבי העולם",
-    "zh-Hans": "连接华商　影响世界"
+    "zh-Hans": "连接华商　影响世界",
+    "fr": "Relier les entrepreneurs à travers le monde",
+    "es": "Conectamos a emprendedores de todo el mundo",
+    "hi": "दुनिया भर के उद्यमियों को जोड़ना"
   },
   "Main navigation": {
     "ja": "メインメニュー",
     "he": "ניווט ראשי",
-    "zh-Hans": "主要导览"
+    "zh-Hans": "主要导览",
+    "fr": "Navigation principale",
+    "es": "Navegación principal",
+    "hi": "मुख्य नेविगेशन"
   },
   "Search": {
     "ja": "検索",
     "he": "חיפוש",
-    "zh-Hans": "搜寻"
+    "zh-Hans": "搜寻",
+    "fr": "Rechercher",
+    "es": "Buscar",
+    "hi": "खोजें"
   },
   "Contact": {
     "ja": "お問い合わせ",
     "he": "יצירת קשר",
-    "zh-Hans": "联络我们"
+    "zh-Hans": "联络我们",
+    "fr": "Contact",
+    "es": "Contacto",
+    "hi": "संपर्क"
   },
   "Your enquiry has been accepted for delivery. We will reply by email.": {
     "ja": "お問い合わせはメール配信サービスに受け付けられました。メールにて返信いたします。",
     "he": "פנייתכם התקבלה בשירות הדואר לצורך מסירה. נשיב לכם בדוא״ל.",
-    "zh-Hans": "查询已获邮件服务接收，我们会透过电邮回复。"
+    "zh-Hans": "查询已获邮件服务接收，我们会透过电邮回复。",
+    "fr": "Votre demande a été acceptée par le service d’envoi. Nous vous répondrons par courriel.",
+    "es": "El servicio de correo ha aceptado su consulta para el envío. Le responderemos por correo electrónico.",
+    "hi": "मेल सेवा ने आपकी पूछताछ भेजने के लिए स्वीकार कर ली है। हम ईमेल से उत्तर देंगे।"
   },
-  "Delivery could not be confirmed. Please email partner@iSunTV.com directly.": {
-    "ja": "送信結果を確認できませんでした。partner@iSunTV.com まで直接メールでご連絡ください。",
-    "he": "לא ניתן לאשר את המסירה. אנא פנו ישירות אל partner@iSunTV.com.",
-    "zh-Hans": "目前无法确认寄送结果。请直接寄信至 partner@iSunTV.com。"
+  "Delivery could not be confirmed. Please email partner@isuntv.com directly.": {
+    "ja": "送信結果を確認できませんでした。partner@isuntv.com まで直接メールでご連絡ください。",
+    "he": "לא ניתן לאשר את המסירה. אנא פנו ישירות אל partner@isuntv.com.",
+    "zh-Hans": "目前无法确认寄送结果。请直接寄信至 partner@isuntv.com。",
+    "fr": "L’envoi n’a pas pu être confirmé. Veuillez écrire directement à partner@isuntv.com.",
+    "es": "No se pudo confirmar el envío. Escriba directamente a partner@isuntv.com.",
+    "hi": "भेजे जाने की पुष्टि नहीं हो सकी। कृपया partner@isuntv.com पर सीधे ईमेल करें।"
   },
   "Loading the form. You can also email partner@isuntv.com.": {
     "ja": "フォームを読み込んでいます。partner@isuntv.com への直接のお問い合わせも可能です。",
     "he": "הטופס נטען. ניתן גם לפנות ישירות אל partner@isuntv.com.",
-    "zh-Hans": "正在载入表单，亦可直接寄信至 partner@isuntv.com。"
+    "zh-Hans": "正在载入表单，亦可直接寄信至 partner@isuntv.com。",
+    "fr": "Chargement du formulaire. Vous pouvez aussi écrire à partner@isuntv.com.",
+    "es": "Cargando el formulario. También puede escribir a partner@isuntv.com.",
+    "hi": "फ़ॉर्म लोड हो रहा है। आप partner@isuntv.com पर भी ईमेल कर सकते हैं।"
   },
-  "For enquiries, please email partner@iSunTV.com directly. Online submission is not yet available.": {
-    "ja": "partner@iSunTV.com まで直接お問い合わせください。オンライン送信は現在ご利用いただけません。",
-    "he": "לפניות, כתבו ישירות אל partner@iSunTV.com. השליחה דרך האתר אינה זמינה כרגע.",
-    "zh-Hans": "请直接寄信至 partner@iSunTV.com 洽谈合作。网上提交尚未开放。"
+  "For enquiries, please email partner@isuntv.com directly. Online submission is not yet available.": {
+    "ja": "partner@isuntv.com まで直接お問い合わせください。オンライン送信は現在ご利用いただけません。",
+    "he": "לפניות, כתבו ישירות אל partner@isuntv.com. השליחה דרך האתר אינה זמינה כרגע.",
+    "zh-Hans": "请直接寄信至 partner@isuntv.com 洽谈合作。网上提交尚未开放。",
+    "fr": "Pour toute demande, écrivez directement à partner@isuntv.com. Le formulaire en ligne n’est pas encore disponible.",
+    "es": "Para consultas, escriba directamente a partner@isuntv.com. El envío mediante formulario aún no está disponible.",
+    "hi": "पूछताछ के लिए partner@isuntv.com पर सीधे ईमेल करें। ऑनलाइन फ़ॉर्म अभी उपलब्ध नहीं है।"
   },
   "Full name": {
     "ja": "お名前",
     "he": "שם מלא",
-    "zh-Hans": "姓名"
+    "zh-Hans": "姓名",
+    "fr": "Nom complet",
+    "es": "Nombre completo",
+    "hi": "पूरा नाम"
   },
   "Business email": {
     "ja": "連絡先メールアドレス",
     "he": "דוא״ל ליצירת קשר",
-    "zh-Hans": "联络电邮"
+    "zh-Hans": "联络电邮",
+    "fr": "Adresse électronique professionnelle",
+    "es": "Correo electrónico profesional",
+    "hi": "व्यावसायिक ईमेल"
   },
   "Enquiry": {
     "ja": "ご相談内容",
     "he": "נושא הפנייה",
-    "zh-Hans": "合作方向"
+    "zh-Hans": "合作方向",
+    "fr": "Objet de la demande",
+    "es": "Tipo de consulta",
+    "hi": "पूछताछ का विषय"
   },
   "Going global": {
     "ja": "海外展開",
     "he": "פעילות בינלאומית",
-    "zh-Hans": "华商出海"
+    "zh-Hans": "华商出海",
+    "fr": "À l’international",
+    "es": "Expansión internacional",
+    "hi": "वैश्विक विस्तार"
   },
   "Interviews": {
     "ja": "インタビュー",
     "he": "ראיונות",
-    "zh-Hans": "采访合作"
+    "zh-Hans": "采访合作",
+    "fr": "Entretiens",
+    "es": "Entrevistas",
+    "hi": "साक्षात्कार"
   },
   "Other enquiry": {
     "ja": "その他のお問い合わせ",
     "he": "פנייה אחרת",
-    "zh-Hans": "其他查询"
+    "zh-Hans": "其他查询",
+    "fr": "Autre demande",
+    "es": "Otra consulta",
+    "hi": "अन्य पूछताछ"
   },
   "How can we help?": {
     "ja": "ご相談の詳細",
     "he": "איך נוכל לעזור?",
-    "zh-Hans": "合作构想"
+    "zh-Hans": "合作构想",
+    "fr": "Comment pouvons-nous vous aider ?",
+    "es": "¿Cómo podemos ayudarle?",
+    "hi": "हम कैसे मदद कर सकते हैं?"
   },
   "I agree to the use of my details to handle this enquiry.": {
     "ja": "お問い合わせへの対応のため、上記情報を使用することに同意します。",
     "he": "אני מסכים/ה לשימוש בפרטים שמסרתי לצורך הטיפול בפנייה זו.",
-    "zh-Hans": "我同意使用上述资料处理本次查询。"
+    "zh-Hans": "我同意使用上述资料处理本次查询。",
+    "fr": "J’accepte que mes informations soient utilisées pour traiter cette demande.",
+    "es": "Acepto que mis datos se utilicen para gestionar esta consulta.",
+    "hi": "मैं इस पूछताछ को संभालने के लिए अपनी जानकारी के उपयोग से सहमत हूँ।"
   },
   "Privacy notice": {
     "ja": "プライバシーについて",
     "he": "הודעת פרטיות",
-    "zh-Hans": "私隐说明"
+    "zh-Hans": "私隐说明",
+    "fr": "Protection des données",
+    "es": "Aviso de privacidad",
+    "hi": "गोपनीयता सूचना"
   },
   "Sending…": {
     "ja": "送信中…",
     "he": "שולחים…",
-    "zh-Hans": "传送中…"
+    "zh-Hans": "传送中…",
+    "fr": "Envoi en cours…",
+    "es": "Enviando…",
+    "hi": "भेजा जा रहा है…"
   },
   "Submit enquiry": {
     "ja": "問い合わせを送信",
     "he": "שליחת פנייה",
-    "zh-Hans": "提交查询"
+    "zh-Hans": "提交查询",
+    "fr": "Envoyer la demande",
+    "es": "Enviar consulta",
+    "hi": "पूछताछ भेजें"
   },
   "iSunTV | A brighter China, a wider world": {
     "ja": "陽光衛視｜中華圏の企業家と世界をつなぐ",
     "he": "iSunTV | מחברים יזמים מהעולם הסיני לעולם",
-    "zh-Hans": "阳光卫视｜连接华商，影响世界"
+    "zh-Hans": "阳光卫视｜连接华商，影响世界",
+    "fr": "iSunTV | Relier la Chine au monde",
+    "es": "iSunTV | Conectar China con el mundo",
+    "hi": "iSunTV | चीन और दुनिया के बीच नए संबंध"
   },
   "About | Our mission": {
     "ja": "陽光衛視について｜私たちの使命",
     "he": "על iSunTV | השליחות שלנו",
-    "zh-Hans": "关于阳光｜媒体使命"
+    "zh-Hans": "关于阳光｜媒体使命",
+    "fr": "À propos | Notre mission",
+    "es": "Acerca de | Nuestra misión",
+    "hi": "हमारे बारे में | हमारा उद्देश्य"
   },
   "Chinese entrepreneurs going global": {
     "ja": "中華圏の企業家の海外展開を支援",
     "he": "יזמים מהעולם הסיני בזירה הבינלאומית",
-    "zh-Hans": "华商出海"
+    "zh-Hans": "华商出海",
+    "fr": "Les entrepreneurs chinois à l’international",
+    "es": "Emprendedores chinos en el mundo",
+    "hi": "चीनी उद्यमियों का वैश्विक विस्तार"
   },
   "Selected interviews": {
     "ja": "選りすぐりのインタビュー",
     "he": "מבחר ראיונות",
-    "zh-Hans": "采访精选"
+    "zh-Hans": "采访精选",
+    "fr": "Entretiens sélectionnés",
+    "es": "Entrevistas seleccionadas",
+    "hi": "चुनिंदा साक्षात्कार"
   },
   "Chen Ping | Chairman of iSunTV": {
     "ja": "陳平｜陽光衛視 董事局主席",
     "he": "צ׳ן פינג | יו״ר iSunTV",
-    "zh-Hans": "陈平｜阳光卫视董事局主席"
+    "zh-Hans": "陈平｜阳光卫视董事局主席",
+    "fr": "Chen Ping | Président du conseil d’iSunTV",
+    "es": "Chen Ping | Presidente del consejo de iSunTV",
+    "hi": "चेन पिंग | iSunTV के अध्यक्ष"
   },
   "Robin Xie | Executive Director of iSunTV": {
     "ja": "謝玢 Robin Xie｜陽光衛視 エグゼクティブ・ディレクター",
     "he": "רובין שיה Robin Xie | מנהלת ביצועית ב־iSunTV",
-    "zh-Hans": "谢玢｜阳光卫视执行董事"
+    "zh-Hans": "谢玢｜阳光卫视执行董事",
+    "fr": "Robin Xie | Directrice exécutive d’iSunTV",
+    "es": "Robin Xie | Directora ejecutiva de iSunTV",
+    "hi": "Robin Xie | iSunTV की कार्यकारी निदेशक"
   },
   "iSunTV is a Hong Kong satellite television channel connecting Chinese entrepreneurs with international opportunities, documentaries, interviews and brand partnerships.": {
     "ja": "陽光衛視は香港の衛星テレビチャンネルです。人文ドキュメンタリー、インタビュー、ブランド提携を通じて、中華圏の企業家と世界のビジネス機会をつなぎます。",
     "he": "iSunTV הוא ערוץ טלוויזיה לווייני מהונג קונג. באמצעות סרטי תעודה, ראיונות ושותפויות מותג, הוא מחבר יזמים מהעולם הסיני להזדמנויות בינלאומיות.",
-    "zh-Hans": "阳光卫视是香港卫星电视频道，连接华商与国际机遇，提供人文纪录、采访精选及品牌合作资讯。"
+    "zh-Hans": "阳光卫视是香港卫星电视频道，连接华商与国际机遇，提供人文纪录、采访精选及品牌合作资讯。",
+    "fr": "iSunTV est une chaîne de télévision par satellite de Hong Kong qui relie les entrepreneurs chinois aux opportunités internationales à travers des documentaires, des entretiens et des partenariats de marque.",
+    "es": "iSunTV es un canal de televisión por satélite de Hong Kong que conecta a emprendedores chinos con oportunidades internacionales mediante documentales, entrevistas y colaboraciones de marca.",
+    "hi": "iSunTV हांगकांग का सैटेलाइट टेलीविज़न चैनल है, जो वृत्तचित्रों, साक्षात्कारों और ब्रांड साझेदारियों के माध्यम से चीनी उद्यमियों को अंतरराष्ट्रीय अवसरों से जोड़ता है।"
   },
   "Explore iSunTV’s media mission, documentary heritage and relationship with TideiSun Group: recording our times and connecting a wider world.": {
     "ja": "陽光衛視の使命、人文ドキュメンタリーの歩み、泰德陽光集団との関係をご紹介します。時代を記録し、世界とのつながりを広げます。",
     "he": "הכירו את השליחות התקשורתית של iSunTV, את מורשת התיעוד שלה ואת הקשר לקבוצת TideiSun — לתעד את התקופה ולחבר לעולם רחב יותר.",
-    "zh-Hans": "了解阳光卫视的媒体使命、人文纪录传承及泰德阳光集团关系：以影像记录时代，以连接创造可能。"
+    "zh-Hans": "了解阳光卫视的媒体使命、人文纪录传承及泰德阳光集团关系：以影像记录时代，以连接创造可能。",
+    "fr": "Découvrez la mission d’iSunTV, son héritage documentaire et ses liens avec TideiSun Group : témoigner de notre époque et ouvrir de nouveaux horizons.",
+    "es": "Conozca la misión de iSunTV, su legado documental y su relación con TideiSun Group: documentar nuestro tiempo y conectar con un mundo más amplio.",
+    "hi": "iSunTV के मीडिया उद्देश्य, वृत्तचित्रों की विरासत और TideiSun Group के साथ उसके संबंध को जानें: अपने समय का दस्तावेज़ बनाना और दुनिया से जुड़ना।"
   },
   "Explore international collaboration with iSunTV through brand storytelling, in-depth interviews and connections from Hong Kong.": {
     "ja": "香港を拠点に、ブランドの物語、深いインタビュー、国際的なつながりを生かした陽光衛視との協力をご相談ください。",
     "he": "גלו אפשרויות לשיתוף פעולה בינלאומי עם iSunTV, באמצעות סיפור המותג, ראיונות עומק וקשרים מהונג קונג.",
-    "zh-Hans": "阳光卫视以香港为起点，透过品牌叙事、深度访谈与国际连接，与华商探讨出海合作。"
-  },
-  "Explore Masters of a Century, Life Online, Personal Accounts and Oral History: iSunTV stories about creative work, careers and lived history.": {
-    "ja": "「百年巨匠」「人生在線」「名人自述」「口述歷史」から、創作、仕事、時代の記憶を伝える陽光衛視のインタビューをご覧ください。",
-    "he": "גלו את ״ענקי המאה״, ״חיים בשיחה״, ״סיפורים אישיים״ ו״היסטוריה בעל־פה״: סיפורי iSunTV על יצירה, קריירה והיסטוריה מפי מי שחוו אותה.",
-    "zh-Hans": "观看阳光卫视采访精选：百年巨匠、人生在线、名人自述及口述历史，走进人物的创作、事业与时代记忆。"
+    "zh-Hans": "阳光卫视以香港为起点，透过品牌叙事、深度访谈与国际连接，与华商探讨出海合作。",
+    "fr": "Explorez la coopération internationale avec iSunTV à travers les récits de marque, les entretiens approfondis et les connexions depuis Hong Kong.",
+    "es": "Explore la colaboración internacional con iSunTV mediante relatos de marca, entrevistas en profundidad y conexiones desde Hong Kong.",
+    "hi": "ब्रांड की कहानियों, गहन साक्षात्कारों और हांगकांग के संपर्कों के माध्यम से iSunTV के साथ अंतरराष्ट्रीय सहयोग की संभावनाएँ जानें।"
   },
   "Meet Chen Ping, Chairman of iSunTV and founder of TideiSun Group, through his work in policy research, entrepreneurship, media and technology.": {
     "ja": "政策研究、企業経営、メディア、技術分野での歩みを通じて、陽光衛視董事局主席・泰德陽光集団創業者の陳平をご紹介します。",
     "he": "הכירו את צ׳ן פינג, יו״ר iSunTV ומייסד קבוצת TideiSun, דרך עשייתו במחקר מדיניות, ביזמות, בתקשורת ובטכנולוגיה.",
-    "zh-Hans": "陈平，阳光卫视董事局主席、泰德阳光集团创办人。阅读其政策研究、企业经营、媒体及科技实践的精简介绍。"
+    "zh-Hans": "陈平，阳光卫视董事局主席、泰德阳光集团创办人。阅读其政策研究、企业经营、媒体及科技实践的精简介绍。",
+    "fr": "Découvrez Chen Ping, président du conseil d’iSunTV et fondateur de TideiSun Group, à travers ses travaux en politique économique, dans l’entreprise, les médias et la technologie.",
+    "es": "Conozca a Chen Ping, presidente del consejo de iSunTV y fundador de TideiSun Group, a través de su labor en investigación económica, empresa, medios y tecnología.",
+    "hi": "नीतिगत शोध, उद्यमिता, मीडिया और प्रौद्योगिकी में उनके कार्य के माध्यम से iSunTV के अध्यक्ष और TideiSun Group के संस्थापक चेन पिंग को जानें।"
   },
   "Robin Xie, Executive Director of iSunTV and Managing Partner of TideiSun Group, leads iSunTV brand partnerships and licensing.": {
     "ja": "謝玢 Robin Xieは、陽光衛視のエグゼクティブ・ディレクター、泰德陽光集団のマネージング・パートナーとして、陽光衛視のブランド提携とライセンス業務を統括しています。",
     "he": "רובין שיה (Robin Xie), מנהלת ביצועית ב־iSunTV ושותפה מנהלת בקבוצת TideiSun, מובילה את שותפויות המותג והרישוי של iSunTV.",
-    "zh-Hans": "谢玢 Robin Xie，阳光卫视执行董事、泰德阳光集团管理合伙人，负责阳光卫视品牌合作与授权事务。"
+    "zh-Hans": "谢玢 Robin Xie，阳光卫视执行董事、泰德阳光集团管理合伙人，负责阳光卫视品牌合作与授权事务。",
+    "fr": "Robin Xie, directrice exécutive d’iSunTV et associée dirigeante de TideiSun Group, dirige les partenariats de marque et les licences d’iSunTV.",
+    "es": "Robin Xie, directora ejecutiva de iSunTV y socia directora de TideiSun Group, dirige las colaboraciones de marca y las licencias de iSunTV.",
+    "hi": "iSunTV की कार्यकारी निदेशक और TideiSun Group की प्रबंध साझेदार Robin Xie, iSunTV की ब्रांड साझेदारियों और लाइसेंसिंग का नेतृत्व करती हैं।"
   },
   "Review iSunTV’s brand partnership and licensing process. Authorization requires board and management approval; Robin Xie leads licensing.": {
     "ja": "陽光衛視のブランド提携・ライセンス手続きをご案内します。正式な許諾には取締役会と経営陣の承認が必要です。担当責任者は謝玢 Robin Xieです。",
     "he": "הכירו את תהליך שותפויות המותג והרישוי של iSunTV. ההרשאה מחייבת אישור של הדירקטוריון וההנהלה; רובין שיה אחראית על הרישוי.",
-    "zh-Hans": "了解阳光卫视品牌合作范围、申请及查验流程。正式授权须经董事会及管理团队批准；谢玢 Robin Xie 为品牌授权负责人。"
+    "zh-Hans": "了解阳光卫视品牌合作范围、申请及查验流程。正式授权须经董事会及管理团队批准；谢玢 Robin Xie 为品牌授权负责人。",
+    "fr": "Découvrez le processus de partenariat et de licence d’iSunTV. Toute autorisation nécessite l’approbation du conseil et de la direction ; Robin Xie est responsable des licences.",
+    "es": "Conozca el proceso de colaboración y licencias de iSunTV. La autorización requiere la aprobación del consejo y de la dirección; Robin Xie es responsable de las licencias.",
+    "hi": "iSunTV की ब्रांड साझेदारी और लाइसेंसिंग प्रक्रिया जानें। अनुमति के लिए निदेशक मंडल और प्रबंधन की स्वीकृति आवश्यक है; Robin Xie लाइसेंसिंग की प्रमुख हैं।"
   },
   "Check iSunTV authorization scope, organization and dates. While the public register is being prepared, contact the licensing team for confirmation.": {
     "ja": "陽光衛視のブランド使用許諾について、組織、範囲、有効期間をご確認ください。公開登録簿の準備期間中は、担当チームが確認を承ります。",
     "he": "בדקו את הארגון, היקף השימוש ותאריכי ההרשאה של iSunTV. בזמן הכנת המרשם הציבורי, יש לפנות לצוות הרישוי לאישור הפרטים.",
-    "zh-Hans": "查询阳光卫视授权的机构、范围及期限。公开登记尚在准备中，现阶段请联络授权信箱核实。"
+    "zh-Hans": "查询阳光卫视授权的机构、范围及期限。公开登记尚在准备中，现阶段请联络授权信箱核实。",
+    "fr": "Vérifiez l’organisme, le périmètre et les dates d’une autorisation iSunTV. En attendant l’ouverture du registre public, contactez l’équipe chargée des licences.",
+    "es": "Compruebe la entidad, el alcance y las fechas de una autorización iSunTV. Mientras se prepara el registro público, solicite confirmación al equipo de licencias.",
+    "hi": "iSunTV अनुमति की संस्था, दायरे और तारीखों की जाँच करें। सार्वजनिक रजिस्टर तैयार होने तक लाइसेंसिंग टीम से पुष्टि लें।"
   },
   "Contact iSunTV for international collaboration, interviews and brand partnerships. Hong Kong headquarters and group offices; partner@isuntv.com.": {
     "ja": "海外展開、インタビュー、ブランド提携のご相談は陽光衛視へ。香港本部とグループの各拠点が窓口です。partner@isuntv.com。",
     "he": "פנו ל־iSunTV בנושא שיתוף פעולה בינלאומי, ראיונות ושותפויות מותג. המטה בהונג קונג ומשרדי הקבוצה עומדים לרשותכם: partner@isuntv.com.",
-    "zh-Hans": "联络阳光卫视洽谈华商出海、采访及品牌合作。香港总部与集团全球办公室；商务信箱 partner@isuntv.com。"
+    "zh-Hans": "联络阳光卫视洽谈华商出海、采访及品牌合作。香港总部与集团全球办公室；商务信箱 partner@isuntv.com。",
+    "fr": "Contactez iSunTV pour une coopération internationale, un entretien ou un partenariat de marque. Siège à Hong Kong et bureaux du groupe ; partner@isuntv.com.",
+    "es": "Contacte con iSunTV para colaboraciones internacionales, entrevistas y acuerdos de marca. Sede en Hong Kong y oficinas del grupo; partner@isuntv.com.",
+    "hi": "अंतरराष्ट्रीय सहयोग, साक्षात्कार और ब्रांड साझेदारियों के लिए iSunTV से संपर्क करें। हांगकांग मुख्यालय और समूह के कार्यालय; partner@isuntv.com।"
   },
   "Learn how iSunTV handles business enquiry information and how to request correction or deletion.": {
     "ja": "陽光衛視におけるお問い合わせ情報の取り扱いと、訂正・削除のご依頼方法をご確認ください。",
     "he": "למדו כיצד iSunTV מטפלת במידע שנמסר בפניות עסקיות ואיך לבקש תיקון או מחיקה.",
-    "zh-Hans": "了解阳光卫视如何使用合作查询资料，以及更正、删除资料和联络方式。"
+    "zh-Hans": "了解阳光卫视如何使用合作查询资料，以及更正、删除资料和联络方式。",
+    "fr": "Découvrez comment iSunTV traite les demandes professionnelles et comment demander la correction ou la suppression de vos informations.",
+    "es": "Conozca cómo iSunTV gestiona las consultas profesionales y cómo solicitar la corrección o eliminación de sus datos.",
+    "hi": "जानें कि iSunTV व्यावसायिक पूछताछ कैसे संभालता है और अपनी जानकारी में सुधार या उसे हटाने का अनुरोध कैसे करें।"
   },
   "About": {
     "ja": "陽光衛視について",
     "he": "על iSunTV",
-    "zh-Hans": "关于阳光"
+    "zh-Hans": "关于阳光",
+    "fr": "À propos",
+    "es": "Acerca de",
+    "hi": "हमारे बारे में"
   },
   "Chairman": {
     "ja": "董事局主席",
     "he": "יו״ר",
-    "zh-Hans": "董事局主席"
+    "zh-Hans": "董事局主席",
+    "fr": "Président du conseil",
+    "es": "Presidente del consejo",
+    "hi": "निदेशक मंडल के अध्यक्ष"
   },
   "Executive Director": {
     "ja": "エグゼクティブ・ディレクター",
     "he": "מנהלת ביצועית",
-    "zh-Hans": "执行董事"
+    "zh-Hans": "执行董事",
+    "fr": "Directrice exécutive",
+    "es": "Directora ejecutiva",
+    "hi": "कार्यकारी निदेशक"
   },
   "Privacy": {
     "ja": "プライバシー",
     "he": "פרטיות",
-    "zh-Hans": "私隐说明"
+    "zh-Hans": "私隐说明",
+    "fr": "Confidentialité",
+    "es": "Privacidad",
+    "hi": "गोपनीयता"
   },
   "Licensing": {
     "zh-Hans": "品牌授权",
     "ja": "ブランドライセンス",
-    "he": "רישוי מותג"
+    "he": "רישוי מותג",
+    "fr": "Licences",
+    "es": "Licencias",
+    "hi": "लाइसेंसिंग"
   },
   "Robin Xie is Executive Director of iSunTV and Managing Partner of TideiSun Group. She began her career in engineering in the United States, working with offshore systems and the practical demands of energy infrastructure. A licensed Professional Engineer in Texas, she brings an engineer’s attention to constraints, reliability and real-world performance to her work in business.": {
     "zh-Hans": "谢玢是阳光卫视执行董事、泰德阳光集团管理合伙人。她早年在美国从事工程工作，接触海洋工程系统与能源基础设施的实际运行。她持有美国得克萨斯州注册职业工程师（P.E.）资格，也将工程师对约束条件、可靠性与实际成效的重视，带入企业经营与投资。",
     "ja": "Robin Xieは、iSunTVの執行董事、TideiSun Groupのマネージングパートナーです。米国でエンジニアとしてキャリアをスタートし、海洋工学やエネルギーインフラの実務に携わってきました。テキサス州のプロフェッショナル・エンジニア（P.E.）資格を持ち、制約条件や信頼性、現場での成果を重視する姿勢を、経営と投資にも生かしています。",
-    "he": "Robin Xie היא דירקטורית מנהלת ב־iSunTV ושותפה מנהלת בקבוצת TideiSun. את דרכה המקצועית החלה כמהנדסת בארצות הברית, בעבודה על מערכות ימיות ותשתיות אנרגיה. היא בעלת רישיון מהנדסת מקצועית (P.E.) במדינת טקסס, ומביאה לעולם העסקים וההשקעות גישה הנדסית שמדגישה מגבלות מעשיות, אמינות ותוצאות בשטח."
+    "he": "Robin Xie היא דירקטורית מנהלת ב־iSunTV ושותפה מנהלת בקבוצת TideiSun. את דרכה המקצועית החלה כמהנדסת בארצות הברית, בעבודה על מערכות ימיות ותשתיות אנרגיה. היא בעלת רישיון מהנדסת מקצועית (P.E.) במדינת טקסס, ומביאה לעולם העסקים וההשקעות גישה הנדסית שמדגישה מגבלות מעשיות, אמינות ותוצאות בשטח.",
+    "fr": "Robin Xie est directrice exécutive d’iSunTV et associée dirigeante de TideiSun Group. Elle a commencé sa carrière aux États-Unis dans l’ingénierie des systèmes offshore et des infrastructures énergétiques. Titulaire du titre de Professional Engineer au Texas, elle apporte au monde de l’entreprise une attention d’ingénieure aux contraintes, à la fiabilité et aux résultats sur le terrain.",
+    "es": "Robin Xie es directora ejecutiva de iSunTV y socia directora de TideiSun Group. Comenzó su carrera en ingeniería en Estados Unidos, trabajando con sistemas offshore y las exigencias prácticas de la infraestructura energética. Con licencia de Professional Engineer en Texas, aplica a los negocios una perspectiva de ingeniería centrada en las limitaciones, la fiabilidad y el desempeño real.",
+    "hi": "Robin Xie, iSunTV की कार्यकारी निदेशक और TideiSun Group की प्रबंध साझेदार हैं। उन्होंने अमेरिका में इंजीनियरिंग से अपने करियर की शुरुआत की, जहाँ उन्होंने समुद्री प्रणालियों और ऊर्जा अवसंरचना की व्यावहारिक चुनौतियों पर काम किया। टेक्सास में लाइसेंस प्राप्त Professional Engineer के रूप में वे व्यवसाय में सीमाओं, विश्वसनीयता और वास्तविक प्रदर्शन पर विशेष ध्यान देती हैं।"
   },
   "Her work later expanded into entrepreneurship and financial technology, including payments, digital assets and cross-border financial infrastructure. At TideiSun Group, she works on strategic investment and financing, alongside the group’s international business development. This includes supporting companies as they consider overseas growth, cross-border transactions and capital-market opportunities.": {
     "zh-Hans": "此后，她逐步走向创业与金融科技，关注支付、数字资产及跨境金融基础设施。在泰德阳光集团，她参与战略投融资与全球产业布局。她的工作也涵盖支持企业探索海外发展、跨境交易与资本市场机会。",
     "ja": "その後、起業とフィンテックへと活動を広げ、決済、デジタル資産、国境を越えた金融インフラに取り組んできました。TideiSun Groupでは、戦略的な投資・資金調達と国際事業の展開に携わっています。企業による海外成長戦略、クロスボーダー取引、資本市場の活用の検討も支援しています。",
-    "he": "בהמשך הרחיבה את פעילותה ליזמות ולטכנולוגיה פיננסית, ובהן תשלומים, נכסים דיגיטליים ותשתיות פיננסיות חוצות גבולות. בקבוצת TideiSun היא עוסקת בהשקעות ובמימון אסטרטגיים, לצד פיתוח עסקי בינלאומי. במסגרת זו היא מסייעת לחברות לבחון התרחבות לשווקים חדשים, עסקאות חוצות גבולות והזדמנויות בשוקי ההון."
+    "he": "בהמשך הרחיבה את פעילותה ליזמות ולטכנולוגיה פיננסית, ובהן תשלומים, נכסים דיגיטליים ותשתיות פיננסיות חוצות גבולות. בקבוצת TideiSun היא עוסקת בהשקעות ובמימון אסטרטגיים, לצד פיתוח עסקי בינלאומי. במסגרת זו היא מסייעת לחברות לבחון התרחבות לשווקים חדשים, עסקאות חוצות גבולות והזדמנויות בשוקי ההון.",
+    "fr": "Son parcours s’est ensuite étendu à l’entrepreneuriat et aux technologies financières, notamment aux paiements, aux actifs numériques et aux infrastructures financières transfrontalières. Chez TideiSun Group, elle travaille sur les investissements stratégiques et les financements, ainsi que sur le développement international du groupe. Elle accompagne ainsi des entreprises dans leurs projets de croissance à l’étranger, leurs opérations transfrontalières et leurs perspectives sur les marchés de capitaux.",
+    "es": "Más adelante amplió su actividad al emprendimiento y a la tecnología financiera, incluidos los pagos, los activos digitales y la infraestructura financiera transfronteriza. En TideiSun Group trabaja en inversión estratégica y financiación, junto con el desarrollo internacional del grupo. Esto incluye apoyar a empresas que valoran su expansión exterior, operaciones transfronterizas y oportunidades en los mercados de capitales.",
+    "hi": "बाद में उनका काम उद्यमिता और वित्तीय प्रौद्योगिकी तक विस्तृत हुआ, जिसमें भुगतान, डिजिटल परिसंपत्तियाँ और सीमा-पार वित्तीय अवसंरचना शामिल हैं। TideiSun Group में वे रणनीतिक निवेश और वित्तपोषण के साथ समूह के अंतरराष्ट्रीय व्यवसाय विकास पर काम करती हैं। इसमें विदेशी विस्तार, सीमा-पार लेनदेन और पूँजी बाज़ार के अवसरों पर विचार कर रही कंपनियों की सहायता शामिल है।"
   },
   "Today, her research and investing interests span AI infrastructure, energy systems, robotics and programmable finance. Alongside investing in public and private markets, she builds AI-assisted research workflows to test ideas against evidence. She sees these tools as a way to improve the quality of decisions, while keeping final judgment and responsibility with people.": {
     "zh-Hans": "目前，她的研究与投资兴趣涵盖人工智能基础设施、能源系统、机器人与可编程金融。除了参与公开及私募市场投资，她也亲自建立 AI 辅助研究流程，让想法接受数据与实际结果的检验。她看重的是工具能否帮助人作出更好的决策，最终判断与责任仍由人承担。",
     "ja": "現在は、AIインフラ、エネルギーシステム、ロボティクス、プログラマブル・ファイナンスを研究・投資の対象としています。上場・非上場市場での投資と並行して、AIを活用したリサーチの仕組みを自ら構築し、仮説をデータと実際の結果に照らして検証しています。こうしたツールで意思決定の質を高めつつ、最終的な判断と責任は人が担うという考えを大切にしています。",
-    "he": "כיום תחומי המחקר וההשקעה שלה כוללים תשתיות בינה מלאכותית, מערכות אנרגיה, רובוטיקה ופיננסים ניתנים לתכנות. לצד השקעות בשווקים ציבוריים ופרטיים, היא בונה תהליכי מחקר בסיוע AI כדי לבחון רעיונות מול נתונים ותוצאות בפועל. מבחינתה, הכלים נועדו לשפר את איכות ההחלטות, בעוד ששיקול הדעת הסופי והאחריות נשארים בידי אנשים."
+    "he": "כיום תחומי המחקר וההשקעה שלה כוללים תשתיות בינה מלאכותית, מערכות אנרגיה, רובוטיקה ופיננסים ניתנים לתכנות. לצד השקעות בשווקים ציבוריים ופרטיים, היא בונה תהליכי מחקר בסיוע AI כדי לבחון רעיונות מול נתונים ותוצאות בפועל. מבחינתה, הכלים נועדו לשפר את איכות ההחלטות, בעוד ששיקול הדעת הסופי והאחריות נשארים בידי אנשים.",
+    "fr": "Ses recherches et ses investissements portent aujourd’hui sur les infrastructures d’IA, les systèmes énergétiques, la robotique et la finance programmable. Parallèlement à ses investissements sur les marchés cotés et privés, elle conçoit des méthodes de recherche assistées par l’IA pour confronter les idées aux faits. Elle considère ces outils comme un moyen d’améliorer les décisions, tout en laissant aux personnes le jugement final et la responsabilité.",
+    "es": "Actualmente, sus intereses de investigación e inversión abarcan infraestructura de IA, sistemas energéticos, robótica y finanzas programables. Además de invertir en mercados públicos y privados, crea procesos de investigación asistidos por IA para contrastar ideas con evidencia. Considera estas herramientas una forma de mejorar las decisiones, manteniendo el juicio final y la responsabilidad en manos de las personas.",
+    "hi": "आज उनकी शोध और निवेश संबंधी रुचियाँ एआई अवसंरचना, ऊर्जा प्रणालियों, रोबोटिक्स और प्रोग्राम योग्य वित्त तक फैली हैं। सार्वजनिक और निजी बाज़ारों में निवेश के साथ वे विचारों को प्रमाण के आधार पर परखने के लिए एआई-सहायित शोध प्रक्रियाएँ बनाती हैं। उनके लिए ये साधन निर्णय बेहतर बनाने का माध्यम हैं; अंतिम विवेक और ज़िम्मेदारी मनुष्यों के पास ही रहती है।"
   },
   "At iSunTV, Robin Xie leads brand partnerships and licensing, helping connect the channel’s media heritage with its mission to support Chinese entrepreneurs abroad. Partnerships proceed within the scope approved and authorized by the board and management team.": {
     "zh-Hans": "在阳光卫视，谢玢负责品牌合作与授权事务，将频道的人文传承与助力华商出海的方向连接起来。各项合作均按董事会及管理团队批准和授权的范围推进。",
     "ja": "iSunTVではブランド提携とライセンス業務を統括し、同局が培ってきた人文・文化の発信を、華人企業の海外展開を支える使命へとつなげています。各提携は、取締役会および経営陣が承認・授権した範囲で進められます。",
-    "he": "ב־iSunTV מובילה Robin Xie את שיתופי הפעולה בתחום המותג ואת פעילות הרישוי, ומחברת בין המורשת התקשורתית של הערוץ לבין שליחותו לתמוך ביזמים סינים בזירה הבינלאומית. שיתופי הפעולה מתקדמים בהתאם להיקף שאושר והוסמך על ידי הדירקטוריון וצוות ההנהלה."
+    "he": "ב־iSunTV מובילה Robin Xie את שיתופי הפעולה בתחום המותג ואת פעילות הרישוי, ומחברת בין המורשת התקשורתית של הערוץ לבין שליחותו לתמוך ביזמים סינים בזירה הבינלאומית. שיתופי הפעולה מתקדמים בהתאם להיקף שאושר והוסמך על ידי הדירקטוריון וצוות ההנהלה.",
+    "fr": "Chez iSunTV, Robin Xie dirige les partenariats de marque et les licences, en reliant l’héritage médiatique de la chaîne à sa mission d’accompagnement des entrepreneurs chinois à l’international. Les partenariats s’inscrivent dans le périmètre approuvé et autorisé par le conseil et l’équipe de direction.",
+    "es": "En iSunTV, Robin Xie dirige las colaboraciones de marca y las licencias, conectando el legado del canal con su misión de apoyar a los emprendedores chinos en el exterior. Las colaboraciones se desarrollan dentro del alcance aprobado y autorizado por el consejo y el equipo directivo.",
+    "hi": "iSunTV में Robin Xie ब्रांड साझेदारियों और लाइसेंसिंग का नेतृत्व करती हैं। वे चैनल की मीडिया विरासत को विदेशों में चीनी उद्यमियों की सहायता करने के उसके उद्देश्य से जोड़ती हैं। साझेदारियाँ निदेशक मंडल और प्रबंधन टीम द्वारा स्वीकृत तथा अधिकृत दायरे में ही आगे बढ़ती हैं।"
   }
 }
