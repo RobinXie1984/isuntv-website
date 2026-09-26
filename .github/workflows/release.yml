@@ -1,4 +1,4 @@
-name: Release both iSun domains
+name: Release all iSun domains
 on:
   push:
     branches: [main]
@@ -21,14 +21,20 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
-      - run: npm run build:both
+      - run: npm run build:all
       - run: python3 scripts/check-static.py artifacts/isun1
-      - name: Assert both artifacts came from this source
+      - name: Assert all artifacts came from this source
         run: node scripts/check-pair.mjs
       - uses: actions/upload-artifact@v4
         with:
           name: isuntv-pages
           path: artifacts/isuntv
+          include-hidden-files: true
+          retention-days: 30
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chinasuntv-pages
+          path: artifacts/chinasuntv
           include-hidden-files: true
           retention-days: 30
       - uses: actions/upload-pages-artifact@v3
@@ -46,7 +52,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Check both deployment destinations before changing either
+      - name: Check all deployment destinations before publishing
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
@@ -74,6 +80,29 @@ jobs:
         run: |
           test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing scoped Cloudflare deployment permission'; exit 1; }
           node ../../node_modules/wrangler/bin/wrangler.js pages deploy ../../artifacts/isuntv --project-name=isuntv-public --branch=main --commit-hash="$GITHUB_SHA"
+  deploy-chinasuntv:
+    needs: [build, release-access]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: chinasuntv-pages
+          path: artifacts/chinasuntv
+      - name: Publish ChinaSunTV Cloudflare Pages project
+        working-directory: deployment/chinasuntv
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: c805fea6fe0eb47cd90cd5e19f0ff00e
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing scoped Cloudflare deployment permission'; exit 1; }
+          node ../../node_modules/wrangler/bin/wrangler.js pages deploy ../../artifacts/chinasuntv --project-name=chinasuntv-public --branch=main --commit-hash="$GITHUB_SHA"
   deploy-isun1:
     needs: [build, release-access]
     runs-on: ubuntu-latest
@@ -90,7 +119,7 @@ jobs:
         uses: actions/deploy-pages@v4
   verify:
     if: always() && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-    needs: [build, release-access, deploy-isuntv, deploy-isun1]
+    needs: [build, release-access, deploy-isuntv, deploy-isun1, deploy-chinasuntv]
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -98,17 +127,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Verify both live domains and matching release fingerprints
+      - name: Verify all live domains and matching release fingerprints
         env:
           EXPECTED_COMMIT: ${{ github.sha }}
           DRIFT_ATTEMPTS: '12'
         run: node scripts/check-drift.mjs
-      - name: Require both publishing jobs to pass
+      - name: Require all publishing jobs to pass
         if: always()
         env:
           BUILD: ${{ needs.build.result }}
           TV: ${{ needs.deploy-isuntv.result }}
           ONE: ${{ needs.deploy-isun1.result }}
+          CHINA: ${{ needs.deploy-chinasuntv.result }}
         run: |
-          echo "Build=$BUILD; iSunTV=$TV; iSun1=$ONE" >> "$GITHUB_STEP_SUMMARY"
-          test "$BUILD" = success && test "$TV" = success && test "$ONE" = success
+          echo "Build=$BUILD; iSunTV=$TV; iSun1=$ONE; ChinaSunTV=$CHINA" >> "$GITHUB_STEP_SUMMARY"
+          test "$BUILD" = success && test "$TV" = success && test "$ONE" = success && test "$CHINA" = success
