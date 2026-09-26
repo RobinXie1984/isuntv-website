@@ -8,5 +8,10 @@
     "publicOrigin": "https://isun1.com",
     "defaultLocale": "zh-Hans",
     "staticExport": true
+  },
+  "isunmedia": {
+    "publicOrigin": "https://isunmedia.com",
+    "defaultLocale": "en",
+    "staticExport": false
   }
 }
