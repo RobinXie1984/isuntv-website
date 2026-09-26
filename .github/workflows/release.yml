@@ -41,7 +41,7 @@ jobs:
         with:
           path: artifacts/isun1
   release-access:
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' || github.event_name == 'workflow_dispatch'
     needs: build
     runs-on: ubuntu-latest
     permissions:
@@ -58,6 +58,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/check-release-access.mjs
   deploy-isuntv:
+    if: github.ref == 'refs/heads/main'
     needs: [build, release-access]
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -104,6 +105,7 @@ jobs:
           test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing scoped Cloudflare deployment permission'; exit 1; }
           node ../../node_modules/wrangler/bin/wrangler.js pages deploy ../../artifacts/chinasuntv --project-name=chinasuntv-public --branch=main --commit-hash="$GITHUB_SHA"
   deploy-isun1:
+    if: github.ref == 'refs/heads/main'
     needs: [build, release-access]
     runs-on: ubuntu-latest
     timeout-minutes: 15
