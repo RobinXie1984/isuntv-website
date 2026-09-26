@@ -1,6 +1,6 @@
 import { interviewProgrammeIds } from '../lib/site-profile';
 import { publicOrigin } from '../lib/site-profile';
-import { defaultLocale } from '../lib/site-profile';
+import { defaultLocale, siteId } from '../lib/site-profile';
 import { GlobalSection } from '../components/global-section';
 import { globalContent } from '../lib/global-content';
 import { translator } from '../lib/brand-i18n';
@@ -29,8 +29,9 @@ export function BrandContent({
   id?: string;
 }) {
   const mailConfig = env as unknown as Record<string, string | undefined>;
+  // This profile forwards to the existing central handler and needs no local mail secret.
   const mailEnabled =
-    process.env.ISUN_STATIC_EXPORT === '1' || (mailConfig.CONTACT_FORM_ENABLED === 'true' &&
+    siteId === 'isunmedia' || process.env.ISUN_STATIC_EXPORT === '1' || (mailConfig.CONTACT_FORM_ENABLED === 'true' &&
     ((!!mailConfig.GOOGLE_WORKSPACE_RELAY_URL && !!mailConfig.GOOGLE_WORKSPACE_RELAY_SECRET) ||
       (!!mailConfig.RESEND_API_KEY && !!mailConfig.CONTACT_FROM_EMAIL)));
   const t = translator(locale);
