@@ -67,3 +67,11 @@ The earlier Hong Kong recovery acceptance still needs explicit real Hong Kong Wi
 After the freeze, consider a signed live authorization-register service only if records need publishing; source-verified editorial summaries/translations; and video preservation following Robin's storage/business decisions. Do not add a second content store or a synchronization service. Any future CMS must feed the same stable-ID publication policy.
 
 **中文營運規則：同一代码库、同一内容源、两个域名。** 只改一次並從同一提交發布兩站。名人自述及口述歷史以穩定影片 ID 實施全球限定，完全不進入 iSun1 的頁面、搜尋、推薦、網站地圖、結構化資料或資源包；原始資料仍保留。兩站版本核對全部通過才算完成發布。驗收後穩定運行六個月，保留既定設計；安全修復、可用性恢復及 Robin 明確提出的新要求除外。
+
+## ChinaSunTV extension — explicitly requested 26 September 2026
+
+The shared repository now builds three profiles with `npm run build:all`. `chinasuntv` uses English by default and the exact complete iSunTV catalogue and interview selection, with all eight language editions. It deploys to `chinasuntv-public` on Cloudflare Pages. The mainland iSun1 restriction remains unchanged. All three profiles publish from the same commit; release and drift checks compare all three fingerprints and English/full-catalogue parity.
+
+ChinaSunTV enquiry requests are origin-checked and forwarded only to the existing iSunTV contact handler; cookies and authorization headers are stripped. Existing provider-side mail secrets are never copied. Invalid-origin and invalid-field tests send no email. The release gate may create only the explicitly authorized `chinasuntv-public` project using the previously approved Pages-only permission; it does not change DNS or credentials. Domain activation still requires the registrar to delegate chinasuntv.com to the assigned Cloudflare nameservers, preserving existing DNS records before cutover.
+
+The earlier two-domain descriptions above record the original operating design; this extension adds the third destination to the same release, not a second content repository. The freeze remains in force except for Robin's explicitly requested third-domain integration.

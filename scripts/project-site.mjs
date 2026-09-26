@@ -5,7 +5,7 @@ import {execFileSync} from 'node:child_process';
 import {projectContent} from './content-visibility.mjs';
 export const profiles = JSON.parse(readFileSync('sites.json','utf8'));
 export function prepare(siteId) {
-  const profile = profiles[siteId]; if (!profile) throw new Error('Use isuntv or isun1');
+  const profile = profiles[siteId]; if (!profile) throw new Error('Use isuntv, isun1 or chinasuntv');
   const names = ['videos','programmes','drafts','display-titles','people','thumbnail-cache'];
   const source = Object.fromEntries(names.map(name => [name,JSON.parse(readFileSync(`content/${name}.json`,'utf8'))]));
   const policy = JSON.parse(readFileSync('content/visibility-policy.json','utf8'));
@@ -14,7 +14,7 @@ export function prepare(siteId) {
   // These paths are exclusively generated, ignored build products. Source is never deleted.
   for (const dir of [generated,'.generated/public']) {rmSync(dir,{recursive:true,force:true});mkdirSync(dir,{recursive:true});}
   for (const name of names) writeFileSync(`${generated}/${name}.json`,JSON.stringify(projection[name]));
-  writeFileSync(`${generated}/site.json`,JSON.stringify({...profile,siteId,interviews:policy.interviews[siteId]}));
+  writeFileSync(`${generated}/site.json`,JSON.stringify({...profile,siteId,interviews:policy.interviews[siteId === 'chinasuntv' ? 'isuntv' : siteId]}));
   cpSync('public','.generated/public',{recursive:true,filter(path){
     if (siteId !== 'isun1') return true;
     const match = path.replaceAll('\\','/').match(/\/thumbnails\/([^/]+)\.[^.]+$/);

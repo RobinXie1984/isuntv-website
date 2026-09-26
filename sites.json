@@ -8,5 +8,10 @@
     "publicOrigin": "https://isun1.com",
     "defaultLocale": "zh-Hans",
     "staticExport": true
+  },
+  "chinasuntv": {
+    "publicOrigin": "https://chinasuntv.com",
+    "defaultLocale": "en",
+    "staticExport": false
   }
 }

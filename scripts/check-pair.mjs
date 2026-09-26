@@ -1,7 +1,12 @@
 import {readFileSync} from 'node:fs';
 import assert from 'node:assert/strict';
-const [a,b]=['isuntv','isun1'].map(s=>JSON.parse(readFileSync(`artifacts/${s}/release.json`)));
-for(const key of ['sourceCommit','sharedSourceSha256','visibilityPolicySha256'])assert.equal(a[key],b[key],key);
-if(process.env.GITHUB_SHA)assert.equal(a.sourceCommit,process.env.GITHUB_SHA);
-assert.equal(a.defaultLocale,'zh-Hant');assert.equal(b.defaultLocale,'zh-Hans');assert(a.visibleVideoCount>b.visibleVideoCount);
-console.log(JSON.stringify({pairedArtifacts:'PASS',commit:a.sourceCommit,sourceDigest:a.sharedSourceSha256}));
+const profiles=JSON.parse(readFileSync('sites.json'));
+const rows=Object.keys(profiles).map(s=>JSON.parse(readFileSync(`artifacts/${s}/release.json`)));
+for(const row of rows){
+ for(const key of ['sourceCommit','sharedSourceSha256','visibilityPolicySha256'])assert.equal(row[key],rows[0][key],key);
+ assert.equal(row.defaultLocale,profiles[row.siteId].defaultLocale);
+ if(process.env.GITHUB_SHA)assert.equal(row.sourceCommit,process.env.GITHUB_SHA);
+}
+const tv=rows.find(r=>r.siteId==='isuntv'),mainland=rows.find(r=>r.siteId==='isun1'),english=rows.find(r=>r.siteId==='chinasuntv');
+assert.equal(tv.visibleVideoCount,english.visibleVideoCount);assert(tv.visibleVideoCount>mainland.visibleVideoCount);
+console.log(JSON.stringify({artifacts:'PASS',count:rows.length,commit:tv.sourceCommit,sourceDigest:tv.sharedSourceSha256}));
