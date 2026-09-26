@@ -33,8 +33,8 @@ jobs:
           retention-days: 30
       - uses: actions/upload-artifact@v4
         with:
-          name: chinasuntv-pages
-          path: artifacts/chinasuntv
+          name: isunmedia-pages
+          path: artifacts/isunmedia
           include-hidden-files: true
           retention-days: 30
       - uses: actions/upload-pages-artifact@v3
@@ -81,7 +81,7 @@ jobs:
         run: |
           test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing scoped Cloudflare deployment permission'; exit 1; }
           node ../../node_modules/wrangler/bin/wrangler.js pages deploy ../../artifacts/isuntv --project-name=isuntv-public --branch=main --commit-hash="$GITHUB_SHA"
-  deploy-chinasuntv:
+  deploy-isunmedia:
     needs: [build, release-access]
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -94,16 +94,16 @@ jobs:
       - run: npm ci
       - uses: actions/download-artifact@v4
         with:
-          name: chinasuntv-pages
-          path: artifacts/chinasuntv
-      - name: Publish ChinaSunTV Cloudflare Pages project
-        working-directory: deployment/chinasuntv
+          name: isunmedia-pages
+          path: artifacts/isunmedia
+      - name: Publish iSunMedia Cloudflare Pages project
+        working-directory: deployment/isunmedia
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: c805fea6fe0eb47cd90cd5e19f0ff00e
         run: |
           test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing scoped Cloudflare deployment permission'; exit 1; }
-          node ../../node_modules/wrangler/bin/wrangler.js pages deploy ../../artifacts/chinasuntv --project-name=chinasuntv-public --branch=main --commit-hash="$GITHUB_SHA"
+          node ../../node_modules/wrangler/bin/wrangler.js pages deploy ../../artifacts/isunmedia --project-name=isunmedia-public --branch=main --commit-hash="$GITHUB_SHA"
   deploy-isun1:
     if: github.ref == 'refs/heads/main'
     needs: [build, release-access]
@@ -121,7 +121,7 @@ jobs:
         uses: actions/deploy-pages@v4
   verify:
     if: always() && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-    needs: [build, release-access, deploy-isuntv, deploy-isun1, deploy-chinasuntv]
+    needs: [build, release-access, deploy-isuntv, deploy-isun1, deploy-isunmedia]
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -140,7 +140,7 @@ jobs:
           BUILD: ${{ needs.build.result }}
           TV: ${{ needs.deploy-isuntv.result }}
           ONE: ${{ needs.deploy-isun1.result }}
-          CHINA: ${{ needs.deploy-chinasuntv.result }}
+          MEDIA: ${{ needs.deploy-isunmedia.result }}
         run: |
-          echo "Build=$BUILD; iSunTV=$TV; iSun1=$ONE; ChinaSunTV=$CHINA" >> "$GITHUB_STEP_SUMMARY"
-          test "$BUILD" = success && test "$TV" = success && test "$ONE" = success && test "$CHINA" = success
+          echo "Build=$BUILD; iSunTV=$TV; iSun1=$ONE; iSunMedia=$MEDIA" >> "$GITHUB_STEP_SUMMARY"
+          test "$BUILD" = success && test "$TV" = success && test "$ONE" = success && test "$MEDIA" = success
