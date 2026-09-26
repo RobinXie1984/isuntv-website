@@ -709,3 +709,7 @@ footer {
 }
 .original-title summary { cursor: pointer; min-height: 44px; padding: 10px 0; }
 .original-title p { margin: 6px 0 0; overflow-wrap: anywhere; }
+
+/* Match the shared comet in archive navigation without changing its wordmark. */
+.masthead .brand { position: relative; display: block; direction: ltr; }
+.catalogue-logo-comet-overlay { position: absolute; left: 10.5%; top: 27%; width: 25%; height: 49%; background: #161616 url('/brand/comet.png') center / contain no-repeat; pointer-events: none; }

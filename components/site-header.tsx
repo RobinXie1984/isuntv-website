@@ -36,6 +36,7 @@ export function SiteHeader({
             height="100"
             alt="iSunTV 陽光衛視"
           />
+          <span className="catalogue-logo-comet-overlay" aria-hidden="true" />
         </a>
         <nav className="main-nav" aria-label={t.nav}>
           <a href={sitePath(locale, 'programmes')}>{t.nav}</a>

@@ -36,7 +36,7 @@ export const identityGraph = {
       name: '陽光衛視',
       alternateName: ['iSunTV', 'SunTV', '阳光卫视'],
       url: `${publicOrigin}/`,
-      logo: `${publicOrigin}/isuntv-logo.png`,
+      logo: `${publicOrigin}/brand/comet.png`,
       parentOrganization: { '@id': entityIds.tideisun },
       employee: [{ '@id': entityIds.robin }],
       contactPoint: [
