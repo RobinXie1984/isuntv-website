@@ -819,3 +819,8 @@
 @media (max-width: 760px) { .global-feature { grid-template-columns: minmax(0,1fr); gap: 30px; } .global-feature h2 { font-size: clamp(32px,8vw,44px); } .global-gallery-bottom { padding: 16px; min-height: 150px; } .global-editorial { padding-top: 40px; padding-bottom: 40px; } .global-invitation { display: block; } .global-invitation .brand-button { margin-top: 24px; } }
 @media (max-width: 420px) { .global-process { grid-template-columns: minmax(0,1fr); gap: 18px; } }
 @media (prefers-reduced-motion: reduce) { .global-gallery * { transition: none !important; animation: none !important; } }
+
+/* Share the comet asset while retaining the approved original wordmark pixels. */
+.brand-header > a:first-of-type { position: relative; }
+.brand-logo-comet-overlay { position: absolute; left: 4px; top: 5px; width: 58px; height: 54px; background: #161616 url('/brand/comet.png') center / contain no-repeat; pointer-events: none; }
+@media(max-width:760px) { .brand-logo-comet-overlay { left: 4px; top: 8px; width: 46px; height: 45px; } }

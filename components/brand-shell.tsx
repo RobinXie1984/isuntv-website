@@ -25,6 +25,7 @@ export function BrandHeader({
             height="100"
             alt="iSunTV 陽光衛視"
           />
+          <span className="brand-logo-comet-overlay" aria-hidden="true" />
         </a>
         <div className="brand-motto">
           <span>{t('連接華商　影響世界', 'Connecting entrepreneurs worldwide')}</span>

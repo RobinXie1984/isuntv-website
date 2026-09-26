@@ -24,7 +24,7 @@ export async function generateMetadata({
     title: `${t.title} | ${t.series}`,
     description: t.intro,
     robots: { index: true, follow: true },
-    icons: { icon: '/isuntv-logo.png' },
+    icons: { icon: [{ url: '/brand/favicon-32.png', sizes: '32x32', type: 'image/png' }, { url: '/brand/icon-192.png', sizes: '192x192', type: 'image/png' }], shortcut: '/brand/favicon-32.png', apple: [{ url: '/brand/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }] },
     alternates: languageAlternates('', locale as Locale),
   };
 }
