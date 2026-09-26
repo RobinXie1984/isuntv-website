@@ -26,7 +26,7 @@ else {
  export default {async fetch(request,env,ctx){
   const url=new URL(request.url);
   if(url.hostname==='www.${hostname}')return Response.redirect('${profile.publicOrigin}'+url.pathname+url.search,308);
-  if(${JSON.stringify(site)}==='chinasuntv' && url.pathname==='/api/contact')return forwardContact(request);
+  if(${JSON.stringify(site)}==='isunmedia' && url.pathname==='/api/contact')return forwardContact(request);
   const result=assets.has(url.pathname)?await env.ASSETS.fetch(request):await app.fetch(request,env,ctx);
   const response=new Response(result.body,result);
   if(url.hostname!=='${hostname}')response.headers.set('X-Robots-Tag','noindex, follow');

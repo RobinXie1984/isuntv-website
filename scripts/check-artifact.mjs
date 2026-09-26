@@ -2,7 +2,7 @@ import {readFileSync,readdirSync,existsSync} from 'node:fs';
 import {join,relative} from 'node:path';
 import assert from 'node:assert/strict';
 import {projectContent} from './content-visibility.mjs';
-const site=process.argv[2];assert(['isuntv','isun1','chinasuntv'].includes(site));
+const site=process.argv[2];assert(['isuntv','isun1','isunmedia'].includes(site));
 const root=`artifacts/${site}`;
 const profile=JSON.parse(readFileSync('sites.json'))[site];
 const release=JSON.parse(readFileSync(join(root,'release.json')));

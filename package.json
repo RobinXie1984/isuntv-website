@@ -17,8 +17,8 @@
     "build:both": "npm run build:isuntv && npm run build:isun1",
     "test": "node --test scripts/visibility.test.mjs",
     "check:drift": "node scripts/check-drift.mjs",
-    "build:chinasuntv": "node scripts/build-site.mjs chinasuntv",
-    "build:all": "npm run build:both && npm run build:chinasuntv"
+    "build:isunmedia": "node scripts/build-site.mjs isunmedia",
+    "build:all": "npm run build:both && npm run build:isunmedia"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

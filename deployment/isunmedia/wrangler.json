@@ -1,6 +1,6 @@
 {
-  "name": "chinasuntv-public",
-  "pages_build_output_dir": "../../artifacts/chinasuntv",
+  "name": "isunmedia-public",
+  "pages_build_output_dir": "../../artifacts/isunmedia",
   "compatibility_date": "2026-09-08",
   "compatibility_flags": [
     "nodejs_compat"

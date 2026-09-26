@@ -1,7 +1,7 @@
 // The only publication exception. Classification uses immutable playlist/video IDs.
 // An ID classified global-only stays excluded even if it also occurs in an allowed playlist.
 export function projectContent(source, policy, siteId) {
-  if (!['isuntv', 'isun1', 'chinasuntv'].includes(siteId)) throw new Error('Unknown publication target');
+  if (!['isuntv', 'isun1', 'isunmedia'].includes(siteId)) throw new Error('Unknown publication target');
   const restrictedPlaylists = new Set(policy.globalOnlyPlaylistIds);
   for (const id of restrictedPlaylists) if (!source.videos.some(p => p.id === id)) throw new Error(`Missing classification playlist ${id}`);
   const globalOnlyIds = new Set(source.videos.filter(p => restrictedPlaylists.has(p.id)).flatMap(p => p.entries.map(v => v.id)));

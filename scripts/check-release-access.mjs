@@ -12,13 +12,13 @@ const pages=await gh.json();assert.equal(pages.build_type,'workflow');assert.equ
 assert.equal(body.result.deployment_configs?.production?.env_vars?.GOOGLE_WORKSPACE_RELAY_SECRET?.type,'secret_text','Existing encrypted mail relay binding must remain configured');
 console.log('Both existing deployment destinations and encrypted mail binding are ready.');
 
-const thirdURL=`https://api.cloudflare.com/client/v4/accounts/${account}/pages/projects/chinasuntv-public`;
+const thirdURL=`https://api.cloudflare.com/client/v4/accounts/${account}/pages/projects/isunmedia-public`;
 let third=await fetch(thirdURL,{headers:{Authorization:`Bearer ${cf}`},signal:AbortSignal.timeout(20000)});
 if(third.status===404){
- const created=await fetch(`https://api.cloudflare.com/client/v4/accounts/${account}/pages/projects`,{method:'POST',headers:{Authorization:`Bearer ${cf}`,'Content-Type':'application/json'},body:JSON.stringify({name:'chinasuntv-public',production_branch:'main'}),signal:AbortSignal.timeout(20000)});
- assert.equal(created.status,200,'Unable to prepare authorized ChinaSunTV Pages destination');
+ const created=await fetch(`https://api.cloudflare.com/client/v4/accounts/${account}/pages/projects`,{method:'POST',headers:{Authorization:`Bearer ${cf}`,'Content-Type':'application/json'},body:JSON.stringify({name:'isunmedia-public',production_branch:'main'}),signal:AbortSignal.timeout(20000)});
+ assert.equal(created.status,200,'Unable to prepare authorized iSunMedia Pages destination');
  third=await fetch(thirdURL,{headers:{Authorization:`Bearer ${cf}`},signal:AbortSignal.timeout(20000)});
 }
-assert.equal(third.status,200,'ChinaSunTV destination access failed');
-const thirdBody=await third.json();assert(thirdBody.success&&thirdBody.result?.name==='chinasuntv-public');
+assert.equal(third.status,200,'iSunMedia destination access failed');
+const thirdBody=await third.json();assert(thirdBody.success&&thirdBody.result?.name==='isunmedia-public');
 console.log('All three destinations are ready; no mail secret is copied.');

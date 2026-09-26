@@ -30,7 +30,7 @@ test('all referenced people and thumbnail files have a visible source',()=>{
  const used=new Set(Object.values(mainland.drafts).flatMap(d=>d.people??[]));for(const id of Object.keys(mainland.people))assert(used.has(id));
 });
 
-test('English ChinaSunTV receives exactly the complete iSunTV catalogue',()=>{
- const english=projectContent(source,policy,'chinasuntv');
+test('English iSunMedia receives exactly the complete iSunTV catalogue',()=>{
+ const english=projectContent(source,policy,'isunmedia');
  assert.deepEqual(english,global);
 });

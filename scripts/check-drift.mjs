@@ -15,7 +15,7 @@ async function check(){
   return release;
  }));
  for(const row of rows.slice(1))for(const key of ['sourceCommit','sharedSourceSha256','visibilityPolicySha256'])assert.equal(rows[0][key],row[key],`DEPLOYMENT DRIFT: ${row.siteId} ${key}`);
- assert.equal(rows.find(r=>r.siteId==='chinasuntv').visibleVideoCount,rows.find(r=>r.siteId==='isuntv').visibleVideoCount);
+ assert.equal(rows.find(r=>r.siteId==='isunmedia').visibleVideoCount,rows.find(r=>r.siteId==='isuntv').visibleVideoCount);
  assert.match(rows[0].sourceCommit,/^[a-f0-9]{40}$/);assert.match(rows[0].sharedSourceSha256,/^[a-f0-9]{64}$/);
  return rows;
 }

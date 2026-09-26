@@ -1,6 +1,6 @@
 export async function forwardContact(request, fetcher = fetch) {
   const origin = request.headers.get('origin');
-  if (!['https://chinasuntv.com', 'https://www.chinasuntv.com'].includes(origin))
+  if (!['https://isunmedia.com', 'https://www.isunmedia.com'].includes(origin))
     return new Response('Invalid origin', {status:403,headers:{'Cache-Control':'no-store'}});
   if (request.method !== 'POST') return new Response('Method not allowed',{status:405,headers:{Allow:'POST','Cache-Control':'no-store'}});
   const headers = new Headers(request.headers);

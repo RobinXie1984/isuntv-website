@@ -7,6 +7,6 @@ for(const row of rows){
  assert.equal(row.defaultLocale,profiles[row.siteId].defaultLocale);
  if(process.env.GITHUB_SHA)assert.equal(row.sourceCommit,process.env.GITHUB_SHA);
 }
-const tv=rows.find(r=>r.siteId==='isuntv'),mainland=rows.find(r=>r.siteId==='isun1'),english=rows.find(r=>r.siteId==='chinasuntv');
+const tv=rows.find(r=>r.siteId==='isuntv'),mainland=rows.find(r=>r.siteId==='isun1'),english=rows.find(r=>r.siteId==='isunmedia');
 assert.equal(tv.visibleVideoCount,english.visibleVideoCount);assert(tv.visibleVideoCount>mainland.visibleVideoCount);
 console.log(JSON.stringify({artifacts:'PASS',count:rows.length,commit:tv.sourceCommit,sourceDigest:tv.sharedSourceSha256}));
