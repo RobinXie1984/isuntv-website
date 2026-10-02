@@ -117,6 +117,17 @@ export const detailCopy = {
     videoBack: 'エピソード一覧へ',
     unavailable: 'YouTube 上で非公開の動画は、ここには表示できません。',
   },
+  ko: {
+    unknown: '원본 자료에 명시되지 않음', browse: '에피소드 보기', submitted: '제공된 원본 재생목록(인문지리)',
+    missingTitle: '영상 제목 없음', back: '모든 프로그램', videos: '개 영상', watch: 'YouTube에서 보기',
+    source: '원본 재생목록', previous: '이전', next: '다음', page: '페이지',
+    original: 'YouTube 원본 제목', summary: '한눈에 보기', who: '인물', what: '내용',
+    when: '시기', where: '장소', why: '배경', how: '서술 방식',
+    note: '공식 영상 제목과 설명을 바탕으로 작성한 초안입니다. 원본 자료에 없는 내용은 추정하지 않습니다.',
+    shared: '두 편은 같은 공식 설명을 사용합니다. 각 편의 세부 내용은 준비 중입니다.',
+    person: '인물 소개', pending: '한국어 요약을 준비 중입니다. 원본 영상은 YouTube에서 볼 수 있습니다.',
+    videoBack: '에피소드 목록으로', unavailable: 'YouTube에서 숨겨졌거나 이용할 수 없는 영상은 여기에 표시할 수 없습니다.',
+  },
 };
 export type SixField = 'who' | 'what' | 'when' | 'where' | 'why' | 'how';
 export type Draft = {

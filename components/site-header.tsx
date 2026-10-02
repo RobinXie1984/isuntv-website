@@ -21,6 +21,7 @@ export function SiteHeader({
     'zh-Hans': '关于',
     en: 'About', fr: 'À propos', es: 'Nosotros', hi: 'परिचय',
     ja: '紹介',
+    ko: '소개',
     he: 'אודות',
   }[locale];
   return (

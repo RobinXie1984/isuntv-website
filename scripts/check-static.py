@@ -16,7 +16,7 @@ errors=[]; refs=set(); counts={}; pages=list(root.rglob('*.html'))
 for f in pages:
     p=Page(); p.feed(f.read_text()); relative=f.relative_to(root).as_posix()
     is404=relative in ['404.html','404/index.html']
-    expected=relative.split('/')[0] if relative.split('/')[0] in ['zh-Hant','en','fr','es','ja','hi','he'] else 'zh-Hans'
+    expected=relative.split('/')[0] if relative.split('/')[0] in ['zh-Hant','en','fr','es','ja','ko','hi','he'] else 'zh-Hans'
     if p.lang!=expected: errors.append([relative,'lang',p.lang,expected])
     if not is404 and (not p.canonical or not p.canonical.startswith('https://isun1.com/')): errors.append([relative,'canonical',p.canonical])
     counts[expected]=counts.get(expected,0)+1

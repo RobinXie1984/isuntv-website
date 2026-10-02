@@ -5,6 +5,7 @@ export const videoAvailability = {
   "fr": "Les présentations et les images sont accessibles sur ce site. Les vidéos originales s’ouvrent sur YouTube, qui peut être indisponible dans certaines régions, notamment en Chine continentale.",
   "es": "Las fichas y las imágenes se pueden consultar aquí. Los vídeos originales se abren en YouTube, que puede no estar disponible en algunas regiones, incluida China continental.",
   "ja": "番組紹介と画像はこのサイトでご覧いただけます。本編はYouTubeに移動します。中国本土など、一部地域では利用できない場合があります。",
+  "ko": "프로그램 소개와 이미지는 이 사이트에서 볼 수 있습니다. 원본 영상은 YouTube에서 열리며, 중국 본토를 포함한 일부 지역에서는 이용하지 못할 수 있습니다.",
   "hi": "कार्यक्रमों की जानकारी और चित्र इसी वेबसाइट पर उपलब्ध हैं। मूल वीडियो YouTube पर खुलते हैं, जो मुख्यभूमि चीन सहित कुछ क्षेत्रों में उपलब्ध नहीं हो सकता।",
   "he": "מידע על התוכניות ותמונות זמינים באתר זה. הסרטונים המקוריים נפתחים ב־YouTube, שעשוי להיות בלתי זמין באזורים מסוימים, כולל סין היבשתית."
 };

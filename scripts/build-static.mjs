@@ -30,7 +30,7 @@ if (metadataRun.status !== 0) throw new Error('Static metadata generation failed
 
 const root = 'dist/client';
 const profile=JSON.parse(readFileSync('lib/generated/site.json','utf8'));
-const locales = ['', ...['zh-Hant','zh-Hans','en','fr','es','ja','hi','he'].filter(l=>l!==profile.defaultLocale)];
+const locales = ['', ...['zh-Hant','zh-Hans','en','fr','es','ja','ko','hi','he'].filter(l=>l!==profile.defaultLocale)];
 for (const locale of locales) {
   for (const route of ['', 'about', 'global', 'interviews', 'chairman', 'robin', 'licensing', 'verify', 'contact', 'privacy', 'programmes', 'search']) {
     const file = join(root, locale, route, 'index.html');

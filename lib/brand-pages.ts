@@ -5,7 +5,7 @@ import { sitePath, programmes } from './catalogue';
 import { interviewProgrammeIds } from './site-profile';
 import type { Metadata } from 'next';
 import { translator } from './brand-i18n';
-export const brandLocales = ['zh-Hans', 'zh-Hant', 'en', 'fr', 'es', 'ja', 'hi', 'he'] as const;
+export const brandLocales = ['zh-Hans', 'zh-Hant', 'en', 'fr', 'es', 'ja', 'ko', 'hi', 'he'] as const;
 export type BrandLocale = (typeof brandLocales)[number];
 export const brandPaths = [
   'about',
@@ -98,8 +98,8 @@ export function brandMetadata(
       description,
       type: 'website',
       siteName: 'iSunTV 陽光衛視',
-      locale: { 'zh-Hant': 'zh_TW', 'zh-Hans': 'zh_CN', en: 'en_US', ja: 'ja_JP', he: 'he_IL', fr: 'fr_FR', es: 'es_ES', hi: 'hi_IN' }[locale],
-      alternateLocale: brandLocales.filter(l => l !== locale).map(l => ({ 'zh-Hant': 'zh_TW', 'zh-Hans': 'zh_CN', en: 'en_US', ja: 'ja_JP', he: 'he_IL', fr: 'fr_FR', es: 'es_ES', hi: 'hi_IN' })[l]),
+      locale: { 'zh-Hant': 'zh_TW', 'zh-Hans': 'zh_CN', en: 'en_US', ja: 'ja_JP', ko: 'ko_KR', he: 'he_IL', fr: 'fr_FR', es: 'es_ES', hi: 'hi_IN' }[locale],
+      alternateLocale: brandLocales.filter(l => l !== locale).map(l => ({ 'zh-Hant': 'zh_TW', 'zh-Hans': 'zh_CN', en: 'en_US', ja: 'ja_JP', ko: 'ko_KR', he: 'he_IL', fr: 'fr_FR', es: 'es_ES', hi: 'hi_IN' })[l]),
       url: `${publicOrigin}${brandPath(path, locale)}`,
     },
     twitter: { card: 'summary', title, description },

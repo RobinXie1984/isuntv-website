@@ -32,6 +32,11 @@ visit(root);
 if(site==='isun1'){
  const page=readFileSync(join(root,'interviews/index.html'),'utf8');
  assert(page.includes('lang="zh-Hans"'));
+ const korean=readFileSync(join(root,'ko/index.html'),'utf8');
+ assert(korean.includes('lang="ko"')&&korean.includes('href="https://isun1.com/ko/"'),'Korean homepage language/canonical');
+ const menu=korean.match(/<nav class="language-options"[^>]*>(.*?)<\/nav>/s)?.[1];
+ assert(menu,'Korean language menu');
+ assert(menu.indexOf('hrefLang="ja"')>=0&&menu.indexOf('hrefLang="ko"')>menu.indexOf('hrefLang="ja"')&&menu.indexOf('hrefLang="hi"')>menu.indexOf('hrefLang="ko"'),'Korean follows Japanese in language menu');
  for(const slug of policy.interviews.isun1)assert(page.includes(`/programmes/${slug}/`),'Missing interview '+slug);
  for(const id of projected.globalOnlyIds)assert(!existsSync(join(root,`videos/${id}/index.html`)));
  const sm=readFileSync(join(root,'sitemap.xml'),'utf8');assert(sm.includes('https://isun1.com/'));assert(!sm.includes('https://isuntv.com/'));

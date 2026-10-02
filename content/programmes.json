@@ -2,6 +2,7 @@
   {
     "slug": "masters",
     "titles": {
+      "ko": "백년의 거장",
       "fr": "Maîtres du siècle",
       "es": "Maestros de un siglo",
       "hi": "सदी के महान रचनाकार",
@@ -12,6 +13,7 @@
       "ja": "百年の巨匠"
     },
     "topics": {
+      "ko": "예술과 창작",
       "fr": "Arts et création",
       "es": "Arte y creación",
       "hi": "कला और सृजन",
@@ -28,6 +30,7 @@
   {
     "slug": "national-tragedy",
     "titles": {
+      "ko": "국상",
       "fr": "Tragédie nationale",
       "es": "Tragedia nacional",
       "hi": "राष्ट्रीय त्रासदी",
@@ -38,6 +41,7 @@
       "ja": "国殤"
     },
     "topics": {
+      "ko": "역사",
       "fr": "Histoire",
       "es": "Historia",
       "hi": "इतिहास",
@@ -54,6 +58,7 @@
   {
     "slug": "life-online",
     "titles": {
+      "ko": "인생온라인",
       "fr": "Parcours de vie",
       "es": "Trayectorias de vida",
       "hi": "जीवन की कहानियाँ",
@@ -64,6 +69,7 @@
       "ja": "人生在線"
     },
     "topics": {
+      "ko": "기업가와 예술가",
       "fr": "Entrepreneurs et artistes",
       "es": "Empresarios y artistas",
       "hi": "उद्यमी और कलाकार",
@@ -80,6 +86,7 @@
   {
     "slug": "love-marriage",
     "titles": {
+      "ko": "백년의 사랑과 결혼",
       "fr": "Un siècle d’amour",
       "es": "Un siglo de amor",
       "hi": "प्रेम की एक सदी",
@@ -90,6 +97,7 @@
       "ja": "百年の愛と結婚"
     },
     "topics": {
+      "ko": "삶과 시대",
       "fr": "Vies et époques",
       "es": "Vidas y épocas",
       "hi": "जीवन और समय",
@@ -106,6 +114,7 @@
   {
     "slug": "treasures",
     "titles": {
+      "ko": "국보",
       "fr": "Trésors nationaux",
       "es": "Tesoros nacionales",
       "hi": "राष्ट्रीय धरोहर",
@@ -116,6 +125,7 @@
       "ja": "国宝"
     },
     "topics": {
+      "ko": "문화유산",
       "fr": "Patrimoine et culture",
       "es": "Patrimonio y cultura",
       "hi": "विरासत और संस्कृति",
@@ -132,6 +142,7 @@
   {
     "slug": "geography",
     "titles": {
+      "ko": "사람과 장소",
       "fr": "Peuples et paysages",
       "es": "Personas y lugares",
       "hi": "लोग और स्थान",
@@ -142,6 +153,7 @@
       "ja": "人文地理"
     },
     "topics": {
+      "ko": "풍경과 문화",
       "fr": "Paysages et cultures",
       "es": "Paisajes y cultura",
       "hi": "प्रकृति और संस्कृति",
@@ -158,6 +170,7 @@
   {
     "slug": "journeys",
     "titles": {
+      "ko": "여정",
       "fr": "Voyages",
       "es": "Viajes",
       "hi": "यात्राएँ",
@@ -168,6 +181,7 @@
       "ja": "世界を歩く"
     },
     "topics": {
+      "ko": "여행과 관찰",
       "fr": "Voyage et observation",
       "es": "Viajes y observación",
       "hi": "यात्रा और अवलोकन",
@@ -184,6 +198,7 @@
   {
     "slug": "science",
     "titles": {
+      "ko": "생각과 발견",
       "fr": "Sciences et découvertes",
       "es": "Ciencia y descubrimiento",
       "hi": "विज्ञान और खोज",
@@ -194,6 +209,7 @@
       "ja": "科学と発見"
     },
     "topics": {
+      "ko": "지식과 발견",
       "fr": "Savoir et découverte",
       "es": "Conocimiento y descubrimiento",
       "hi": "ज्ञान और खोज",
@@ -210,6 +226,7 @@
   {
     "slug": "personal-accounts",
     "titles": {
+      "ko": "개인의 기록",
       "fr": "Récits personnels",
       "es": "Relatos personales",
       "hi": "अपनी ज़ुबानी",
@@ -220,6 +237,7 @@
       "ja": "人物の証言"
     },
     "topics": {
+      "ko": "가족과 기억",
       "fr": "Famille et souvenirs",
       "es": "Familia y recuerdos",
       "hi": "परिवार और यादें",
@@ -237,6 +255,7 @@
   {
     "slug": "oral-history",
     "titles": {
+      "ko": "구술사",
       "fr": "Histoire orale",
       "es": "Historia oral",
       "hi": "मौखिक इतिहास",
@@ -247,6 +266,7 @@
       "ja": "オーラルヒストリー"
     },
     "topics": {
+      "ko": "회고",
       "fr": "Mémoires vécues",
       "es": "Memorias",
       "hi": "स्मृतियाँ",

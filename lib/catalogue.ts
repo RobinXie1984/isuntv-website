@@ -1,6 +1,6 @@
 import programmeData from './generated/programmes.json';
 import { defaultLocale } from './site-profile';
-export const locales = ['zh-Hans', 'zh-Hant', 'en', 'fr', 'es', 'ja', 'hi', 'he'] as const;
+export const locales = ['zh-Hans', 'zh-Hant', 'en', 'fr', 'es', 'ja', 'ko', 'hi', 'he'] as const;
 export type Locale = (typeof locales)[number];
 export const copy = {
 "fr": {"title": "iSunTV", "nav": "Programmes", "about": "À propos", "channel": "Chaîne YouTube", "kicker": "DOCUMENTAIRES · HONG KONG", "headline": "Des vies en mémoire.\nL’histoire en images.", "intro": "Des artistes, des souvenirs et un regard sur le monde. Découvrez les voix et les récits des documentaires iSunTV.", "explore": "Explorer les programmes", "watch": "Voir sur YouTube", "series": "La collection", "all": "Des histoires qui nous accompagnent.", "aboutText": "iSunTV est une chaîne de télévision satellitaire de Hong Kong consacrée aux personnes, à l’histoire et à la culture.", "skip": "Aller au contenu", "playlist": "Voir la playlist", "footer": "陽光衛視 · iSunTV", "source": "Playlist originale", "featured": "ENTRETIENS", "featureTitle": "Parcours de vie", "featureDesc": "Le chef d’orchestre Li Delun · Épisode 1", "lang": "Langue"},
@@ -102,6 +102,17 @@ export const copy = {
     featureDesc: '指揮者・李徳倫 · 第1話',
     lang: '言語',
   },
+  ko: {
+    title: 'iSunTV 양광위성TV', nav: '프로그램', about: '소개', channel: 'YouTube 채널',
+    kicker: '홍콩 · 다큐멘터리', headline: '영상으로 만나는 시대와 삶.',
+    intro: '예술가의 창작부터 한 사람의 기억까지. iSunTV의 인물·역사·문화 다큐멘터리를 만나보세요.',
+    explore: '프로그램 둘러보기', watch: 'YouTube에서 보기', series: '프로그램 모음',
+    all: '오래 기억할 이야기를 전합니다.',
+    aboutText: 'iSunTV는 인물, 역사, 문화를 다루는 홍콩의 위성 텔레비전 채널입니다.',
+    skip: '본문으로 건너뛰기', playlist: '재생목록 보기', footer: '陽光衛視 · iSunTV',
+    source: '원본 재생목록', featured: '인물 인터뷰', featureTitle: '인생온라인',
+    featureDesc: '지휘자 리더룬 · 1화', lang: '언어',
+  },
 };
 export const programmes = programmeData;
 
@@ -111,6 +122,7 @@ export const localeNames: Record<Locale, string> = {
   'zh-Hans': '简体中文',
   en: 'English', fr: 'Français', es: 'Español', hi: 'हिन्दी',
   ja: '日本語',
+  ko: '한국어',
 };
 export function sitePath(locale: Locale, path = '') {
   const joined = `${locale === defaultLocale ? '' : `/${locale}`}/${path}`;

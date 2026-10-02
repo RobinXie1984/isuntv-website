@@ -4,8 +4,8 @@ import handler from 'vinext/server/fetch-handler';
 declare const __ISUN_RELEASE__: string;
 // Only anonymous, query-free HTML information pages. Forms, verification, APIs,
 // search, RSC navigation and previews always use their existing live handler.
-const publicPage = /^\/(?:zh-Hant\/|zh-Hans\/|en\/|fr\/|es\/|ja\/|hi\/|he\/)?(?:about|global|interviews|chairman|robin|licensing|privacy)?$/;
-const localeHome = /^\/(?:zh-Hant|zh-Hans|en|fr|es|ja|hi|he)$/;
+const publicPage = /^\/(?:zh-Hant\/|zh-Hans\/|en\/|fr\/|es\/|ja\/|ko\/|hi\/|he\/)?(?:about|global|interviews|chairman|robin|licensing|privacy)?$/;
+const localeHome = /^\/(?:zh-Hant|zh-Hans|en|fr|es|ja|ko|hi|he)$/;
 export function canCache(request: Request) {
   const url = new URL(request.url);
   // Cloudflare adds __cf_bm to ordinary public visits. It is a bot-management
