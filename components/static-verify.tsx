@@ -7,12 +7,13 @@ import type { BrandLocale } from '../lib/brand-pages';
 // Published records require the signed-record verification service before launch.
 export function StaticVerify({ locale }: { locale: BrandLocale }) {
   const t = translator(locale);
+  const [ready, setReady] = useState(false);
   const [id, setId] = useState('');
   const [submitted, setSubmitted] = useState('');
   useEffect(() => {
     const restore = () => { const initial = (new URLSearchParams(window.location.search).get('id') ?? '').slice(0, 100);
     setId(initial);
-    setSubmitted(initial); };
+    setSubmitted(initial); setReady(true); };
     restore();
     window.addEventListener('popstate', restore);
     return () => window.removeEventListener('popstate', restore);
@@ -28,8 +29,8 @@ export function StaticVerify({ locale }: { locale: BrandLocale }) {
       window.dispatchEvent(new Event('isun:locationchange'));
     }}>
       <label className="sr-only" htmlFor="authorization-id">{t('授權編號', 'Authorization ID')}</label>
-      <input id="authorization-id" name="id" value={id} onChange={event => setId(event.target.value)} placeholder="ISUN-…" maxLength={100} required />
-      <button className="brand-button dark" type="submit">{t('查驗', 'Verify')}</button>
+      <input id="authorization-id" name="id" disabled={!ready} value={id} onChange={event => setId(event.target.value)} placeholder="ISUN-…" maxLength={100} required />
+      <button className="brand-button dark" type="submit" disabled={!ready}>{t('查驗', 'Verify')}</button>
     </form>
     {submitted && <section className="notice" aria-live="polite">
       <h3>{t('公開登記尚未啟用', 'Public register not yet enabled')}</h3>
