@@ -1,3 +1,4 @@
+import { TranslationCoverage } from '../components/translation-coverage';
 import { videoAvailability } from '../lib/video-availability';
 import { SiteHeader } from '../components/site-header';
 /* oxlint-disable nextjs/no-img-element -- Fixed-size source thumbnails and the small official logo use direct images; no image proxy or optimizer is needed. */
@@ -16,6 +17,7 @@ export function Catalogue({ locale }: { locale: Locale }) {
       <SiteHeader locale={locale} path="programmes" />
       <main id="main">
         <p className="source-note">{videoAvailability[locale]}</p>
+        <TranslationCoverage locale={locale} />
         <section className="intro">
           <div className="intro-text">
             <p className="eyebrow">{t.kicker}</p>

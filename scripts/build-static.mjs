@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import { join } from 'node:path';
 import { build as bundle } from 'esbuild';
+import { errorDocument } from '../lib/error-page.mjs';
 
 const registry = JSON.parse(readFileSync('lib/authorization-registry.json', 'utf8'));
 if (registry.published || registry.records.length || registry.publicKeyPem) {
@@ -30,6 +31,7 @@ if (metadataRun.status !== 0) throw new Error('Static metadata generation failed
 
 const root = 'dist/client';
 const profile=JSON.parse(readFileSync('lib/generated/site.json','utf8'));
+writeFileSync(join(root, '404.html'), errorDocument('/', profile.defaultLocale, true));
 const locales = ['', ...['zh-Hant','zh-Hans','en','fr','es','ja','ko','hi','he'].filter(l=>l!==profile.defaultLocale)];
 for (const locale of locales) {
   for (const route of ['', 'about', 'global', 'interviews', 'chairman', 'robin', 'licensing', 'verify', 'contact', 'privacy', 'programmes', 'search']) {

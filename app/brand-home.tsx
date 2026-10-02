@@ -29,7 +29,7 @@ export function BrandHome({ locale = defaultLocale }: { locale?: BrandLocale }) 
             <p className="hero-kicker">
               {t('立足香港　連接全球', 'HONG KONG')}
             </p>
-            <p className="english-label">
+            <p className="english-label" lang="en" dir="ltr">
               HONG KONG
               <br />
               YOUR GLOBAL ADVANTAGE
@@ -60,7 +60,7 @@ export function BrandHome({ locale = defaultLocale }: { locale?: BrandLocale }) 
             <p className="hero-kicker">
               {t('真實人物　時代見證', 'IN CONVERSATION')}
             </p>
-            <p className="english-label">
+            <p className="english-label" lang="en" dir="ltr">
               REAL PEOPLE.
               <br />
               EXTRAORDINARY JOURNEYS.
@@ -85,7 +85,7 @@ export function BrandHome({ locale = defaultLocale }: { locale?: BrandLocale }) 
         <h2>
           {t('從香港出發，連接更廣闊的世界', 'From Hong Kong, to a wider world.')}
         </h2>
-        <p className="english-label">
+        <p className="english-label" lang="en" dir="ltr">
           CHINESE ENTREPRENEURS　 A BRIGHTER CHINA　 A WIDER WORLD
         </p>
         <div className="value-grid">
@@ -108,7 +108,7 @@ export function BrandHome({ locale = defaultLocale }: { locale?: BrandLocale }) 
       </section>
       <section className="authority-strip">
         <div>
-          <p className="english-label">THE BRAND. THE PEOPLE. THE TRUST.</p>
+          <p className="english-label" lang="en" dir="ltr">THE BRAND. THE PEOPLE. THE TRUST.</p>
           <h2>
             {t('品牌有主張，授權有依據。', 'A name with accountability.')}
           </h2>

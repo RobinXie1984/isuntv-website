@@ -3,7 +3,12 @@
     "zh-Hant": "指揮家李德倫",
     "zh-Hans": "指挥家李德伦",
     "en": "Conductor Li Delun",
-    "ja": "指揮者・李徳倫"
+    "ja": "指揮者・李徳倫",
+    "fr": "Le chef d’orchestre Li Delun",
+    "es": "El director de orquesta Li Delun",
+    "ko": "지휘자 리더룬",
+    "hi": "ऑर्केस्ट्रा संचालक ली देलुन",
+    "he": "המנצח לי דלון"
   },
   "WAbCxwgXaO0": {
     "zh-Hant": "高景炎（上）",
@@ -951,7 +956,12 @@
     "zh-Hant": "溥傑與嵯峨浩",
     "zh-Hans": "溥杰与嵯峨浩",
     "en": "Pujie and Hiro Saga",
-    "ja": "溥傑と嵯峨浩"
+    "ja": "溥傑と嵯峨浩",
+    "fr": "Pujie et Hiro Saga",
+    "es": "Pujie y Hiro Saga",
+    "ko": "푸제와 사가 히로",
+    "hi": "पुजिए और हिरो सागा",
+    "he": "פוג׳יה והירו סאגה"
   },
   "qI752WHcKJw": {
     "zh-Hant": "殷墟甲骨",
@@ -969,7 +979,12 @@
     "zh-Hant": "國殤第1集：重返盧溝橋",
     "zh-Hans": "国殇第1集：重返卢沟桥",
     "en": "National Tragedy 1: Return to the Marco Polo Bridge",
-    "ja": "国殤 第1回：盧溝橋を再訪"
+    "ja": "国殤 第1回：盧溝橋を再訪",
+    "fr": "Tragédie nationale 1 : Retour au pont Marco-Polo",
+    "es": "Tragedia nacional 1: Regreso al puente de Marco Polo",
+    "ko": "국상 1: 루거우차오를 다시 찾다",
+    "hi": "राष्ट्रीय त्रासदी 1: मार्को पोलो पुल की ओर वापसी",
+    "he": "טרגדיה לאומית 1: בחזרה לגשר מרקו פולו"
   },
   "saxqPlLejbI": {
     "zh-Hant": "畢淑敏：昆侖從軍行（上）",
@@ -993,6 +1008,11 @@
     "zh-Hant": "冼星海（上）",
     "zh-Hans": "冼星海（上）",
     "en": "Xian Xinghai — Part 1",
-    "ja": "冼星海（前編）"
+    "ja": "冼星海（前編）",
+    "fr": "Xian Xinghai — Partie 1",
+    "es": "Xian Xinghai — Parte 1",
+    "ko": "셴싱하이 — 1부",
+    "hi": "श्येन शिंगहाई — भाग 1",
+    "he": "שיאן שינגהאי — חלק 1"
   }
 }

@@ -1,10 +1,7 @@
 import NotFound from './not-found';
-
-export const metadata = {
-  title: '找不到页面 · Page not found | iSunTV',
-  robots: { index: false, follow: true },
-};
-
+import { defaultLocale } from '../lib/site-profile';
+import { errorCopy } from '../lib/error-page.mjs';
+export const metadata = {title: errorCopy[defaultLocale][0] + ' | iSunTV', robots: { index: false, follow: true }};
 export default function GlobalNotFound() {
-  return <html lang="zh-Hans"><body><NotFound /></body></html>;
+  return <html lang={defaultLocale} dir={defaultLocale === 'he' ? 'rtl' : 'ltr'}><body><NotFound /></body></html>;
 }

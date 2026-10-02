@@ -68,8 +68,8 @@ export function BrandFooter({ locale = defaultLocale }: { locale?: BrandLocale }
     <footer className="brand-footer">
       <div>
         <strong>陽光衛視 iSunTV</strong>
-        <p>A BRIGHTER CHINA, A WIDER WORLD</p>
-        <p>© {new Date().getFullYear()} iSunTV · Hong Kong</p>
+        <p lang="en" dir="ltr">A BRIGHTER CHINA, A WIDER WORLD</p>
+        <p lang="en" dir="ltr">© {new Date().getFullYear()} iSunTV · Hong Kong</p>
       </div>
       <div className="footer-links">
         {[

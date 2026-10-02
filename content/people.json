@@ -4,11 +4,25 @@
       "zh-Hant": "李德倫",
       "zh-Hans": "李德伦",
       "en": "Li Delun",
-      "ja": "李徳倫"
+      "ja": "李徳倫",
+      "fr": "Li Delun",
+      "es": "Li Delun",
+      "ko": "리더룬",
+      "hi": "ली देलुन",
+      "he": "לי דלון"
     },
     "url": "https://www.cnso.com.cn/zgjxyt/ldldc100h/ztindex.shtml",
     "sourceLanguage": "zh-Hans",
-    "publisher": "中國交響樂團"
+    "publisher": "中國交響樂團",
+    "aliases": [
+      "Li Delun",
+      "李德倫",
+      "李德伦",
+      "李徳倫",
+      "리더룬",
+      "ली देलुन",
+      "לי דלון"
+    ]
   },
   "gao-jingyan": {
     "name": {

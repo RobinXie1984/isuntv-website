@@ -1,0 +1,26 @@
+[
+  {
+    "id": "language-audit-20261002-priority-1",
+    "date": "2026-10-02",
+    "selection": "First existing source-backed summary in each of the four featured interview collections; available in all three site projections.",
+    "videoIds": [
+      "DDimF5_NMF8",
+      "WfQAEXacjVQ",
+      "anL-lcfB2y0",
+      "PkFIeLgyKL4"
+    ],
+    "locales": [
+      "fr",
+      "es",
+      "ko",
+      "hi",
+      "he"
+    ],
+    "sourceLocales": [
+      "zh-Hant",
+      "en"
+    ],
+    "method": "AI-assisted translation of existing official-metadata summaries; unknown fields preserved; no new media facts or audio/subtitle claims.",
+    "nativeEditorReview": "UNKNOWN"
+  }
+]

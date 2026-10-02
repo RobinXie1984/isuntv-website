@@ -10,9 +10,12 @@ export function StaticVerify({ locale }: { locale: BrandLocale }) {
   const [id, setId] = useState('');
   const [submitted, setSubmitted] = useState('');
   useEffect(() => {
-    const initial = (new URLSearchParams(window.location.search).get('id') ?? '').slice(0, 100);
+    const restore = () => { const initial = (new URLSearchParams(window.location.search).get('id') ?? '').slice(0, 100);
     setId(initial);
-    setSubmitted(initial);
+    setSubmitted(initial); };
+    restore();
+    window.addEventListener('popstate', restore);
+    return () => window.removeEventListener('popstate', restore);
   }, []);
   return <>
     <form className="verify-form" onSubmit={event => {
@@ -22,6 +25,7 @@ export function StaticVerify({ locale }: { locale: BrandLocale }) {
       const url = new URL(window.location.href);
       url.searchParams.set('id', value);
       window.history.replaceState(null, '', url);
+      window.dispatchEvent(new Event('isun:locationchange'));
     }}>
       <label className="sr-only" htmlFor="authorization-id">{t('授權編號', 'Authorization ID')}</label>
       <input id="authorization-id" name="id" value={id} onChange={event => setId(event.target.value)} placeholder="ISUN-…" maxLength={100} required />

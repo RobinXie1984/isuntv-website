@@ -33,6 +33,46 @@
         "where": "輔仁大学、ソ連、中央楽団",
         "why": "交響楽との出会いを機に音楽の道を志す",
         "how": "本人の語りで学業と指揮者としての歩みをたどる"
+      },
+      "fr": {
+        "who": "Le chef d’orchestre Li Delun",
+        "what": "Le récit personnel d’une vie consacrée à la musique",
+        "when": "Entrée à l’université en 1938 ; retour en Chine en 1957",
+        "where": "L’université Fu Jen, l’Union soviétique et l’Orchestre philharmonique central",
+        "why": "La découverte de la musique symphonique lui a donné la vocation de se consacrer à la musique",
+        "how": "Li raconte lui-même ses études et sa carrière de chef d’orchestre"
+      },
+      "es": {
+        "who": "El director de orquesta Li Delun",
+        "what": "Un relato personal de su vida en la música",
+        "when": "Ingreso en la universidad en 1938; regreso a China en 1957",
+        "where": "La Universidad Fu Jen, la Unión Soviética y la Filarmónica Central",
+        "why": "Descubrir la música sinfónica inspiró su vocación musical",
+        "how": "Li relata con sus propias palabras sus estudios y su carrera como director"
+      },
+      "ko": {
+        "who": "지휘자 리더룬",
+        "what": "자신의 음악 인생에 대한 회고",
+        "when": "1938년 대학 입학, 1957년 중국 귀국",
+        "where": "푸런대학교, 소련, 중앙악단",
+        "why": "교향악과의 만남을 계기로 음악에 헌신하기로 했습니다",
+        "how": "리더룬이 자신의 말로 학업과 지휘 경력을 돌아봅니다"
+      },
+      "hi": {
+        "who": "ऑर्केस्ट्रा संचालक ली देलुन",
+        "what": "संगीत में बिताए जीवन का उनका अपना वृत्तांत",
+        "when": "1938 में विश्वविद्यालय में प्रवेश; 1957 में चीन वापसी",
+        "where": "फू जेन विश्वविद्यालय, सोवियत संघ और सेंट्रल फिलहार्मोनिक",
+        "why": "सिम्फनी संगीत से परिचय ने उन्हें संगीत को जीवन समर्पित करने की प्रेरणा दी",
+        "how": "ली अपने शब्दों में पढ़ाई और ऑर्केस्ट्रा संचालन के करियर को याद करते हैं"
+      },
+      "he": {
+        "who": "המנצח לי דלון",
+        "what": "סיפור אישי על חייו במוזיקה",
+        "when": "כניסה לאוניברסיטה ב־1938; חזרה לסין ב־1957",
+        "where": "אוניברסיטת פו ג׳ן, ברית המועצות והתזמורת הפילהרמונית המרכזית",
+        "why": "היכרותו עם מוזיקה סימפונית עוררה בו את הרצון להקדיש את חייו למוזיקה",
+        "how": "לי מספר במילותיו על לימודיו ועל הקריירה שלו כמנצח"
       }
     },
     "source": "https://www.youtube.com/watch?v=anL-lcfB2y0",
@@ -6996,6 +7036,46 @@
         "where": "東京、北京",
         "why": "戦争による離別",
         "how": "二人を知る人々の回想"
+      },
+      "fr": {
+        "who": "Pujie et Hiro Saga",
+        "what": "Mariage, séparation et retrouvailles",
+        "when": "Mariés en 1937 ; réunis en 1961",
+        "where": "Tokyo et Pékin",
+        "why": "La guerre a séparé le couple",
+        "how": "Des personnes qui les ont connus racontent leur mariage"
+      },
+      "es": {
+        "who": "Pujie y Hiro Saga",
+        "what": "Matrimonio, separación y reencuentro",
+        "when": "Se casaron en 1937; se reunieron en 1961",
+        "where": "Tokio y Pekín",
+        "why": "La guerra separó a la pareja",
+        "how": "Personas que los conocieron relatan su matrimonio"
+      },
+      "ko": {
+        "who": "푸제와 사가 히로",
+        "what": "결혼, 이별과 재회",
+        "when": "1937년 결혼, 1961년 재회",
+        "where": "도쿄와 베이징",
+        "why": "전쟁으로 부부가 헤어졌습니다",
+        "how": "두 사람을 알던 이들이 그들의 결혼 생활을 회고합니다"
+      },
+      "hi": {
+        "who": "पुजिए और हिरो सागा",
+        "what": "विवाह, बिछोह और पुनर्मिलन",
+        "when": "1937 में विवाह; 1961 में पुनर्मिलन",
+        "where": "टोक्यो और बीजिंग",
+        "why": "युद्ध ने दंपति को अलग कर दिया",
+        "how": "उन्हें जानने वाले लोग उनके वैवाहिक जीवन को याद करते हैं"
+      },
+      "he": {
+        "who": "פוג׳יה והירו סאגה",
+        "what": "נישואים, פרידה ואיחוד מחדש",
+        "when": "נישאו ב־1937; התאחדו מחדש ב־1961",
+        "where": "טוקיו ובייג׳ינג",
+        "why": "המלחמה הפרידה בין בני הזוג",
+        "how": "אנשים שהכירו אותם מספרים על נישואיהם"
       }
     }
   },
@@ -7119,6 +7199,46 @@
         "where": "盧溝橋、宛平城",
         "why": "日本軍が兵士の行方不明を理由に城内捜索を要求",
         "how": "拒否後、宛平城を攻撃"
+      },
+      "fr": {
+        "who": "Les troupes japonaises et les défenseurs chinois",
+        "what": "L’incident du pont Marco-Polo et l’extension de la guerre",
+        "when": "7 juillet 1937",
+        "where": "Le pont Marco-Polo et Wanping",
+        "why": "Les troupes japonaises invoquent la disparition d’un soldat pour exiger une fouille dans la ville",
+        "how": "Après le refus de cette demande, elles attaquent Wanping"
+      },
+      "es": {
+        "who": "Las tropas japonesas y los defensores chinos",
+        "what": "El incidente del puente de Marco Polo y la expansión de la guerra",
+        "when": "7 de julio de 1937",
+        "where": "El puente de Marco Polo y Wanping",
+        "why": "Las tropas japonesas alegaron la desaparición de un soldado para exigir un registro dentro de la ciudad",
+        "how": "Atacaron Wanping después de que se rechazara la exigencia"
+      },
+      "ko": {
+        "who": "일본군과 중국 수비군",
+        "what": "루거우차오 사건과 전쟁의 확대",
+        "when": "1937년 7월 7일",
+        "where": "루거우차오와 완핑",
+        "why": "일본군은 병사 실종을 이유로 성안 수색을 요구했습니다",
+        "how": "요구가 거절되자 완핑을 공격했습니다"
+      },
+      "hi": {
+        "who": "जापानी सैनिक और चीनी रक्षक",
+        "what": "मार्को पोलो पुल की घटना और युद्ध का विस्तार",
+        "when": "7 जुलाई 1937",
+        "where": "मार्को पोलो पुल और वानपिंग",
+        "why": "जापानी सैनिकों ने एक सैनिक के लापता होने का हवाला देकर नगर के भीतर तलाशी की माँग की",
+        "how": "माँग ठुकराए जाने के बाद उन्होंने वानपिंग पर हमला किया"
+      },
+      "he": {
+        "who": "הכוחות היפניים והמגינים הסינים",
+        "what": "תקרית גשר מרקו פולו והתרחבות המלחמה",
+        "when": "7 ביולי 1937",
+        "where": "גשר מרקו פולו וואנפינג",
+        "why": "הכוחות היפניים טענו שחייל נעדר ודרשו לערוך חיפוש בתוך העיר",
+        "how": "לאחר שהדרישה נדחתה, הם תקפו את ואנפינג"
       }
     }
   },
@@ -7286,6 +7406,46 @@
         "where": "北京、パリ、延安",
         "why": null,
         "how": "学習、教育、作曲を通じた音楽人生"
+      },
+      "fr": {
+        "who": "Le compositeur et pianiste Xian Xinghai",
+        "what": "Études musicales, enseignement et œuvres chorales",
+        "when": "1905–1945",
+        "where": "Pékin, Paris et Yan’an",
+        "why": null,
+        "how": "Une vie musicale marquée par les études, l’enseignement et la composition"
+      },
+      "es": {
+        "who": "El compositor y pianista Xian Xinghai",
+        "what": "Estudios musicales, enseñanza y obras corales",
+        "when": "1905–1945",
+        "where": "Pekín, París y Yan’an",
+        "why": null,
+        "how": "Una vida musical marcada por el estudio, la enseñanza y la composición"
+      },
+      "ko": {
+        "who": "작곡가이자 피아니스트 셴싱하이",
+        "what": "음악 공부, 교육과 합창 작품",
+        "when": "1905–1945",
+        "where": "베이징, 파리, 옌안",
+        "why": null,
+        "how": "배움과 교육, 작곡으로 이어진 음악 인생"
+      },
+      "hi": {
+        "who": "संगीतकार और पियानोवादक श्येन शिंगहाई",
+        "what": "संगीत की पढ़ाई, अध्यापन और सामूहिक गायन की रचनाएँ",
+        "when": "1905–1945",
+        "where": "बीजिंग, पेरिस और यानआन",
+        "why": null,
+        "how": "अध्ययन, अध्यापन और संगीत रचना से आकार लेता संगीत जीवन"
+      },
+      "he": {
+        "who": "המלחין והפסנתרן שיאן שינגהאי",
+        "what": "לימודי מוזיקה, הוראה ויצירות למקהלה",
+        "when": "1905–1945",
+        "where": "בייג׳ינג, פריז ויאנאן",
+        "why": null,
+        "how": "חיים מוזיקליים שעוצבו בלימודים, בהוראה ובהלחנה"
       }
     }
   }

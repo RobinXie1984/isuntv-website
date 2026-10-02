@@ -824,3 +824,16 @@
 .brand-header > a:first-of-type { position: relative; }
 .brand-logo-comet-overlay { position: absolute; left: 4px; top: 5px; width: 58px; height: 54px; background: #161616 url('/brand/comet.png') center / contain no-repeat; pointer-events: none; }
 @media(max-width:760px) { .brand-logo-comet-overlay { left: 4px; top: 8px; width: 46px; height: 45px; } }
+
+/* Translated headings must fit their own panel, not merely the document viewport. */
+.hero-copy h1, .hero-copy h2 {
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  min-width: 0;
+}
+@media (max-width: 760px) {
+  .hero-copy h1, .hero-copy h2 {
+    font-size: clamp(28px, 8.6vw, 42px);
+    letter-spacing: .025em;
+  }
+}

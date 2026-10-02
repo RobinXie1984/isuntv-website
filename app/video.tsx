@@ -33,8 +33,8 @@ export function Video({ locale, id }: { locale: Locale; id: string }) {
         description: fields ? Object.values(fields).filter(Boolean).join(' · ') : videoTitle(v, locale),
         ...(v.thumbnail ? { thumbnailUrl: [new URL(v.thumbnail, publicOrigin).href] } : {}),
         url: `https://www.youtube.com/watch?v=${v.id}&list=${v.playlistId}`,
-        mainEntityOfPage: `${publicOrigin}${sitePath(locale, `videos/${id}`)}`,
-        inLanguage: locale,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': `${publicOrigin}${sitePath(locale, `videos/${id}`)}`, inLanguage: locale },
+        // Audio/caption languages are not established by the interface locale.
         ...(programme ? { isPartOf: { '@type': 'CreativeWorkSeries', name: programme.titles[locale], url: `${publicOrigin}${programmePath(locale, programme.slug)}` } } : {}),
       }) }} />
       <main id="main" className="detail video-detail">

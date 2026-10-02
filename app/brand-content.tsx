@@ -92,7 +92,7 @@ export function BrandContent({
         dangerouslySetInnerHTML={{ __html: jsonLd(pageGraph) }}
       />
       <section className="page-intro">
-        <p className="english-label">iSunTV / {path.toUpperCase()}</p>
+        <p className="english-label" lang="en" dir="ltr">iSunTV / {path.toUpperCase()}</p>
         <h1>{t(...pageTitles[path])}</h1>
         <p className="intro-summary">{path === 'global' ? globalContent[locale].intro : t(...intro[path])}</p>
       </section>
@@ -100,7 +100,7 @@ export function BrandContent({
         <>
           <section className="mission-section">
             <div>
-              <p className="english-label">A BRIGHTER CHINA, A WIDER WORLD</p>
+              <p className="english-label" lang="en" dir="ltr">A BRIGHTER CHINA, A WIDER WORLD</p>
               <h2>{t('真話・真知・真相', 'Stories with purpose.')}</h2>
               <p>
                 {t(
@@ -392,13 +392,13 @@ export function BrandContent({
               height="672"
               alt={t('全球聯絡據點示意', 'Global presence illustration')}
             />
-            <p className="english-label">HONG KONG / HEADQUARTERS</p>
+            <p className="english-label" lang="en" dir="ltr">HONG KONG / HEADQUARTERS</p>
             <h3>{t('集團辦公室', 'Our group offices')}</h3>
             <div className="office-list">
               {offices.map(([name, address]) => (
                 <details key={name}>
                   <summary>{name}</summary>
-                  <address>{address}</address>
+                  <address lang="en" dir="ltr">{address}</address>
                   <a
                     href={googleMap(address)}
                     target="_blank"

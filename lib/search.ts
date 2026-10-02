@@ -6,6 +6,7 @@ import {
 } from './collection';
 import { programmes } from './catalogue';
 import { drafts } from './editorial';
+import { people } from './people';
 import { displayTitles } from './titles';
 export const cleanQuery = (q: string | string[] | undefined) =>
   ((Array.isArray(q) ? q[0] : q) ?? '').trim().slice(0, 80);
@@ -20,6 +21,7 @@ const index = playlists.flatMap((p) => {
       v.id,
       v.title,
       ...Object.values(displayTitles[v.id] ?? {}),
+      ...(drafts[v.id]?.people ?? []).flatMap(id => [...Object.values(people[id]?.name ?? {}), ...(people[id]?.aliases ?? [])]),
       p.title,
       ...Object.values(category?.titles ?? {}),
       ...Object.values(drafts[v.id]?.fields ?? {}).flatMap((f) =>

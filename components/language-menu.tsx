@@ -9,13 +9,18 @@ export function LanguageMenu({locale, path = ''}: {locale: BrandLocale; path?: s
   useEffect(() => {
     const node = root.current;
     if (!node) return;
-    for (const link of node.querySelectorAll<HTMLAnchorElement>('a')) {
+    const syncLocation = () => { for (const link of node.querySelectorAll<HTMLAnchorElement>('a')) {
       const target = new URL(link.href); target.search = window.location.search; target.hash = window.location.hash; link.href = target.href;
-    }
+    }};
+    syncLocation();
+    window.addEventListener('isun:locationchange', syncLocation);
+    window.addEventListener('popstate', syncLocation);
+    window.addEventListener('hashchange', syncLocation);
+    node.addEventListener('toggle', syncLocation);
     const escape = (event: KeyboardEvent) => { if (event.key === 'Escape') { node.open = false; node.querySelector('summary')?.focus(); } };
     const outside = (event: PointerEvent) => { if (!node.contains(event.target as Node)) node.open = false; };
     node.addEventListener('keydown', escape); document.addEventListener('pointerdown', outside);
-    return () => { node.removeEventListener('keydown', escape); document.removeEventListener('pointerdown', outside); };
+    return () => { window.removeEventListener('isun:locationchange', syncLocation); window.removeEventListener('popstate', syncLocation); window.removeEventListener('hashchange', syncLocation); node.removeEventListener('toggle', syncLocation); node.removeEventListener('keydown', escape); document.removeEventListener('pointerdown', outside); };
   }, [path]);
   const label = {'zh-Hant':'選擇語言', 'zh-Hans':'选择语言', en:'Choose language', fr:'Choisir la langue', es:'Elegir idioma', ja:'言語を選択', ko:'언어 선택', hi:'भाषा चुनें', he:'בחירת שפה'}[locale];
   const cleanPath = path.replace(/^\/+|\/+$/g, '');
