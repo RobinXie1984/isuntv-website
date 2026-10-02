@@ -14,7 +14,7 @@ async function check(){
   const html=await home.text();assert(html.includes(`lang="${profile.defaultLocale}"`),`${id}: default language`);assert(html.includes(`href="${profile.publicOrigin}/"`),`${id}: canonical`);
   const korean=await fetch(profile.publicOrigin+'/ko/',{signal:AbortSignal.timeout(20000)});assert.equal(korean.status,200,`${id}: Korean homepage`);
   const koreanHtml=await korean.text();assert(koreanHtml.includes('lang="ko"'),`${id}: Korean page language`);
-  assert(koreanHtml.includes(`href="${profile.publicOrigin}/ko/"`),`${id}: Korean canonical`);
+  assert(new RegExp(`<link rel="canonical" href="${profile.publicOrigin.replaceAll('.', '\\.')}/ko/?"`).test(koreanHtml),`${id}: Korean canonical`);
   const menu=koreanHtml.match(/<nav class="language-options"[^>]*>(.*?)<\/nav>/s)?.[1];
   assert(menu&&menu.indexOf('hrefLang="ja"')>=0&&menu.indexOf('hrefLang="ko"')>menu.indexOf('hrefLang="ja"')&&menu.indexOf('hrefLang="hi"')>menu.indexOf('hrefLang="ko"'),`${id}: Korean menu order`);
   return release;
