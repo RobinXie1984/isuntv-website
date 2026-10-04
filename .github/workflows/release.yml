@@ -21,6 +21,7 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
+      - run: npm test
       - run: npm run build:all
       - run: python3 scripts/check-static.py artifacts/isun1
       - name: Assert all artifacts came from this source
@@ -82,6 +83,7 @@ jobs:
           test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing scoped Cloudflare deployment permission'; exit 1; }
           node ../../node_modules/wrangler/bin/wrangler.js pages deploy ../../artifacts/isuntv --project-name=isuntv-public --branch=main --commit-hash="$GITHUB_SHA"
   deploy-isunmedia:
+    if: github.ref == 'refs/heads/main'
     needs: [build, release-access]
     runs-on: ubuntu-latest
     timeout-minutes: 15

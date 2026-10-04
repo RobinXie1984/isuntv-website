@@ -10,6 +10,7 @@ const temp = mkdtempSync(resolve(tmpdir(), 'isuntv-test-'));
 for (const file of ['brand-identity', 'authorizations']) {
   let source = readFileSync(`${root}/lib/${file}.ts`, 'utf8');
   source = source
+    .replace("import { publicOrigin } from './site-profile';", "const publicOrigin = 'https://isuntv.com';")
     .replace(
       "import registry from './authorization-registry.json';",
       `const registry=${readFileSync(`${root}/lib/authorization-registry.json`, 'utf8')};`,
@@ -142,8 +143,8 @@ const fields = {
   consent: 'yes',
   website: '',
 };
-const req = (data = fields, origin = 'https://isun1.com') =>
-  new Request('https://isun1.com/api/contact', {
+const req = (data = fields, origin = 'https://isuntv.com') =>
+  new Request('https://isuntv.com/api/contact', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Origin: origin },
     body: JSON.stringify(data),
@@ -175,7 +176,7 @@ try {
   globalThis.fetch = async (url, options) => {
     assert.equal(url, 'https://api.resend.com/emails');
     const payload = JSON.parse(options.body);
-    assert.deepEqual(payload.to, ['admin@tideisun.com']);
+    assert.deepEqual(payload.to, ['partner@isuntv.com']);
     assert.equal(payload.reply_to, 'qa@example.com');
     assert.equal(payload.from, 'fixture@example.com');
     return Response.json({ id: 'fixture-provider-acceptance' });

@@ -2,7 +2,7 @@ import ts from 'typescript';
 import {readFileSync} from 'node:fs';
 import assert from 'node:assert/strict';
 let source = readFileSync(new URL('../worker.ts', import.meta.url),'utf8');
-source = source.replace("import handler from 'vinext/server/fetch-handler';",'const handler = globalThis.mockHandler;').replace('declare const __ISUN_RELEASE__: string;', "const __ISUN_RELEASE__ = 'test-release';");
+source = source.replace("import { publicOrigin } from './lib/site-profile';", "const publicOrigin = 'https://isun1.com';").replace("import handler from 'vinext/server/fetch-handler';",'const handler = globalThis.mockHandler;').replace('declare const __ISUN_RELEASE__: string;', "const __ISUN_RELEASE__ = 'test-release';");
 let renders=0; let status=200; let setCookie=false; let down=false;
 const stored=new Map();
 globalThis.mockHandler={async fetch(){renders++;return new Response('public page',{status,headers:{'Content-Type':'text/html',...(setCookie?{'Set-Cookie':'test=value'}:{})}});}};
