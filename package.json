@@ -18,7 +18,8 @@
     "test": "node --test scripts/visibility.test.mjs scripts/contact-proxy.test.mjs scripts/localization.test.mjs && node mail-worker/test.mjs && node scripts/test-google-relay.mjs && node scripts/test-public-cache.mjs && node scripts/test-authority.mjs",
     "check:drift": "node scripts/check-drift.mjs",
     "build:isunmedia": "node scripts/build-site.mjs isunmedia",
-    "build:all": "npm run build:both && npm run build:isunmedia"
+    "build:all": "npm run build:both && npm run build:isunmedia",
+    "pretest": "node scripts/project-site.mjs isuntv"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
